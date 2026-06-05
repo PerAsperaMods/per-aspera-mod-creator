@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "per-aspera-mod-creator": {
+      "command": "python",
+      "args": ["${workspaceFolder}/.mcp/mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/.mcp"
+      },
+      "disabled": false,
+      "description": "Per Aspera Mod Creator MCP Server - Automated mod creation and management"
+    }
+  }
+}
