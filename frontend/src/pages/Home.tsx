@@ -1,4 +1,5 @@
 import React from 'react';
+import DataLoadingStatus from '../components/DataLoadingStatus';
 
 export const Home: React.FC = () => {
   const features = [
@@ -18,6 +19,9 @@ export const Home: React.FC = () => {
           Create Per Aspera mods visually. No YAML editing required.
         </p>
       </div>
+
+      {/* Data Loading Status */}
+      <DataLoadingStatus />
 
       <div className="grid grid-cols-3 gap-4">
         {features.map((feature) => (
