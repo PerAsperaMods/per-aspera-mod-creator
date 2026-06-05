@@ -27,7 +27,6 @@ export default function BuildingDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const [building, setBuilding] = useState<Building | null>(null);
-  const [inputResources, setInputResources] = useState<Resource[]>([]);
   const [outputResource, setOutputResource] = useState<Resource | null>(null);
   const [allResources, setAllResources] = useState<Resource[]>([]);
   const [loading, setLoading] = useState(true);
@@ -107,20 +106,7 @@ export default function BuildingDetail() {
             ENTRÉE
           </h2>
           <div className="space-y-3">
-            {inputResources.length > 0 ? (
-              inputResources.map(res => (
-                <div key={res.id} className="border border-gray-600 rounded p-3 hover:bg-gray-800">
-                  <div
-                    className="w-12 h-12 rounded mb-2"
-                    style={{ backgroundColor: `#${res.color}` }}
-                  />
-                  <p className="font-semibold text-sm">{res.name_label}</p>
-                  <p className="text-gray-400 text-xs">{res.key}</p>
-                </div>
-              ))
-            ) : (
-              <p className="text-gray-400 text-sm">No input resources</p>
-            )}
+            <p className="text-gray-400 text-sm">No input resources configured</p>
           </div>
         </div>
 

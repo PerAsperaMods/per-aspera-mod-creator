@@ -3,7 +3,7 @@ import { Sidebar } from './components/Sidebar';
 import { Home } from './pages/Home';
 import { Resources } from './pages/Resources';
 import { Buildings } from './pages/Buildings';
-import { BuildingDetail } from './pages/BuildingDetail';
+import BuildingDetail from './pages/BuildingDetail';
 import { Technologies } from './pages/Technologies';
 import { Categories } from './pages/Categories';
 import { Knowledge } from './pages/Knowledge';
