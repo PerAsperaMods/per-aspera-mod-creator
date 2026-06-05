@@ -103,47 +103,59 @@ export class YamlLoaderService {
    * Pre-process YAML content to remove game-specific tags and fix formatting
    */
   private preprocessYaml(content: string): string {
-    // Remove tags with values: "!tagname value" → "value"
-    content = content.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
-    // Remove standalone tags: "!tagname\n" → "null\n"
-    content = content.replace(/:\s*![a-zA-Z]+\s*\n/g, ': null\n');
-    // Remove inline tags
-    content = content.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+    // Aggressively remove ALL YAML tags (!something)
+    // Patterns:
+    // 1. "key: !tag value" → "key: value"
+    content = content.replace(/:\s*![a-zA-Z_][a-zA-Z0-9_]*\s+/g, ': ');
+    // 2. "key: !tag\n" → "key: null\n"
+    content = content.replace(/:\s*![a-zA-Z_][a-zA-Z0-9_]*\s*\n/g, ': null\n');
+    // 3. " !tag value" → " value" (inline at start of line)
+    content = content.replace(/\s+![a-zA-Z_][a-zA-Z0-9_]*\s+/g, ' ');
+    // 4. "!tag " at any position
+    content = content.replace(/![a-zA-Z_][a-zA-Z0-9_]*\s+/g, '');
 
     // Fix duplicated mapping keys (some YAML files have malformed entries)
-    // Remove empty or malformed key-value pairs
     const lines = content.split('\n');
-    const seenKeys = new Set<string>();
     const cleanedLines: string[] = [];
+    const keyStack: Array<{ indent: number; keys: Set<string> }> = [{ indent: -1, keys: new Set() }];
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
+      const indent = line.search(/\S/); // Find first non-whitespace
+      if (indent === -1) {
+        // Empty line
+        cleanedLines.push(line);
+        continue;
+      }
+
       const match = line.match(/^(\s*)([a-zA-Z_][a-zA-Z0-9_]*)\s*:/);
 
       if (match) {
-        const indent = match[1];
         const key = match[2];
-        const indentLevel = indent.length;
 
-        // When we see a key at the same indent level, reset the seen keys for this level
-        if (i > 0) {
-          const prevLine = cleanedLines[cleanedLines.length - 1] || '';
-          const prevIndent = prevLine.match(/^(\s*)/)?.[1].length || 0;
-
-          if (indentLevel <= prevIndent && key !== '__root__') {
-            // New entry at same or less indent, clear previous level keys
-            seenKeys.clear();
-          }
+        // Pop stack until we find the right indent level
+        while (keyStack.length > 1 && indent <= keyStack[keyStack.length - 1].indent) {
+          keyStack.pop();
         }
 
-        // Check if this exact key was just defined
-        if (seenKeys.has(key)) {
-          console.warn(`⚠️ Removing duplicate key "${key}" at line ${i + 1}`);
-          // Skip this line (it's a duplicate)
+        // Check if key already exists at this level
+        const currentLevel = keyStack[keyStack.length - 1];
+        if (currentLevel.keys.has(key)) {
+          console.warn(`⚠️ Skipping duplicate key "${key}" at line ${i + 1}`);
           continue;
         }
 
-        seenKeys.add(key);
+        currentLevel.keys.add(key);
+
+        // Prepare for nested keys
+        keyStack.push({ indent, keys: new Set() });
+      } else {
+        // Reset if indent decreases (moving out of nested structure)
+        if (indent <= keyStack[keyStack.length - 1].indent) {
+          while (keyStack.length > 1 && indent < keyStack[keyStack.length - 1].indent) {
+            keyStack.pop();
+          }
+        }
       }
 
       cleanedLines.push(line);
