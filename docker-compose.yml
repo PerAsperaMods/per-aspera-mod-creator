@@ -29,6 +29,7 @@ services:
       NODE_ENV: development
       PORT: 3001
       CORS_ORIGIN: http://localhost:3000
+      YAML_DATA_PATH: /app/yaml-data
     ports:
       - "3001:3001"
     depends_on:
@@ -36,6 +37,7 @@ services:
         condition: service_healthy
     volumes:
       - ./backend/src:/app/src
+      - ../Internal_doc/Yaml/OfficialFiles:/app/yaml-data
       - /app/node_modules
     command: npm run dev
 

@@ -22,7 +22,7 @@ export interface LoadingReport {
 }
 
 export class YamlLoaderService {
-  private gameDataPath = 'F:\\ModPeraspera\\Internal_doc\\Yaml\\OfficialFiles';
+  private gameDataPath = process.env.YAML_DATA_PATH || '/app/yaml-data';
   private loadingReport: LoadingReport = {
     timestamp: new Date().toISOString(),
     phase: 0,
