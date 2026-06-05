@@ -11,6 +11,7 @@ import importRouter from './routes/import';
 import exportRouter from './routes/export';
 import scopedRouter from './routes/scoped';
 import compositionRouter from './routes/composition';
+import validationRouter from './routes/validation';
 
 dotenv.config();
 
@@ -148,6 +149,7 @@ app.use('/api/import', importRouter);
 app.use('/api/export', exportRouter);
 app.use('/api/scoped', scopedRouter);
 app.use('/api/composition', compositionRouter);
+app.use('/api/validation', validationRouter);
 
 // 404 handler
 app.use((req, res) => {
