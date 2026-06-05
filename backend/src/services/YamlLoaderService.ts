@@ -100,8 +100,7 @@ export class YamlLoaderService {
   private gameDataPath = process.env.YAML_DATA_PATH || path.join(process.cwd(), 'src/yaml-data');
 
   /**
-   * Pre-process YAML content to remove game-specific tags
-   * Transforms: "key: !tagname value" → "key: value"
+   * Pre-process YAML content to remove game-specific tags and fix formatting
    */
   private preprocessYaml(content: string): string {
     // Remove tags with values: "!tagname value" → "value"
@@ -110,7 +109,47 @@ export class YamlLoaderService {
     content = content.replace(/:\s*![a-zA-Z]+\s*\n/g, ': null\n');
     // Remove inline tags
     content = content.replace(/\s*![a-zA-Z]+\s+/g, ' ');
-    return content;
+
+    // Fix duplicated mapping keys (some YAML files have malformed entries)
+    // Remove empty or malformed key-value pairs
+    const lines = content.split('\n');
+    const seenKeys = new Set<string>();
+    const cleanedLines: string[] = [];
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const match = line.match(/^(\s*)([a-zA-Z_][a-zA-Z0-9_]*)\s*:/);
+
+      if (match) {
+        const indent = match[1];
+        const key = match[2];
+        const indentLevel = indent.length;
+
+        // When we see a key at the same indent level, reset the seen keys for this level
+        if (i > 0) {
+          const prevLine = cleanedLines[cleanedLines.length - 1] || '';
+          const prevIndent = prevLine.match(/^(\s*)/)?.[1].length || 0;
+
+          if (indentLevel <= prevIndent && key !== '__root__') {
+            // New entry at same or less indent, clear previous level keys
+            seenKeys.clear();
+          }
+        }
+
+        // Check if this exact key was just defined
+        if (seenKeys.has(key)) {
+          console.warn(`⚠️ Removing duplicate key "${key}" at line ${i + 1}`);
+          // Skip this line (it's a duplicate)
+          continue;
+        }
+
+        seenKeys.add(key);
+      }
+
+      cleanedLines.push(line);
+    }
+
+    return cleanedLines.join('\n');
   }
 
   private loadingReport: LoadingReport = {
