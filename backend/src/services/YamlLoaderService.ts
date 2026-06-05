@@ -4,50 +4,64 @@ import * as path from 'path';
 import * as yaml from 'js-yaml';
 import { LocalizationService } from './LocalizationService';
 
-// Custom YAML constructor to handle game-specific tags
-const customYamlLoader = new yaml.Schema({
-  include: [yaml.DEFAULT_SCHEMA],
-  implicit: [
-    {
-      regexp: /^(?:~|null|Null|NULL|)$/,
-      resolve: () => null,
-    },
-  ],
-  explicit: [
-    {
-      tag: new yaml.Tag('!knowledge'),
-      resolve: (data: any) => data, // Just keep the string reference
-    },
-    {
-      tag: new yaml.Tag('!buildingCategory'),
-      resolve: (data: any) => data,
-    },
-    {
-      tag: new yaml.Tag('!project'),
-      resolve: (data: any) => data,
-    },
-    {
-      tag: new yaml.Tag('!technology'),
-      resolve: (data: any) => data,
-    },
-    {
-      tag: new yaml.Tag('!resource'),
-      resolve: (data: any) => data,
-    },
-    {
-      tag: new yaml.Tag('!building'),
-      resolve: (data: any) => data,
-    },
-    {
-      tag: new yaml.Tag('!replace'),
-      resolve: (data: any) => data,
-    },
-    {
-      tag: new yaml.Tag('!patch'),
-      resolve: (data: any) => data,
-    },
-  ],
-});
+// Create custom YAML schema with game-specific tags
+const schema = yaml.DEFAULT_SCHEMA.extend([
+  new yaml.Type('!knowledge', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data, // Keep as string reference
+  }),
+  new yaml.Type('!buildingCategory', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!project', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!technology', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!resource', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!building', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!replace', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!patch', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!enhancement', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!quest', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+  new yaml.Type('!popup', {
+    kind: 'scalar',
+    resolve: () => true,
+    construct: (data: any) => data,
+  }),
+]);
 
 export interface LoadingReport {
   timestamp: string;
@@ -193,7 +207,7 @@ export class YamlLoaderService {
       }
 
       const fileContent = fs.readFileSync(filePath, 'utf-8');
-      const data = yaml.load(fileContent, { schema: customYamlLoader }) as any;
+      const data = yaml.load(fileContent, { schema }) as any;
 
       if (!data) {
         this.loadingReport.warnings.push({
@@ -243,7 +257,7 @@ export class YamlLoaderService {
     try {
       const filePath = path.join(this.gameDataPath, 'resource.yaml');
       const fileContent = fs.readFileSync(filePath, 'utf-8');
-      const data = yaml.load(fileContent, { schema: customYamlLoader }) as any;
+      const data = yaml.load(fileContent, { schema }) as any;
 
       if (!data) {
         throw new Error('Invalid resource.yaml structure');
@@ -368,7 +382,7 @@ export class YamlLoaderService {
     try {
       const filePath = path.join(this.gameDataPath, 'knowledge.yaml');
       const fileContent = fs.readFileSync(filePath, 'utf-8');
-      const data = yaml.load(fileContent, { schema: customYamlLoader }) as any;
+      const data = yaml.load(fileContent, { schema }) as any;
 
       if (!data) {
         throw new Error('Invalid knowledge.yaml structure');
@@ -478,7 +492,7 @@ export class YamlLoaderService {
       }
 
       const fileContent = fs.readFileSync(filePath, 'utf-8');
-      const data = yaml.load(fileContent, { schema: customYamlLoader }) as any;
+      const data = yaml.load(fileContent, { schema }) as any;
 
       if (!data) {
         this.loadingReport.warnings.push({
