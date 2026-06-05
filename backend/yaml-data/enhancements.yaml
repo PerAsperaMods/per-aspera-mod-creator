@@ -1,0 +1,414 @@
+### ENGINEERING LANE - BUILDING LIMIT
+enhancement_building_limit_0:
+  name: BE_enhancement_building_limit_0_name
+  description: BE_enhancement_building_limit_0_description
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 50"
+enhancement_building_limit_1:
+  name: BE_enhancement_building_limit_1_name
+  description: BE_enhancement_building_limit_1_description
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 100"
+enhancement_building_limit_2:
+  name: BE_enhancement_building_limit_2_name
+  description: BE_enhancement_building_limit_1_description
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 200"
+enhancement_building_limit_3:
+  name: BE_enhancement_building_limit_3_name
+  description: BE_enhancement_building_limit_1_description
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 300"
+enhancement_building_limit_4:
+  name: BE_enhancement_building_limit_4_name
+  description: BE_enhancement_building_limit_1_description
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 400"
+enhancement_building_limit_5:
+  name: BE_enhancement_building_limit_5_name
+  description: BE_enhancement_building_limit_1_description
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 500"
+enhancement_building_limit_6:
+  name: BE_enhancement_building_limit_6_name
+  description: BE_enhancement_building_limit_1_description
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 450"
+### SPACE LANE - SPACEPORT LIMIT
+enhancement_spaceport_limit_0:
+  name: BE_enhancement_spaceport_limit_0_name
+  description: BE_enhancement_spaceport_limit_0_description
+  iconName: ICO_SpaceportLimit
+  modifiers:
+    - "spaceport_limit: 1"
+enhancement_spaceport_limit_1:
+  name: BE_enhancement_spaceport_limit_1_name
+  description: BE_enhancement_spaceport_limit_1_description
+  iconName: ICO_SpaceportLimit
+  modifiers:
+    - "spaceport_limit: 2"
+enhancement_spaceport_limit_2:
+  name: BE_enhancement_spaceport_limit_2_name
+  description: BE_enhancement_spaceport_limit_1_description
+  iconName: ICO_SpaceportLimit
+  modifiers:
+    - "spaceport_limit: 4"
+enhancement_spaceport_limit_3:
+  name: BE_enhancement_spaceport_limit_3_name
+  description: BE_enhancement_spaceport_limit_1_description
+  iconName: ICO_SpaceportLimit
+  modifiers:
+    - "spaceport_limit: 6"
+enhancement_spaceport_limit_4:
+  name: BE_enhancement_spaceport_limit_4_name
+  description: BE_enhancement_spaceport_limit_1_description
+  iconName: ICO_SpaceportLimit
+  modifiers:
+    - "spaceport_limit: 8"
+enhancement_spaceport_limit_5:
+  name: BE_enhancement_spaceport_limit_5_name
+  description: BE_enhancement_spaceport_limit_1_description
+  iconName: ICO_SpaceportLimit
+  modifiers:
+    - "spaceport_limit: 10"
+enhancement_spaceport_limit_6:
+  name: BE_enhancement_spaceport_limit_6_name
+  description: BE_enhancement_spaceport_limit_1_description
+  iconName: ICO_SpaceportLimit
+  modifiers:
+    - "spaceport_limit: 12"
+### BIOTECH LANE - COLONIST LIMIT
+enhancement_colonist_limit_0:
+  name: BE_enhancement_colonist_limit_0_name
+  description: BE_enhancement_colonist_limit_0_description
+  iconName: ICO_ColonistLimit
+  modifiers:
+    - "colonist_limit: 250"
+enhancement_colonist_limit_1:
+  name: BE_enhancement_colonist_limit_1_name
+  description: BE_enhancement_colonist_limit_1_description
+  iconName: ICO_ColonistLimit
+  modifiers:
+    - "colonist_limit: 750"
+enhancement_colonist_limit_2:
+  name: BE_enhancement_colonist_limit_2_name
+  description: BE_enhancement_colonist_limit_1_description
+  iconName: ICO_ColonistLimit
+  modifiers:
+    - "colonist_limit: 4000"
+enhancement_colonist_limit_3:
+  name: BE_enhancement_colonist_limit_3_name
+  description: BE_enhancement_colonist_limit_1_description
+  iconName: ICO_ColonistLimit
+  modifiers:
+    - "colonist_limit: 15000"
+enhancement_colonist_limit_4:
+  name: BE_enhancement_colonist_limit_4_name
+  description: BE_enhancement_colonist_limit_1_description
+  iconName: ICO_ColonistLimit
+  modifiers:
+    - "colonist_limit: 30000"
+enhancement_colonist_limit_5:
+  name: BE_enhancement_colonist_limit_5_name
+  description: BE_enhancement_colonist_limit_1_description
+  iconName: ICO_ColonistLimit
+  modifiers:
+    - "colonist_limit: 50000"
+enhancement_colonist_limit_6:
+  name: BE_enhancement_colonist_limit_6_name
+  description: BE_enhancement_colonist_limit_1_description
+  iconName: ICO_ColonistLimit
+  modifiers:
+    - "colonist_limit: 1000000"
+### MILITARY LANE - ASSAULT DRONE LIMIT
+enhancement_assault_drone_limit_0:
+  name: BE_enhancement_assault_drone_limit_0_name
+  description: BE_enhancement_assault_drone_limit_0_description
+  iconName: ICO_Assault DroneLimit
+  modifiers:
+    - "assault_drone_limit: 300"
+enhancement_assault_drone_limit_1:
+  name: BE_enhancement_assault_drone_limit_1_name
+  description: BE_enhancement_assault_drone_limit_1_description
+  iconName: ICO_Assault DroneLimit
+  modifiers:
+    - "assault_drone_limit: 500"
+enhancement_assault_drone_limit_2:
+  name: BE_enhancement_assault_drone_limit_2_name
+  description: BE_enhancement_assault_drone_limit_1_description
+  iconName: ICO_Assault DroneLimit
+  modifiers:
+    - "assault_drone_limit: 700"
+enhancement_assault_drone_limit_3:
+  name: BE_enhancement_assault_drone_limit_3_name
+  description: BE_enhancement_assault_drone_limit_1_description
+  iconName: ICO_Assault DroneLimit
+  modifiers:
+    - "assault_drone_limit: 900"
+enhancement_assault_drone_limit_4:
+  name: BE_enhancement_assault_drone_limit_4_name
+  description: BE_enhancement_assault_drone_limit_1_description
+  iconName: ICO_Assault DroneLimit
+  modifiers:
+    - "assault_drone_limit: 1100"
+enhancement_assault_drone_limit_5:
+  name: BE_enhancement_assault_drone_limit_5_name
+  description: BE_enhancement_assault_drone_limit_1_description
+  iconName: ICO_Assault DroneLimit
+  modifiers:
+    - "assault_drone_limit: 1300"
+enhancement_assault_drone_limit_6:
+  name: BE_enhancement_assault_drone_limit_6_name
+  description: BE_enhancement_assault_drone_limit_1_description
+  iconName: ICO_Assault DroneLimit
+  modifiers:
+    - "assault_drone_limit: 1500"
+### BIODOME RELATED
+enhancement_bioengineered_lichen:
+  name: BE_enhancement_bioengineered_lichen_name
+  description: BE_enhancement_bioengineered_lichen_description
+  iconName: BioengineeredLichen
+  modifiers:
+    - "has_bioengineered_lichen: true"
+enhancement_bioengineered_plants:
+  name: BE_enhancement_bioengineered_plants_name
+  description: BE_enhancement_bioengineered_plants_description
+  iconName: BioengineeredPlants
+  modifiers:
+    - "has_bioengineered_plants: true"
+enhancement_bioengineered_cyanobacteria:
+  name: BE_enhancement_bioengineered_cyanobacteria_name
+  description: BE_enhancement_bioengineered_cyanobacteria_description
+  iconName: BioengineeredCyanobacteria
+  modifiers:
+    - "has_bioengineered_cyanobacteria: true"
+enhancement_bioengineered_algae:
+  name: BE_enhancement_bioengineered_algae_name
+  description: BE_enhancement_bioengineered_algae_description
+  iconName: BioengineeredAlgae
+  modifiers:
+    - "has_bioengineered_algae: true"
+enhancement_bioengineered_animals:
+  name: BE_enhancement_bioengineered_animals_name
+  description: BE_enhancement_bioengineered_animals_description
+  iconName: BioengineeredAnimals
+  modifiers:
+    - "has_bioengineered_animals: true"
+    - "flora_propagation_multiplier_bonus: 0.5"
+    - "flora_effectivity_multiplier_bonus: 0.5"
+### MILITARY ENHANCEMENTS
+enhancement_assault_drone_shield:
+  name: BE_enhancement_assault_drone_shield_name
+  description: BE_enhancement_assault_drone_shield_description
+  iconName: AssaultDroneShield
+  modifiers:
+    - "assault_drone_shield_bonus: 5"
+enhancement_assault_drone_weapons:
+  name: BE_enhancement_assault_drone_weapons_name
+  description: BE_enhancement_assault_drone_weapons_description
+  iconName: AssaultDroneWeapons
+  modifiers:
+    - "assault_drone_missile_frequency_bonus: 0.4"
+    - "assault_drone_missile_damage_bonus: 5"
+enhancement_assault_drone_speed:
+  name: BE_enhancement_assault_drone_speed_name
+  description: BE_enhancement_assault_drone_speed_description
+  iconName: AssaultDroneSpeed
+  modifiers:
+    - "assault_drone_speed_bonus: 50"
+enhancement_assault_drone_shield_2:
+  name: BE_enhancement_assault_drone_shield_2_name
+  description: BE_enhancement_assault_drone_shield_2_description
+  iconName: AssaultDroneShield2
+  modifiers:
+    - "assault_drone_shield_bonus: 5"
+enhancement_assault_drone_weapons_2:
+  name: BE_enhancement_assault_drone_weapons_2_name
+  description: BE_enhancement_assault_drone_weapons_2_description
+  iconName: AssaultDroneWeapons2
+  modifiers:
+    - "assault_drone_missile_frequency_bonus: 0.2"
+    - "assault_drone_missile_damage_bonus: 5"
+enhancement_assault_drone_speed_2:
+  name: BE_enhancement_assault_drone_speed_2_name
+  description: BE_enhancement_assault_drone_speed_2_description
+  iconName: AssaultDroneSpeed2
+  modifiers:
+    - "assault_drone_speed_bonus: 50"
+### UI Gating
+enhancement_storage_center_management:
+  name: BE_enhancement_assault_drone_storageManagement_name
+  description: BE_enhancement_assault_drone_storageManagement_description
+  iconName: StorageCenterManagement
+  modifiers:
+    - "enable_storage_center_management: true"
+### LOHITANGA
+enhancement_lohitanga_01:
+  name: BE_enhancement_lohitanga_01_name
+  description: BE_enhancement_lohitanga_01_description
+  iconName: Lohitanga
+  modifiers:
+    - "extraction_time: -0.05"
+enhancement_lohitanga_02:
+  name: BE_enhancement_lohitanga_02_name
+  description: BE_enhancement_lohitanga_02_description
+  iconName: Lohitanga
+  modifiers:
+    - "extraction_time: -0.05"
+enhancement_lohitanga_03:
+  name: BE_enhancement_lohitanga_03_name
+  description: BE_enhancement_lohitanga_03_description
+  iconName: Lohitanga
+  modifiers:
+    - "extraction_time: -0.05"
+enhancement_lohitanga_04:
+  name: BE_enhancement_lohitanga_04_name
+  description: BE_enhancement_lohitanga_04_description
+  iconName: Lohitanga
+  modifiers:
+    - "extraction_time: -0.05"
+enhancement_no_building_decay:
+  name: BE_enhancement_no_decay_name
+  description: BE_enhancement_no_decay_description
+  iconName: NoDecay
+  modifiers:
+    - "building_decay: -1.0"
+### Not implemented
+enhancement_sparklines_resources:
+  name: BE_enhancement_sparklines_resources_name
+  description: BE_enhancement_sparklines_resources_description
+  iconName: Sparklines
+  modifiers:
+    - "show_sparkline: true"
+### Difficulty Settings
+enhancement_difficulty_very_easy:
+  name: Very Easy Difficulty
+  description: This enhancement will set the very easy difficulty.
+  iconName: DifficultyEasy
+  modifiers:
+    - "health_min: 1"
+    - "building_cost: -0.5"
+    - "productivity_min: 1"
+    - "scrap_recovery: 0"
+    - "extraction_time: -0.2"
+    - "special_project_cost: -0.5"
+    - "veins_amount: 0.5"
+    - "sabotage_force: -0.5"
+    - "building_decay: -0.5"
+    - "worker_decay: -0.5"
+    - "worker_speed: 0.5"
+    - "assault_drone_speed_bonus: 10"
+    - "assault_drone_shield_bonus: 2"
+    - "assault_drone_missile_damage_bonus: 2"
+    - "infinite_veins_level: 3"
+    - "show_tutorial_popups: true"
+enhancement_difficulty_easy:
+  name: Easy Difficulty
+  description: This enhancement will set the easy difficulty.
+  iconName: DifficultyEasy
+  modifiers:
+    - "health_min: 1"
+    - "building_cost: -0.2"
+    - "productivity_min: 1"
+    - "scrap_recovery: 0"
+    - "extraction_time: -0.1"
+    - "special_project_cost: -0.2"
+    - "veins_amount: 0.2"
+    - "sabotage_force: -0.33333333"
+    - "building_decay: -0.1"
+    - "worker_decay: -0.1"
+    - "worker_speed: 0.1"
+    - "assault_drone_speed_bonus: 5"
+    - "assault_drone_shield_bonus: 1"
+    - "assault_drone_missile_damage_bonus: 1"
+    - "show_tutorial_popups: true"
+enhancement_difficulty_hard:
+  name: Hard Difficulty
+  description: This enhancement will set the hard difficulty.
+  iconName: DifficultyHard
+  modifiers:
+    - "health_min: -1"
+    - "building_cost: 0.2"
+    - "productivity_min: -1"
+    - "scrap_recovery: -0.5"
+    - "extraction_time: 0.1"
+    - "special_project_cost: 0.2"
+    - "veins_amount: -0.2"
+    - "sabotage_force: 0.33333333"
+    - "building_decay: 0.05"
+    - "worker_decay: 0.05"
+    - "worker_speed: -0.05"
+    - "assault_drone_speed_bonus: -5"
+    - "assault_drone_shield_bonus: -1"
+    - "assault_drone_missile_damage_bonus: -1"
+### Multiplayer additional building limits
+enhancement_multiplayer_building_limit_2:
+  name: 2 player building limit
+  description: This enhancement provides additional buildings for a 2 player game
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 50"
+enhancement_multiplayer_building_limit_3:
+  name: 3 player building limit
+  description: This enhancement provides additional buildings for a 3 player game
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 100"
+enhancement_multiplayer_building_limit_4:
+  name: 4 player building limit
+  description: This enhancement provides additional buildings for a 4 player game
+  iconName: ICO_BuildingLimit
+  modifiers:
+    - "building_limit: 150"
+### REPETABLE ENHANCEMENTS.
+### ENGINEERING LANE - INCREMENT PRODUCTIVITY
+enhancement_increment_production:
+  name: BE_enhancement_increment_production_name
+  description: BE_enhancement_increment_production_description
+  iconName: ICO_ContinuousTechnology
+  repeatable: true
+  modifiers:
+    - "increment_productivity: 0.05"
+### BIOLOGY LANE - INCREMENT PRODUCTIVITY
+enhancement_grow_population_and_flora:
+  name: BE_enhancement_grow_population_and_flora_name
+  description: BE_enhancement_grow_population_and_flora_description
+  iconName: ICO_ContinuousTechnology
+  repeatable: true
+  modifiers:
+    - "flora_propagation_increment_tech: 0.05"
+    - "flora_effectivity_increment_tech: 0.05"
+    - "increment_human_population: 0.1"
+### MILITARY LANE - INCREMENT PRODUCTIVITY
+enhancement_increment_drone_power:
+  name: BE_enhancement_increment_drone_power_name
+  description: BE_enhancement_increment_drone_power_description
+  iconName: ICO_ContinuousTechnology
+  repeatable: true
+  modifiers:
+    - "increment_assault_drone_dmg: 0.05"
+    - "increment_assault_drone_shield: 0.05"
+### SPACE LANE -  INCREMENT QUANTITY HUMAN, DECREASE COST AND DECREASE TIME
+enhancement_increment_space_inmigrants_reduce_costs_and_time:
+  name: BE_enhancement_increment_space_inmigrants_reduce_costs_and_time_name
+  description: BE_enhancement_increment_space_inmigrants_reduce_costs_and_time_description
+  iconName: ICO_ContinuousTechnology
+  repeatable: true
+  modifiers:
+    - "increment_quantity_human: 0.1"
+    - "space_project_resource_cost_divisor: 0.05"
+###  URBAN FLORA GROWMENT
+enhancement_flora_urban_growment:
+  name: BE_enhancement_plantasia_name
+  description: BE_enhancement_plantasia_description
+  iconName: ICO_Plantasia
+  modifiers:
+    - "urban_permission_growment: true"
+    

@@ -1,0 +1,7 @@
+decayEnabled: true
+workDurationDays: 1000
+wayWorkDurationDays: 1000
+moveDurationDays: 2500
+baseDurationDays: 5000
+defaultDrone: !drone default_drone
+aquaticDrone: !drone aquatic_drone

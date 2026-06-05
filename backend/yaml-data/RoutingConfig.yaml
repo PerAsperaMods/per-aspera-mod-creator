@@ -1,0 +1,8 @@
+enableRelaxation: true
+relaxCostThreshold: 0.01
+activeHubActivityToCostMult: 0.5
+hyperLoopWayTrafficToCostMult: 0.1
+cargoBacklogQuantityMult: 1.0
+wayTrafficMeanLifetime: 168.0
+hubActivityMeanLifetime: 14.0
+relaxationTimeQuota: 0.002 #2 ms

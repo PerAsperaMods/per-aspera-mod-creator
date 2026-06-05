@@ -1,0 +1,11 @@
+default_drone:
+  assetPath: Ships\DroneRover
+  isAquatic: false
+  baseSpeed: 240.0
+  crawlingSpeedFactor: 0.1
+
+aquatic_drone:
+  assetPath: Ships\AquaticDroneRover
+  isAquatic: true
+  baseSpeed: 100.0
+  crawlingSpeedFactor: 1.0

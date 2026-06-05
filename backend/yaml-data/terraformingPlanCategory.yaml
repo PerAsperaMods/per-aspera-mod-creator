@@ -1,0 +1,6 @@
+category_terrain:
+  name: TXT_BuildPanel_Terraforming_Life
+  iconName: Terraforming Screen Icons/ICO_Category_Terrain
+category_gases:
+  name: TXT_BuildPanel_Terraforming_Atmosphere
+  iconName: Terraforming Screen Icons/ICO_Category_Gases

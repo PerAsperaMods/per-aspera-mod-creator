@@ -1,0 +1,37 @@
+category_core:
+  name: TXT_BuildPanel_Basic
+  iconName: BuildingCategoriesIcon/Icon_Category_Core
+  factionCountStatId: Core
+  hidden: false
+category_mines:
+  name: TXT_BuildPanel_Mines
+  iconName: BuildingCategoriesIcon/Icon_Category_Mine
+  factionCountStatId: Mine
+  categorySound: Sfx_Gameplay_BuildingBIP_Mines_MineGeneric
+  hidden: false
+category_factories:
+  name: TXT_BuildPanel_Factories
+  iconName: BuildingCategoriesIcon/Icon_Category_Factory
+  factionCountStatId: Factory
+  categorySound: Sfx_Gameplay_BuildingBIP_Factories_FactoriesGeneric
+  hidden: false
+category_power:
+  name: TXT_BuildPanel_Power
+  iconName: BuildingCategoriesIcon/Icon_Category_Power
+  factionCountStatId: Power
+  hidden: false
+category_colonies:
+  name: TXT_BuildPanel_Colonies
+  iconName: BuildingCategoriesIcon/Icon_Category_Colony
+  factionCountStatId: Colony
+  hidden: false
+category_terraforming_atmosphere:
+  name: TXT_BuildPanel_Terraforming_Atmosphere
+  iconName: BuildingCategoriesIcon/Icon_Category_Atmosphere
+  factionCountStatId: Atmosphere
+  hidden: false
+category_terraforming_life:
+  name: TXT_BuildPanel_Terraforming_Life
+  iconName: BuildingCategoriesIcon/Icon_Category_Terraforming
+  factionCountStatId: Life
+  hidden: false

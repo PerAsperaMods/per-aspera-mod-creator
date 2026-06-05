@@ -1,0 +1,151 @@
+way_road:
+  droneSpeedPerDay: 240.0
+  upgradeResourcesPer1000Km: {}
+  isUpgradeTo: []
+  segmentMaterialOverride:
+    albedo: WayMaterials/Textures/Way_lvl_1
+    normal: WayMaterials/Textures/Way_lvl_1_Normal
+    mask: WayMaterials/Textures/EmptyMask
+    tiling: 7
+    color: 525252FF
+  pointMaterialOverride:
+    albedo: WayMaterials/Textures/Way_Point_Lvl1
+    normal: WayMaterials/Textures/Way_Point_Lvl1_Normal
+    mask: WayMaterials/Textures/EmptyMask
+    tiling: 3.5
+    color: 525252FF
+  crossMaterialOverride:
+    albedo: WayMaterials/Textures/Way_CrossPoint
+    mask: WayMaterials/Textures/EmptyMask
+    tiling: 0.7
+    color: 525252FF
+    segment: WayMaterials/Textures/Way_CrossSegment_lvl_1
+  wayDecorationPrefab: WaypointPost_Lvl1
+  crossDecorationPrefab: WayCrossPointTower_Lvl1
+  isTransitable: true
+  name: BE_way_road
+way_better:	# get it?
+  droneSpeedPerDay: 400.0
+  upgradeResourcesPer1000Km:
+    !resource resource_carbon: 20
+    !resource resource_steel: 20
+  isUpgradeTo:
+  - !way way_road
+  upgradeRank: 1
+  segmentMaterialOverride:
+    albedo: WayMaterials/Textures/Way_lvl_2
+    normal: WayMaterials/Textures/Way_lvl_2_Normal
+    mask: WayMaterials/Textures/Way_lvl_2_Emission
+    tiling: 7
+    color: 8C8C8CFF
+    emissionColor: BF771BFF
+    emissionColorMultiplier: 2
+  pointMaterialOverride:
+    albedo: WayMaterials/Textures/Way_Point_Lvl2
+    normal: WayMaterials/Textures/Way_Point_Lvl1_Normal
+    mask: WayMaterials/Textures/EmptyMask
+    tiling: 3.5
+    color: 8C8C8CFF
+    emissionColor: BF771BFF
+    emissionColorMultiplier: 2
+  crossMaterialOverride:
+    albedo: WayMaterials/Textures/Way_Cross_lvl2
+    mask: WayMaterials/Textures/EmptyMask
+    tiling: 0.76
+    color: 8C8C8CFF
+    segment: WayMaterials/Textures/Way_CrossSegment_lvl_2
+    emissionColor: BF771BFF
+    emissionColorMultiplier: 2
+  wayDecorationPrefab: WaypointPost_Lvl2
+  crossDecorationPrefab: WayCrossPointTower_Lvl2
+  isTransitable: true
+  name: BE_way_better
+
+way_best:
+  droneSpeedPerDay: 640.0
+  upgradeResourcesPer1000Km:
+    !resource resource_carbon: 45
+    !resource resource_steel: 45
+  isUpgradeTo:
+  - !way way_better
+  upgradeRank: 2
+  segmentMaterialOverride:
+    albedo: WayMaterials/Textures/Way_lvl_3
+    normal: WayMaterials/Textures/Way_lvl_3_Normal
+    mask: WayMaterials/Textures/Way_lvl_3_Emission
+    tiling: 3.5
+    color: 8C8C8CFF
+    emissionColor: 22ACBFFF
+    emissionColorMultiplier: 2
+  pointMaterialOverride:
+    albedo: WayMaterials/Textures/Way_Point_Lvl3
+    normal: WayMaterials/Textures/Way_Point_Lvl3_Normal
+    mask: WayMaterials/Textures/Way_Point_Lvl3_emission
+    tiling: 1
+    color: 8C8C8CFF
+    emissionColor: 22ACBFFF
+    emissionColorMultiplier: 2
+  crossMaterialOverride:
+    albedo: WayMaterials/Textures/Way_CrossSegment_lvl_3
+    mask: WayMaterials/Textures/Way_CrossSegment_lvl_3_Emission
+    tiling: 0.55
+    color: 8C8C8CFF
+    segment: null
+    emissionColor: 22ACBFFF
+    emissionColorMultiplier: 2
+  wayDecorationPrefab: WaypointPost_Lvl3
+  crossDecorationPrefab: WayCrossPointTower_Lvl3
+  isTransitable: true
+  name: BE_way_best
+
+way_super:
+  droneSpeedPerDay: 4000.0
+  upgradeResourcesPer1000Km:
+    !resource resource_carbon: 20
+    !resource resource_steel: 20
+  isUpgradeTo:
+  - !way way_super_unbuilt
+  upgradeRank: 1
+  segmentMaterial: SuperRoadSegment
+  pointMaterial: SuperRoadSegment
+  isTransitable: true
+  name: BE_way_super
+  isSuper: true
+  slopeFactor: 0
+
+way_super_unbuilt:
+  droneSpeedPerDay: 2000.0
+  upgradeResourcesPer1000Km: {}
+  isUpgradeTo: []
+  segmentMaterial: SuperRoadSegment_Unbuilt
+  pointMaterial: SuperRoadSegment_Unbuilt
+  isTransitable: false
+  isSuper: true
+  slopeFactor: 0
+  
+way_rural:
+  droneSpeedPerDay: 240.0
+  upgradeResourcesPer1000Km: {}
+  isUpgradeTo: []
+  segmentMaterialOverride:
+    albedo: WayMaterials/Textures/Way_farm
+    normal: WayMaterials/Textures/Way_farm_Normal
+    mask: WayMaterials/Textures/EmptyMask
+    tiling: 7
+    color: 525252FF
+  pointMaterialOverride:
+    albedo: WayMaterials/Textures/Way_Point_farm
+    mask: WayMaterials/Textures/EmptyMask
+    tiling: 3.5
+    color: 525252FF
+  crossMaterialOverride:
+    albedo: WayMaterials/Textures/Way_Point_farm
+    mask: WayMaterials/Textures/EmptyMask
+    tiling: 0.7
+    color: 525252FF
+    segment: WayMaterials/Textures/Way_CrossSegment_lvl_1
+  wayDecorationPrefab: WaypointPost_Lvl1
+  crossDecorationPrefab: WayCrossPointTower_Lvl1
+  isTransitable: true
+  name: BE_way_rural
+  spawnsMetal: false

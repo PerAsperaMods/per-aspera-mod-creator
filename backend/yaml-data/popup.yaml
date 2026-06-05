@@ -1,0 +1,220 @@
+### POPUP KEY
+###     prefabOverride: Prefab name to use as override
+###     titleId: Title localization ID
+###     subtitleId: Subtitle localization ID
+###     descriptionId: Description localization ID
+###     buttonId: Button localization ID
+###     buttonAction: Action on pressing the popup button(enum)
+
+popup_orbital:
+    # prefabOverride: PNL_SpacePortPopUp
+    titleId: TXT_Popup_Orbital_Title
+    descriptionId: TXT_Popup_Orbital_Description
+    buttonId: TXT_Popup_Orbital_Btn
+    buttonAction: SetOrbitalZoom
+    imageName: OrbitalPopup
+popup_gamewon: #Change to localization IDs!!!
+    titleId: TXT_Popup_Gamewon_Title
+    descriptionId: TXT_Popup_Gamewon_Description
+    buttonId: TXT_Popup_Gamelost_Btn
+    buttonAction: ReturnToMenu
+popup_gamelost: #Change to localization IDs!!!
+    prefabOverride: PNL_GameOverPopUp
+    titleId: TXT_Popup_Gamelost_Title
+    descriptionId: TXT_Popup_Gamelost_Description
+    buttonId: TXT_Popup_Gamelost_Btn
+    buttonAction: ReturnToMenu
+popup_demoend:
+    prefabOverride: PNL_DemoPopUp
+    titleId: TXT_Popup_Demo_Title
+    descriptionId: TXT_Popup_Demo_Description
+    buttonId: TXT_Popup_Gamelost_Btn
+    buttonAction: ReturnToMenu 
+popup_colonistArrival:
+    titleId: TXT_Popup_FirstArrival_Title
+    subtitleId: TXT_Popup_FirstArrival_Subtitle
+    descriptionId: TXT_Popup_FirstArrival_Description
+    buttonId: TXT_PopUp_TechTreeButton
+    buttonAction: OpenTechTree
+    imageName: ColonistMigrationPopup
+    #prefabOverride: PNL_ResearchPopup
+popup_workerfactory:
+    titleId: TXT_Popup_WorkerFactory_Title
+    subtitleId: TXT_Popup_WorkerFactory_Subtitle
+    descriptionId: TXT_Popup_WorkerFactory_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: WorkersPopup
+popup_tutorial_placing_buildings:
+    titleId: TXT_PopUp_TutorialPlacingBuildings_Title
+    subtitleId: TXT_PopUp_TutorialPlacingBuildings_Subtitle
+    descriptionId: TXT_PopUp_TutorialPlacingBuildings_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: ICO_Tip
+popup_tutorial_building_management:
+    titleId: TXT_Popup_TutorialBuildingManagement_Title
+    subtitleId: TXT_Popup_TutorialBuildingManagement_Subtitle
+    descriptionId: TXT_Popup_TutorialBuildingManagement_Description
+    buttonId: TXT_PopUp_TechTreeButton
+    buttonAction: OpenTechTree
+    imageName: BuildingManagementPopUp
+    prefabOverride: PNL_ResearchPopup
+popup_tutorial_rebuilding structures:
+    titleId: TXT_Popup_TutorialRebuildingStructures_Title
+    subtitleId: TXT_Popup_TutorialRebuildingStructures_Subtitle
+    descriptionId: TXT_Popup_TutorialRebuildingStructures_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: ICO_Tip
+popup_tutorial_dynamic_water_level:
+    titleId: TXT_Popup_DynamicWaterLevel_Title
+    subtitleId: TXT_Popup_DynamicWaterLevel_Subtitle
+    descriptionId: TXT_Popup_DynamicWaterLevel_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: DynamicWaterLevelPopUp
+popup_tutorial_desertification:
+    titleId: TXT_Popup_Desertification_Title
+    subtitleId: TXT_Popup_Desertification_Subtitle
+    descriptionId: TXT_Popup_Desertification_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: DesertificationPopUp
+popup_tutorial_locating_resources:
+    titleId: TXT_Popup_TutorialLocatingResources_Title
+    descriptionId: TXT_Popup_TutorialLocatingResources_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: ICO_Tip
+popup_tutorial_biodomes:
+    titleId: TXT_Popup_TutorialBiodomes_Title
+    subtitleId: TXT_Popup_TutorialBiodomes_Subtitle
+    descriptionId: TXT_Popup_TutorialBiodomes_Description
+    buttonId: TXT_PopUp_TechTreeButton
+    buttonAction: OpenTechTree
+    imageName: IMG_PU_Biology_BioengineeredLichen
+    prefabOverride: PNL_ResearchPopup
+popup_water_supply_network:
+    titleId: TXT_Popup_Water_Network_Title
+    subtitleId: TXT_Popup_Water_Network_Subtitle
+    descriptionId: TXT_Popup_Water_Network_Description
+    buttonId: TXT_PopUp_TechTreeButton
+    buttonAction: OpenTechTree
+    imageName: PipeSytemPopup
+    prefabOverride: PNL_ResearchPopup
+popup_farms:
+    titleId: TXT_Popup_Farms_Title
+    subtitleId: TXT_Popup_Farms_Subtitle
+    descriptionId: TXT_Popup_Farms_Description
+    buttonId: TXT_PopUp_TechTreeButton
+    buttonAction: OpenTechTree
+    imageName: OpenFarmsPopup
+    prefabOverride: PNL_ResearchPopup
+popup_open_farms:
+    titleId: TXT_Popup_OpenFarm_Title
+    subtitleId: TXT_Popup_OpenFarm_Subtitle
+    descriptionId: TXT_Popup_OpenFarm_Description
+    buttonId: TXT_PopUp_TechTreeButton
+    buttonAction: OpenTechTree
+    imageName: OpenFarmsPopup
+    prefabOverride: PNL_ResearchPopup
+popup_dumpsters:
+    titleId: TXT_Popup_Dumpsters_Title
+    subtitleId: TXT_Popup_Dumpsters_Subtitle
+    descriptionId: TXT_Popup_Dumpsters_Description
+    buttonId: TXT_PopUp_TechTreeButton
+    buttonAction: OpenTechTree
+    imageName: OpenFarmsPopup
+    prefabOverride: PNL_ResearchPopup
+popup_methane_asteroid_available:
+    titleId: TXT_Popup_MethaneAsteroidAvailable_Title
+    subtitleId: TXT_Popup_MethaneAsteroidAvailable_Subtitle
+    descriptionId: TXT_Popup_MethaneAsteroidAvailable_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: IMG_PU_Space_AerobrakeMethaneAsteroid
+popup_ice_asteroid_available:
+    titleId: TXT_Popup_IceAsteroidAvailable_Title
+    subtitleId: TXT_Popup_IceAsteroidAvailable_Subtitle
+    descriptionId: TXT_Popup_IceAsteroidAvailable_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: IMG_PU_Space_AerobrakeIceAsteroid
+popup_nitrogen_asteroid_available:
+    titleId: TXT_Popup_NitrogenAsteroidAvailable_Title
+    subtitleId: TXT_Popup_NitrogenAsteroidAvailable_Subtitle
+    descriptionId: TXT_Popup_NitrogenAsteroidAvailable_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: IMG_PU_Space_aerobrake_NitrogenRichAsteroid
+popup_terraforming1:
+    titleId: TXT_Popup_Terraforming1_Title
+    subtitleId: TXT_Popup_Terraforming1_Subtitle
+    descriptionId: TXT_Popup_Terraforming1_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: TerraformingStage_01
+popup_terraforming2:
+    titleId: TXT_Popup_Terraforming2_Title
+    subtitleId: TXT_Popup_Terraforming2_Subtitle
+    descriptionId: TXT_Popup_Terraforming2_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: TerraformingStage_02
+popup_terraforming3:
+    titleId: TXT_Popup_Terraforming3_Title
+    subtitleId: TXT_Popup_Terraforming3_Subtitle
+    descriptionId: TXT_Popup_Terraforming3_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: TerraformingStage_03
+popup_terraforming4:
+    titleId: TXT_Popup_Terraforming4_Title
+    subtitleId: TXT_Popup_Terraforming4_Subtitle
+    descriptionId: TXT_Popup_Terraforming4_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: TerraformingStage_04
+popup_terraforming5:
+    titleId: TXT_Popup_Terraforming5_Title
+    subtitleId: TXT_Popup_Terraforming5_Subtitle
+    descriptionId: TXT_Popup_Terraforming5_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: TerraformingStage_05
+popup_terraforming6:
+    titleId: TXT_Popup_Terraforming6_Title
+    subtitleId: TXT_Popup_Terraforming6_Subtitle
+    descriptionId: TXT_Popup_Terraforming6_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: TerraformingStage_06
+popup_final_technologies:
+    titleId: TXT_Popup_FinalTechnologies_Title
+    subtitleId: TXT_Popup_FinalTechnologies_Subtitle
+    descriptionId: TXT_Popup_FinalTechnologies_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: IMG_Stage6End
+    prefabOverride: PNL_Stage6EndPopUp
+popup_final_technologies_sandbox:
+    titleId: TXT_Popup_FinalTechnologies_Title
+    subtitleId: TXT_Popup_FinalTechnologies_Subtitle
+    descriptionId: TXT_Popup_FinalTechnologiesSandbox_Description
+    buttonId: TXT_Popup_DefaultBtn
+    buttonAction: None
+    imageName: OpenFarmsPopup
+popup_previewend:
+    titleId: TXT_Popup_PreviewEnded_Title
+    descriptionId: TXT_Popup_PreviewEnded_Description
+    buttonId: TXT_Popup_PreviewEnded_Btn
+    buttonAction: ReturnToMenu 
+popup_stage6:
+    titleId: TXT_Popup_Stage6_Title
+    subtitleId: TXT_Popup_Stage6_Subtitle
+    descriptionId: TXT_Popup_Stage6_Description
+    buttonId: TXT_PopUp_Stage6_Continue_Btn
+    buttonAction: None
+    imageName: HomePopUp
+    prefabOverride: PNL_EndGameOptiona_PopUp

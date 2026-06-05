@@ -150,7 +150,7 @@ export class YamlLoaderService {
       const fileContent = fs.readFileSync(filePath, 'utf-8');
       const data = yaml.load(fileContent) as any;
 
-      if (!data || !data.buildingCategory) {
+      if (!data) {
         this.loadingReport.warnings.push({
           type: 'INVALID_YAML',
           message: 'buildingCategory.yaml has invalid structure',
@@ -159,17 +159,17 @@ export class YamlLoaderService {
         return;
       }
 
-      const categories = data.buildingCategory;
+      const categories = data.buildingCategory || data;
       let loaded = 0;
 
-      for (const [key, category] of Object.entries(categories)) {
+      for (const [key, category] of Object.entries(data.buildingCategory || {})) {
         const cat = category as any;
         try {
           await this.pool.query(
             `INSERT INTO categories (key, name_label, is_official, is_locked, mod_id)
              VALUES ($1, $2, true, true, NULL)
              ON CONFLICT (key) DO NOTHING`,
-            [key, cat.name_label || key]
+            [key, cat.name || cat.name_label || key]
           );
           loaded++;
         } catch (err) {
@@ -200,11 +200,12 @@ export class YamlLoaderService {
       const fileContent = fs.readFileSync(filePath, 'utf-8');
       const data = yaml.load(fileContent) as any;
 
-      if (!data || !data.resource) {
+      if (!data) {
         throw new Error('Invalid resource.yaml structure');
       }
 
-      const resources = data.resource;
+      // Data is directly the resources object (no wrapper)
+      const resources = data;
       let loaded = 0;
 
       for (const [key, resource] of Object.entries(resources)) {
@@ -262,7 +263,7 @@ export class YamlLoaderService {
         const fileContent = fs.readFileSync(filePath, 'utf-8');
         const data = yaml.load(fileContent) as any;
 
-        if (!data || !data.building) {
+        if (!data) {
           this.loadingReport.warnings.push({
             type: 'INVALID_YAML',
             message: `${fileName} has invalid structure`,
@@ -270,7 +271,8 @@ export class YamlLoaderService {
           continue;
         }
 
-        const buildings = data.building;
+        // Data is directly the buildings object
+        const buildings = data;
 
         for (const [key, building] of Object.entries(buildings)) {
           const bldg = building as any;
@@ -323,11 +325,11 @@ export class YamlLoaderService {
       const fileContent = fs.readFileSync(filePath, 'utf-8');
       const data = yaml.load(fileContent) as any;
 
-      if (!data || !data.knowledge) {
+      if (!data) {
         throw new Error('Invalid knowledge.yaml structure');
       }
 
-      const knowledge = data.knowledge;
+      const knowledge = data;
       let loaded = 0;
 
       for (const [key, entry] of Object.entries(knowledge)) {
@@ -380,7 +382,7 @@ export class YamlLoaderService {
         const fileContent = fs.readFileSync(filePath, 'utf-8');
         const data = yaml.load(fileContent) as any;
 
-        if (!data || !data.technology) {
+        if (!data) {
           this.loadingReport.warnings.push({
             type: 'INVALID_YAML',
             message: `${fileName} has invalid structure`,
@@ -388,7 +390,7 @@ export class YamlLoaderService {
           continue;
         }
 
-        const technologies = data.technology;
+        const technologies = data;
 
         for (const [key, tech] of Object.entries(technologies)) {
           const t = tech as any;
@@ -433,7 +435,7 @@ export class YamlLoaderService {
       const fileContent = fs.readFileSync(filePath, 'utf-8');
       const data = yaml.load(fileContent) as any;
 
-      if (!data || !data.enhancement) {
+      if (!data) {
         this.loadingReport.warnings.push({
           type: 'INVALID_YAML',
           message: 'enhancements.yaml has invalid structure',
@@ -441,7 +443,7 @@ export class YamlLoaderService {
         return;
       }
 
-      const enhancements = data.enhancement;
+      const enhancements = data;
       let loaded = 0;
 
       for (const [key, enhancement] of Object.entries(enhancements)) {

@@ -1,0 +1,456 @@
+### FARMS
+building_farm_crater:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_life
+  compactName: CraterFarm
+  description: BE_building_crater_farm_description
+  droneCapacity: 1
+  knowledge: !knowledge knowledge_crater_farm
+  healthLossPerDay: 0.05
+  maxHealth: 300.0
+  name: BE_building_crater_farm_name
+  outputQuantity: 1
+  outputResource: !resource resource_food
+  powerConsumption: 50.0
+  powerPriority: 3.0
+  prefabName: CraterFarm
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.025 #40 days per batch
+  requiredConstructionResources:
+    !resource resource_aluminum: 25
+    !resource resource_glass: 40
+    !resource resource_chemicals: 25
+  requiredResourceVein: !resource resource_crater
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  jumpRadius: 80
+  rivalIconName: BuildIcons_Rival/Icon_CraterFarms
+  iconName: BuildIcons/Icon_CraterFarms
+  progressBarNames:
+    - Progress_Torus
+  pipesConsumption: 20
+  producingLabel: TXT_BIP_productionBar_Harvesting
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_CraterFarm
+building_farm_open:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_life
+  compactName: OpenFarm
+  description: BE_building_open_farm_description
+  droneCapacity: 1
+  knowledge: !knowledge knowledge_open_farm
+  healthLossPerDay: 0.05
+  maxHealth: 300.0
+  name: BE_building_open_farm_name
+  outputQuantity: 1
+  outputResource: !resource resource_food
+  powerConsumption: 80.0
+  powerPriority: 3.0
+  prefabName: OpenFarm
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.25 #4 days per batch
+  requiredConstructionResources:
+    !resource resource_aluminum: 25
+    !resource resource_parts: 25
+    !resource resource_electronics: 25
+    !resource resource_chemicals: 25
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  jumpRadius: 200.0
+  farmSpawnRadius: 200.0
+  farmMinRequiredTerrain: 0.1
+  rivalIconName: BuildIcons_Rival/Icon_OpenFarms
+  iconName: BuildIcons/Icon_OpenFarms
+  progressBarNames:
+    - Progress_Torus
+  pipesConsumption: 30
+  producingLabel: TXT_BIP_productionBar_Harvesting
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_OpenFarm
+building_farm_open_advanced:
+  isUpgradeTo:
+    - !building building_farm_open
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_life
+  compactName: OpenFarm
+  description: BE_building_open_farm_advanced_description
+  droneCapacity: 1
+  knowledge: !knowledge knowledge_open_farm
+  healthLossPerDay: 0.05
+  maxHealth: 400.0
+  name: BE_building_open_farm_advanced_name
+  outputQuantity: 1
+  outputResource: !resource resource_food
+  powerConsumption: 160.0
+  powerPriority: 3.0
+  prefabName: AdvOpenFarm
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 1 #1 days per batch
+  requiredConstructionResources:
+    !resource resource_aluminum: 50
+    !resource resource_parts: 50
+    !resource resource_electronics: 50
+    !resource resource_chemicals: 50
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  jumpRadius: 200.0
+  farmSpawnRadius: 200.0
+  farmMinRequiredTerrain: 0.1
+  rivalIconName: BuildIcons_Rival/Icon_AdvancedOpenFarms
+  iconName: BuildIcons/Icon_AdvancedOpenFarms
+  progressBarNames:
+    - Progress_Torus
+  pipesConsumption: 50
+  producingLabel: TXT_BIP_productionBar_Harvesting
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_OpenFarm
+### COLONIES - PIPES
+building_colony_dome_small:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_colonies
+  colonistCapacity: 1000
+  compactName: DomeCol
+  description: BE_building_colony_dome_small_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_food: 15
+  knowledge: !knowledge knowledge_colony_dome_small
+  maxHealth: 500.0
+  name: BE_building_colony_dome_small_name
+  outputQuantity: 300
+  outputResource: !resource resource_research_points
+  powerConsumption: 120.0
+  powerPriority: 3.0
+  prefabName: DomeCity
+  rubblePrefabName: RubblePile_L
+  progressPerDay: 0.02 #50 days per batch  
+  requiredConstructionResources:
+    !resource resource_aluminum: 20
+    !resource resource_steel: 20
+    !resource resource_glass: 20
+  requiredResourceVein: !resource resource_crater
+  reservedRadius: 30.0
+  waySnapRadius: 15.0
+  rivalIconName: BuildIcons_Rival/Icon_DomeCity
+  iconName: BuildIcons/Icon_DomeCity
+  progressBarNames:
+    - Progress_Torus
+  pipesConsumption: 5
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Colonies_CityGeneric
+building_colony_tent_city:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_colonies
+  colonistCapacity: 2500
+  compactName: TentCit
+  description: BE_building_colony_tent_city_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_food: 20
+  knowledge: !knowledge knowledge_colony_tent_city
+  maxHealth: 600.0
+  name: BE_building_colony_tent_city_name
+  outputQuantity: 900
+  outputResource: !resource resource_research_points
+  powerConsumption: 200.0
+  powerPriority: 3.0
+  prefabName: TentCity
+  rubblePrefabName: RubblePile_L
+  progressPerDay: 0.02 #50 days per batch    
+  requiredConstructionResources:
+    !resource resource_aluminum: 30
+    !resource resource_steel: 30
+    !resource resource_glass: 30
+  reservedRadius: 40.0
+  waySnapRadius: 15.0
+  rivalIconName: BuildIcons_Rival/Icon_TentCity
+  iconName: BuildIcons/Icon_TentCity
+  progressBarNames:
+    - Progress_Torus
+  needsPressure: true
+  pipesConsumption: 10
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Colonies_CityGeneric
+building_colony_open_city:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_colonies
+  colonistCapacity: 10000
+  compactName: OpenCit
+  description: BE_building_colony_open_city_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_food: 30
+  knowledge: !knowledge knowledge_colony_open_city
+  maxHealth: 700.0
+  name: BE_building_colony_open_city_name
+  outputQuantity: 4000
+  outputResource: !resource resource_research_points
+  powerConsumption: 400.0
+  powerPriority: 3.0
+  prefabName: OpenCity
+  rubblePrefabName: RubblePile_XL
+  progressPerDay: 0.02 #25 days per batch    
+  requiredConstructionResources:
+    !resource resource_aluminum: 50
+    !resource resource_steel: 50
+    !resource resource_glass: 50
+  reservedRadius: 45.0
+  waySnapRadius: 20.0
+  rivalIconName: BuildIcons_Rival/Icon_OpenCity
+  iconName: BuildIcons/Icon_OpenCity
+  progressBarNames:
+    - Progress_Torus
+  needsBreathableAtmosphere: true
+  pipesConsumption: 20
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Colonies_CityGeneric
+building_colony_metropolis:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_colonies
+  colonistCapacity: 200000
+  prefabZeppelinOverride: Zeppelin_Caravan
+  compactName: OpenCit
+  description: BE_building_colony_metropolis_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_food: 150
+  knowledge: !knowledge knowledge_colony_metropolis
+  maxHealth: 1500.0
+  name: BE_building_colony_metropolis_name
+  outputQuantity: 50000
+  outputResource: !resource resource_research_points
+  powerConsumption: 4000.0
+  powerPriority: 3.0
+  prefabName: Metropolis
+  rubblePrefabName: RubblePile_XL
+  progressPerDay: 0.01 #100 days per batch    
+  requiredConstructionResources:
+    !resource resource_aluminum: 500
+    !resource resource_steel: 500
+    !resource resource_glass: 500
+  reservedRadius: 70.0
+  waySnapRadius: 20.0
+  rivalIconName: BuildIcons_Rival/Icon_Metropolis
+  iconName: BuildIcons/Icon_Metropolis
+  progressBarNames:
+    - Progress_Torus
+  needsBreathableAtmosphere: true
+  pipesConsumption: 100
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Colonies_CityGeneric
+### TERRAFORMING
+building_terraforming_biodome:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_life
+  canSpawnLichenAndPlants: true
+  co2ConversionPerDay: 0.00001
+  compactName: Biod
+  description: BE_building_terraforming_biodome_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_biodome
+  maxHealth: 150.0
+  name: BE_building_terraforming_biodome_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 10.0
+  prefabName: Biodome
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_glass: 15
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 10.0
+  jumpRadius: 200.0
+  rivalIconName: BuildIcons_Rival/Icon_Biodome
+  iconName: BuildIcons/Icon_Biodome
+  pipesConsumption: 20
+  progressBarNames:
+    - Progress_Torus
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_Biodome
+### WATER PIPES
+building_water_plant:
+  categoryType: !buildingCategory category_terraforming_life
+  compactName: WatPlaPip
+  description: BE_building_water_treatment_plant_description
+  droneCapacity: 0
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_water_plant
+  maxHealth: 75.0
+  name: BE_building_water_treatment_plant_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 20.0
+  powerPriority: 2.0
+  prefabName: WaterPlant
+  rubblePrefabName: RubblePile_S
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_polymers: 15
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 5.0
+  rivalIconName: BuildIcons_Rival/Icon_WaterTreatmentPlant
+  iconName: BuildIcons/Icon_WaterTreatmentPlant 
+  jumpRadius: 100.0
+  isWorkerHub: false
+  pipesProduction: 40
+  extendsPipesCluster: true
+  pipesClusterRadius: 250
+  waterNeededFactor: 0.2
+  waterNeededRadius: 250.0
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_WaterTreatment
+building_water_hub:
+  categoryType: !buildingCategory category_terraforming_life
+  compactName: WaHub
+  description: BE_building_water_hub_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_water_hub
+  maxHealth: 125.0
+  name: BE_building_water_hub_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 10
+  prefabName: PipeHub
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_polymers: 15
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_PipeHub
+  iconName: BuildIcons/Icon_PipeHub
+  extendsPipesCluster: true
+  pipesClusterRadius: 500
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_WaterBoosterPump
+building_water_converter:
+  categoryType: !buildingCategory category_terraforming_life
+  compactName: WaConv
+  description: BE_building_water_converter_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_water_converter
+  maxHealth: 125.0
+  name: BE_building_water_converter_name
+  outputQuantity: 1
+  outputResource: !resource resource_water
+  powerConsumption: 10
+  prefabName: WaterPackingPlant
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_polymers: 15
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_WaterPackingPlant
+  iconName: BuildIcons/Icon_WaterPackingPlant
+  extendsPipesCluster: false
+  pipesConsumption: 20
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_WaterPacking
+### ORGANIC MATERIAL DUMP CRATER
+building_dump_crater:
+  categoryType: !buildingCategory category_terraforming_life
+  compactName: dump
+  description: BE_building_dump_crater_description
+  healthLossPerDay: 0.05
+  knowledge: !knowledge knowledge_dump_crater
+  maxHealth: 100.0
+  name: BE_building_dump_crater_name
+  powerConsumption: 10
+  powerPriority: 1
+  prefabName: DumpCrater
+  rubblePrefabName: RubblePile_M
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_parts: 10
+    !resource resource_polymers: 15
+  requiredResourceVein: !resource resource_crater
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Dumpster
+  iconName: BuildIcons/Icon_Dumpster
+  deforestationRadius: 300
+  deforestationTime: 10
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_OrganicMaterialDumpster
+### O2 Capturer
+building_terraforming_oxygen_capture_plant:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_atmosphere
+  compactName: OxygCap
+  description: BE_building_terraforming_oxygen_capture_plant_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_oxygen_capture_plant
+  maxHealth: 150.0
+  name: BE_building_terraforming_oxygen_capture_plant_name
+  outputQuantity: 1
+  outputResource: !resource resource_oxygen_capture
+  gasReleaseAmount: 0.005  # 6 years per mb at full efficiency
+  powerConsumption: 10.0
+  prefabName: O2Capture
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.05
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_polymers: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_O2Capture
+  iconName: BuildIcons/Icon_O2Capture
+  progressBarNames:
+    - Progress_Torus_InProgress
+  displayInputs:
+    - !resource resource_oxygen_release
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Atmosphere_OxygenCapture
+### ANIMAL SANCTUARY
+building_terraforming_animal_sanctuary:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_life
+  compactName: AnimSan
+  description: BE_building_terraforming_animal_sanctuary_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_animal_sanctuary
+  maxHealth: 150.0
+  name: BE_building_terraforming_animal_sanctuary_name
+  outputQuantity: 0
+  outputResource: null
+  gasReleaseAmount: 0
+  powerConsumption: 10.0
+  prefabName: SanctuaryCrater
+  rubblePrefabName: RubblePile_L
+  progressPerDay: 0.05
+  requiredConstructionResources:
+    !resource resource_aluminum: 15
+    !resource resource_steel: 15
+    !resource resource_polymers: 15
+    !resource resource_glass: 15
+  requiredResourceVein: !resource resource_crater
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_AnimalSanctuary
+  iconName: BuildIcons/Icon_AnimalSanctuary
+  progressBarNames:
+    - Progress_Torus_InProgress
+  pipesConsumption: 10
+  isAnimalSanctuary: true
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_AnimalSanctuary

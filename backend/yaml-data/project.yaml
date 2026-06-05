@@ -1,0 +1,1627 @@
+#LAUNCH SATELLITE PROJECTS
+project_launch_satellite_1:
+  name: BE_project_launch_satellite_1_name
+  description: BE_project_launch_satellite_1_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_1 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 0
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:
+        - PlayerFaction
+        - 1
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        animatorTriggerEnter: "ShipOut"
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+
+project_launch_satellite_2:
+  name: BE_project_launch_satellite_2_name
+  description: BE_project_launch_satellite_2_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_2 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 1
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 2
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+
+project_launch_satellite_3:
+  name: BE_project_launch_satellite_3_name
+  description: BE_project_launch_satellite_3_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_3 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 2
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 3
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+
+
+project_launch_satellite_4:
+  name: BE_project_launch_satellite_4_name
+  description: BE_project_launch_satellite_4_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_4 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 3
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 4
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+project_launch_satellite_5:
+  name: BE_project_launch_satellite_5_name
+  description: BE_project_launch_satellite_5_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_5 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 4
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 5
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+project_launch_satellite_6:
+  name: BE_project_launch_satellite_6_name
+  description: BE_project_launch_satellite_6_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_6 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 5
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 6
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+project_launch_satellite_7:
+  name: BE_project_launch_satellite_7_name
+  description: BE_project_launch_satellite_7_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_7 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 6
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 7
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+project_launch_satellite_8:
+  name: BE_project_launch_satellite_8_name
+  description: BE_project_launch_satellite_8_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_8 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 7
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 8
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+project_launch_satellite_9:
+  name: BE_project_launch_satellite_9_name
+  description: BE_project_launch_satellite_9_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_9 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 8
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 9
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+project_launch_satellite_10:
+  name: BE_project_launch_satellite_10_name
+  description: BE_project_launch_satellite_10_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_10 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 9
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 10
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+project_launch_satellite_11:
+  name: BE_project_launch_satellite_11_name
+  description: BE_project_launch_satellite_11_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_11 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 10
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 11
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+project_launch_satellite_12:
+  name: BE_project_launch_satellite_12_name
+  description: BE_project_launch_satellite_12_description
+  criterions: []
+  expirationCriterions:    
+    - '$SECTOR_UNLOCK_12 == true'
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 11
+  launchType: Single
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: UnlockSector
+      arguments:    
+        - PlayerFaction
+        - 12
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        cancellable: true
+        monthsDuration: 2
+        onEnter: []
+
+### DONE ###
+
+project_space_mirror_array:
+  description: BE_project_space_mirror_array_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_SpaceMirrorArray
+  defaultVisible: true
+  index: 13
+  launchType: Multiple
+  name: BE_project_space_mirror_array_name
+  requiredLaunches: 15
+  animatorTriggerCompleted: "FinalLaunch"
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 50
+      !resource resource_glass: 50
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_polymers: 10
+  launchActions: []
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectSpaceMirrorArray"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectSpaceMirrorArray_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        iconName: GatherResources
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_and_mirror_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        iconName: Construction
+        cancellable: true
+        monthsDuration: 1
+        onEnter: []  
+      - key: BE_project_spaceportStages_rocket_and_mirror_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        iconName: Launch
+        cancellable: false
+        monthsDuration: 1
+        onEnter: []  
+        focusPosition: Proxy
+        focusOnExitStage: True
+        focusCondition: LastLaunch
+        focusCameraZoom: 42000
+
+
+project_import_ghg_from_earth:
+  description: BE_project_import_ghg_from_earth_description
+  criterions: []
+  expirationCriterions:
+    - '$killswitch_carmine == true' ## No Collaboration from Earth in this ending
+  iconName: KnowledgeBase/ICO_KB_ImportGhgFromEarth
+  defaultVisible: true
+  index: 19
+  launchType: Continuous
+  name: BE_project_import_ghg_from_earth_name
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: ImportResource
+      arguments:    
+        - PlayerFaction
+        - GHG
+        - 0.01
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectReturnRelease"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectReturnRelease_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        iconName: GatherResources
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        iconName: Construction
+        cancellable: true
+        monthsDuration: 3
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        iconName: Launch
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_material_harvest
+        iconName: Harvests
+        cancellable: true
+        monthsDuration: 0.5
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_return
+        animatorTriggerExit: "ShipIn"
+        iconName: LandingPort
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_material_release
+        animatorTriggerExit: "GasReleaseEnd"
+        buildingAnimatorTriggerExit: "Transit"
+        focusPosition: Port
+        focusCameraZoom: 300
+        focusCameraTiltY: -45
+        focusCameraTiltX: 30
+        focusCondition: FirstTime
+        iconName: Releases
+        cancellable: true
+        monthsDuration: 0.5
+        onEnter: []
+
+project_import_ice_from_europa:
+  description: BE_project_import_ice_from_europa_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_ImportIceFromEuropa
+  defaultVisible: true
+  index: 20
+  launchType: Continuous
+  name: BE_project_import_ice_from_europa_name
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 20
+      !resource resource_parts: 20
+      !resource resource_electronics: 20
+      !resource resource_chemicals: 20
+  launchActions:
+    - command: ImportResource
+      arguments:    
+        - PlayerFaction
+        - Ice
+        - 10.0
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectReturn"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectReturn_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 3
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_material_harvest
+        cancellable: true
+        monthsDuration: 0.5
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_return
+        buildingAnimatorTriggerExit: "Transit"
+        animatorTriggerExit: "ShipIn"
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_material_release
+        animatorTriggerExit: "End"
+        focusPosition: Port
+        focusCameraZoom: 300
+        focusCameraTiltY: -45
+        focusCameraTiltX: 30
+        focusCondition: FirstTime
+        cancellable: true
+        monthsDuration: 0.5
+        onEnter: []
+
+project_import_nitrogen_from_titan:
+  description: BE_project_import_nitrogen_from_titan_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_ImportNitrogenFromTitan
+  defaultVisible: true
+  index: 21
+  launchType: Continuous
+  name: BE_project_import_nitrogen_from_titan_name
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 40
+      !resource resource_parts: 40
+      !resource resource_electronics: 40
+      !resource resource_chemicals: 40
+  launchActions:
+    - command: ImportResource
+      arguments:    
+        - PlayerFaction
+        - Nitrogen
+        - 15.0
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectReturnRelease"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectReturnRelease_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 3
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_launch
+        animatorTriggerEnter: "ShipOut"
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_material_harvest
+        cancellable: true
+        monthsDuration: 0.5
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_return
+        animatorTriggerExit: "ShipIn"
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_material_release
+        animatorTriggerExit: "GasReleaseEnd"
+        buildingAnimatorTriggerExit: "Transit"
+        focusPosition: Port
+        focusCameraZoom: 300
+        focusCameraTiltY: -45
+        focusCameraTiltX: 30
+        focusCondition: FirstTime
+        cancellable: true
+        monthsDuration: 0.5
+        onEnter: []
+
+project_aerobrake_methane_asteroid:
+  description: BE_project_aerobrake_methane_asteroid_description
+  criterions:
+    - '$methane_asteroid_completed == false'
+  iconName: KnowledgeBase/ICO_KB_AerobrakeMethaneAsteroid
+  defaultVisible: true
+  resetOnComplete: true
+  index: 22
+  launchType: Single
+  name: BE_project_aerobrake_methane_asteroid_name
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+      !resource resource_uranium: 10
+  launchActions:
+    - command: AerobrakeAsteroid
+      arguments:    
+        - PlayerFaction
+        - Methane
+        - 0.05
+    - command: SetBlackboardBool
+      arguments:
+        - PlayerFaction
+        - used_areobraking
+        - true
+    - command: SetBlackboardBool
+      arguments:
+        - PlayerFaction
+        - methane_asteroid_completed
+        - true
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectAerobrakeMethane"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectAerobrakeMethane_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        iconName: GatherResources
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        iconName: Construction
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_intercept_asteroid
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        focusCondition: FirstTime
+        iconName: AsteroidIntercept
+        cancellable: false
+        monthsDuration: 1
+        onEnter: []
+      - key: BE_project_spaceportStages_asteroid_aerobrake
+        animatorTriggerEnter: "DeliverExplosion"
+        iconName: AsteroidAtmosphere
+        cancellable: false
+        monthsDuration: 1
+        onEnter: []
+
+project_aerobrake_ice_asteroid:
+  description: BE_project_aerobrake_ice_asteroid_description
+  criterions:
+    - '$ice_asteroid_completed == false'
+  iconName: KnowledgeBase/ICO_KB_AerobrakeIceAsteroid
+  defaultVisible: true
+  resetOnComplete: true
+  index: 23
+  launchType: Single
+  name: BE_project_aerobrake_ice_asteroid_name
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+      !resource resource_uranium: 10
+  launchActions:
+    - command: AerobrakeAsteroid
+      arguments:    
+        - PlayerFaction
+        - Ice
+        - 35.0
+    - command: SetBlackboardBool
+      arguments:
+        - PlayerFaction
+        - used_areobraking
+        - true
+    - command: SetBlackboardBool
+      arguments:
+        - PlayerFaction
+        - ice_asteroid_completed
+        - true
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectAerobrakeIce"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectAerobrakeIce_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_intercept_asteroid
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        focusCondition: FirstTime
+        cancellable: false
+        monthsDuration: 1
+        onEnter: []
+      - key: BE_project_spaceportStages_asteroid_aerobrake
+        animatorTriggerEnter: "DeliverExplosion"
+        cancellable: false
+        monthsDuration: 1
+        onEnter: []
+
+project_aerobrake_nitrogen_rich_asteroid:
+  description: BE_project_aerobrake_nitrogen_rich_asteroid_description
+  criterions:
+    - '$nitrogen_asteroid_completed == false'
+  iconName: KnowledgeBase/ICO_KB_AerobrakeNitrogenRichAsteroid
+  defaultVisible: true
+  resetOnComplete: true
+  index: 24
+  launchType: Single
+  name: BE_project_aerobrake_nitrogen_rich_asteroid_name
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+      !resource resource_uranium: 10
+  launchActions:
+    - command: AerobrakeAsteroid
+      arguments:    
+        - PlayerFaction
+        - Nitrogen
+        - 50.0
+    - command: SetBlackboardBool
+      arguments:
+        - PlayerFaction
+        - used_areobraking
+        - true
+    - command: SetBlackboardBool
+      arguments:
+        - PlayerFaction
+        - nitrogen_asteroid_completed
+        - true
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectAerobrakeNitrogen"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectAerobrakeNitrogen_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_intercept_asteroid
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusOnExitStage: True
+        focusCondition: FirstTime
+        cancellable: false
+        monthsDuration: 1
+        onEnter: []
+      - key: BE_project_spaceportStages_asteroid_aerobrake
+        animatorTriggerEnter: "DeliverExplosion"
+        cancellable: false
+        monthsDuration: 1
+        onEnter: []
+
+project_additional_landing_site:
+  name: BE_project_additional_landing_site_name
+  description: BE_project_additional_landing_site_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_AdditionalLandingSite
+  defaultVisible: true
+  index: 26
+  launchType: Multiple
+  requiredLaunches: -1
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 20
+      !resource resource_parts: 25
+      !resource resource_electronics: 10
+      !resource resource_steel: 25
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: AdditionalBuilding
+      arguments:    
+        - PlayerFaction
+        - landing_site
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        iconName: GatherResources
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        iconName: Construction
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        animatorTriggerEnter: "ShipOut"
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        focusPosition: Port
+        focusCondition: FirstTime
+        focusCameraZoom: 220
+        focusCameraTiltX: 38
+        focusCameraTiltY: -60
+        iconName: Launch
+        cancellable: true
+        monthsDuration: 0.035
+        onEnter: []
+
+project_advanced_landing_site:
+  name: BE_project_advanced_landing_site_name
+  description: BE_project_advanced_landing_site_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_AdvanceLandingSite
+  defaultVisible: true
+  index: 27
+  launchType: Multiple
+  requiredLaunches: -1
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 40
+      !resource resource_parts: 50
+      !resource resource_electronics: 20
+      !resource resource_steel: 50
+      !resource resource_chemicals: 20
+      !resource resource_polymers: 10
+  launchActions:
+    - command: AdditionalBuilding
+      arguments:    
+        - PlayerFaction
+        - landing_site_advanced
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        iconName: GatherResources
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_ship_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        iconName: Construction
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        animatorTriggerEnter: "ShipOut"
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        focusPosition: Port
+        focusCondition: FirstTime
+        focusCameraZoom: 220
+        focusCameraTiltX: 38
+        focusCameraTiltY: -60
+        iconName: Launch
+        cancellable: true
+        monthsDuration: 0.035
+        onEnter: []
+
+project_polar_nuclear_detonations:
+  name: BE_project_polar_nuclear_detonations_name
+  description: BE_project_polar_nuclear_detonations_description
+  criterions: []
+  expirationCriterions:
+    - '$frozen_co2 < 1'
+  iconName: KnowledgeBase/ICO_KB_AdvanceLandingSite
+  defaultVisible: false
+  hideWhenExpired: true
+  index: 12
+  launchType: Continuous
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_uranium: 10
+  launchActions:
+    - command: PolarNuclearDetonation
+      arguments:    
+        - PlayerFaction
+        - 1.5
+    - command: SetBlackboardBool
+      arguments:
+        - PlayerFaction
+        - used_polar_nukes
+        - true
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectMicrosuns"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectMicrosuns_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        iconName: GatherResources
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        iconName: Construction
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []  
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        animatorTriggerExit: "DeliverExplosion"
+        iconName: Launch
+        cancellable: true
+        monthsDuration: 1
+        focusPosition: Proxy
+        focusCameraZoom: 18000
+        focusOnExitStage: true
+        onEnter: []  
+
+project_black_polar_dust:
+  name: BE_project_black_polar_dust_name
+  description: BE_project_black_polar_dust_description
+  criterions: []
+  expirationCriterions:
+    - '$frozen_co2 < 1'
+  iconName: KnowledgeBase/ICO_KB_BlackPolarDust
+  defaultVisible: false
+  hideWhenExpired: true 
+  index: 25
+  launchType: Continuous
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: BlackPolarDust
+      arguments:    
+        - PlayerFaction
+        - 0.5
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectPolarDust"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectPolarDust_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        iconName: GatherResources
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        iconName: Construction
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_satellite_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusCameraZoom: 18000
+        focusCondition: FirstTime
+        iconName: Launch
+        cancellable: true
+        monthsDuration: 1
+        onEnter: []
+
+project_crash_comet:
+  description: BE_project_crash_comet_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_CrashComet
+  defaultVisible: true
+  index: 14
+  launchType: Single
+  name: BE_project_crash_comet_name
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions:
+    - command: CometDown
+      arguments:    
+        - PlayerFaction
+        - 10.0
+    - command: ImportResource
+      arguments:    
+        - PlayerFaction
+        - Ice
+        - 10.0
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectCometCrash"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectCometCrash_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []  
+      - key: BE_project_spaceportStages_rocket_intercept_comet
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        cancellable: true
+        monthsDuration: 1
+        onEnter: []  
+      - key: BE_project_spaceportStages_comet_crash
+        animatorTriggerEnter: "DeliverExplosion"
+        cancellable: true
+        monthsDuration: 1
+        focusPosition: Proxy
+        focusCondition: FirstTime
+        onEnter: []         
+
+project_deimos_down:
+  description: BE_project_deimos_down_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_DeimosDown
+  defaultVisible: true
+  index: 15
+  launchType: Single
+  name: BE_project_deimos_down_name
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 30
+      !resource resource_parts: 30
+      !resource resource_electronics: 30
+      !resource resource_chemicals: 30
+      !resource resource_uranium: 30
+  launchActions:
+    - command: DeimosDown
+      arguments:    
+        - PlayerFaction
+        - 15.0
+    - command: ImportResource
+      arguments:    
+        - PlayerFaction
+        - Ice
+        - 50.0
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectDeimosDown"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectDeimosDown_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []  
+      - key: BE_project_spaceportStages_rocket_intercept_deimos
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        cancellable: true
+        monthsDuration: 1
+        onEnter: []  
+      - key: BE_project_spaceportStages_deimos_crash
+        animatorTriggerEnter: "DeliverExplosion"
+        cancellable: false
+        monthsDuration: 1
+        focusPosition: Proxy
+        onEnter: []                  
+
+project_colonist_migration:
+  name: BE_project_colonist_migration_name
+  description: BE_project_colonist_migration_description
+  order: 0
+  criterions: []
+  expirationCriterions:
+    - '$killswitch_carmine == true' ## No Collaboration from Earth in this ending
+  iconName: KnowledgeBase/ICO_KB_ColonistMigration
+  defaultVisible: true
+  index: 18
+  launchType: Continuous
+  portProjectType:
+    requiredDevelopmentResources: {}
+  launchActions: []
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "ColonistMigration/ColonistMigration"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "ColonistMigration/ColonistMigration_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_on_earth
+        iconName: OnEarth
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_in_transit_Mars
+        iconName: TransitToMars
+        cancellable: false
+        monthsDuration: 7
+        onEnter: []
+      - key: BE_project_spaceportStages_on_Mars
+        iconName: OnMars
+        animatorTriggerEnter: "ShipIn"
+        animatorTriggerExit: "ShipOut"
+        buildingAnimatorTriggerEnter: "Transit"
+        buildingAnimatorTriggerExit: "Transit"
+        cancellable: false
+        focusPosition: Port
+        focusCameraZoom: 150
+        focusCameraTiltY: -30
+        focusCondition: FirstTime
+        monthsDuration: 5
+        onEnter: 
+          - command: IncomingShip
+            arguments:    
+              - PlayerFaction
+              - 100
+      - key: BE_project_spaceportStages_in_transit_Earth
+        iconName: TransitToEarth
+        cancellable: false
+        monthsDuration: 7
+        onEnter:
+          - command: DepartingShip
+            arguments:    
+              - PlayerFaction
+
+project_magnetic_shield:
+  description: BE_project_magnetic_shield_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_MagneticShield
+  defaultVisible: true
+  index: 17
+  launchType: Multiple
+  name: BE_project_magnetic_shield_name
+  requiredLaunches: 15
+  requiredBuilding: !building building_space_elevator  
+  animatorTriggerCompleted: "FinalLaunch"
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_iron: 100
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+  launchActions: []
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProjectMagneticShield"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectMagneticShield_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_shield_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 4
+        onEnter: []  
+      - key: BE_project_spaceportStages_shield_rocket_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Proxy
+        focusCondition: LastLaunch
+        focusOnExitStage: True
+        cancellable: false
+        monthsDuration: 1
+        onEnter: []  
+
+project_space_elevator:
+  description: BE_project_space_elevator_description
+  criterions: []
+  iconName: KnowledgeBase/ICO_KB_SpaceElevator
+  defaultVisible: true
+  index: 16
+  launchType: Multiple
+  name: BE_project_space_elevator_name
+  requiredLaunches: 12
+  resetOnComplete: true
+  completeActions:
+    - command: AdditionalBuilding
+      arguments:
+        - PlayerFaction
+        - building_space_elevator
+  portProjectType:
+    requiredDevelopmentResources:
+      !resource resource_aluminum: 10
+      !resource resource_parts: 10
+      !resource resource_electronics: 10
+      !resource resource_chemicals: 10
+      !resource resource_carbon: 100
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "SpaceportProjects/SpecialProject"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "SpaceElevatorProjects/SpecialProjectShipOut_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_resources_gather
+        buildingAnimatorTriggerEnter: "Gathering"
+        specialCriteria: ResourcesMet
+        cancellable: true
+        monthsDuration: 0
+        onEnter: []
+      - key: BE_project_spaceportStages_elevator_rocket_build
+        buildingAnimatorTriggerEnter: "Building"
+        buildAnimation: true
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []  
+      - key: BE_project_spaceportStages_elevator_rocket_launch
+        buildingAnimatorTriggerEnter: "TransitLaunch"
+        animatorTriggerEnter: "ShipOut"
+        focusPosition: Port
+        focusCondition: FirstTime
+        focusCondition: LastLaunch
+        focusCameraZoom: 220
+        focusCameraTiltX: 38
+        focusCameraTiltY: -60
+        cancellable: false
+        monthsDuration: 0.035
+        onEnter: []
+
+elevator_colonist_migration:
+  description: BE_project_massive_migration_description
+  criterions: []
+  expirationCriterions:
+    - '$killswitch_carmine == true' ## No Collaboration from Earth in this ending
+  iconName: KnowledgeBase/ICO_KB_MassColonist
+  defaultVisible: true
+  index: 28
+  launchType: Continuous
+  name: BE_project_massive_migration_name
+  requiredBuilding: !building building_space_elevator  
+  animatorTriggerCompleted: "FinalLaunch"
+  portProjectType:
+    requiredDevelopmentResources: {}
+  launchActions: []
+  specialProjectController:
+    !SpecialProjectControllerBase
+    spaceportCardPrefab: "ColonistMigration/MassColonistMigration"
+    spaceportCardPrefabPerBuilding:
+      building_space_elevator: "ColonistMigration/MassColonistMigration_Elevator"
+    specialProjectCardPrefab: card2
+    spaceportStages:
+      - key: BE_project_spaceportStages_on_earth
+        iconName: OnEarth
+        cancellable: true
+        monthsDuration: 5
+        onEnter: []
+      - key: BE_project_spaceportStages_in_transit_Mars
+        iconName: TransitToMars
+        cancellable: false
+        monthsDuration: 7
+        onEnter: []
+      - key: BE_project_spaceportStages_on_Mars
+        iconName: OnMars
+        animatorTriggerEnter: "ShipIn"
+        animatorTriggerExit: "ShipOut"
+        buildingAnimatorTriggerEnter: "Transit"
+        buildingAnimatorTriggerExit: "Transit"
+        cancellable: false
+        focusPosition: Port
+        focusCameraZoom: 150
+        focusCameraTiltY: -30
+        focusCondition: FirstTime
+        monthsDuration: 5
+        onEnter: 
+          - command: IncomingShip
+            arguments:    
+              - PlayerFaction
+              - 2000
+      - key: BE_project_spaceportStages_in_transit_Earth
+        iconName: TransitToEarth
+        cancellable: false
+        monthsDuration: 7
+        onEnter:
+          - command: DepartingShip
+            arguments:    
+              - PlayerFaction
+
+

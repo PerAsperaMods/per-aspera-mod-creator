@@ -1,0 +1,26 @@
+default_settings:
+  timeFrame: 30
+  maxTimeFrame: 1000
+  turnTimeOut: 2000
+  turnKickOutTime: 100000
+  turnOffset: 5
+  turnOffsetCapMin: 5
+  turnDeadFrames: 0
+  statsEvery: 5000
+  syncCheckEvery: 1000
+  fpsSmooth: 0.8
+  pingSmooth: 0.8
+  maxLobbyMembers: 4 #For beta the maximum is 4
+  synchStartTimeOut: 2000
+  synchLoadTimeOut: 20000
+  synchEndTimeOut: 20000
+  synchResumeTimeOut: 60000
+  synchAutosaveTimeOut: 120000
+  fixedTimeStep: 15
+  record: false
+  replay: false
+  routingSliceNodes: 4000
+  timeFrameTTL: 60
+  logLevel: 0
+  logVeins: false
+  useSteamMessagesAPI: false

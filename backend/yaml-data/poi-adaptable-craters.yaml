@@ -1,0 +1,1291 @@
+### NAMELESS CRATERS FOR CRATER DOMES
+poi_crater_02-000007:
+  centerLatitude: 39.133
+  centerLongitude: -135.387
+  diameter: 57.16
+  name: null
+  poiType: Crater
+poi_crater_03-000009:
+  centerLatitude: 54.935
+  centerLongitude: -84.355
+  diameter: 58.78
+  name: null
+  poiType: Crater
+# poi_crater_03-000010:
+  # centerLatitude: 43.237
+  # centerLongitude: -84.214
+  # diameter: 57.99
+  # name: null
+  # poiType: Crater
+# poi_crater_04-000020:
+  centerLatitude: 37.079
+  centerLongitude: -55.477
+  diameter: 58.64
+  name: null
+  poiType: Crater
+poi_crater_04-000021:
+  centerLatitude: 33.651
+  centerLongitude: -11.154
+  diameter: 58.19
+  name: null
+  poiType: Crater
+poi_crater_04-000022:
+  centerLatitude: 35.237
+  centerLongitude: -0.3
+  diameter: 56.26
+  name: null
+  poiType: Crater
+poi_crater_04-000023:
+  centerLatitude: 39.692
+  centerLongitude: -3.048
+  diameter: 55.7
+  name: null
+  poiType: Crater
+# poi_crater_05-000037:
+  # centerLatitude: 31.835
+  # centerLongitude: 15.036
+  # diameter: 59.47
+  # name: null
+  # poiType: Crater
+poi_crater_05-000039:
+  centerLatitude: 35.141
+  centerLongitude: 12.484
+  diameter: 57.19
+  name: null
+  poiType: Crater
+poi_crater_05-000040:
+  centerLatitude: 31.458
+  centerLongitude: 53.934
+  diameter: 56.96
+  name: null
+  poiType: Crater
+poi_crater_05-000042:
+  centerLatitude: 32.6
+  centerLongitude: 25.317
+  diameter: 55.63
+  name: null
+  poiType: Crater
+poi_crater_05-000043:
+  centerLatitude: 39.642
+  centerLongitude: 6.519
+  diameter: 55.51
+  name: null
+  poiType: Crater
+poi_crater_06-000013:
+  centerLatitude: 42.566
+  centerLongitude: 67.276
+  diameter: 55.69
+  name: null
+  poiType: Crater
+poi_crater_08-000005:
+  centerLatitude: 17.932
+  centerLongitude: -169.707
+  diameter: 59.65
+  name: null
+  poiType: Crater
+poi_crater_08-000006:
+  centerLatitude: 15.438
+  centerLongitude: -178.426
+  diameter: 59.5
+  name: null
+  poiType: Crater
+poi_crater_08-000007:
+  centerLatitude: 21.09
+  centerLongitude: -174.027
+  diameter: 59.48
+  name: null
+  poiType: Crater
+poi_crater_10-000018:
+  centerLatitude: 12.556
+  centerLongitude: -54.873
+  diameter: 59.08
+  name: null
+  poiType: Crater
+poi_crater_10-000019:
+  centerLatitude: 10.08
+  centerLongitude: -52.224
+  diameter: 58.64
+  name: null
+  poiType: Crater
+poi_crater_10-000024:
+  centerLatitude: 12.215
+  centerLongitude: -53.62
+  diameter: 55.94
+  name: null
+  poiType: Crater
+poi_crater_11-000054:
+  centerLatitude: 20.765
+  centerLongitude: -18.564
+  diameter: 58.48
+  name: null
+  poiType: Crater
+poi_crater_11-000055:
+  centerLatitude: 26.235
+  centerLongitude: -7.801
+  diameter: 58.34
+  name: null
+  poiType: Crater
+poi_crater_11-000056:
+  centerLatitude: 7.479
+  centerLongitude: -32.984
+  diameter: 57.97
+  name: null
+  poiType: Crater
+poi_crater_11-000057:
+  centerLatitude: 21.051
+  centerLongitude: -17.445
+  diameter: 57.81
+  name: null
+  poiType: Crater
+poi_crater_11-000058:
+  centerLatitude: 23.213
+  centerLongitude: -14.116
+  diameter: 57.74
+  name: null
+  poiType: Crater
+poi_crater_11-000059:
+  centerLatitude: 15.186
+  centerLongitude: -26.734
+  diameter: 57.27
+  name: null
+  poiType: Crater
+poi_crater_11-000063:
+  centerLatitude: 5.903
+  centerLongitude: -4.441
+  diameter: 55.51
+  name: null
+  poiType: Crater
+poi_crater_12-000079:
+  centerLatitude: 29.862
+  centerLongitude: 25.584
+  diameter: 59.96
+  name: null
+  poiType: Crater
+# poi_crater_12-000081:
+  # centerLatitude: 4.765
+  # centerLongitude: 31.559
+  # diameter: 59.64
+  # name: null
+  # poiType: Crater
+poi_crater_12-000082:
+  centerLatitude: 14.885
+  centerLongitude: 31.697
+  diameter: 59.44
+  name: null
+  poiType: Crater
+poi_crater_12-000083:
+  centerLatitude: 21.805
+  centerLongitude: 10.316
+  diameter: 58.53
+  name: null
+  poiType: Crater
+poi_crater_12-000084:
+  centerLatitude: 27.443
+  centerLongitude: 34.81
+  diameter: 58.45
+  name: null
+  poiType: Crater
+poi_crater_12-000085:
+  centerLatitude: 5.605
+  centerLongitude: 8.594
+  diameter: 58.35
+  name: null
+  poiType: Crater
+poi_crater_12-000086:
+  centerLatitude: 23.074
+  centerLongitude: 2.472
+  diameter: 58.23
+  name: null
+  poiType: Crater
+poi_crater_12-000087:
+  centerLatitude: 2.329
+  centerLongitude: 32.364
+  diameter: 58.03
+  name: null
+  poiType: Crater
+poi_crater_12-000088:
+  centerLatitude: 3.786
+  centerLongitude: 1.581
+  diameter: 57.83
+  name: null
+  poiType: Crater
+poi_crater_12-000091:
+  centerLatitude: 15.565
+  centerLongitude: 37.295
+  diameter: 57.37
+  name: null
+  poiType: Crater
+poi_crater_12-000092:
+  centerLatitude: 18.455
+  centerLongitude: 23.248
+  diameter: 56.6
+  name: null
+  poiType: Crater
+poi_crater_12-000093:
+  centerLatitude: 9.424
+  centerLongitude: 42.766
+  diameter: 56.01
+  name: null
+  poiType: Crater
+poi_crater_12-000095:
+  centerLatitude: 9.268
+  centerLongitude: 12.471
+  diameter: 55.1
+  name: null
+  poiType: Crater
+poi_crater_13-000076:
+  centerLatitude: 0.04
+  centerLongitude: 63.321
+  diameter: 59.76
+  name: null
+  poiType: Crater
+poi_crater_13-000077:
+  centerLatitude: 18.576
+  centerLongitude: 51.775
+  diameter: 58.56
+  name: null
+  poiType: Crater
+poi_crater_13-000078:
+  centerLatitude: 24.252
+  centerLongitude: 49.584
+  diameter: 58.23
+  name: null
+  poiType: Crater
+poi_crater_13-000079:
+  centerLatitude: 29.297
+  centerLongitude: 68.549
+  diameter: 58.19
+  name: null
+  poiType: Crater
+poi_crater_13-000080:
+  centerLatitude: 19.654
+  centerLongitude: 54.643
+  diameter: 57.76
+  name: null
+  poiType: Crater
+poi_crater_13-000082:
+  centerLatitude: 23.913
+  centerLongitude: 47.495
+  diameter: 56.96
+  name: null
+  poiType: Crater
+poi_crater_13-000083:
+  centerLatitude: 7.129
+  centerLongitude: 52.709
+  diameter: 56.02
+  name: null
+  poiType: Crater
+poi_crater_13-000085:
+  centerLatitude: 2.453
+  centerLongitude: 84.768
+  diameter: 55.33
+  name: null
+  poiType: Crater
+poi_crater_14-000019:
+  centerLatitude: 0.177
+  centerLongitude: 93.32
+  diameter: 58.86
+  name: null
+  poiType: Crater
+poi_crater_14-000021:
+  centerLatitude: 8.629
+  centerLongitude: 102.609
+  diameter: 57.56
+  name: null
+  poiType: Crater
+poi_crater_14-000022:
+  centerLatitude: 8.217
+  centerLongitude: 119.02
+  diameter: 57.4
+  name: null
+  poiType: Crater
+# poi_crater_14-000024:
+  # centerLatitude: 2.732
+  # centerLongitude: 98.507
+  # diameter: 55.56
+  # name: null
+  # poiType: Crater
+poi_crater_14-000025:
+  centerLatitude: 8.436
+  centerLongitude: 107.79
+  diameter: 55.45
+  name: null
+  poiType: Crater
+poi_crater_14-000026:
+  centerLatitude: 12.104
+  centerLongitude: 105.11
+  diameter: 55.09
+  name: null
+  poiType: Crater
+poi_crater_15-000014:
+  centerLatitude: 3.534
+  centerLongitude: 161.94
+  diameter: 58.55
+  name: null
+  poiType: Crater
+poi_crater_15-000015:
+  centerLatitude: 25.847
+  centerLongitude: 175.595
+  diameter: 56.45
+  name: null
+  poiType: Crater
+poi_crater_16-000063:
+  centerLatitude: -21.078
+  centerLongitude: -176.884
+  diameter: 59.39
+  name: null
+  poiType: Crater
+poi_crater_16-000065:
+  centerLatitude: -23.385
+  centerLongitude: -178.622
+  diameter: 58.7
+  name: null
+  poiType: Crater
+poi_crater_16-000066:
+  centerLatitude: -27.691
+  centerLongitude: -156.95
+  diameter: 58.38
+  name: null
+  poiType: Crater
+poi_crater_16-000068:
+  centerLatitude: -11.372
+  centerLongitude: -176.308
+  diameter: 57.75
+  name: null
+  poiType: Crater
+poi_crater_16-000069:
+  centerLatitude: -26.023
+  centerLongitude: -177.374
+  diameter: 57.48
+  name: null
+  poiType: Crater
+poi_crater_16-000070:
+  centerLatitude: -18.279
+  centerLongitude: -179.905
+  diameter: 56.76
+  name: null
+  poiType: Crater
+poi_crater_16-000072:
+  centerLatitude: -13.983
+  centerLongitude: -154.319
+  diameter: 56.6
+  name: null
+  poiType: Crater
+poi_crater_16-000073:
+  centerLatitude: -29.287
+  centerLongitude: -156.42
+  diameter: 56.29
+  name: null
+  poiType: Crater
+poi_crater_16-000075:
+  centerLatitude: -27.328
+  centerLongitude: -174.446
+  diameter: 55.9
+  name: null
+  poiType: Crater
+poi_crater_16-000076:
+  centerLatitude: -22.735
+  centerLongitude: -163.235
+  diameter: 55.49
+  name: null
+  poiType: Crater
+poi_crater_18-000024:
+  centerLatitude: -21.374
+  centerLongitude: -69.239
+  diameter: 58.94
+  name: null
+  poiType: Crater
+# poi_crater_19-000067:
+  # centerLatitude: -4.334
+  # centerLongitude: -26.762
+  # diameter: 59.77
+  # name: null
+  # poiType: Crater
+poi_crater_19-000068:
+  centerLatitude: -14.009
+  centerLongitude: -16.39
+  diameter: 59.74
+  name: null
+  poiType: Crater
+poi_crater_19-000069:
+  centerLatitude: -6.394
+  centerLongitude: -39.953
+  diameter: 59
+  name: null
+  poiType: Crater
+poi_crater_19-000070:
+  centerLatitude: -28.289
+  centerLongitude: -3.239
+  diameter: 58.69
+  name: null
+  poiType: Crater
+poi_crater_19-000073:
+  centerLatitude: -24.155
+  centerLongitude: -15.776
+  diameter: 57.41
+  name: null
+  poiType: Crater
+poi_crater_19-000074:
+  centerLatitude: -19.212
+  centerLongitude: -22.778
+  diameter: 57.32
+  name: null
+  poiType: Crater
+poi_crater_19-000075:
+  centerLatitude: -25.724
+  centerLongitude: -15.884
+  diameter: 57.3
+  name: null
+  poiType: Crater
+# poi_crater_19-000079:
+  # centerLatitude: -5.615
+  # centerLongitude: -26.845
+  # diameter: 55.36
+  # name: null
+  # poiType: Crater
+poi_crater_20-000083:
+  centerLatitude: -3.219
+  centerLongitude: 30.148
+  diameter: 60
+  name: null
+  poiType: Crater
+poi_crater_20-000084:
+  centerLatitude: -26.997
+  centerLongitude: 8.133
+  diameter: 59.7
+  name: null
+  poiType: Crater
+poi_crater_20-000087:
+  centerLatitude: -0.024
+  centerLongitude: 28.746
+  diameter: 59.05
+  name: null
+  poiType: Crater
+poi_crater_20-000088:
+  centerLatitude: -16.282
+  centerLongitude: 24.8
+  diameter: 58.92
+  name: null
+  poiType: Crater
+poi_crater_20-000089:
+  centerLatitude: -20.497
+  centerLongitude: 44.532
+  diameter: 58.91
+  name: null
+  poiType: Crater
+poi_crater_20-000091:
+  centerLatitude: -27.38
+  centerLongitude: 39.584
+  diameter: 58.2
+  name: null
+  poiType: Crater
+poi_crater_20-000092:
+  centerLatitude: -18.266
+  centerLongitude: 8.748
+  diameter: 57.6
+  name: null
+  poiType: Crater
+# poi_crater_20-000093:
+  # centerLatitude: -3.599
+  # centerLongitude: 24.145
+  # diameter: 57.33
+  # name: null
+  # poiType: Crater
+poi_crater_20-000094:
+  centerLatitude: -9.149
+  centerLongitude: 15.871
+  diameter: 56.88
+  name: null
+  poiType: Crater
+poi_crater_20-000095:
+  centerLatitude: -26.151
+  centerLongitude: 24.872
+  diameter: 56.45
+  name: null
+  poiType: Crater
+poi_crater_20-000097:
+  centerLatitude: -4.842
+  centerLongitude: 2.003
+  diameter: 56.13
+  name: null
+  poiType: Crater
+poi_crater_20-000098:
+  centerLatitude: -3.857
+  centerLongitude: 12.271
+  diameter: 55.99
+  name: null
+  poiType: Crater
+poi_crater_20-000100:
+  centerLatitude: -15.026
+  centerLongitude: 39.93
+  diameter: 55.64
+  name: null
+  poiType: Crater
+poi_crater_20-000101:
+  centerLatitude: -17.349
+  centerLongitude: 10.845
+  diameter: 55.09
+  name: null
+  poiType: Crater
+poi_crater_21-000076:
+  centerLatitude: -6.705
+  centerLongitude: 60.583
+  diameter: 59.93
+  name: null
+  poiType: Crater
+poi_crater_21-000077:
+  centerLatitude: -13.097
+  centerLongitude: 66.749
+  diameter: 59.24
+  name: null
+  poiType: Crater
+poi_crater_21-000078:
+  centerLatitude: -0.917
+  centerLongitude: 76.646
+  diameter: 58.84
+  name: null
+  poiType: Crater
+poi_crater_21-000079:
+  centerLatitude: -24.088
+  centerLongitude: 64.993
+  diameter: 58.41
+  name: null
+  poiType: Crater
+poi_crater_21-000080:
+  centerLatitude: -11.074
+  centerLongitude: 71.383
+  diameter: 58.35
+  name: null
+  poiType: Crater
+poi_crater_21-000081:
+  centerLatitude: -20.261
+  centerLongitude: 59.468
+  diameter: 58.23
+  name: null
+  poiType: Crater
+poi_crater_21-000082:
+  centerLatitude: -27.436
+  centerLongitude: 66.19
+  diameter: 57.76
+  name: null
+  poiType: Crater
+poi_crater_21-000083:
+  centerLatitude: -7.677
+  centerLongitude: 61.421
+  diameter: 56.86
+  name: null
+  poiType: Crater
+poi_crater_21-000084:
+  centerLatitude: -4.992
+  centerLongitude: 63.879
+  diameter: 56.09
+  name: null
+  poiType: Crater
+poi_crater_21-000085:
+  centerLatitude: -4.986
+  centerLongitude: 50.374
+  diameter: 55.97
+  name: null
+  poiType: Crater
+poi_crater_21-000086:
+  centerLatitude: -23.486
+  centerLongitude: 87.082
+  diameter: 55.63
+  name: null
+  poiType: Crater
+poi_crater_21-000087:
+  centerLatitude: -27.597
+  centerLongitude: 61.37
+  diameter: 55.35
+  name: null
+  poiType: Crater
+poi_crater_22-000054:
+  centerLatitude: -19.908
+  centerLongitude: 130.3
+  diameter: 59.68
+  name: null
+  poiType: Crater
+poi_crater_22-000055:
+  centerLatitude: -18.777
+  centerLongitude: 134.833
+  diameter: 59.45
+  name: null
+  poiType: Crater
+# poi_crater_22-000056:
+  # centerLatitude: -18.326
+  # centerLongitude: 130.09
+  # diameter: 59.4
+  # name: null
+  # poiType: Crater
+poi_crater_22-000057:
+  centerLatitude: -15.275
+  centerLongitude: 119.181
+  diameter: 58.94
+  name: null
+  poiType: Crater
+poi_crater_22-000058:
+  centerLatitude: -20.504
+  centerLongitude: 99.993
+  diameter: 58.81
+  name: null
+  poiType: Crater
+poi_crater_22-000059:
+  centerLatitude: -13.735
+  centerLongitude: 113.468
+  diameter: 58.54
+  name: null
+  poiType: Crater
+poi_crater_22-000061:
+  centerLatitude: -21.319
+  centerLongitude: 131.648
+  diameter: 58.25
+  name: null
+  poiType: Crater
+poi_crater_22-000063:
+  centerLatitude: -23.647
+  centerLongitude: 122.813
+  diameter: 58.09
+  name: null
+  poiType: Crater
+poi_crater_22-000064:
+  centerLatitude: -3.499
+  centerLongitude: 97.996
+  diameter: 57.97
+  name: null
+  poiType: Crater
+poi_crater_22-000066:
+  centerLatitude: -9.476
+  centerLongitude: 98.23
+  diameter: 57.92
+  name: null
+  poiType: Crater
+poi_crater_22-000067:
+  centerLatitude: -4.838
+  centerLongitude: 108.416
+  diameter: 57.73
+  name: null
+  poiType: Crater
+poi_crater_22-000068:
+  centerLatitude: -25.756
+  centerLongitude: 122.349
+  diameter: 57.43
+  name: null
+  poiType: Crater
+poi_crater_22-000069:
+  centerLatitude: -15.619
+  centerLongitude: 97.603
+  diameter: 56.35
+  name: null
+  poiType: Crater
+poi_crater_22-000072:
+  centerLatitude: -17.595
+  centerLongitude: 118.099
+  diameter: 55.97
+  name: null
+  poiType: Crater
+poi_crater_22-000073:
+  centerLatitude: -6.656
+  centerLongitude: 93.868
+  diameter: 55.78
+  name: null
+  poiType: Crater
+poi_crater_22-000074:
+  centerLatitude: -27.034
+  centerLongitude: 133.018
+  diameter: 55.25
+  name: null
+  poiType: Crater
+poi_crater_22-000075:
+  centerLatitude: -24.512
+  centerLongitude: 122.02
+  diameter: 55.22
+  name: null
+  poiType: Crater
+poi_crater_23-000066:
+  centerLatitude: -16.78
+  centerLongitude: 158.997
+  diameter: 59.78
+  name: null
+  poiType: Crater
+poi_crater_23-000067:
+  centerLatitude: -10.29
+  centerLongitude: 146.067
+  diameter: 59.65
+  name: null
+  poiType: Crater
+poi_crater_23-000069:
+  centerLatitude: -23.731
+  centerLongitude: 140.881
+  diameter: 58.31
+  name: null
+  poiType: Crater
+poi_crater_23-000070:
+  centerLatitude: -18.197
+  centerLongitude: 141.455
+  diameter: 58.03
+  name: null
+  poiType: Crater
+poi_crater_23-000072:
+  centerLatitude: -10.818
+  centerLongitude: 136.403
+  diameter: 57.1
+  name: null
+  poiType: Crater
+poi_crater_23-000074:
+  centerLatitude: -7.635
+  centerLongitude: 137.621
+  diameter: 56.38
+  name: null
+  poiType: Crater
+poi_crater_23-000075:
+  centerLatitude: -12.944
+  centerLongitude: 178.218
+  diameter: 55.92
+  name: null
+  poiType: Crater
+poi_crater_23-000076:
+  centerLatitude: -16.94
+  centerLongitude: 155.615
+  diameter: 55.51
+  name: null
+  poiType: Crater
+poi_crater_23-000077:
+  centerLatitude: -16.178
+  centerLongitude: 165.28
+  diameter: 55.37
+  name: null
+  poiType: Crater
+poi_crater_23-000078:
+  centerLatitude: -15.564
+  centerLongitude: 168.092
+  diameter: 55.15
+  name: null
+  poiType: Crater
+poi_crater_24-000101:
+  centerLatitude: -43.234
+  centerLongitude: -171.416
+  diameter: 59.99
+  name: null
+  poiType: Crater
+poi_crater_24-000102:
+  centerLatitude: -57.091
+  centerLongitude: -173.544
+  diameter: 59.89
+  name: null
+  poiType: Crater
+poi_crater_24-000106:
+  centerLatitude: -50.338
+  centerLongitude: -133.05
+  diameter: 58.78
+  name: null
+  poiType: Crater
+poi_crater_24-000107:
+  centerLatitude: -37.317
+  centerLongitude: -129.313
+  diameter: 58.62
+  name: null
+  poiType: Crater
+poi_crater_24-000108:
+  centerLatitude: -62.797
+  centerLongitude: -164.03
+  diameter: 58.59
+  name: null
+  poiType: Crater
+poi_crater_24-000109:
+  centerLatitude: -38.026
+  centerLongitude: -159.159
+  diameter: 58.34
+  name: null
+  poiType: Crater
+# poi_crater_24-000110:
+  # centerLatitude: -49.641
+  # centerLongitude: -133.291
+  # diameter: 58.33
+  # name: null
+  # poiType: Crater
+poi_crater_24-000112:
+  centerLatitude: -30.313
+  centerLongitude: -174.311
+  diameter: 57.91
+  name: null
+  poiType: Crater
+poi_crater_24-000113:
+  centerLatitude: -50.54
+  centerLongitude: -174.757
+  diameter: 57.89
+  name: null
+  poiType: Crater
+poi_crater_24-000114:
+  centerLatitude: -39.303
+  centerLongitude: -135.115
+  diameter: 57.5
+  name: null
+  poiType: Crater
+poi_crater_24-000117:
+  centerLatitude: -51.713
+  centerLongitude: -167.412
+  diameter: 56.65
+  name: null
+  poiType: Crater
+poi_crater_24-000119:
+  centerLatitude: -54.772
+  centerLongitude: -146.756
+  diameter: 55.65
+  name: null
+  poiType: Crater
+poi_crater_24-000120:
+  centerLatitude: -63.108
+  centerLongitude: -155.82
+  diameter: 55.51
+  name: null
+  poiType: Crater
+poi_crater_24-000121:
+  centerLatitude: -36.27
+  centerLongitude: -134.608
+  diameter: 55.26
+  name: null
+  poiType: Crater
+poi_crater_25-000073:
+  centerLatitude: -42.166
+  centerLongitude: -76.424
+  diameter: 59.69
+  name: null
+  poiType: Crater
+poi_crater_25-000074:
+  centerLatitude: -56.5
+  centerLongitude: -69.548
+  diameter: 59.27
+  name: null
+  poiType: Crater
+poi_crater_25-000077:
+  centerLatitude: -56.258
+  centerLongitude: -63.188
+  diameter: 57.18
+  name: null
+  poiType: Crater
+poi_crater_25-000078:
+  centerLatitude: -46.828
+  centerLongitude: -98.266
+  diameter: 56.6
+  name: null
+  poiType: Crater
+poi_crater_25-000079:
+  centerLatitude: -40.219
+  centerLongitude: -67.461
+  diameter: 56.47
+  name: null
+  poiType: Crater
+poi_crater_25-000081:
+  centerLatitude: -41.373
+  centerLongitude: -62.437
+  diameter: 56.01
+  name: null
+  poiType: Crater
+poi_crater_25-000082:
+  centerLatitude: -33.097
+  centerLongitude: -89.392
+  diameter: 55.82
+  name: null
+  poiType: Crater
+poi_crater_26-000052:
+  centerLatitude: -59.827
+  centerLongitude: -56.373
+  diameter: 59.98
+  name: null
+  poiType: Crater
+poi_crater_26-000053:
+  centerLatitude: -57.225
+  centerLongitude: -0.672
+  diameter: 59.85
+  name: null
+  poiType: Crater
+poi_crater_26-000054:
+  centerLatitude: -32.789
+  centerLongitude: -26.712
+  diameter: 58.86
+  name: null
+  poiType: Crater
+poi_crater_26-000055:
+  centerLatitude: -37.145
+  centerLongitude: -46.497
+  diameter: 58.63
+  name: null
+  poiType: Crater
+poi_crater_26-000057:
+  centerLatitude: -38.499
+  centerLongitude: -0.38
+  diameter: 57.99
+  name: null
+  poiType: Crater
+poi_crater_26-000058:
+  centerLatitude: -56.141
+  centerLongitude: -4.97
+  diameter: 57.69
+  name: null
+  poiType: Crater
+poi_crater_26-000059:
+  centerLatitude: -32.524
+  centerLongitude: -30.962
+  diameter: 57.54
+  name: null
+  poiType: Crater
+poi_crater_26-000060:
+  centerLatitude: -37.12
+  centerLongitude: -50.592
+  diameter: 57.18
+  name: null
+  poiType: Crater
+poi_crater_26-000061:
+  centerLatitude: -30.844
+  centerLongitude: -19.446
+  diameter: 56.82
+  name: null
+  poiType: Crater
+poi_crater_26-000063:
+  centerLatitude: -31.851
+  centerLongitude: -42.005
+  diameter: 56.14
+  name: null
+  poiType: Crater
+poi_crater_26-000064:
+  centerLatitude: -45.983
+  centerLongitude: -4.491
+  diameter: 55.89
+  name: null
+  poiType: Crater
+poi_crater_26-000065:
+  centerLatitude: -61.755
+  centerLongitude: -17.476
+  diameter: 55.83
+  name: null
+  poiType: Crater
+poi_crater_26-000066:
+  centerLatitude: -58.801
+  centerLongitude: -54.781
+  diameter: 55.38
+  name: null
+  poiType: Crater
+poi_crater_26-000067:
+  centerLatitude: -45.635
+  centerLongitude: -53.679
+  diameter: 55.35
+  name: null
+  poiType: Crater
+poi_crater_26-000068:
+  centerLatitude: -59.812
+  centerLongitude: -8.058
+  diameter: 55.12
+  name: null
+  poiType: Crater
+poi_crater_27-000093:
+  centerLatitude: -47.895
+  centerLongitude: 59.226
+  diameter: 59.92
+  name: null
+  poiType: Crater
+# poi_crater_27-000094:
+  # centerLatitude: -54.841
+  # centerLongitude: 23.085
+  # diameter: 59.68
+  # name: null
+  # poiType: Crater
+poi_crater_27-000095:
+  centerLatitude: -49.964
+  centerLongitude: 45.287
+  diameter: 59.62
+  name: null
+  poiType: Crater
+poi_crater_27-000096:
+  centerLatitude: -52.138
+  centerLongitude: 28.206
+  diameter: 59.58
+  name: null
+  poiType: Crater
+poi_crater_27-000097:
+  centerLatitude: -36.407
+  centerLongitude: 16.466
+  diameter: 59.5
+  name: null
+  poiType: Crater
+poi_crater_27-000098:
+  centerLatitude: -52.001
+  centerLongitude: 3.658
+  diameter: 59.46
+  name: null
+  poiType: Crater
+poi_crater_27-000099:
+  centerLatitude: -39.862
+  centerLongitude: 39.802
+  diameter: 58.92
+  name: null
+  poiType: Crater
+poi_crater_27-000101:
+  centerLatitude: -35.758
+  centerLongitude: 48.588
+  diameter: 58.14
+  name: null
+  poiType: Crater
+poi_crater_27-000106:
+  centerLatitude: -51.924
+  centerLongitude: 24.82
+  diameter: 56.74
+  name: null
+  poiType: Crater
+poi_crater_27-000107:
+  centerLatitude: -43.253
+  centerLongitude: 30.3
+  diameter: 56.66
+  name: null
+  poiType: Crater
+poi_crater_27-000108:
+  centerLatitude: -33.495
+  centerLongitude: 43.87
+  diameter: 56.65
+  name: null
+  poiType: Crater
+poi_crater_27-000109:
+  centerLatitude: -31.959
+  centerLongitude: 28.304
+  diameter: 56.62
+  name: null
+  poiType: Crater
+poi_crater_27-000110:
+  centerLatitude: -51.411
+  centerLongitude: 40.786
+  diameter: 56.12
+  name: null
+  poiType: Crater
+poi_crater_27-000111:
+  centerLatitude: -41.505
+  centerLongitude: 11.845
+  diameter: 56.05
+  name: null
+  poiType: Crater
+poi_crater_27-000112:
+  centerLatitude: -34.215
+  centerLongitude: 18.235
+  diameter: 55.82
+  name: null
+  poiType: Crater
+poi_crater_27-000113:
+  centerLatitude: -47.76
+  centerLongitude: 10.199
+  diameter: 55.37
+  name: null
+  poiType: Crater
+poi_crater_27-000114:
+  centerLatitude: -58.6
+  centerLongitude: 9.055
+  diameter: 55.13
+  name: null
+  poiType: Crater
+poi_crater_28-000042:
+  centerLatitude: -40.635
+  centerLongitude: 100.243
+  diameter: 59.76
+  name: null
+  poiType: Crater
+poi_crater_28-000043:
+  centerLatitude: -53.809
+  centerLongitude: 85.487
+  diameter: 58.9
+  name: null
+  poiType: Crater
+poi_crater_28-000045:
+  centerLatitude: -38.989
+  centerLongitude: 104.396
+  diameter: 58.37
+  name: null
+  poiType: Crater
+poi_crater_28-000046:
+  centerLatitude: -58.707
+  centerLongitude: 79.835
+  diameter: 57.65
+  name: null
+  poiType: Crater
+poi_crater_28-000047:
+  centerLatitude: -36.552
+  centerLongitude: 99.976
+  diameter: 56.94
+  name: null
+  poiType: Crater
+poi_crater_28-000048:
+  centerLatitude: -37.867
+  centerLongitude: 108.958
+  diameter: 56.77
+  name: null
+  poiType: Crater
+poi_crater_28-000050:
+  centerLatitude: -55.893
+  centerLongitude: 95.266
+  diameter: 56.48
+  name: null
+  poiType: Crater
+poi_crater_28-000053:
+  centerLatitude: -59.38
+  centerLongitude: 113.855
+  diameter: 55.92
+  name: null
+  poiType: Crater
+poi_crater_28-000054:
+  centerLatitude: -56.462
+  centerLongitude: 78.781
+  diameter: 55.74
+  name: null
+  poiType: Crater
+poi_crater_28-000055:
+  centerLatitude: -63.716
+  centerLongitude: 119.212
+  diameter: 55.04
+  name: null
+  poiType: Crater
+poi_crater_29-000070:
+  centerLatitude: -30.018
+  centerLongitude: 138.437
+  diameter: 59.58
+  name: null
+  poiType: Crater
+poi_crater_29-000071:
+  centerLatitude: -49.842
+  centerLongitude: 140.185
+  diameter: 59.52
+  name: null
+  poiType: Crater
+poi_crater_29-000073:
+  centerLatitude: -30.767
+  centerLongitude: 158.616
+  diameter: 57.29
+  name: null
+  poiType: Crater
+poi_crater_29-000074:
+  centerLatitude: -35.911
+  centerLongitude: 143.054
+  diameter: 57.06
+  name: null
+  poiType: Crater
+poi_crater_29-000075:
+  centerLatitude: -56.314
+  centerLongitude: 157.499
+  diameter: 56.87
+  name: null
+  poiType: Crater
+poi_crater_29-000076:
+  centerLatitude: -34.421
+  centerLongitude: 176.669
+  diameter: 56.85
+  name: null
+  poiType: Crater
+poi_crater_29-000078:
+  centerLatitude: -36.198
+  centerLongitude: 149.392
+  diameter: 56.52
+  name: null
+  poiType: Crater
+poi_crater_29-000080:
+  centerLatitude: -43.908
+  centerLongitude: 122.81
+  diameter: 56.17
+  name: null
+  poiType: Crater
+poi_crater_29-000081:
+  centerLatitude: -42.867
+  centerLongitude: 172.409
+  diameter: 55.32
+  name: null
+  poiType: Crater
+poi_crater_29-000082:
+  centerLatitude: -50.124
+  centerLongitude: 128.99
+  diameter: 55.25
+  name: null
+  poiType: Crater
+poi_crater_29-000084:
+  centerLatitude: -61.383
+  centerLongitude: 170.333
+  diameter: 55.14
+  name: null
+  poiType: Crater
+# poi_crater_30-000085:
+  # centerLatitude: -73.096
+  # centerLongitude: -177.935
+  # diameter: 59.75
+  # name: null
+  # poiType: Crater
+poi_crater_30-000086:
+  centerLatitude: -68.844
+  centerLongitude: -149.539
+  diameter: 59.55
+  name: null
+  poiType: Crater
+# poi_crater_30-000089:
+  # centerLatitude: -68.038
+  # centerLongitude: 97.76
+  # diameter: 59.09
+  # name: null
+  # poiType: Crater
+poi_crater_30-000091:
+  centerLatitude: -75.488
+  centerLongitude: 46.765
+  diameter: 58.73
+  name: null
+  poiType: Crater
+poi_crater_30-000092:
+  centerLatitude: -67.348
+  centerLongitude: 106.603
+  diameter: 58.65
+  name: null
+  poiType: Crater
+poi_crater_30-000093:
+  centerLatitude: -75.35
+  centerLongitude: 83.982
+  diameter: 58.51
+  name: null
+  poiType: Crater
+poi_crater_30-000096:
+  centerLatitude: -68.536
+  centerLongitude: -14.024
+  diameter: 58
+  name: null
+  poiType: Crater
+poi_crater_30-000098:
+  centerLatitude: -73.841
+  centerLongitude: -130.412
+  diameter: 57.62
+  name: null
+  poiType: Crater
+poi_crater_30-000101:
+  centerLatitude: -68.626
+  centerLongitude: 91.102
+  diameter: 57.11
+  name: null
+  poiType: Crater
+poi_crater_30-000103:
+  centerLatitude: -74.543
+  centerLongitude: -165.662
+  diameter: 56.36
+  name: null
+  poiType: Crater
+poi_crater_30-000104:
+  centerLatitude: -71.659
+  centerLongitude: 89.974
+  diameter: 56.24
+  name: null
+  poiType: Crater
+poi_crater_30-000107:
+  centerLatitude: -75.477
+  centerLongitude: 114.043
+  diameter: 55.71
+  name: null
+  poiType: Crater
+poi_crater_30-000108:
+  centerLatitude: -73.787
+  centerLongitude: 104.346
+  diameter: 55.69
+  name: null
+  poiType: Crater
+poi_crater_30-000110:
+  centerLatitude: -68.13
+  centerLongitude: -23.337
+  diameter: 55.14
+  name: null
+  poiType: Crater

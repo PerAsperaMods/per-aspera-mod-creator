@@ -1,0 +1,106 @@
+modId: Core
+generalSetup: GeneralSetup.yaml
+initialSetup: InitialSetup.yaml
+droneSetup: DroneSetup.yaml
+scatterSetup: ScatterSetup.yaml
+frontendSetup: FrontendSetup.yaml
+planetSetup: PlanetSetup.yaml
+combatSetup: CombatSetup.yaml
+waySetup: WaySetup.yaml
+maintenanceSetup: MaintenanceSetup.yaml
+knowledge:
+  filenames:
+    - knowledge.yaml
+  replace: true
+resource:
+  filenames:
+    - resource.yaml
+  replace: true
+poi:
+  filenames:
+    - poi.yaml
+    - poi-adaptable-craters.yaml
+  replace: true
+building:
+  filenames:
+    - building.yaml
+    - building-greenmars.yaml
+  replace: false
+buildingCategory:
+  filenames:
+    - buildingCategory.yaml
+  replace: true
+terraformingPlanCategory:
+  filenames:
+    - terraformingPlanCategory.yaml
+  replace: true
+way:
+  filenames:
+    - way.yaml
+  replace: true
+technology:
+  filenames:
+    - technology-engineering.yaml
+    - technology-space.yaml
+    - technology-biology.yaml
+  replace: false
+site:
+  filenames:
+    - site.yaml
+  replace: true
+project:
+  filenames:
+    - project.yaml
+  replace: true
+quest:
+  filenames:
+    - quest.yaml
+  replace: true
+rule:
+  filenames:
+    - rule-patch.yaml
+  replace: true
+randomEvent:
+  filenames:
+    - random-event.yaml
+  replace: true
+hazardAsteroid:
+  filenames:
+    - hazard-asteroid.yaml
+  replace: true
+hazardDevil:
+  filenames:
+    - hazard-devil.yaml
+  replace: true
+hazardSandstorm:
+  filenames:
+    - hazard-sandstorm.yaml
+  replace: true
+enhancements:
+  filenames:
+    - enhancements.yaml
+  replace: true
+tooltip:
+  filenames:
+    - tooltip.yaml
+popup:
+  filenames:
+    - popup.yaml
+terraformingGraphSettings:
+  filenames:
+    - terraformingGraphSetting.yaml
+terraformingProjectSettings:
+  filenames:
+    - terraformingProjectSetting.yaml
+river:
+  filenames: 
+    - river.yaml
+  replace: true    
+drone:
+  filenames:
+    - drone.yaml
+#lake:
+#  filenames: 
+#    - lake.yaml
+#  replace: true    
+...

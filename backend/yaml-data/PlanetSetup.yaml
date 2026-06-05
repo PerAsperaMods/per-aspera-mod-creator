@@ -1,0 +1,192 @@
+### Physical Constants
+co2FreezingTemperature:                 204       # Kelvins (-69 Celsius)
+waterFreezingTemperature:               273.15    # Kelvins (0 Celsius)
+conversionCO2ToO2:                      0.727273  # 16/22 = CO2 (6 + 8 + 8) -> O2 (8 + 8)
+
+### Mars Physical Constants
+axialTilt:                              25.19   # Degrees
+blackBodyTemperature:                   212.5   # Kelvins (213.5 - 2 amplitude / 2)
+blackBodyTemperatureAdditional:         2.0     # Kelvins (oscillating)
+initialMinTemperature:                  127     # Kelvins
+initialAverageTemperature:              213.5   # Kelvins
+initialMaxTemperature:                  293     # Kelvins
+albedo:                                 0.25    # Percent
+daysPerYear:                            668
+daysPerMonth:                           28
+monthsPerYear:                          24
+
+### Mars Inventories
+initialO2Pressure:                      0.009   # Millibars
+initialN2Pressure:                      0.189   # Millibars
+initialCO2Pressure:                     6.67    # Millibars
+initialArgonPressure:                   0.112   # Millibars
+initialH2OPressure:                     0.0     # Millibars
+initialGHGPressure:                     0.0     # Millibars
+initialCO2FrozenDeposits:               50.0    # Millibars
+initialCO2RegolithDeposits:             400.0   # Millibars
+initialWaterPermafrostDeposits:         150.0   # In equivalent meters
+maxRegolithAbsorption:                  400.0   # Regolith can absorb up to 400 mb of co2
+maxWaterPermafrostDeposits:             500.0   # In equivalent meters
+
+### Mars Inventories - Daily Delta Factors (Easing Speed), in percent
+permafrostWaterDailyDeltaFactor:        0.003
+frozenCO2DailyDeltaFactor:              0.01
+blackBodyTemperatureDailyDeltaFactor:   0.1
+co2TemperatureDailyDeltaFactor:         0.1
+o3TemperatureDailyDeltaFactor:          0.1
+ghgTemperatureDailyDeltaFactor:         0.1
+spaceMirrorTemperatureDailyDeltaFactor: 0.1
+cometTemperatureDailyDeltaFactor:       0.1
+deimosTemperatureDailyDeltaFactor:      0.1
+waterStockDailyDeltaFactorPositive:     0.003
+waterStockDailyDeltaFactorNegative:     0.0003
+co2RegolithDailyDeltaFactor:            0.001
+
+### Halflives
+ghgHalfLifeInYears:                     20
+polarDustHalfLifeInYears:               2
+polarNukeHalfLifeInYears:               1
+cometAdditionalTemperatureHalfLifeInYears: 5
+deimosAdditionalTemperatureHalfLifeInYears: 10
+excessAtmosphereHalfLifeInYears:        1    #Decay half life for atmosphere in excess of humanMaximumPressure
+
+### Formulas: Increase = Factor * Sqrt( Pressure * Modifier )
+ghgTemperatureIncreaseFactor:           2000    # Kelvins
+ghgTemperatureIncreasePressureModifier: 0.001
+co2TemperatureIncreaseFactor:           40      # Kelvins
+co2TemperatureIncreasePressureModifier: 0.001
+o3TemperatureIncreaseFactor:            200     # Kelvins
+o3TemperatureIncreasePressureModifier:  0.0001
+
+### Formulas: Equation (5) from "Technological Requirements for Terraforming Mars", Zubrin, McKay. co2IceCapPressureTarget = co2IceCapPressureSystemFactor * Mathf.Exp(co2IceCapPressureSystemInverseTemperatureMultiplier / Tpole)
+co2IceCapPressureSystemFactor:          12300000000         # 1.23E7 * 1000
+co2IceCapPressureSystemInverseTemperatureMultiplier: -3080  # 3080 works better than 3168
+
+### Formulas: Regolith System Pressure = Mathf.Min( co2Pressure + co2RegolithDeposits, Mathf.Pow(regolithSystemDepositsMultiplier * co2RegolithDeposits * Mathf.Exp( averageTemperature * regolithSystemTemperatureMultiplier), regolithSystemDepositsExponent) )
+regolithSystemDepositsMultiplier:       0.0000008455 # 8.455E-7
+regolithSystemTemperatureMultiplier:    0.04    # 1/25
+regolithSystemDepositsExponent:         3.6363  # 1/0.275
+
+### Formulas: Pole Temperature = averageTemperature - poleTemperatureMainFactor / (poleTemperatureCO2PressureAdditionalTerm + poleTemperatureCO2PressureMultiplier * co2Pressure );
+poleTemperatureMainFactor:              75
+poleTemperatureCO2PressureMultiplier:   0.005   # 5 / 1000
+poleTemperatureCO2PressureAdditionalTerm: 1
+
+### Formulas: Dynamic water level
+iceToWaterConversionRatio:              0.001   # 1 / 1000
+dailyIceMeltTemperature:                373.15  # Kelvins (100 Celcius). On average, the amount of ice melted per day from each vein is (current vein temperature - waterFreezingTemperature) / (dailyIceMeltTemperature - waterFreezingTemperature)
+
+### Min and Max Temperatures
+baseTemperature:                        215
+maxTemperatureFactor:                   35         # Added to temperature at thermal equator
+maxTemperatureSinPhiFactor:             -12.5      # maxTemperatureSinPhiSquaredFactor + maxTemperatureSinPhiFactor subtracted from thermal equilibrium in southern summer, maxTemperatureSinPhiSquaredFactor - maxTemperatureSinPhiFactor added to thermal equilibrium in southern winter.
+maxTemperatureSinPhiSquaredFactor:      -2.5
+minTemperatureFactor:                   -65        # Added to temperature 90 degrees from thermal equator
+temperatureAltitudeFactor:              2          # Temperature - according to data it's 1.5 on current Mars, 2.5 if Mars had 1bar atmosphere
+temperatureVarianceExponent:            4.6        # Temperature variance = 2 / (1 + (current temperature / baseTemperature) ^ temperatureVarianceExponent). Multiplies to maxTemperatureFactor, maxTemperatureSinPhiFactor, maxTemperatureSinPhiSquaredFactor, minTemperatureFactor
+
+### Power  Efficiency 
+solarPowerFactor:                       0.75
+eolicPowerFactor:                       0.00833 # 1 / 120
+
+### Winds - Limits of the four Hadley cells - in degrees
+abHadleyCellLimitMainTerm:              45
+abHadleyCellLimitSinPhiTerm:            30
+abHadleyCellLimitSinPhiSquaredTerm:     15
+bcHadleyCellLimitMainTerm:              0
+bcHadleyCellLimitSinPhiTerm:            90
+bcHadleyCellLimitSinPhiSquaredTerm:     0
+cdHadleyCellLimitMainTerm:              -45
+cdHadleyCellLimitSinPhiTerm:            30
+cdHadleyCellLimitSinPhiSquaredTerm:     -15
+
+### Humidity Transportation
+humidityNeighbourWeight:                0.025
+humidityOwnWeight:                      0.934
+
+### Life parameters
+humanMinimumPressure:                   300     # Millibars
+humanMaximumPressure:                   2000    # Millibars
+advancedPlantOxygenPressureGoal:        1       # Millibars
+humanMinimumOxygenPressure:             130     # Millibars
+humanMaximumOxygenPressure:             500     # Millibars
+humanCO2Toxicity:                       0.05    # Percent
+
+### Hypsograghic table for water level
+!replace waterLevelTable_stock: [0, 0.12, 0.27, 0.5, 0.79, 1.21, 1.77, 2.43, 3.16, 3.97, 4.84, 5.75, 6.78, 7.84, 8.96, 10.13, 11.32, 12.57, 13.84, 15.14, 16.47, 18.06, 20.02, 22.83, 25.81, 29.80, 34.69, 40.66, 48.00, 55.58, 64.58, 75.19, 87.47, 99.99, 114.16, 130.65, 149.26, 169.52, 190.22, 212.18, 235.25, 259.30, 283.57, 308.87, 335.15, 362.27, 390.29, 418.65, 447.79, 478.08, 509.13, 540.42, 572.44, 605.33, 639.04, 673.57, 708.46, 744.17, 780.94, 818.56, 856.59, 895.43, 934.79, 974.81, 1015.68, 1056.91, 1098.85, 1141.44, 1184.77, 1228.49, 1272.86, 1318.24, 1364.33, 1411.13, 1458.25, 1506.16, 1554.83, 1604.21, 1653.84, 1704.05, 1755.07 ]
+!replace waterLevelTable_level: [ -8.2, -8, -7.9, -7.8, -7.7, -7.6, -7.5, -7.4, -7.3, -7.2, -7.1, -7, -6.9, -6.8, -6.7, -6.6, -6.5, -6.3, -6.2, -6.1, -6, -5.9, -5.8, -5.7, -5.6, -5.5, -5.4, -5.3, -5.2, -5.1, -5, -4.9, -4.8, -4.7, -4.6, -4.5, -4.4, -4.3, -4.2, -4.1, -4, -3.9, -3.8, -3.7, -3.6, -3.5, -3.4, -3.3, -3.2, -3.1, -3, -2.9, -2.8, -2.7, -2.6, -2.5, -2.4, -2.3, -2.2, -2.1, -2, -1.9, -1.8, -1.7, -1.6, -1.5, -1.4, -1.3, -1.2, -1.1, -1, -0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0 ]
+!replace waterLevelTable_area: [0, 0.0012, 0.0015, 0.0023, 0.0029, 0.0042, 0.0056, 0.0066, 0.0073, 0.0081, 0.0087, 0.0091, 0.0103, 0.0106, 0.0112, 0.0117, 0.0119, 0.0125, 0.0127, 0.013, 0.0133, 0.0159, 0.0196, 0.0281, 0.0298, 0.0399, 0.0489, 0.0597, 0.0734, 0.0758, 0.09, 0.1061, 0.1228, 0.1252, 0.1417, 0.1649, 0.1861, 0.2026, 0.207, 0.2196, 0.2307, 0.2405, 0.2427, 0.253, 0.2628, 0.2712, 0.2802, 0.2836, 0.2914, 0.3029, 0.3105, 0.3129, 0.3202, 0.3289, 0.3371, 0.3453, 0.3489, 0.3571, 0.3677, 0.3762, 0.3803, 0.3884, 0.3936, 0.4002, 0.4087, 0.4123, 0.4194, 0.4259, 0.4333, 0.4372, 0.4437, 0.4538, 0.4609, 0.468, 0.4712, 0.4791, 0.4867, 0.4938, 0.4963, 0.5021, 0.5102 ]
+
+### Solar Longitude Table
+!replace solarLongitudeTable_sol: [ 0, 61.2, 126.6, 193.3, 257.8, 317.5, 371.9, 421.6, 468.5, 514.6, 562, 612.9, 668.6 ]
+!replace solarLongitudeTable_lng: [ 0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360 ]
+
+### Gameplay Params 
+radiationFiresPerYear:                  0.01
+minOxygenForCombustion:                 1.0     # Millibars
+waterDmgPerDay:                         0.5
+flammabilityFiresPerYear:               1.0
+flammabilityLowOxygenRatio:             0.3     # 30%
+flammabilityHighOxygenRatio:            0.6     # 60%
+spaceMirrorTotalTemperatureIncrease:    10      # Kelvins/Celsius
+rivalExclusionRadius:                   400     # Km
+polarExclusionRadius:                   800     # Km
+maxSlopeForEvenSurface :                0.05    # In grades
+equatorialStripDistance:                300     # Km
+maxResourceVeinAmount:                  3000
+
+### Farm Parameters
+farmMinHumidity:                        0.16
+farmMaxMetal:                           0.16
+farmMaxCliff:                           0.7
+
+## Plants, lichen and cyanobacteria Params
+lichenO2PressureLowEdge:                0       # Millibars
+lichenO2PressureHighEdge:               1       # Millibars
+lichenCO2PressureLowEdge:               0       # Millibars
+lichenCO2PressureHighEdge:              1       # Millibars
+lichenKillTemperatureLowEdge:           230.0   # Kelvins (-43 C)
+lichenKillTemperatureHighEdge:          240.0   # Kelvins (-33 C)
+lichenGrowthTemperatureLowEdge:         263.15  # Kelvins (-10 C)
+lichenGrowthTemperatureHighEdge:        273.15  # Kelvins (0 C)
+lichenHumidityLowEdge:                  0       # Percent
+lichenHumidityHighEdge:                 0.333   # Percent
+lichenUpperKillTemperatureLowEdge:      318.15  # Kelvins (45 C)
+lichenUpperKillTemperatureHighEdge:     328.15  # Kelvins (55 C)
+lichenUpperGrowthTemperatureLowEdge:    308.15  # Kelvins (35 C)
+lichenUpperGrowthTemperatureHighEdge:   318.15  # Kelvins (45 C)
+
+plantsO2PressureLowEdge:                0       # Millibars
+plantsO2PressureHighEdge:               60      # Millibars
+plantsCO2PressureLowEdge:               0       # Millibars
+plantsCO2PressureHighEdge:              5       # Millibars
+plantsKillTemperatureLowEdge:           240.0   # Kelvins (-33 C)
+plantsKillTemperatureHighEdge:          250.0   # Kelvins (-23 C)
+plantsGrowthTemperatureLowEdge:         273.15  # Kelvins (0 C)
+plantsGrowthTemperatureHighEdge:        283.15  # Kelvins (10 C)
+plantsHumidityLowEdge:                  0.333   # Percent
+plantsHumidityHighEdge:                 0.666   # Percent
+plantsUpperKillTemperatureLowEdge:      313.15  # Kelvins (40 C)
+plantsUpperKillTemperatureHighEdge:     323.15  # Kelvins (50 C)
+plantsUpperGrowthTemperatureLowEdge:    303.15  # Kelvins (30 C)
+plantsUpperGrowthTemperatureHighEdge:   313.15  # Kelvins (40 C)
+
+cyanobacteriaO2PressureLowEdge:         0       # Millibars
+cyanobacteriaO2PressureHighEdge:        1       # Millibars
+cyanobacteriaCO2PressureLowEdge:        0       # Millibars
+cyanobacteriaCO2PressureHighEdge:       5       # Millibars
+cyanobacteriaKillTemperatureLowEdge:    230.0   # Kelvins (-43 C)
+cyanobacteriaKillTemperatureHighEdge:   240.0   # Kelvins (-33 C)
+cyanobacteriaGrowthTemperatureLowEdge:  273.15  # Kelvins (0 C)
+cyanobacteriaGrowthTemperatureHighEdge: 283.15  # Kelvins (10 C)
+cyanobacteriaUpperKillTemperatureLowEdge: 318.15     # Kelvins (45 C)
+cyanobacteriaUpperKillTemperatureHighEdge: 328.15    # Kelvins (55 C)
+cyanobacteriaUpperGrowthTemperatureLowEdge: 308.15   # Kelvins (35 C)
+cyanobacteriaUpperGrowthTemperatureHighEdge: 318.15  # Kelvins (45 C)
+
+faunaDailyDeltaFactor:                  0.001   # Relative Per Day
+faunaCO2Toxicity:                       100.0   # Millibars
+
+cyanobacteriaMaxGlobalGenerationPerDay: 250.0   # Millibars
+lichenMaxGlobalGenerationPerDay:        250.0   # Millibars
+plantsMaxGlobalGenerationPerDay:        500.0   # Millibars

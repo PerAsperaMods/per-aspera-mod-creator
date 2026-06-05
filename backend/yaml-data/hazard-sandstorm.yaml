@@ -1,0 +1,100 @@
+hazard_sandstorm_global:
+  size:
+    x: 6000
+    y: 6000
+  damage: 0.05
+  duration: 150
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+hazard_sandstorm_large:
+  size:
+    x: 3000
+    y: 3000
+  damage: 0.075
+  duration: 45
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+hazard_sandstorm_medium:
+  size:
+    x: 2000
+    y: 2000
+  damage: 0.075
+  duration: 30
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+hazard_sandstorm_small:
+  size:
+    x: 1000
+    y: 1000
+  damage: 0.075
+  duration: 15
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+hazard_sandstorm_large_safe:
+  size:
+    x: 3000
+    y: 3000
+  damage: 0.1
+  duration: 45
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+  - longitude: 60.1            # Demo Base Position
+    latitude: 7.5
+    radius: 3000
+hazard_sandstorm_medium_safe:
+  size:
+    x: 2000
+    y: 2000
+  damage: 0.1
+  duration: 30
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+  - longitude: 60.1            # Demo Base Position
+    latitude: 7.5
+    radius: 2000
+hazard_sandstorm_small_safe:
+  size:
+    x: 1000
+    y: 1000
+  damage: 0.1
+  duration: 15
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+  - longitude: 60.1            # Demo Base Position
+    latitude: 7.5
+    radius: 1000

@@ -1,0 +1,13 @@
+defaultWayType: !way way_road
+farmsWayType: !way way_rural
+superWayMaxDistance: 1500
+superWayMinDistance: 150
+hyperloopDepth: 25
+hyperloopSegmentLength: 200
+#Way Generation
+heuristicAdditionalFactor: 1.15
+playerGridResolution: 0.2
+rivalGridResolution: 0.1
+playerTimeQuota: 0.004
+rivalTimeQuota: 0.01
+waterNodesCount: 0

@@ -1,0 +1,106 @@
+invalidPlacementDescriptions:
+  TooFarFromBase:
+    name: TXT_TooFarFromBase_Content
+    iconName: "TooFar_Placement"
+  UnevenTerrain:
+    name: TXT_UnevenTerrain_Content
+    iconName: "IrregularTerrain_Placement"
+  Collision:
+    name: TXT_Collision_Content
+    iconName: "BlocksResource_Placement"
+  NeedsResource:
+    name: TXT_NeedsResource_Content
+    iconName: "NeedsResource_Placement"
+  IncompatibleResource:
+    name: TXT_IncompatibleResource_Content
+    iconName: "NeedsResource_Placement"
+  BlocksResource:
+    name: TXT_BlocksResource_Content
+    iconName: "BlocksResource_Placement"
+  NoSectorPermission:
+    name: TXT_NoSectorPermission_Content
+    iconName: "BlockedSector_Placement"
+  Underwater:
+    name: TXT_Underwater_Content
+    iconName: "UnderWater_Placement" 
+  NoMaintenance:
+    name: TXT_NoMaintenance_Content
+    iconName: "NoMaintenance_Placement"
+  NoPower:
+    name: TXT_NoPower_Content
+    iconName: "NoPower_Placement"
+  HyperloopClose:
+    name: TXT_HyperloopClose_Content
+    iconName: "TooFar_Placement"
+  HyperloopFar:
+    name: TXT_HyperloopFar_Content
+    iconName: "TooFar_Placement"
+  FloodableArea:
+    name: TXT_FloodableArea_Content
+    iconName: "FloodeableArea_Placement"
+  NeedsEquatorialStrip:
+    name: TXT_NeedsEquatorialStrip_Content
+    iconName: "EquatorialStrip_Placement"  
+  NeedsSufficientPressure:
+    name: TXT_NeedsSufficientPressure_Content
+    iconName: "SufficientPressure_Placement" 
+  NeedsBreathableAtmosphere:
+    name: TXT_NeedsBreathableAtmosphere_Content
+    iconName: "BreathableAtmosphere_Placement" 
+  BuildingLimitReached:
+    name: TXT_BuildingLimitReached_Content
+    iconName: "BuildingLimit_Placement"
+  SpaceportLimitReached:
+    name: TXT_SpaceportLimitReached_Content
+    iconName: "SpaceportLimit_Placement"
+  PolarAreaProhibited:
+    name: TXT_PolarAreaProhibited_Content
+    iconName: "BlockedSector_Placement"
+  RivalAreaProhibited:
+    name: TXT_RivalAreaProhibited_Content
+    iconName: "BlockedSector_Placement"
+  NeedsWaterLevel:
+    name: TXT_NeedsWaterLevelReason
+    iconName: "WaterLevel_Placement" 
+  NeedsHigherExtractionLevel:
+    name: TXT_InsufficientExtractionLevel_Content
+    iconName: "NeedsResource_Placement"
+  FarmClose:
+    name: TXT_FarmTooClose_Content
+    iconName: "TooFar_Placement"
+  NotEnoughValidTerrain:
+    name: TXT_NotEnoughValidTerrain_Content
+    iconName: "ICO_Land"
+  NoPipes:
+    name: TXT_NoPipes_Content
+    iconName: "NoPipes_Placement"
+  NeedsOcean:
+    name: TXT_NeedsOceanReason
+    iconName: "NeedsOcean_Placement" 
+  NeedsAquaticPlacement:
+    name: TXT_NeedsAquaticPlacement
+    iconName: "AquaticStructures_Placement" 
+  UnderRiver:
+    name: TXT_UnderRiver
+    iconName: "UnderRiver_Placement" 
+terraformingWidgetsByQuest:
+  !quest quest_terraforming_stage_1:
+    - frozen_co2
+  !quest quest_terraforming_stage_2:
+    - water_stock
+  !quest quest_terraforming_stage_3:
+    - pressure_o2
+    - water_stock
+  !quest quest_terraforming_stage_4:
+    - water_stock
+    - pressure_o2
+    - FloraPlantsShare
+  !quest quest_terraforming_stage_5:
+    - pressure_co2_level
+    - pressure_o2
+    - pressure_o2_level
+    - project_progress.project_magnetic_shield
+    - FloraPlantsShare
+terraformingCompletedWidgets:
+  - water_stock
+  - FloraPlantsShare

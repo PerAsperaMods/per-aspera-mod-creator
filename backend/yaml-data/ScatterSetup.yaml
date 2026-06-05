@@ -1,0 +1,2966 @@
+passesOffsetX: 0
+passesOffsetY: 0
+passes:
+  #### LEVEL 1 RESOURCE PASSES #### 
+  ##### SECTOR PASSES #####
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 210
+    # maxLng: 240
+    # totalAmount: 2
+    # resourceRatio:
+      # - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 210
+    # maxLng: 240
+    # totalAmount: 2
+    # resourceRatio:
+      # - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 210
+    # maxLng: 240
+    # totalAmount: 2
+    # resourceRatio:
+      # - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 210
+    maxLng: 240
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 210
+    # maxLng: 240
+    # totalAmount: 2
+    # resourceRatio:
+      # - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 210
+    maxLng: 240
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 240
+    # maxLng: 270
+    # totalAmount: 2
+    # resourceRatio:
+      # - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 240
+    # maxLng: 270
+    # totalAmount: 2
+    # resourceRatio:
+      # - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 240
+    # maxLng: 270
+    # totalAmount: 2
+    # resourceRatio:
+      # - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 240
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 240
+    # maxLng: 270
+    # totalAmount: 2
+    # resourceRatio:
+      # - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 240
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  ##### DISK PASSES #####
+  - !ScatterPassDisk
+    showInOrbitalView: false
+    randomPosition: true
+    repetition: 12
+    radius: 400
+    focalRadius: 100                   
+    totalAmount: 6
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 8, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 9, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 7, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 7, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 8, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 7, qtyMin: 500, qtyMax: 1500 }   
+  ##### GLOBAL PASS #####
+  - !ScatterPassWhole
+    totalAmount: 228
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 408, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 514, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 302, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 394, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 408, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 306, qtyMin: 500, qtyMax: 1500 }
+  #### LEVEL 2 SECTOR PASSES ####
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 60
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 60
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 120
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 120
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 180
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 180
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 210
+    # maxLng: 240
+    # totalAmount: 1
+    # resourceRatio:
+      # - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 210
+    # maxLng: 240
+    # totalAmount: 1
+    # resourceRatio:
+      # - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 210
+    # maxLng: 240
+    # totalAmount: 1
+    # resourceRatio:
+      # - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 210
+    maxLng: 240
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 210
+    # maxLng: 240
+    # totalAmount: 1
+    # resourceRatio:
+      # - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 210
+    maxLng: 240
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 240
+    # maxLng: 270
+    # totalAmount: 1
+    # resourceRatio:
+      # - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 240
+    # maxLng: 270
+    # totalAmount: 1
+    # resourceRatio:
+      # - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 240
+    # maxLng: 270
+    # totalAmount: 1
+    # resourceRatio:
+      # - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 240
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassSector ### Sector 7
+    # minLat: -30
+    # maxLat: 30
+    # minLng: 240
+    # maxLng: 270
+    # totalAmount: 1
+    # resourceRatio:
+      # - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 240
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 300
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 300
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 360
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 0
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassSector ### Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 1, qtyMin: 2500, qtyMax: 7500 }
+  ##### GLOBAL PASS #####
+  - !ScatterPassWhole
+    totalAmount: 40
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 75, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 112, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 38, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_chemicals,   extractionLevel: 2, weight: 64, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 75, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_water,       extractionLevel: 2, weight: 33, qtyMin: 2500, qtyMax: 7500 }
+#### SPECIAL RESOURCES SECTOR SCATTERING ####
+  - !ScatterPassSector # Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 1
+    minLat: 30
+    maxLat: 75
+    minLng: 30
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 2
+    minLat: 30
+    maxLat: 75
+    minLng: 150
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 3
+    minLat: 30
+    maxLat: 75
+    minLng: 270
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 4
+    minLat: -30
+    maxLat: 30
+    minLng: 30
+    maxLng: 90
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 5
+    minLat: -30
+    maxLat: 30
+    minLng: 90
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 6
+    minLat: -30
+    maxLat: 30
+    minLng: 150
+    maxLng: 210
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 7
+    minLat: -30
+    maxLat: 30
+    minLng: 210
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 8
+    minLat: -30
+    maxLat: 30
+    minLng: 270
+    maxLng: 330
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 9
+    minLat: -30
+    maxLat: 30
+    minLng: 330
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 10
+    minLat: -75
+    maxLat: -30
+    minLng: 30
+    maxLng: 150
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 11
+    minLat: -75
+    maxLat: -30
+    minLng: 150
+    maxLng: 270
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassSector # Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassSector # Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassSector # Sector 12
+    minLat: -75
+    maxLat: -30
+    minLng: 270
+    maxLng: 30
+    totalAmount: 1
+    resourceRatio:
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+  - !ScatterPassWhole
+    totalAmount: 39
+    resourceRatio:
+      - { resource: !resource resource_heat,        extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 , infinite: true}
+      - { resource: !resource resource_nitrate,     extractionLevel: 0, weight: 1, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_uranium,     extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+### CLOSE TO LANDING SITE
+  - !ScatterPassAnnulus # One resource in close range
+    x: 60.1
+    y: 7.5
+    minRadius: 300
+    maxRadius: 600
+    focalRadius: 10
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassAnnulus # One resource in close range
+    x: 60.1
+    y: 7.5
+    minRadius: 300
+    maxRadius: 800
+    focalRadius: 10
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassAnnulus # One resource in close range
+    x: 60.1
+    y: 7.5
+    minRadius: 300
+    maxRadius: 800
+    focalRadius: 10
+    totalAmount: 4
+    resourceRatio:
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassAnnulus # One resource in close range
+    x: 60.1
+    y: 7.5
+    minRadius: 300
+    maxRadius: 600
+    focalRadius: 10
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassAnnulus # Chemicals in close range
+    x: 60.1
+    y: 7.5
+    minRadius: 300
+    maxRadius: 800
+    focalRadius: 10
+    totalAmount: 4
+    resourceRatio:
+      - { resource: !resource resource_chemicals,   extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassAnnulus # Waters in close range
+    x: 60.1
+    y: 7.5
+    minRadius: 300
+    maxRadius: 700
+    focalRadius: 10
+    totalAmount: 2
+    resourceRatio:
+      - { resource: !resource resource_water,       extractionLevel: 1, weight: 1, qtyMin: 500, qtyMax: 1500 }
+### HUOLONG SILO
+  - !ScatterPassDisk # One resource in close range
+    x: 16.8
+    y: -14.5
+    radius: 300
+    focalRadius: 10
+    totalAmount: 3
+    resourceRatio:
+      - { resource: !resource resource_uranium,    extractionLevel: 0, weight: 1, qtyMin: 100, qtyMax: 500 }
+### LOHITANGA
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    x: 125.1
+    y: -0.2
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_iron, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron, extractionLevel: 2, weight: 3, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_iron, extractionLevel: 3, weight: 1, qtyMin: 10000, qtyMax: 25000 }
+  #### VOLCANO DEPOSITS ####
+  - !ScatterPassDisk #Elysium Mons SA5
+    showInOrbitalView: false
+    x: 146.8
+    y: 24.6
+    repetition: 1
+    radius: 600
+    focalRadius: 10                   
+    totalAmount: 12
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 27, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 21, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 9, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 7, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassDisk #Alba Mons SA2
+    showInOrbitalView: false
+    x: -110.0
+    y: 40.2
+    repetition: 1
+    radius: 450
+    focalRadius: 10                   
+    totalAmount: 12
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 27, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 21, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 9, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 7, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassDisk #Olympus Mons SA7
+    showInOrbitalView: false
+    x: -133.0
+    y: 18.0
+    repetition: 1
+    radius: 450
+    focalRadius: 10                   
+    totalAmount: 12
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 27, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 21, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 9, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 7, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassDisk #Sector 7 mountain and plateau group
+    showInOrbitalView: false
+    x: -104.8
+    y: -8.4
+    repetition: 1
+    radius: 1400
+    focalRadius: 10                   
+    totalAmount: 30
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 27, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 21, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 9, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 7, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassDisk #Uranius group SA7aa
+    showInOrbitalView: false
+    x: -95.4
+    y: 25.3
+    repetition: 1
+    radius: 300
+    focalRadius: 10                   
+    totalAmount: 8
+    resourceRatio:
+      - { resource: !resource resource_aluminum,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 1, weight: 27, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron,        extractionLevel: 1, weight: 21, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_aluminum,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_carbon,      extractionLevel: 2, weight: 9, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_iron,        extractionLevel: 2, weight: 7, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_silicon,     extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }  
+  ##### PLANITIA ICE #####
+  - !ScatterPassDisk #Hellas Planitia
+    showInOrbitalView: false
+    x: 67.2
+    y: -41.1
+    repetition: 1
+    radius: 750
+    focalRadius: 10                   
+    totalAmount: 6
+    resourceRatio:
+      - { resource: !resource resource_water,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_chemicals,      extractionLevel: 1, weight: 4, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_water,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassDisk #Isidis Planitia
+    showInOrbitalView: false
+    x: 88.4
+    y: 14
+    repetition: 1
+    radius: 600
+    focalRadius: 10                   
+    totalAmount: 4
+    resourceRatio:
+      - { resource: !resource resource_water,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_chemicals,      extractionLevel: 1, weight: 4, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_water,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+  - !ScatterPassDisk #Argyre Planitia
+    showInOrbitalView: false
+    x: -41.9
+    y: -50.5
+    repetition: 1
+    radius: 450
+    focalRadius: 10                   
+    totalAmount: 4
+    resourceRatio:
+      - { resource: !resource resource_water,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_chemicals,      extractionLevel: 1, weight: 4, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_water,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+  # - !ScatterPassDisk #Utopia Planitia
+    # showInOrbitalView: false
+    # x: 112.3
+    # y: 44.6
+    # repetition: 1
+    # radius: 1500
+    # focalRadius: 10                   
+    # totalAmount: 12
+    # resourceRatio:
+      # - { resource: !resource resource_water,    extractionLevel: 1, weight: 24, qtyMin: 500, qtyMax: 1500 }
+      # - { resource: !resource resource_chemicals,      extractionLevel: 1, weight: 4, qtyMin: 500, qtyMax: 1500 }
+      # - { resource: !resource resource_water,    extractionLevel: 2, weight: 8, qtyMin: 2500, qtyMax: 7500 }
+## OTHER
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 4
+    radius: 500
+    focalRadius: 100
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_water, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_water, extractionLevel: 2, weight: 3, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_water, extractionLevel: 3, weight: 1, qtyMin: 10000, qtyMax: 25000 }
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 3
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_aluminum, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_aluminum, extractionLevel: 2, weight: 3, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_aluminum, extractionLevel: 3, weight: 1, qtyMin: 10000, qtyMax: 25000 }
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 2
+    radius: 500
+    focalRadius: 100
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_carbon, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_carbon, extractionLevel: 2, weight: 3, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_carbon, extractionLevel: 3, weight: 1, qtyMin: 10000, qtyMax: 25000 }
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 4
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_iron, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_iron, extractionLevel: 2, weight: 3, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_iron, extractionLevel: 3, weight: 1, qtyMin: 10000, qtyMax: 25000 }
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 4
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_chemicals, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_chemicals, extractionLevel: 2, weight: 3, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_chemicals, extractionLevel: 3, weight: 1, qtyMin: 10000, qtyMax: 25000 }
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 3
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_silicon, extractionLevel: 1, weight: 6, qtyMin: 500, qtyMax: 1500 }
+      - { resource: !resource resource_silicon, extractionLevel: 2, weight: 3, qtyMin: 2500, qtyMax: 7500 }
+      - { resource: !resource resource_silicon, extractionLevel: 3, weight: 1, qtyMin: 10000, qtyMax: 25000 }
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 2
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_heat, extractionLevel: 0, weight: 6, qtyMin: 500, qtyMax: 1500 , infinite: true}
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 2
+    radius: 500
+    focalRadius: 100                   
+    totalAmount: 10
+    resourceRatio:
+      - { resource: !resource resource_nitrate, extractionLevel: 0, weight: 6, qtyMin: 500, qtyMax: 1500 }
+  - !ScatterPassDisk
+    showInOrbitalView: true
+    randomPosition: true
+    repetition: 2
+    radius: 400
+    focalRadius: 100               
+    totalAmount: 5
+    resourceRatio:
+      - { resource: !resource resource_uranium, extractionLevel: 0, weight: 6, qtyMin: 100, qtyMax: 500 }
+#  - !ScatterPassAnnulus
+#    description: A ring aka annulus     # optional description for development or debugging reasons
+#    x: 70
+#    y: 10  
+#    focalRadius: 50                     # optional randomize focal center
+#    minRadius: 200
+#    maxRadius: 300
+#    totalAmount: 250
+#    resourceRatio:
+#      !resource resource_water:     { weight: 10000, qtyMin: 100, qtyMax: 200 }
+#      !resource resource_chemicals: { weight: 20000, qtyMin: 50, qtyMax: 100 }
+#      !resource resource_carbon:    { weight: 40000, qtyMin: 10, qtyMax: 50 }
+exclusion:
+  - description: Exclusion Zone North Pole
+    x: 0
+    y: 90
+    radius: 1000
+  - description: Exclusion Zone South Pole
+    x: 0
+    y: -90
+    radius: 1000
