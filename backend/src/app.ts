@@ -9,6 +9,7 @@ import knowledgeRouter from './routes/knowledge';
 import modsRouter from './routes/mods';
 import importRouter from './routes/import';
 import exportRouter from './routes/export';
+import scopedRouter from './routes/scoped';
 
 dotenv.config();
 
@@ -144,6 +145,7 @@ app.use('/api/knowledge', knowledgeRouter);
 app.use('/api/mods', modsRouter);
 app.use('/api/import', importRouter);
 app.use('/api/export', exportRouter);
+app.use('/api/scoped', scopedRouter);
 
 // 404 handler
 app.use((req, res) => {

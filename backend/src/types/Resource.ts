@@ -13,6 +13,12 @@ export interface IResource {
   show_in_scanner: boolean;
   vein_icons?: string[];
   resource_index?: number;
+  // Phase 10: Mod tracking
+  mod_id?: string;           // NULL = official, 'mod_name' = custom
+  is_official?: boolean;     // TRUE = read-only
+  override_of_id?: number;   // If set, patches another resource
+  is_locked?: boolean;       // TRUE = cannot edit/delete
+  created_by?: string;       // User who created it
   created_at?: Date;
   updated_at?: Date;
 }
@@ -28,6 +34,10 @@ export interface CreateResourceRequest {
   knowledge_ref?: string;
   show_in_scanner?: boolean;
   vein_icons?: string[];
+  // Phase 10: Mod context
+  mod_id?: string;           // For custom resources
+  override_of_id?: number;   // To patch existing
+  created_by?: string;
 }
 
 export interface UpdateResourceRequest {
