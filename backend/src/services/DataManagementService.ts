@@ -39,6 +39,16 @@ export interface ModInitReport {
   timestamp: Date;
 }
 
+export interface YamlModInitReport {
+  status: 'success' | 'error';
+  modPath: string;
+  modName: string;
+  manifestFile: string;
+  structure: string[];
+  message: string;
+  timestamp: Date;
+}
+
 export class DataManagementService {
   constructor(private pool: Pool) {}
 
@@ -286,6 +296,190 @@ The .csproj file includes a \`DeployToGame\` target that copies the DLL to BepIn
       report.status = 'error';
       report.message = `Error: ${error.message}`;
       console.error('❌ Mod initialization failed:', error);
+      return report;
+    }
+  }
+
+  /**
+   * Initialize a new YAML mod project
+   */
+  async initializeYamlMod(modName: string, description: string): Promise<YamlModInitReport> {
+    const report: YamlModInitReport = {
+      status: 'success',
+      modPath: '',
+      modName,
+      manifestFile: '',
+      structure: [],
+      message: '',
+      timestamp: new Date(),
+    };
+
+    try {
+      const yamlModsPath = path.join(process.cwd(), '..', 'Yaml-Mods');
+      const modPath = path.join(yamlModsPath, modName);
+
+      report.modPath = modPath;
+
+      // Check if mod already exists
+      if (fs.existsSync(modPath)) {
+        report.status = 'error';
+        report.message = `❌ YAML Mod ${modName} already exists`;
+        console.error(report.message);
+        return report;
+      }
+
+      // Create mod directory structure
+      console.log(`🎨 Creating YAML mod project: ${modName}...`);
+
+      fs.mkdirSync(modPath, { recursive: true });
+
+      // Create subdirectories for different data types
+      const subdirs = [
+        'buildings',
+        'resources',
+        'technologies',
+        'knowledge',
+        'enhancements',
+        'categories',
+        'projects',
+        'quests',
+      ];
+
+      for (const dir of subdirs) {
+        fs.mkdirSync(path.join(modPath, dir), { recursive: true });
+        report.structure.push(dir);
+      }
+
+      // Create manifest.yaml
+      const manifestContent = `# Manifest for ${modName}
+modId: "${modName}"
+compatibleGameVersions:
+  - 1.8.x
+description: "${description}"
+
+# Include different data types as needed
+# Uncomment sections and add filenames as you create them
+
+# Building definitions
+building:
+  filenames:
+    # - buildings/building.yaml
+  replace: false
+
+# Resource definitions
+resource:
+  filenames:
+    # - resources/resource.yaml
+  replace: false
+
+# Technology tree
+technology:
+  filenames:
+    # - technologies/technology.yaml
+  replace: false
+
+# Knowledge entries
+knowledge:
+  filenames:
+    # - knowledge/knowledge.yaml
+  replace: false
+
+# Enhancements
+enhancement:
+  filenames:
+    # - enhancements/enhancements.yaml
+  replace: false
+
+# Building categories
+buildingCategory:
+  filenames:
+    # - categories/building-category.yaml
+  replace: false
+
+# Projects
+project:
+  filenames:
+    # - projects/project.yaml
+  replace: false
+
+# Quests
+quest:
+  filenames:
+    # - quests/quest.yaml
+  replace: false
+`;
+
+      fs.writeFileSync(path.join(modPath, 'manifest.yaml'), manifestContent);
+      report.manifestFile = 'manifest.yaml';
+
+      // Create README.md
+      const readmeContent = `# ${modName}
+
+${description}
+
+## Structure
+
+This mod is organized into categories:
+
+- \`buildings/\` - Building definitions and modifications
+- \`resources/\` - Resource definitions
+- \`technologies/\` - Technology tree entries
+- \`knowledge/\` - Knowledge base entries
+- \`enhancements/\` - Building enhancements
+- \`categories/\` - Building categories
+- \`projects/\` - Special projects
+- \`quests/\` - Quest definitions
+
+## Usage
+
+1. Edit YAML files in their respective directories
+2. Update \`manifest.yaml\` to include your files
+3. Deploy using the Mod Creator's deploy feature
+
+## References
+
+- [YAML Modding Guide](../../Organization-Wiki/)
+- [Game Data Model](../../Internal_doc/Yaml/)
+- [Validation Rules](../../Tools/validate_yaml_mods.py)
+`;
+
+      fs.writeFileSync(path.join(modPath, 'README.md'), readmeContent);
+
+      // Create a template building file
+      const buildingTemplate = `# Template building - rename and customize as needed
+building_example:
+  categoryType: !buildingCategory category_core
+  name: BE_building_example_name
+  description: BE_building_example_description
+  maxHealth: 100.0
+  healthLossPerDay: 0.05
+  powerConsumption: 5.0
+  powerPriority: 1.0
+  droneCapacity: 1
+  progressPerDay: 0.1
+  outputQuantity: 0
+  outputResource: null
+  inputResources: {}
+  requiredConstructionResources: {}
+  knowledge: null
+  prefabName: ExampleBuilding
+  rubblePrefabName: RubblePile_S
+  compactName: Example
+`;
+
+      fs.writeFileSync(
+        path.join(modPath, 'buildings', 'template-building.yaml'),
+        buildingTemplate
+      );
+
+      report.message = `✅ YAML mod created at ${modPath}`;
+      console.log(report.message);
+
+      return report;
+    } catch (error: any) {
+      report.status = 'error';
+      report.message = `Error: ${error.message}`;
+      console.error('❌ YAML mod initialization failed:', error);
       return report;
     }
   }

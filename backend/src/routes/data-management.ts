@@ -80,6 +80,38 @@ router.post('/init-mod', async (req, res) => {
 });
 
 /**
+ * Initialize new YAML mod project
+ * POST /api/data-management/init-yaml-mod
+ * Body: { modName: string, description: string }
+ */
+router.post('/init-yaml-mod', async (req, res) => {
+  try {
+    const { modName, description } = req.body;
+
+    if (!modName || typeof modName !== 'string') {
+      return res.status(400).json({
+        success: false,
+        error: 'modName is required and must be a string',
+      });
+    }
+
+    console.log(`🎨 YAML Mod initialization request: ${modName}`);
+    const report = await service.initializeYamlMod(modName, description || '');
+
+    res.json({
+      success: report.status === 'success',
+      data: report,
+    });
+  } catch (error: any) {
+    console.error('YAML Mod initialization error:', error);
+    res.status(500).json({
+      success: false,
+      error: error.message,
+    });
+  }
+});
+
+/**
  * Get data management status
  * GET /api/data-management/status
  */

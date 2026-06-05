@@ -14,6 +14,9 @@ export default function AdminPanel() {
   const [modName, setModName] = useState('');
   const [modDesc, setModDesc] = useState('');
   const [showModForm, setShowModForm] = useState(false);
+  const [yamlModName, setYamlModName] = useState('');
+  const [yamlModDesc, setYamlModDesc] = useState('');
+  const [showYamlModForm, setShowYamlModForm] = useState(false);
 
   useEffect(() => {
     loadStatus();
@@ -75,7 +78,7 @@ export default function AdminPanel() {
     }
 
     setLoading(true);
-    setMessage('📦 Creating mod project...');
+    setMessage('📦 Creating C# mod project...');
 
     try {
       const res = await axios.post('http://127.0.0.1:3001/api/data-management/init-mod', {
@@ -85,10 +88,42 @@ export default function AdminPanel() {
 
       if (res.data.success) {
         const report = res.data.data;
-        setMessage(`✅ Mod created at ${report.modPath}`);
+        setMessage(`✅ C# Mod created at ${report.modPath}`);
         setModName('');
         setModDesc('');
         setShowModForm(false);
+      } else {
+        const report = res.data.data;
+        setMessage(`❌ ${report.message}`);
+      }
+    } catch (err: any) {
+      setMessage(`❌ Error: ${err.response?.data?.error || err.message}`);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleInitYamlMod = async () => {
+    if (!yamlModName.trim()) {
+      setMessage('❌ Mod name is required');
+      return;
+    }
+
+    setLoading(true);
+    setMessage('🎨 Creating YAML mod...');
+
+    try {
+      const res = await axios.post('http://127.0.0.1:3001/api/data-management/init-yaml-mod', {
+        modName: yamlModName.trim(),
+        description: yamlModDesc.trim(),
+      });
+
+      if (res.data.success) {
+        const report = res.data.data;
+        setMessage(`✅ YAML Mod created at ${report.modPath}`);
+        setYamlModName('');
+        setYamlModDesc('');
+        setShowYamlModForm(false);
       } else {
         const report = res.data.data;
         setMessage(`❌ ${report.message}`);
@@ -174,10 +209,61 @@ export default function AdminPanel() {
             </button>
           </div>
 
-          {/* Initialize Mod */}
-          <div className="bg-gray-800 border border-gray-700 rounded-lg p-4 col-span-2">
+          {/* Create YAML Mod */}
+          <div className="bg-gray-800 border border-gray-700 rounded-lg p-4">
+            <h3 className="text-lg font-semibold text-purple-400 mb-3">🎨 Create YAML Mod</h3>
+            <p className="text-gray-400 text-sm mb-4">Create a new YAML mod with folder structure and manifest</p>
+
+            {!showYamlModForm ? (
+              <button
+                onClick={() => setShowYamlModForm(true)}
+                className="w-full px-4 py-2 bg-purple-600 hover:bg-purple-500 text-white rounded font-medium transition"
+              >
+                🎨 New YAML Mod
+              </button>
+            ) : (
+              <div className="space-y-3">
+                <input
+                  type="text"
+                  placeholder="Mod name (e.g., MoreResources)"
+                  value={yamlModName}
+                  onChange={(e) => setYamlModName(e.target.value)}
+                  className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded text-white placeholder-gray-500"
+                />
+                <input
+                  type="text"
+                  placeholder="Description (optional)"
+                  value={yamlModDesc}
+                  onChange={(e) => setYamlModDesc(e.target.value)}
+                  className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded text-white placeholder-gray-500"
+                />
+                <div className="flex gap-2">
+                  <button
+                    onClick={handleInitYamlMod}
+                    disabled={loading}
+                    className={`flex-1 px-3 py-2 rounded font-medium transition ${
+                      loading
+                        ? 'bg-gray-600 text-gray-400 cursor-not-allowed'
+                        : 'bg-purple-600 hover:bg-purple-500 text-white'
+                    }`}
+                  >
+                    {loading ? '⏳ Creating...' : '✅ Create'}
+                  </button>
+                  <button
+                    onClick={() => setShowYamlModForm(false)}
+                    className="flex-1 px-3 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded font-medium transition"
+                  >
+                    ✖️ Cancel
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* Initialize C# Mod */}
+          <div className="bg-gray-800 border border-gray-700 rounded-lg p-4">
             <h3 className="text-lg font-semibold text-green-400 mb-3">📦 Create C# Mod Project</h3>
-            <p className="text-gray-400 text-sm mb-4">Initialize a new BepInEx mod with boilerplate code</p>
+            <p className="text-gray-400 text-sm mb-4">Initialize a new BepInEx mod with boilerplate code (for complex logic)</p>
 
             {!showModForm ? (
               <button
