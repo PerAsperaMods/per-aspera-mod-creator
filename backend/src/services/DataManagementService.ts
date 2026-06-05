@@ -200,7 +200,7 @@ export class DataManagementService {
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>${modName}</AssemblyName>
-    <RootNamespace>${modName.Replace(/[^a-zA-Z0-9]/g, '_')}</RootNamespace>
+    <RootNamespace>${modName.replace(/[^a-zA-Z0-9]/g, '_')}</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>11.0</LangVersion>
   </PropertyGroup>
