@@ -96,7 +96,8 @@ export interface LoadingReport {
 }
 
 export class YamlLoaderService {
-  private gameDataPath = process.env.YAML_DATA_PATH || path.join(__dirname, '../yaml-data');
+  // YAML files are in src/yaml-data directory (relative to CWD which is /app)
+  private gameDataPath = process.env.YAML_DATA_PATH || path.join(process.cwd(), 'src/yaml-data');
 
   /**
    * Pre-process YAML content to remove game-specific tags
