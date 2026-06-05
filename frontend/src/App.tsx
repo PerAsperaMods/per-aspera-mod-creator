@@ -4,7 +4,10 @@ import { Sidebar } from './components/Sidebar';
 import { Home } from './pages/Home';
 import { Resources } from './pages/Resources';
 import { Buildings } from './pages/Buildings';
-import { Placeholder } from './pages/Placeholder';
+import { Technologies } from './pages/Technologies';
+import { Categories } from './pages/Categories';
+import { Knowledge } from './pages/Knowledge';
+import { Mods } from './pages/Mods';
 import './App.css';
 
 function App() {
@@ -18,10 +21,10 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/buildings" element={<Buildings />} />
-              <Route path="/technologies" element={<Placeholder title="Technologies" icon="🔬" />} />
-              <Route path="/categories" element={<Placeholder title="Categories" icon="📂" />} />
-              <Route path="/knowledge" element={<Placeholder title="Knowledge" icon="📚" />} />
-              <Route path="/mods" element={<Placeholder title="Mods" icon="🎮" />} />
+              <Route path="/technologies" element={<Technologies />} />
+              <Route path="/categories" element={<Categories />} />
+              <Route path="/knowledge" element={<Knowledge />} />
+              <Route path="/mods" element={<Mods />} />
             </Routes>
           </div>
         </main>
