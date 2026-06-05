@@ -19,9 +19,106 @@ app.use(cors({
 }));
 app.use(express.json());
 
+// Root endpoint
+app.get('/', (req, res) => {
+  res.json({
+    name: '🚀 Per Aspera Mod Creator API',
+    version: '1.0.0',
+    status: 'operational',
+    docs: 'http://localhost:3001/api/docs',
+    frontend: 'http://localhost:3000',
+  });
+});
+
 // Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date() });
+});
+
+// API Documentation
+app.get('/api/docs', (req, res) => {
+  res.json({
+    name: 'Per Aspera Mod Creator API',
+    version: '1.0.0',
+    description: 'REST API for creating Per Aspera mods visually',
+    baseUrl: 'http://localhost:3001',
+    endpoints: {
+      resources: {
+        list: 'GET /api/resources',
+        create: 'POST /api/resources',
+        get: 'GET /api/resources/:id',
+        update: 'PUT /api/resources/:id',
+        delete: 'DELETE /api/resources/:id',
+        yaml: 'GET /api/resources/:id/yaml',
+        yamlAll: 'GET /api/resources/yaml/all',
+      },
+      buildings: {
+        list: 'GET /api/buildings',
+        create: 'POST /api/buildings',
+        get: 'GET /api/buildings/:id',
+        update: 'PUT /api/buildings/:id',
+        delete: 'DELETE /api/buildings/:id',
+        yaml: 'GET /api/buildings/:id/yaml',
+        yamlAll: 'GET /api/buildings/yaml/all',
+      },
+      technologies: {
+        list: 'GET /api/technologies',
+        create: 'POST /api/technologies',
+        get: 'GET /api/technologies/:id',
+        update: 'PUT /api/technologies/:id',
+        delete: 'DELETE /api/technologies/:id',
+        yaml: 'GET /api/technologies/:id/yaml',
+        yamlAll: 'GET /api/technologies/yaml/all',
+      },
+      categories: {
+        list: 'GET /api/categories',
+        create: 'POST /api/categories',
+        get: 'GET /api/categories/:id',
+        update: 'PUT /api/categories/:id',
+        delete: 'DELETE /api/categories/:id',
+        yaml: 'GET /api/categories/:id/yaml',
+        yamlAll: 'GET /api/categories/yaml/all',
+      },
+      knowledge: {
+        list: 'GET /api/knowledge',
+        create: 'POST /api/knowledge',
+        get: 'GET /api/knowledge/:id',
+        update: 'PUT /api/knowledge/:id',
+        delete: 'DELETE /api/knowledge/:id',
+        yaml: 'GET /api/knowledge/:id/yaml',
+        yamlAll: 'GET /api/knowledge/yaml/all',
+      },
+    },
+    example: {
+      createResource: {
+        method: 'POST',
+        url: '/api/resources',
+        body: {
+          key: 'resource_aluminum',
+          color: 'C0C0C0',
+          material_type: 'Mined',
+          name_label: 'BE_resource_aluminum_name',
+          prefab_name: 'Aluminum',
+        },
+      },
+      createBuilding: {
+        method: 'POST',
+        url: '/api/buildings',
+        body: {
+          key: 'building_aluminum_mine',
+          name_label: 'BE_building_aluminum_mine',
+          category_key: 'category_basic',
+          prefab_name: 'AluminumMine_1',
+          output_resource: 'resource_aluminum',
+        },
+      },
+    },
+    links: {
+      frontend: 'http://localhost:3000',
+      database: 'http://localhost:8080',
+      health: 'http://localhost:3001/health',
+    },
+  });
 });
 
 // API Routes
