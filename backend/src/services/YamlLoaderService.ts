@@ -65,26 +65,26 @@ export class YamlLoaderService {
 
       try {
         await this.loadResources();
-      } catch (err) {
-        console.warn('⚠️ Failed to load resources, continuing...');
+      } catch (err: any) {
+        console.warn('⚠️ Failed to load resources:', err.message, 'continuing...');
       }
 
       try {
         await this.loadBuildings();
-      } catch (err) {
-        console.warn('⚠️ Failed to load buildings, continuing...');
+      } catch (err: any) {
+        console.warn('⚠️ Failed to load buildings:', err.message, 'continuing...');
       }
 
       try {
         await this.loadKnowledge();
-      } catch (err) {
-        console.warn('⚠️ Failed to load knowledge, continuing...');
+      } catch (err: any) {
+        console.warn('⚠️ Failed to load knowledge:', err.message, 'continuing...');
       }
 
       try {
         await this.loadTechnologies();
-      } catch (err) {
-        console.warn('⚠️ Failed to load technologies, continuing...');
+      } catch (err: any) {
+        console.warn('⚠️ Failed to load technologies:', err.message, 'continuing...');
       }
 
       try {
