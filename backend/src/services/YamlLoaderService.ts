@@ -4,63 +4,47 @@ import * as path from 'path';
 import * as yaml from 'js-yaml';
 import { LocalizationService } from './LocalizationService';
 
+// Create tag constructor for all game-specific tags
+const tagConstructor = (data: any) => data; // Keep reference as-is
+
+// Helper to create tag handler for any kind
+const createTag = (name: string) => {
+  return [
+    new yaml.Type(`!${name}`, {
+      kind: 'scalar',
+      resolve: () => true,
+      construct: tagConstructor,
+    }),
+    new yaml.Type(`!${name}`, {
+      kind: 'sequence',
+      resolve: () => true,
+      construct: tagConstructor,
+    }),
+    new yaml.Type(`!${name}`, {
+      kind: 'mapping',
+      resolve: () => true,
+      construct: tagConstructor,
+    }),
+  ];
+};
+
 // Create custom YAML schema with game-specific tags
 const schema = yaml.DEFAULT_SCHEMA.extend([
-  new yaml.Type('!knowledge', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data, // Keep as string reference
-  }),
-  new yaml.Type('!buildingCategory', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!project', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!technology', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!resource', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!building', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!replace', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!patch', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!enhancement', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!quest', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
-  new yaml.Type('!popup', {
-    kind: 'scalar',
-    resolve: () => true,
-    construct: (data: any) => data,
-  }),
+  ...createTag('knowledge'),
+  ...createTag('buildingCategory'),
+  ...createTag('project'),
+  ...createTag('technology'),
+  ...createTag('resource'),
+  ...createTag('building'),
+  ...createTag('replace'),
+  ...createTag('patch'),
+  ...createTag('enhancement'),
+  ...createTag('quest'),
+  ...createTag('popup'),
+  ...createTag('randomEvent'),
+  ...createTag('hazard'),
+  ...createTag('poi'),
+  ...createTag('site'),
 ]);
 
 export interface LoadingReport {
