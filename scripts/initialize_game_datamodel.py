@@ -27,7 +27,7 @@ class GameDataImporter:
             with open(filepath, 'r', encoding='utf-8') as f:
                 return yaml.safe_load(f) or {}
         except Exception as e:
-            print(f"❌ Failed to load {filepath}: {e}")
+            print(f"[ERROR] Failed to load {filepath}: {e}")
             return {}
 
     def post_to_api(self, endpoint: str, data: Dict) -> bool:
@@ -42,21 +42,21 @@ class GameDataImporter:
                 self.stats["created"] += 1
                 return True
             else:
-                print(f"  ⚠️ {response.status_code}: {response.text[:100]}")
+                print(f"  [WARN] {response.status_code}: {response.text[:100]}")
                 self.stats["failed"] += 1
                 return False
         except Exception as e:
-            print(f"  ❌ Error: {e}")
+            print(f"  [ERROR] {e}")
             self.stats["failed"] += 1
             return False
 
     def import_categories(self):
         """Import building categories"""
-        print("\n📂 Importing Building Categories...")
+        print("\n[INFO] Importing Building Categories...")
         categories_file = GAME_DATAMODEL_PATH / "buildingCategory.yaml"
 
         if not categories_file.exists():
-            print(f"  ⚠️ File not found: {categories_file}")
+            print(f"  [WARN] File not found: {categories_file}")
             return
 
         categories = self.load_yaml(categories_file)
@@ -68,17 +68,17 @@ class GameDataImporter:
             }
 
             if self.post_to_api("/api/categories", payload):
-                print(f"  ✅ {key}")
+                print(f"  [OK] {key}")
             else:
-                print(f"  ❌ {key}")
+                print(f"  [FAIL] {key}")
 
     def import_knowledge(self):
         """Import knowledge entries"""
-        print("\n📚 Importing Knowledge...")
+        print("\n[INFO] Importing Knowledge...")
         knowledge_file = GAME_DATAMODEL_PATH / "knowledge.yaml"
 
         if not knowledge_file.exists():
-            print(f"  ⚠️ File not found: {knowledge_file}")
+            print(f"  [WARN] File not found: {knowledge_file}")
             return
 
         knowledge = self.load_yaml(knowledge_file)
@@ -93,9 +93,9 @@ class GameDataImporter:
             }
 
             if self.post_to_api("/api/knowledge", payload):
-                print(f"  ✅ {key}")
+                print(f"  [OK] {key}")
             else:
-                print(f"  ❌ {key}")
+                print(f"  [FAIL] {key}")
 
     def get_all_yaml_files(self) -> List[Path]:
         """Get all YAML files from datamodel"""
@@ -103,30 +103,30 @@ class GameDataImporter:
 
     def run(self):
         """Run the import process"""
-        print("🎮 Per Aspera Game Datamodel Importer")
+        print("[START] Per Aspera Game Datamodel Importer")
         print("=" * 50)
 
         # Check API connectivity
-        print(f"\n🔗 Connecting to API: {self.api_url}")
+        print(f"\n[INFO] Connecting to API: {self.api_url}")
         try:
             response = self.session.get(f"{self.api_url}/health", timeout=5)
             if response.status_code == 200:
-                print("  ✅ API is running")
+                print("  [OK] API is running")
             else:
-                print(f"  ❌ API returned {response.status_code}")
+                print(f"  [ERROR] API returned {response.status_code}")
                 return
         except Exception as e:
-            print(f"  ❌ Cannot connect to API: {e}")
+            print(f"  [ERROR] Cannot connect to API: {e}")
             print(f"     Make sure backend is running: docker-compose up")
             return
 
         # Check datamodel exists
         if not GAME_DATAMODEL_PATH.exists():
-            print(f"\n❌ Game datamodel not found: {GAME_DATAMODEL_PATH}")
+            print(f"\n[ERROR] Game datamodel not found: {GAME_DATAMODEL_PATH}")
             print("   Install Per Aspera at: D:\\SteamLibrary\\steamapps\\common\\Per Aspera\\")
             return
 
-        print(f"\n📁 Game Datamodel: {GAME_DATAMODEL_PATH}")
+        print(f"\n[INFO] Game Datamodel: {GAME_DATAMODEL_PATH}")
         yaml_files = self.get_all_yaml_files()
         print(f"   Found {len(yaml_files)} YAML files")
 
@@ -136,11 +136,11 @@ class GameDataImporter:
 
         # Summary
         print("\n" + "=" * 50)
-        print("📊 Import Summary:")
-        print(f"  ✅ Created: {self.stats['created']}")
-        print(f"  ❌ Failed: {self.stats['failed']}")
-        print(f"  ⏭️ Skipped: {self.stats['skipped']}")
-        print("\n💡 Next steps:")
+        print("[SUMMARY] Import Results:")
+        print(f"  Created: {self.stats['created']}")
+        print(f"  Failed:  {self.stats['failed']}")
+        print(f"  Skipped: {self.stats['skipped']}")
+        print("\n[NEXT] Next steps:")
         print("  1. Visit http://127.0.0.1:3000")
         print("  2. Your game data is now available!")
         print("  3. Create mods on top of the official datamodel")
