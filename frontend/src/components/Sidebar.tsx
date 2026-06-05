@@ -15,6 +15,7 @@ export const Sidebar: React.FC = () => {
     { path: '/knowledge', label: '📚 Knowledge' },
     { path: '/mods', label: '🎮 Mods' },
     { path: '/localization', label: '🌍 Localization' },
+    { path: '/admin', label: '🔧 Admin' },
   ];
 
   return (

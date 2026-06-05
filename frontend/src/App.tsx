@@ -9,6 +9,7 @@ import { Categories } from './pages/Categories';
 import { Knowledge } from './pages/Knowledge';
 import { Mods } from './pages/Mods';
 import Localization from './pages/Localization';
+import { Admin } from './pages/Admin';
 import './App.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
               <Route path="/knowledge" element={<Knowledge />} />
               <Route path="/mods" element={<Mods />} />
               <Route path="/localization" element={<Localization />} />
+              <Route path="/admin" element={<Admin />} />
             </Routes>
           </div>
         </main>

@@ -14,6 +14,7 @@ import compositionRouter from './routes/composition';
 import validationRouter from './routes/validation';
 import localizationRouter from './routes/localization';
 import yamlLoaderRouter from './routes/yaml-loader';
+import dataManagementRouter from './routes/data-management';
 import pool from './config/database';
 import { LocalizationService } from './services/LocalizationService';
 import { YamlLoaderService } from './services/YamlLoaderService';
@@ -157,6 +158,7 @@ app.use('/api/composition', compositionRouter);
 app.use('/api/validation', validationRouter);
 app.use('/api/localization', localizationRouter);
 app.use('/api/yaml-loader', yamlLoaderRouter);
+app.use('/api/data-management', dataManagementRouter);
 
 // 404 handler
 app.use((req, res) => {
