@@ -5,7 +5,7 @@ services:
     image: postgres:15-alpine
     container_name: per-aspera-db
     environment:
-      POSTGRES_DB: per_aspera_mods
+      POSTGRES_DB: modcreator
       POSTGRES_USER: modcreator
       POSTGRES_PASSWORD: changeme
     volumes:
@@ -25,7 +25,7 @@ services:
       dockerfile: Dockerfile
     container_name: per-aspera-backend
     environment:
-      DATABASE_URL: postgresql://modcreator:changeme@db:5432/per_aspera_mods
+      DATABASE_URL: postgresql://modcreator:changeme@db:5432/modcreator
       NODE_ENV: development
       PORT: 3001
       CORS_ORIGIN: http://localhost:3000
