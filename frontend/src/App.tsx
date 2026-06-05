@@ -8,6 +8,7 @@ import { Technologies } from './pages/Technologies';
 import { Categories } from './pages/Categories';
 import { Knowledge } from './pages/Knowledge';
 import { Mods } from './pages/Mods';
+import Localization from './pages/Localization';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
               <Route path="/categories" element={<Categories />} />
               <Route path="/knowledge" element={<Knowledge />} />
               <Route path="/mods" element={<Mods />} />
+              <Route path="/localization" element={<Localization />} />
             </Routes>
           </div>
         </main>
