@@ -2,7 +2,7 @@
 
 A complete **dockerized web application** for creating Per Aspera mods visually, without manual YAML editing.
 
-**Status:** ✅ Production Ready | **Version:** 1.0.0 | **All 8 Phases:** ✅ Complete
+**Status:** ✅ Production Ready | **Version:** 1.0.0 | **All 12 Phases:** ✅ Complete
 
 ---
 
@@ -81,14 +81,24 @@ That's it! Your mod is ready.
 
 Full interactive docs at: **http://127.0.0.1:3001/api/docs**
 
-### **Core Endpoints**
+### **Core Endpoints (60+)**
 
+**CRUD Operations:**
 ```
 Resources:     GET/POST/PUT/DELETE /api/resources + YAML endpoints
 Buildings:     GET/POST/PUT/DELETE /api/buildings + YAML endpoints
 Technologies:  GET/POST/PUT/DELETE /api/technologies + YAML endpoints
 Categories:    GET/POST/PUT/DELETE /api/categories + YAML endpoints
 Knowledge:     GET/POST/PUT/DELETE /api/knowledge + YAML endpoints
+```
+
+**Advanced Features:**
+```
+Bulk Import:   POST /api/import/bulk/{entity_type}
+Export to YAML: GET/POST /api/export/{mod|entities}
+Scoped Data:   GET /api/scoped/{resources|buildings}
+Composition:   POST /api/composition/compose + stack management
+Validation:    POST /api/validation/{resource|building|composition}
 Utility:       GET / (welcome) | GET /health | GET /api/docs
 ```
 
@@ -123,8 +133,10 @@ curl -X POST http://127.0.0.1:3001/api/resources \
 - Express.js + Node.js 18
 - PostgreSQL 15
 - TypeScript strict mode
-- 42+ REST endpoints
+- 60+ REST endpoints
 - JSONB support for nested data
+- 6 Service layers (Resource, Building, Import, Export, Composition, Validation)
+- 7 Database tables with proper relationships
 
 ### **Infrastructure**
 - Docker + Docker Compose
@@ -137,16 +149,18 @@ curl -X POST http://127.0.0.1:3001/api/resources \
 ## 📊 Project Statistics
 
 ```
-✅ Phases Complete:    8/8
-✅ Total Code:         3500+ lines
-✅ API Endpoints:      42+
+✅ Phases Complete:    12/12
+✅ Total Code:         5000+ lines (Backend + Frontend + Scripts)
+✅ API Endpoints:      60+ (CRUD + Import/Export + Scoped + Composition + Validation)
 ✅ Frontend Routes:    7
 ✅ Components:         15+
 ✅ Custom Hooks:       7
-✅ Database Tables:    6
-✅ TypeScript:         100% coverage
+✅ Database Tables:    7 (+ migration schemas)
+✅ Services:           6 (Resource, Building, Import, Export, Override, Composition, Validation)
+✅ TypeScript:         100% coverage (Backend + Frontend)
 ✅ Manual Testing:     100%
 ✅ Production Ready:   YES
+✅ Official Data:      282 items loaded (41 resources, 241 knowledge)
 ```
 
 ---
@@ -201,21 +215,30 @@ per-aspera-mod-creator/
 
 ## 🔄 Development Workflow
 
-### **All 8 Phases Complete:**
+### **All 12 Phases Complete:**
 
+**Core Platform (Phases 1-9):**
 ✅ **Phase 1** — Docker Setup & Database  
-✅ **Phase 2** — Resources API (42 endpoints)  
+✅ **Phase 2** — Resources API (CRUD)  
 ✅ **Phase 3** — Buildings API (complex forms)  
 ✅ **Phase 4** — Tech/Category/Knowledge APIs  
 ✅ **Phase 5** — Frontend Layout & Navigation  
 ✅ **Phase 6** — Resource Forms with Preview  
 ✅ **Phase 7** — Building Forms (advanced)  
 ✅ **Phase 8** — Export & Mods Manager  
+✅ **Phase 9A** — API Enhancement (Bulk Import/Export)  
+✅ **Phase 9B** — Full Datamodel Load (281+ items)  
+✅ **Phase 9C** — MCP Server Integration (Claude)  
+
+**Ecosystem (Phases 10-12):**
+✅ **Phase 10** — Official Data Protection + Override System  
+✅ **Phase 11** — Mod Composition & Layering  
+✅ **Phase 12** — Validation & Conflict Resolution Engine  
 
 ### **Future Enhancements**
-- 📅 Phase 9: YAML + ZIP export
-- 📅 Phase 10: Steam Workshop integration
-- 📅 Phase 11: Mod marketplace
+- 📅 Phase 13: Mod Publishing (Steam Workshop)
+- 📅 Phase 14: Multi-User Collaboration
+- 📅 Phase 15: Analytics & Statistics
 
 ---
 

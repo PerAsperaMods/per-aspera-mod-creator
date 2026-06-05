@@ -37,12 +37,20 @@ def knowledge_constructor(loader, node):
 def project_constructor(loader, node):
     return {'_ref': loader.construct_scalar(node), '_type': 'project'}
 
+def building_category_constructor(loader, node):
+    return {'_ref': loader.construct_scalar(node), '_type': 'buildingCategory'}
+
+def patch_constructor(loader, node):
+    return loader.construct_mapping(node)
+
 # Register custom constructors
 CustomYAMLLoader.add_constructor('!resource', resource_constructor)
 CustomYAMLLoader.add_constructor('!building', building_constructor)
 CustomYAMLLoader.add_constructor('!technology', technology_constructor)
 CustomYAMLLoader.add_constructor('!knowledge', knowledge_constructor)
 CustomYAMLLoader.add_constructor('!project', project_constructor)
+CustomYAMLLoader.add_constructor('!buildingCategory', building_category_constructor)
+CustomYAMLLoader.add_constructor('!patch', patch_constructor)
 
 class GameDataImporter:
     def __init__(self, api_url: str = API_BASE_URL):
