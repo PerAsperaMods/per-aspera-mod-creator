@@ -323,7 +323,6 @@ export class YamlLoaderService {
       console.log(`📂 GameDataPath: ${this.gameDataPath}`);
       const buildingFiles = ['building.yaml', 'building-greenmars.yaml', 'building-home.yaml'];
       console.log(`📋 Looking for files: ${buildingFiles.join(', ')}`);
-      const buildingFiles = ['building.yaml', 'building-greenmars.yaml', 'building-home.yaml'];
       let loaded = 0;
 
       for (const fileName of buildingFiles) {
