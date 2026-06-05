@@ -6,6 +6,7 @@ COPY package*.json ./
 RUN npm install --legacy-peer-deps
 
 COPY . .
+COPY src/yaml-data /app/src/yaml-data
 
 EXPOSE 3001
 
