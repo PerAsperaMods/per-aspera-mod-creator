@@ -9,7 +9,7 @@ export class BuildingService {
   async getAllBuildings(): Promise<IBuilding[]> {
     const query = 'SELECT * FROM buildings ORDER BY created_at DESC';
     const result = await pool.query(query);
-    return result.rows.map(this.parseBuilding);
+    return result.rows.map((row) => this.parseBuilding(row));
   }
 
   /**
@@ -353,10 +353,28 @@ export class BuildingService {
   private parseBuilding(row: any): IBuilding {
     return {
       ...row,
-      input_resources: row.input_resources ? JSON.parse(row.input_resources) : undefined,
-      required_construction_resources: row.required_construction_resources ? JSON.parse(row.required_construction_resources) : undefined,
-      progress_bar_names: row.progress_bar_names ? JSON.parse(row.progress_bar_names) : undefined,
+      input_resources: this.safeJSONParse(row.input_resources),
+      required_construction_resources: this.safeJSONParse(row.required_construction_resources),
+      progress_bar_names: this.safeJSONParse(row.progress_bar_names),
     };
+  }
+
+  /**
+   * Safely parse JSON from database (handles null, strings, and already-parsed objects)
+   */
+  private safeJSONParse(value: any): any {
+    if (value === null || value === undefined) {
+      return undefined;
+    }
+    if (typeof value === 'object') {
+      return value;
+    }
+    try {
+      return JSON.parse(value);
+    } catch (e) {
+      console.warn('Failed to parse JSON:', value, e);
+      return undefined;
+    }
   }
 }
 

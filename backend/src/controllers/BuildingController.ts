@@ -3,17 +3,30 @@ import buildingService from '../services/BuildingService';
 
 export class BuildingController {
   /**
+   * Clean building data for JSON serialization
+   */
+  private cleanBuildingData(building: any) {
+    return {
+      ...building,
+      created_at: building.created_at ? new Date(building.created_at).toISOString() : null,
+      updated_at: building.updated_at ? new Date(building.updated_at).toISOString() : null,
+    };
+  }
+
+  /**
    * GET /api/buildings - Get all buildings
    */
   async getAll(req: Request, res: Response): Promise<void> {
     try {
       const buildings = await buildingService.getAllBuildings();
+      const cleanedBuildings = buildings.map((b) => this.cleanBuildingData(b));
       res.json({
         success: true,
-        data: buildings,
-        count: buildings.length,
+        data: cleanedBuildings,
+        count: cleanedBuildings.length,
       });
     } catch (error) {
+      console.error('[BuildingController.getAll] Error:', error);
       res.status(500).json({
         success: false,
         error: error instanceof Error ? error.message : 'Unknown error',
@@ -39,7 +52,7 @@ export class BuildingController {
 
       res.json({
         success: true,
-        data: building,
+        data: this.cleanBuildingData(building),
       });
     } catch (error) {
       res.status(500).json({
@@ -66,7 +79,7 @@ export class BuildingController {
       const building = await buildingService.createBuilding(req.body);
       res.status(201).json({
         success: true,
-        data: building,
+        data: this.cleanBuildingData(building),
       });
     } catch (error) {
       res.status(400).json({
@@ -94,7 +107,7 @@ export class BuildingController {
       const building = await buildingService.updateBuilding(parseInt(id), req.body);
       res.json({
         success: true,
-        data: building,
+        data: this.cleanBuildingData(building),
       });
     } catch (error) {
       if (error instanceof Error && error.message.includes('not found')) {

@@ -3,17 +3,30 @@ import resourceService from '../services/ResourceService';
 
 export class ResourceController {
   /**
+   * Clean resource data for JSON serialization
+   */
+  private cleanResourceData(resource: any) {
+    return {
+      ...resource,
+      created_at: resource.created_at ? new Date(resource.created_at).toISOString() : null,
+      updated_at: resource.updated_at ? new Date(resource.updated_at).toISOString() : null,
+    };
+  }
+
+  /**
    * GET /api/resources - Get all resources
    */
   async getAll(req: Request, res: Response): Promise<void> {
     try {
       const resources = await resourceService.getAllResources();
+      const cleanedResources = resources.map((r) => this.cleanResourceData(r));
       res.json({
         success: true,
-        data: resources,
-        count: resources.length,
+        data: cleanedResources,
+        count: cleanedResources.length,
       });
     } catch (error) {
+      console.error('[ResourceController.getAll] Error:', error);
       res.status(500).json({
         success: false,
         error: error instanceof Error ? error.message : 'Unknown error',
@@ -39,7 +52,7 @@ export class ResourceController {
 
       res.json({
         success: true,
-        data: resource,
+        data: this.cleanResourceData(resource),
       });
     } catch (error) {
       res.status(500).json({
@@ -66,7 +79,7 @@ export class ResourceController {
       const resource = await resourceService.createResource(req.body);
       res.status(201).json({
         success: true,
-        data: resource,
+        data: this.cleanResourceData(resource),
       });
     } catch (error) {
       res.status(500).json({
@@ -94,7 +107,7 @@ export class ResourceController {
       const resource = await resourceService.updateResource(parseInt(id), req.body);
       res.json({
         success: true,
-        data: resource,
+        data: this.cleanResourceData(resource),
       });
     } catch (error) {
       if (error instanceof Error && error.message.includes('not found')) {
