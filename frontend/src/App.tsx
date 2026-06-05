@@ -1,62 +1,30 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Sidebar } from './components/Sidebar';
+import { Home } from './pages/Home';
+import { Placeholder } from './pages/Placeholder';
 import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="app">
-        <nav className="navbar">
-          <h1>🚀 Per Aspera Mod Creator</h1>
-          <ul>
-            <li><Link to="/resources">Resources</Link></li>
-            <li><Link to="/buildings">Buildings</Link></li>
-            <li><Link to="/technologies">Technologies</Link></li>
-            <li><Link to="/categories">Categories</Link></li>
-            <li><Link to="/knowledge">Knowledge</Link></li>
-            <li><Link to="/mods">Mods</Link></li>
-          </ul>
-        </nav>
-
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/resources" element={<Placeholder title="Resources" />} />
-            <Route path="/buildings" element={<Placeholder title="Buildings" />} />
-            <Route path="/technologies" element={<Placeholder title="Technologies" />} />
-            <Route path="/categories" element={<Placeholder title="Categories" />} />
-            <Route path="/knowledge" element={<Placeholder title="Knowledge" />} />
-            <Route path="/mods" element={<Placeholder title="Mods" />} />
-          </Routes>
+      <div className="flex h-screen bg-slate-900 text-slate-100">
+        <Sidebar />
+        <main className="flex-1 overflow-auto">
+          <div className="p-8">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/resources" element={<Placeholder title="Resources" icon="📦" />} />
+              <Route path="/buildings" element={<Placeholder title="Buildings" icon="🏭" />} />
+              <Route path="/technologies" element={<Placeholder title="Technologies" icon="🔬" />} />
+              <Route path="/categories" element={<Placeholder title="Categories" icon="📂" />} />
+              <Route path="/knowledge" element={<Placeholder title="Knowledge" icon="📚" />} />
+              <Route path="/mods" element={<Placeholder title="Mods" icon="🎮" />} />
+            </Routes>
+          </div>
         </main>
       </div>
     </Router>
-  );
-}
-
-function Home() {
-  return (
-    <div className="page">
-      <h2>Welcome to Per Aspera Mod Creator</h2>
-      <p>Create mods visually without writing YAML</p>
-      <div className="features">
-        <div className="feature">📦 Resources</div>
-        <div className="feature">🏭 Buildings</div>
-        <div className="feature">🔬 Technologies</div>
-        <div className="feature">📂 Categories</div>
-        <div className="feature">📚 Knowledge</div>
-        <div className="feature">🎮 Mods</div>
-      </div>
-    </div>
-  );
-}
-
-function Placeholder({ title }: { title: string }) {
-  return (
-    <div className="page">
-      <h2>{title}</h2>
-      <p>Coming soon...</p>
-    </div>
   );
 }
 
