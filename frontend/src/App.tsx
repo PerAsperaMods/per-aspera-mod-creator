@@ -3,6 +3,7 @@ import { Sidebar } from './components/Sidebar';
 import { Home } from './pages/Home';
 import { Resources } from './pages/Resources';
 import { Buildings } from './pages/Buildings';
+import { BuildingDetail } from './pages/BuildingDetail';
 import { Technologies } from './pages/Technologies';
 import { Categories } from './pages/Categories';
 import { Knowledge } from './pages/Knowledge';
@@ -20,6 +21,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/resources" element={<Resources />} />
               <Route path="/buildings" element={<Buildings />} />
+              <Route path="/buildings/:id" element={<BuildingDetail />} />
               <Route path="/technologies" element={<Technologies />} />
               <Route path="/categories" element={<Categories />} />
               <Route path="/knowledge" element={<Knowledge />} />
