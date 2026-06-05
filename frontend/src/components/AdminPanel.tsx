@@ -38,7 +38,8 @@ export default function AdminPanel() {
       const res = await axios.post('http://127.0.0.1:3001/api/data-management/purge');
       const report = res.data.data;
 
-      setMessage(`✅ Purged ${Object.values(report.itemsDeleted).reduce((a: number, b: number) => a + b, 0)} items`);
+      const totalPurged = Object.values(report.itemsDeleted).reduce((a: number, b: any) => a + (typeof b === 'number' ? b : 0), 0);
+      setMessage(`✅ Purged ${totalPurged} items`);
       await loadStatus();
     } catch (err: any) {
       setMessage(`❌ Error: ${err.response?.data?.error || err.message}`);
@@ -89,6 +90,7 @@ export default function AdminPanel() {
         setModDesc('');
         setShowModForm(false);
       } else {
+        const report = res.data.data;
         setMessage(`❌ ${report.message}`);
       }
     } catch (err: any) {
