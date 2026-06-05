@@ -341,6 +341,7 @@ export class YamlLoaderService {
 
     try {
       const buildingFiles = ['building.yaml', 'building-greenmars.yaml', 'building-home.yaml'];
+      console.log(`📂 CWD: ${process.cwd()}`);
       console.log(`📂 DataPath: ${this.gameDataPath}`);
       console.log(`📋 Looking for ${buildingFiles.length} files: ${buildingFiles.join(', ')}`);
       let loaded = 0;
