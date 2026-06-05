@@ -254,10 +254,10 @@ export default function BuildingDetail() {
             <h2 className="text-xl font-bold text-indigo-400 mb-4">🎯 Configuration</h2>
             <div className="space-y-2">
               {building.reserved_radius && (
-                <InfoRow label="Reserved Radius" value={building.reserved_radius} unit="m" />
+                <InfoRow label="Reserved Radius (m)" value={building.reserved_radius} />
               )}
               {building.way_snap_radius && (
-                <InfoRow label="Way Snap Radius" value={building.way_snap_radius} unit="m" />
+                <InfoRow label="Way Snap Radius (m)" value={building.way_snap_radius} />
               )}
               {building.is_worker_hub !== undefined && (
                 <InfoRow label="Worker Hub" value={building.is_worker_hub ? '✅ Yes' : '❌ No'} />
