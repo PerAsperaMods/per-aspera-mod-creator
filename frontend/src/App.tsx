@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Sidebar } from './components/Sidebar';
 import { Home } from './pages/Home';
+import { Resources } from './pages/Resources';
 import { Placeholder } from './pages/Placeholder';
 import './App.css';
 
@@ -14,7 +15,7 @@ function App() {
           <div className="p-8">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/resources" element={<Placeholder title="Resources" icon="📦" />} />
+              <Route path="/resources" element={<Resources />} />
               <Route path="/buildings" element={<Placeholder title="Buildings" icon="🏭" />} />
               <Route path="/technologies" element={<Placeholder title="Technologies" icon="🔬" />} />
               <Route path="/categories" element={<Placeholder title="Categories" icon="📂" />} />
