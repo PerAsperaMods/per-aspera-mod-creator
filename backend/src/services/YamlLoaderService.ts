@@ -221,7 +221,13 @@ export class YamlLoaderService {
         return;
       }
 
-      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      let fileContent = fs.readFileSync(filePath, 'utf-8');
+      // Pre-process: Remove game-specific YAML tags (!knowledge, !building, etc.)
+      // Transform: "key: !tagname value" → "key: value"
+      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
+      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\n/g, ': null\n');
+      fileContent = fileContent.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+
       const data = yaml.load(fileContent, { schema }) as any;
 
       if (!data) {
@@ -271,7 +277,13 @@ export class YamlLoaderService {
 
     try {
       const filePath = path.join(this.gameDataPath, 'resource.yaml');
-      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      let fileContent = fs.readFileSync(filePath, 'utf-8');
+      // Pre-process: Remove game-specific YAML tags (!knowledge, !building, etc.)
+      // Transform: "key: !tagname value" → "key: value"
+      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
+      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\n/g, ': null\n');
+      fileContent = fileContent.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+
       const data = yaml.load(fileContent, { schema }) as any;
 
       if (!data) {
@@ -398,7 +410,13 @@ export class YamlLoaderService {
 
     try {
       const filePath = path.join(this.gameDataPath, 'knowledge.yaml');
-      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      let fileContent = fs.readFileSync(filePath, 'utf-8');
+      // Pre-process: Remove game-specific YAML tags (!knowledge, !building, etc.)
+      // Transform: "key: !tagname value" → "key: value"
+      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
+      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\n/g, ': null\n');
+      fileContent = fileContent.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+
       const data = yaml.load(fileContent, { schema }) as any;
 
       if (!data) {
@@ -508,7 +526,13 @@ export class YamlLoaderService {
         return;
       }
 
-      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      let fileContent = fs.readFileSync(filePath, 'utf-8');
+      // Pre-process: Remove game-specific YAML tags (!knowledge, !building, etc.)
+      // Transform: "key: !tagname value" → "key: value"
+      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
+      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\n/g, ': null\n');
+      fileContent = fileContent.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+
       const data = yaml.load(fileContent, { schema }) as any;
 
       if (!data) {
