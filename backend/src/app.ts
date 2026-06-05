@@ -1,6 +1,12 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import resourcesRouter from './routes/resources';
+import buildingsRouter from './routes/buildings';
+import technologiesRouter from './routes/technologies';
+import categoriesRouter from './routes/categories';
+import knowledgeRouter from './routes/knowledge';
+import modsRouter from './routes/mods';
 
 dotenv.config();
 
@@ -19,12 +25,12 @@ app.get('/health', (req, res) => {
 });
 
 // API Routes
-app.use('/api/resources', require('./routes/resources'));
-app.use('/api/buildings', require('./routes/buildings'));
-app.use('/api/technologies', require('./routes/technologies'));
-app.use('/api/categories', require('./routes/categories'));
-app.use('/api/knowledge', require('./routes/knowledge'));
-app.use('/api/mods', require('./routes/mods'));
+app.use('/api/resources', resourcesRouter);
+app.use('/api/buildings', buildingsRouter);
+app.use('/api/technologies', technologiesRouter);
+app.use('/api/categories', categoriesRouter);
+app.use('/api/knowledge', knowledgeRouter);
+app.use('/api/mods', modsRouter);
 
 // 404 handler
 app.use((req, res) => {
