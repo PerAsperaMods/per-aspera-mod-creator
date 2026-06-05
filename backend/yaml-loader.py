@@ -66,7 +66,7 @@ def load_yaml_file(file_path: Path) -> Dict[str, Any]:
         return content or {}
 
     except Exception as e:
-        print(f"❌ Error loading {file_path.name}: {e}", file=sys.stderr)
+        print(f"ERROR: {file_path.name}: {e}", file=sys.stderr)
         return {}
 
 
@@ -84,7 +84,7 @@ def load_game_datamodel() -> Dict[str, Any]:
     # Load resources
     resources_data = load_yaml_file(YAML_DATA_PATH / "resource.yaml")
     result["resources"] = resources_data or {}
-    print(f"✅ Loaded {len(result['resources'])} resources")
+    print(f"OK: Loaded {len(result['resources'])} resources")
 
     # Load buildings (3 files)
     for building_file in [
@@ -126,13 +126,13 @@ def load_game_datamodel() -> Dict[str, Any]:
 
 
 if __name__ == "__main__":
-    print(f"📦 Loading game datamodel from {YAML_DATA_PATH}...")
+    print(f"[LOAD] Game datamodel from {YAML_DATA_PATH}...")
 
     data = load_game_datamodel()
 
     # Print summary
     total = sum(len(v) for v in data.values())
-    print(f"\n📊 Total items loaded: {total}")
+    print(f"\n[STAT] Total items loaded: {total}")
     print(
         json.dumps(
             {
