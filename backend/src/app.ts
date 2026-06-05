@@ -7,6 +7,8 @@ import technologiesRouter from './routes/technologies';
 import categoriesRouter from './routes/categories';
 import knowledgeRouter from './routes/knowledge';
 import modsRouter from './routes/mods';
+import importRouter from './routes/import';
+import exportRouter from './routes/export';
 
 dotenv.config();
 
@@ -140,6 +142,8 @@ app.use('/api/technologies', technologiesRouter);
 app.use('/api/categories', categoriesRouter);
 app.use('/api/knowledge', knowledgeRouter);
 app.use('/api/mods', modsRouter);
+app.use('/api/import', importRouter);
+app.use('/api/export', exportRouter);
 
 // 404 handler
 app.use((req, res) => {
