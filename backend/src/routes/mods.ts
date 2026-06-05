@@ -1,9 +1,8 @@
-import express from 'express';
+import { Router } from 'express';
 
-const router = express.Router();
+const router = Router();
 
-// TODO: Implement mod routes
-router.get('/', (req, res) => {
+router.get('/', (_req, res) => {
   res.json({ message: 'Mods list - Coming soon' });
 });
 
