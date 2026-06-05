@@ -346,14 +346,17 @@ export class YamlLoaderService {
 
       for (const fileName of buildingFiles) {
         const filePath = path.join(this.gameDataPath, fileName);
+        console.log(`  📂 Looking for: ${filePath}`);
 
         if (!fs.existsSync(filePath)) {
+          console.log(`    ❌ Not found`);
           this.loadingReport.warnings.push({
             type: 'FILE_NOT_FOUND',
             message: `${fileName} not found, skipping`,
           });
           continue;
         }
+        console.log(`    ✅ File exists`);
 
         const fileContent = fs.readFileSync(filePath, 'utf-8');
         const data = yaml.load(fileContent) as any;
