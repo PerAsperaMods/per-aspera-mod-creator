@@ -12,6 +12,7 @@ import exportRouter from './routes/export';
 import scopedRouter from './routes/scoped';
 import compositionRouter from './routes/composition';
 import validationRouter from './routes/validation';
+import localizationRouter from './routes/localization';
 
 dotenv.config();
 
@@ -150,6 +151,7 @@ app.use('/api/export', exportRouter);
 app.use('/api/scoped', scopedRouter);
 app.use('/api/composition', compositionRouter);
 app.use('/api/validation', validationRouter);
+app.use('/api/localization', localizationRouter);
 
 // 404 handler
 app.use((req, res) => {
