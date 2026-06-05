@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useBuildings } from '../hooks/useBuildings';
 import { BuildingForm } from '../components/BuildingForm';
 import { Building } from '../types';
 
 export const Buildings: React.FC = () => {
+  const navigate = useNavigate();
   const { buildings, categories, resources, loading, error, createBuilding, updateBuilding, deleteBuilding } =
     useBuildings();
   const [showForm, setShowForm] = useState(false);
@@ -92,7 +94,8 @@ export const Buildings: React.FC = () => {
             filteredBuildings.map((building) => (
               <div
                 key={building.id}
-                className="bg-slate-800 border border-slate-700 rounded-lg p-4 hover:border-cyan-400 transition-colors"
+                onClick={() => navigate(`/buildings/${building.id}`)}
+                className="bg-slate-800 border border-slate-700 rounded-lg p-4 hover:border-cyan-400 transition-colors cursor-pointer hover:bg-slate-700"
               >
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
