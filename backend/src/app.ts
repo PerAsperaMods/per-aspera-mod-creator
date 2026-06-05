@@ -13,6 +13,10 @@ import scopedRouter from './routes/scoped';
 import compositionRouter from './routes/composition';
 import validationRouter from './routes/validation';
 import localizationRouter from './routes/localization';
+import yamlLoaderRouter from './routes/yaml-loader';
+import pool from './config/database';
+import { LocalizationService } from './services/LocalizationService';
+import { YamlLoaderService } from './services/YamlLoaderService';
 
 dotenv.config();
 
@@ -152,6 +156,7 @@ app.use('/api/scoped', scopedRouter);
 app.use('/api/composition', compositionRouter);
 app.use('/api/validation', validationRouter);
 app.use('/api/localization', localizationRouter);
+app.use('/api/yaml-loader', yamlLoaderRouter);
 
 // 404 handler
 app.use((req, res) => {
@@ -164,9 +169,21 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
   res.status(500).json({ error: 'Internal server error' });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`✅ Backend running on http://localhost:${PORT}`);
   console.log(`📚 API docs: http://localhost:${PORT}/api/docs`);
+
+  // Load Phase 1 data on startup
+  try {
+    const locService = new LocalizationService(pool);
+    const yamlLoader = new YamlLoaderService(pool, locService);
+    console.log('\n📦 Loading Phase 1 game data...');
+    const report = await yamlLoader.loadPhase1();
+    console.log(`✅ Phase 1 complete: ${JSON.stringify(report.items_loaded)}\n`);
+  } catch (error: any) {
+    console.error('⚠️ Phase 1 load failed:', error.message);
+    console.error('You can manually trigger via: POST /api/yaml-loader/load-phase-1');
+  }
 });
 
 export default app;
