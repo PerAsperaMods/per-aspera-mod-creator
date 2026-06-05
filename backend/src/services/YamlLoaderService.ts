@@ -22,7 +22,7 @@ export interface LoadingReport {
 }
 
 export class YamlLoaderService {
-  private gameDataPath = 'D:\\SteamLibrary\\steamapps\\common\\Per Aspera\\datamodel';
+  private gameDataPath = 'F:\\ModPeraspera\\Internal_doc\\Yaml\\OfficialFiles';
   private loadingReport: LoadingReport = {
     timestamp: new Date().toISOString(),
     phase: 0,
