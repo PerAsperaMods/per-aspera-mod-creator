@@ -109,8 +109,8 @@ export class YamlLoaderService {
     content = content.replace(/:\s*![a-zA-Z_][a-zA-Z0-9_]*\s+/g, ': ');
     // 2. "key: !tag\n" → "key: null\n"
     content = content.replace(/:\s*![a-zA-Z_][a-zA-Z0-9_]*\s*\n/g, ': null\n');
-    // 3. "- !tag value" → "- value" (LIST ITEMS - IMPORTANT!)
-    content = content.replace(/^\s*-\s+![a-zA-Z_][a-zA-Z0-9_]*\s+/gm, '- ');
+    // 3. "- !tag value" → "- value" (LIST ITEMS - must keep value!)
+    content = content.replace(/^(\s*-\s+)![a-zA-Z_][a-zA-Z0-9_]*\s+/gm, '$1');
     // 4. " !tag value" → " value" (inline at start of line)
     content = content.replace(/\s+![a-zA-Z_][a-zA-Z0-9_]*\s+/g, ' ');
     // 5. "!tag " at any position
