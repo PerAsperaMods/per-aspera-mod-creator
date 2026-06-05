@@ -96,7 +96,7 @@ export interface LoadingReport {
 }
 
 export class YamlLoaderService {
-  private gameDataPath = process.env.YAML_DATA_PATH || '/app/src/yaml-data';
+  private gameDataPath = process.env.YAML_DATA_PATH || path.join(__dirname, '../yaml-data');
   private loadingReport: LoadingReport = {
     timestamp: new Date().toISOString(),
     phase: 0,
