@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: per-aspera-db
+    environment:
+      POSTGRES_DB: per_aspera_mods
+      POSTGRES_USER: modcreator
+      POSTGRES_PASSWORD: changeme
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U modcreator"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: per-aspera-backend
+    environment:
+      DATABASE_URL: postgresql://modcreator:changeme@db:5432/per_aspera_mods
+      NODE_ENV: development
+      PORT: 3001
+      CORS_ORIGIN: http://localhost:3000
+    ports:
+      - "3001:3001"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend/src:/app/src
+      - /app/node_modules
+    command: npm run dev
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: per-aspera-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/src:/app/src
+      - /app/node_modules
+    environment:
+      REACT_APP_API_URL: http://localhost:3001
+    command: npm start
+
+  adminer:
+    image: adminer:latest
+    container_name: per-aspera-adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
