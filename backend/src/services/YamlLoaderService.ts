@@ -109,9 +109,11 @@ export class YamlLoaderService {
     content = content.replace(/:\s*![a-zA-Z_][a-zA-Z0-9_]*\s+/g, ': ');
     // 2. "key: !tag\n" → "key: null\n"
     content = content.replace(/:\s*![a-zA-Z_][a-zA-Z0-9_]*\s*\n/g, ': null\n');
-    // 3. " !tag value" → " value" (inline at start of line)
+    // 3. "- !tag value" → "- value" (LIST ITEMS - IMPORTANT!)
+    content = content.replace(/^\s*-\s+![a-zA-Z_][a-zA-Z0-9_]*\s+/gm, '- ');
+    // 4. " !tag value" → " value" (inline at start of line)
     content = content.replace(/\s+![a-zA-Z_][a-zA-Z0-9_]*\s+/g, ' ');
-    // 4. "!tag " at any position
+    // 5. "!tag " at any position
     content = content.replace(/![a-zA-Z_][a-zA-Z0-9_]*\s+/g, '');
 
     // Fix duplicated mapping keys (some YAML files have malformed entries)
