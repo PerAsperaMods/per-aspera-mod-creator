@@ -97,6 +97,21 @@ export interface LoadingReport {
 
 export class YamlLoaderService {
   private gameDataPath = process.env.YAML_DATA_PATH || path.join(__dirname, '../yaml-data');
+
+  /**
+   * Pre-process YAML content to remove game-specific tags
+   * Transforms: "key: !tagname value" → "key: value"
+   */
+  private preprocessYaml(content: string): string {
+    // Remove tags with values: "!tagname value" → "value"
+    content = content.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
+    // Remove standalone tags: "!tagname\n" → "null\n"
+    content = content.replace(/:\s*![a-zA-Z]+\s*\n/g, ': null\n');
+    // Remove inline tags
+    content = content.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+    return content;
+  }
+
   private loadingReport: LoadingReport = {
     timestamp: new Date().toISOString(),
     phase: 0,
@@ -222,11 +237,7 @@ export class YamlLoaderService {
       }
 
       let fileContent = fs.readFileSync(filePath, 'utf-8');
-      // Pre-process: Remove game-specific YAML tags (!knowledge, !building, etc.)
-      // Transform: "key: !tagname value" → "key: value"
-      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
-      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\n/g, ': null\n');
-      fileContent = fileContent.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+      fileContent = this.preprocessYaml(fileContent);
 
       const data = yaml.load(fileContent, { schema }) as any;
 
@@ -278,11 +289,7 @@ export class YamlLoaderService {
     try {
       const filePath = path.join(this.gameDataPath, 'resource.yaml');
       let fileContent = fs.readFileSync(filePath, 'utf-8');
-      // Pre-process: Remove game-specific YAML tags (!knowledge, !building, etc.)
-      // Transform: "key: !tagname value" → "key: value"
-      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
-      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\n/g, ': null\n');
-      fileContent = fileContent.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+      fileContent = this.preprocessYaml(fileContent);
 
       const data = yaml.load(fileContent, { schema }) as any;
 
@@ -361,6 +368,8 @@ export class YamlLoaderService {
 
         // Data is directly the buildings object
         const buildings = data;
+        const buildingCount = Object.keys(buildings).length;
+        console.log(`  📝 Found ${buildingCount} buildings in ${fileName}`);
 
         for (const [key, building] of Object.entries(buildings)) {
           const bldg = building as any;
@@ -411,11 +420,7 @@ export class YamlLoaderService {
     try {
       const filePath = path.join(this.gameDataPath, 'knowledge.yaml');
       let fileContent = fs.readFileSync(filePath, 'utf-8');
-      // Pre-process: Remove game-specific YAML tags (!knowledge, !building, etc.)
-      // Transform: "key: !tagname value" → "key: value"
-      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
-      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\n/g, ': null\n');
-      fileContent = fileContent.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+      fileContent = this.preprocessYaml(fileContent);
 
       const data = yaml.load(fileContent, { schema }) as any;
 
@@ -527,11 +532,7 @@ export class YamlLoaderService {
       }
 
       let fileContent = fs.readFileSync(filePath, 'utf-8');
-      // Pre-process: Remove game-specific YAML tags (!knowledge, !building, etc.)
-      // Transform: "key: !tagname value" → "key: value"
-      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\s+/g, ': ');
-      fileContent = fileContent.replace(/:\s*![a-zA-Z]+\n/g, ': null\n');
-      fileContent = fileContent.replace(/\s*![a-zA-Z]+\s+/g, ' ');
+      fileContent = this.preprocessYaml(fileContent);
 
       const data = yaml.load(fileContent, { schema }) as any;
 
