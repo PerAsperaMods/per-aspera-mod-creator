@@ -1,0 +1,1236 @@
+### HISTORICAL LANDMARKS
+special_site_mars_2:
+  actions: []
+  description: BE_special_site_mars_2_description
+  year: BE_special_site_year_1971
+  organization: BE_special_site_organization_USSR
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 44
+    y: -45
+  knowledgeOnDiscovery: !knowledge knowledge_mars_2_basic
+  knowledgeOnResearch: !knowledge knowledge_mars_2_extended
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_mars_2_name
+  siteClass: CRASH
+  prefabName: CrashedSatellite
+special_site_mars_3:
+  actions: []
+  description: BE_special_site_mars_3_description
+  year: BE_special_site_year_1971
+  organization: BE_special_site_organization_USSR
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -158
+    y: -45
+  knowledgeOnDiscovery: !knowledge knowledge_mars_3_basic
+  knowledgeOnResearch: !knowledge knowledge_mars_3
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_mars_3_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_mars_6:
+  actions: []
+  description: BE_special_site_mars_6_description
+  year: BE_special_site_year_1974
+  organization: BE_special_site_organization_USSR
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -19.42
+    y: -23.9
+  knowledgeOnDiscovery: !knowledge knowledge_mars_6_basic
+  knowledgeOnResearch: !knowledge knowledge_mars_6
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_mars_6_name
+  siteClass: CRASH
+  prefabName: CrashedSatellite
+special_site_viking_1:
+  actions: []
+  description: BE_special_site_viking_1_description
+  year: BE_special_site_year_1976
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -48.222
+    y: 22.697
+  knowledgeOnDiscovery: !knowledge knowledge_viking_1_basic
+  knowledgeOnResearch: !knowledge knowledge_viking_1
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_viking_1_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_viking_2:
+  actions: []
+  description: BE_special_site_viking_2_description
+  year: BE_special_site_year_1976
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 134.01
+    y: 48.269
+  knowledgeOnDiscovery: !knowledge knowledge_viking_2_basic
+  knowledgeOnResearch: !knowledge knowledge_viking_2
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_viking_2_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_mars_pathfinder:
+  actions: []
+  description: BE_special_site_mars_pathfinder_description
+  year: BE_special_site_year_1997
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -33.55
+    y: 19.33
+  knowledgeOnDiscovery: !knowledge knowledge_mars_pathfinder_basic
+  knowledgeOnResearch: !knowledge knowledge_mars_pathfinder
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_mars_pathfinder_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_mars_polar_lander:
+  actions: []
+  description: BE_special_site_mars_polar_lander_description
+  year: BE_special_site_year_1999
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 165.5
+    y: -76.3
+  knowledgeOnDiscovery: !knowledge knowledge_mars_polar_lander_basic
+  knowledgeOnResearch: !knowledge knowledge_mars_polar_lander
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_mars_polar_lander_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_beagle_2:
+  actions: []
+  description: BE_special_site_beagle_2_description
+  year: BE_special_site_year_2003
+  organization: BE_special_site_organization_Europe
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 90.4295
+    y: 11.5265
+  knowledgeOnDiscovery: !knowledge knowledge_beagle_2_basic
+  knowledgeOnResearch: !knowledge knowledge_beagle_2
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_beagle_2_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_spirit:
+  actions: []
+  description: BE_special_site_spirit_description
+  year: BE_special_site_year_2004
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 175.4785
+    y: -14.5718002
+  knowledgeOnDiscovery: !knowledge knowledge_spirit_basic
+  knowledgeOnResearch: !knowledge knowledge_spirit
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_spirit_name
+  siteClass: ROVER
+  prefabName: OldRover
+special_site_opportunity:
+  actions: []
+  description: BE_special_site_opportunity_description
+  year: BE_special_site_year_2004
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 354.473389
+    y: -2.4
+  knowledgeOnDiscovery: !knowledge knowledge_opportunity_basic
+  knowledgeOnResearch: !knowledge knowledge_opportunity
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_opportunity_name
+  siteClass: ROVER
+  prefabName: OldRover
+special_site_phoenix_mars_lander:
+  actions: []
+  description: BE_special_site_phoenix_mars_lander_description
+  year: BE_special_site_year_2008
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -125.7
+    y: 68.22
+  knowledgeOnDiscovery: !knowledge knowledge_phoenix_mars_lander_basic
+  knowledgeOnResearch: !knowledge knowledge_phoenix_mars_lander
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_phoenix_mars_lander_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_curiosity:
+  actions: []
+  description: BE_special_site_curiosity_description
+  year: BE_special_site_year_2012
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 137.199997
+    y: -4.5999999
+  knowledgeOnDiscovery: !knowledge knowledge_curiosity_basic
+  knowledgeOnResearch: !knowledge knowledge_curiosity
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_curiosity_name
+  siteClass: ROVER
+  prefabName: OldRover
+special_site_schiaparelli_edm_lander:
+  actions: []
+  description: BE_special_site_schiaparelli_edm_lander_description
+  year: BE_special_site_year_2016
+  organization: BE_special_site_organization_EuropeAndRussia
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -6.4
+    y: -2.05
+  knowledgeOnDiscovery: !knowledge knowledge_schiaparelli_edm_lander_basic
+  knowledgeOnResearch: !knowledge knowledge_schiaparelli_edm_lander
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_schiaparelli_edm_lander_name
+  siteClass: CRASH
+  prefabName: CrashedSatellite
+special_site_insight_lander:
+  actions: []
+  description: BE_special_site_insight_lander_description
+  year: BE_special_site_year_2018
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 135.0
+    y: 4.5
+  knowledgeOnDiscovery: !knowledge knowledge_insight_lander_basic
+  knowledgeOnResearch: !knowledge knowledge_insight_lander
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_insight_lander_name
+  siteClass: LANDER
+  prefabName: OldLander
+### POST-2020 ROBOTIC EXPLORATION ERA LANDMARKS
+special_site_mars_2020:
+  actions: []
+  description: BE_special_site_mars_2020_description
+  year: BE_special_site_year_2021
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 77.5
+    y: 18.6
+  knowledgeOnDiscovery: !knowledge knowledge_mars_2020_basic
+  knowledgeOnResearch: !knowledge knowledge_mars_2020
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_mars_2020_name
+  siteClass: ROVER
+  prefabName: OldRover
+special_site_tianwen_1:
+  actions: []
+  description: BE_special_site_tianwen_1_description
+  year: BE_special_site_year_2021
+  organization: BE_special_site_organization_PRC
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 132.0
+    y: 45.0
+  knowledgeOnDiscovery: !knowledge knowledge_tianwen_1_basic
+  knowledgeOnResearch: !knowledge knowledge_tianwen_1
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_tianwen_1_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_exomars:
+  actions: []
+  description: BE_special_site_exomars_description
+  year: BE_special_site_year_2023
+  organization: BE_special_site_organization_EuropeAndRussia
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 335.37
+    y: 18.28
+  knowledgeOnDiscovery: !knowledge knowledge_exomars_basic
+  knowledgeOnResearch: !knowledge knowledge_exomars
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_exomars_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_terex:
+  actions: []
+  description: BE_special_site_terex_description
+  year: BE_special_site_year_2023
+  organization: BE_special_site_organization_Japan
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 84.1
+    y: 17.6
+  knowledgeOnDiscovery: !knowledge knowledge_terex_basic
+  knowledgeOnResearch: !knowledge knowledge_terex
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_terex_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_mangalyaan_2:
+  actions: []
+  description: BE_special_site_mangalyaan_2_description
+  year: BE_special_site_year_2023
+  organization: BE_special_site_organization_India
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -158.5
+    y: -7.2
+  knowledgeOnDiscovery: !knowledge knowledge_mangalyaan_2_basic
+  knowledgeOnResearch: !knowledge knowledge_mangalyaan_2
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_mangalyaan_2_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_starship:
+  actions: []
+  description: BE_special_site_starship_description
+  year: BE_special_site_year_2023_2037
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -163.5
+    y: 35.0
+  knowledgeOnDiscovery: !knowledge knowledge_starship_basic
+  knowledgeOnResearch: !knowledge knowledge_starship
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_starship_name
+  siteClass: CRASH
+  prefabName: CrashedSatellite
+special_site_infinity:
+  actions: []
+  description: BE_special_site_infinity_description
+  year: BE_special_site_year_2033
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 56.0
+    y: -14.0
+  knowledgeOnDiscovery: !knowledge knowledge_infinity_basic
+  knowledgeOnResearch: !knowledge knowledge_infinity
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_infinity_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_marpost:
+  actions: []
+  description: BE_special_site_marpost_description
+  year: BE_special_site_year_2033
+  organization: BE_special_site_organization_Russia
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 297.0
+    y: -20.5
+  knowledgeOnDiscovery: !knowledge knowledge_marpost_basic
+  knowledgeOnResearch: !knowledge knowledge_marpost
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_marpost_name
+  siteClass: LANDER
+  prefabName: OldLander
+special_site_red_dragon:
+  actions: []
+  description: BE_special_site_red_dragon_description
+  year: BE_special_site_year_2034
+  organization: BE_special_site_organization_US
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 343.0
+    y: 22.0
+  knowledgeOnDiscovery: !knowledge knowledge_red_dragon_basic
+  knowledgeOnResearch: !knowledge knowledge_red_dragon
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_red_dragon_name
+  siteClass: LANDER
+  unresearchedName: BE_special_site_unresearchedName_old_lander
+  prefabName: OldLander
+### HUMAN EXPLORATION ERA LANDMARKS
+special_site_vermilion_bird:
+  actions: []
+  description: BE_special_site_vermilion_bird_description
+  year: BE_special_site_year_2035
+  organization: BE_special_site_organization_PRC
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -263.0
+    y: -31.0
+  knowledgeOnDiscovery: !knowledge knowledge_vermilion_bird_basic
+  knowledgeOnResearch: !knowledge knowledge_vermilion_bird
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_vermilion_bird_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_lander
+  prefabName: TekkieColonyZhuQue
+special_site_utopiya_marsianin_stantsiya:
+  actions: []
+  description: BE_special_site_utopiya_marsianin_stantsiya_description
+  year: BE_special_site_year_2035
+  organization: BE_special_site_organization_Russia
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -251.0
+    y: 45.0
+  knowledgeOnDiscovery: !knowledge knowledge_utopiya_marsianin_stantsiya_basic
+  knowledgeOnResearch: !knowledge knowledge_utopiya_marsianin_stantsiya
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_utopiya_marsianin_stantsiya_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_old_Russian_station
+  prefabName: OldColonyGeneric
+special_site_antares:
+  actions: []
+  description: BE_special_site_antares_description
+  year: BE_special_site_year_2035
+  organization: BE_special_site_organization_Europe
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -173.0
+    y: -11.0
+  knowledgeOnDiscovery: !knowledge knowledge_antares_basic
+  knowledgeOnResearch: !knowledge knowledge_antares
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_antares_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_deserted_living_quarters
+  prefabName: OldColonyEU
+special_site_sad_nashirah:
+  actions: []
+  description: BE_special_site_sad_nashirah_description
+  year: BE_special_site_year_2050
+  organization: BE_special_site_organization_Emirates
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -327.2
+    y: 29.3
+  knowledgeOnDiscovery: !knowledge knowledge_sad_nashirah_basic
+  knowledgeOnResearch: !knowledge knowledge_sad_nashirah
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_sad_nashirah_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_old_fuel_refinery
+  prefabName: OldColonyGeneric
+special_site_blue_dawn:
+  actions: []
+  description: BE_special_site_blue_dawn_description
+  year: BE_special_site_year_2050
+  organization: BE_special_site_organization_Canada
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -217.5
+    y: -4.9
+  knowledgeOnDiscovery: !knowledge knowledge_blue_dawn_basic
+  knowledgeOnResearch: !knowledge knowledge_blue_dawn
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_blue_dawn_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_water_extractor
+  prefabName: WaterMiningCamp
+special_site_her_desher:
+  actions: []
+  description: BE_special_site_her_desher_description
+  year: BE_special_site_year_2050
+  organization: BE_special_site_organization_Egypt
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -48.0
+    y: -25.4
+  knowledgeOnDiscovery: !knowledge knowledge_her_desher_basic
+  knowledgeOnResearch: !knowledge knowledge_her_desher
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_her_desher_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_3D_printed_base
+  prefabName: OldColonyGeneric
+special_site_phenix:
+  actions: []
+  description: BE_special_site_phenix_description
+  year: BE_special_site_year_2050
+  organization: BE_special_site_organization_FranceAndUS
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -173.0
+    y: 40.0
+  knowledgeOnDiscovery: !knowledge knowledge_phenix_basic
+  knowledgeOnResearch: !knowledge knowledge_phenix
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_phenix_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_martian_dome
+  prefabName: GreenhouseDome
+special_site_abandoned_radar_station:
+  prefabName: TekkieRadar
+  name: BE_special_site_abandoned_radar_station_name
+  unresearchedName: BE_special_site_unresearchedName_unknown
+  actions: []
+  description: BE_special_site_abandoned_radar_station_description
+  year: BE_special_site_year_2062
+  organization: BE_special_site_organization_PRC
+  unresearchedYear: BE_special_site_year_unknown
+  unresearchedOrganization: BE_special_site_organization_unknown
+  discoveryType: UNLOCKABLE
+  positionType: FIXED_POSITION
+  geoPosition:
+    x: -22.0
+    y: -50.8
+  knowledgeOnDiscovery: !knowledge knowledge_abandoned_radar_station_basic
+  knowledgeOnResearch: !knowledge knowledge_abandoned_radar_station
+  requiredResearch: 60.0
+  siteClass: RUINS
+special_site_kasei:
+  actions: []
+  description: BE_special_site_kasei_description
+  year: BE_special_site_year_2064
+  organization: BE_special_site_organization_Japan
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -77.5
+    y: 21.0
+  knowledgeOnDiscovery: !knowledge knowledge_kasei_basic
+  knowledgeOnResearch: !knowledge knowledge_kasei
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_kasei_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_old_fuel_refinery
+  prefabName: OldColonyGeneric
+special_site_yeood:
+  actions: []
+  description: BE_special_site_yeood_description
+  year: BE_special_site_year_2065
+  organization: BE_special_site_organization_Israel
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -148.1
+    y: -13.8
+  knowledgeOnDiscovery: !knowledge knowledge_yeood_basic
+  knowledgeOnResearch: !knowledge knowledge_yeood
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_yeood_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_electronics_factory
+  prefabName: OldColonyGeneric
+special_site_red_prometheus:
+  actions: []
+  description: BE_special_site_red_prometheus_description
+  year: BE_special_site_year_2077
+  organization: BE_special_site_organization_Promethee
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -53.5
+    y: 18.95
+  knowledgeOnDiscovery: !knowledge knowledge_red_prometheus_basic
+  knowledgeOnResearch: !knowledge knowledge_red_prometheus
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_red_prometheus_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_martian_base
+  prefabName: OldColonyGeneric
+special_site_kosmicheskiy_molot:
+  actions: []
+  description: BE_special_site_kosmicheskiy_molot_description
+  year: BE_special_site_year_2078
+  organization: BE_special_site_organization_Russia
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -63.0
+    y: 16.0
+  knowledgeOnDiscovery: !knowledge knowledge_kosmicheskiy_molot_basic
+  knowledgeOnResearch: !knowledge knowledge_kosmicheskiy_molot
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_kosmicheskiy_molot_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_old_Russian_station
+  prefabName: OldColonyGeneric
+special_site_lohitanga_01:
+  prefabName: IndianMiningCamp
+  name: BE_special_site_lohitanga_01_name
+  unresearchedName: BE_special_site_unresearchedName_Lohitangas_ruins
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_lohitanga_01
+      command: UnlockEnhancement
+  description: BE_special_site_lohitanga_01_description
+  year: BE_special_site_year_2080
+  organization: BE_special_site_organization_India
+  discoveryType: ALWAYS_KNOWN
+  positionType: FIXED_POSITION
+  geoPosition:
+    x: 125.3
+    y: -0.2
+  knowledgeOnDiscovery: !knowledge knowledge_lohitanga_01_basic
+  knowledgeOnResearch: !knowledge knowledge_lohitanga_01
+  requiredResearch: 60.0
+  siteClass: RUINS
+special_site_lohitanga_02:
+  prefabName: IndianMiningCamp
+  name: BE_special_site_lohitanga_02_name
+  unresearchedName: BE_special_site_unresearchedName_Lohitangas_ruins
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_lohitanga_02
+      command: UnlockEnhancement
+  description: BE_special_site_lohitanga_02_description
+  year: BE_special_site_year_2080
+  organization: BE_special_site_organization_India
+  discoveryType: DISCOVERABLE
+  positionType: RANDOM_POSITION_NEAR_SITE
+  otherSite: !site special_site_lohitanga_01
+  geoPosition:
+    x: 0.0
+    y: 0.0
+  maxDistance: 600.0
+  minDistance: 300.0
+  knowledgeOnDiscovery: !knowledge knowledge_lohitanga_02_basic
+  knowledgeOnResearch: !knowledge knowledge_lohitanga_02
+  requiredResearch: 60.0
+  siteClass: RUINS
+special_site_lohitanga_03:
+  prefabName: IndianMiningCamp
+  name: BE_special_site_lohitanga_03_name
+  unresearchedName: BE_special_site_unresearchedName_Lohitangas_ruins
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_lohitanga_03
+      command: UnlockEnhancement
+  description: BE_special_site_lohitanga_03_description
+  year: BE_special_site_year_2080
+  organization: BE_special_site_organization_India
+  discoveryType: DISCOVERABLE
+  positionType: RANDOM_POSITION_NEAR_SITE
+  otherSite: !site special_site_lohitanga_01
+  geoPosition:
+    x: 0.0
+    y: 0.0
+  maxDistance: 700.0
+  minDistance: 400.0
+  knowledgeOnDiscovery: !knowledge knowledge_lohitanga_03_basic
+  knowledgeOnResearch: !knowledge knowledge_lohitanga_03
+  requiredResearch: 60.0
+  siteClass: RUINS
+special_site_lohitanga_04:
+  prefabName: IndianMiningCamp
+  name: BE_special_site_lohitanga_04_name
+  unresearchedName: BE_special_site_unresearchedName_Lohitangas_ruins
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_lohitanga_04
+      command: UnlockEnhancement
+  description: BE_special_site_lohitanga_04_description
+  year: BE_special_site_year_2081
+  organization: BE_special_site_organization_India
+  discoveryType: DISCOVERABLE
+  positionType: RANDOM_POSITION_NEAR_SITE
+  otherSite: !site special_site_lohitanga_03
+  geoPosition:
+    x: 0.0
+    y: 0.0
+  maxDistance: 800.0
+  minDistance: 500.0
+  knowledgeOnDiscovery: !knowledge knowledge_lohitanga_04_basic
+  knowledgeOnResearch: !knowledge knowledge_lohitanga_04
+  requiredResearch: 60.0
+  siteClass: RUINS
+special_site_maasi:
+  actions: []
+  description: BE_special_site_maasi_description
+  year: BE_special_site_year_2082
+  organization: BE_special_site_organization_NigeriaAndPRC
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -271.0
+    y: 21.0
+  knowledgeOnDiscovery: !knowledge knowledge_maasi_basic
+  knowledgeOnResearch: !knowledge knowledge_maasi
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_maasi_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_robotic_base
+  prefabName: MaasiRoboticColony
+special_site_abandoned_colony:
+  prefabName: TekkieColony
+  actions:
+    - arguments:
+        - PlayerFaction
+        - knowledge_abandoned_colony_basic
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  description: BE_special_site_abandoned_colony_description
+  year: BE_special_site_year_2094
+  organization: BE_special_site_organization_PRC
+  unresearchedYear: BE_special_site_year_unknown
+  unresearchedOrganization: BE_special_site_organization_unknown
+  discoveryType: UNLOCKABLE
+  geoPosition:
+    x: 0.0
+    y: 0.0
+  knowledgeOnResearch: !knowledge knowledge_abandoned_colony
+  maxDistance: 475.0
+  minDistance: 425.0
+  otherSite: null
+  positionType: RANDOM_POSITION_NEAR_BASE
+  requiredResearch: 30.0
+  name: BE_special_site_abandoned_colony_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_facility
+special_site_abandoned_nuclear_silo:
+  prefabName: TekkieSilo
+  actions: []
+  description: BE_special_site_abandoned_nuclear_silo_description
+  year: BE_special_site_year_2094
+  organization: BE_special_site_organization_PRC
+  discoveryType: UNLOCKABLE
+  geoPosition:
+    x: 16.8
+    y: -14.5
+  knowledgeOnDiscovery: !knowledge knowledge_abandoned_nuclear_silo_basic
+  knowledgeOnResearch: !knowledge knowledge_abandoned_nuclear_silo
+  maxDistance: 700.0
+  minDistance: 500.0
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_abandoned_nuclear_silo_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_facility
+special_site_amazonia:
+  actions: []
+  description: BE_special_site_amazonia_description
+  year: BE_special_site_year_2095
+  organization: BE_special_site_organization_Brazil
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -156.0
+    y: 30.0
+  knowledgeOnDiscovery: !knowledge knowledge_amazonia_basic
+  knowledgeOnResearch: !knowledge knowledge_amazonia
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_amazonia_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_botanic_dome
+  prefabName: GreenhouseDome
+special_site_messenger:
+  actions: []
+  description: BE_special_site_messenger_description
+  year: BE_special_site_year_2095
+  organization: BE_special_site_organization_Europe
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -268.50
+    y: -28.9
+  knowledgeOnDiscovery: !knowledge knowledge_messenger_basic
+  knowledgeOnResearch: !knowledge knowledge_messenger
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_messenger_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_network_base
+  prefabName: MessengerSatComs
+special_site_hagyegi:
+  actions: []
+  description: BE_special_site_hagyegi_description
+  year: BE_special_site_year_2096
+  organization: BE_special_site_organization_UKT
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -45.6
+    y: -13.8
+  knowledgeOnDiscovery: !knowledge knowledge_hagyegi_basic
+  knowledgeOnResearch: !knowledge knowledge_hagyegi
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_hagyegi_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_martian_bunker
+  prefabName: HagyegiBunker
+special_site_red_opal:
+  actions: []
+  description: BE_special_site_red_opal_description
+  year: BE_special_site_year_2109
+  organization: BE_special_site_organization_AustraliaAndUS
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -44.0
+    y: -37.0
+  knowledgeOnDiscovery: !knowledge knowledge_red_opal_basic
+  knowledgeOnResearch: !knowledge knowledge_red_opal
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_red_opal_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_entomology_lab
+  prefabName: BiomedicalLab
+special_site_arcadia:
+  actions: []
+  description: BE_special_site_arcadia_description
+  year: BE_special_site_year_2111
+  organization: BE_special_site_organization_UCLAN
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -12.0
+    y: -22.0
+  knowledgeOnDiscovery: !knowledge knowledge_arcadia_basic
+  knowledgeOnResearch: !knowledge knowledge_arcadia
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_arcadia_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_weather_station
+  prefabName: OldColonyGeneric
+### AI EXPLORATION ERA
+special_site_ares:
+  actions: []
+  description: BE_special_site_ares_description
+  year: BE_special_site_year_2141
+  organization: BE_special_site_organization_OxyUN
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -16.0
+    y: 2.0
+  knowledgeOnDiscovery: !knowledge knowledge_ares_basic
+  knowledgeOnResearch: !knowledge knowledge_ares
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_ares_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_medical_center
+  prefabName: BiomedicalLab
+special_site_stardust_emerald:
+  actions: []
+  description: BE_special_site_stardust_emerald_description
+  year: BE_special_site_year_2142
+  organization: BE_special_site_organization_Pellicanus
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -159.0
+    y: -2.0
+  knowledgeOnDiscovery: !knowledge knowledge_stardust_emerald_basic
+  knowledgeOnResearch: !knowledge knowledge_stardust_emerald
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_stardust_emerald_name
+  siteClass: RUINS
+  prefabName: OldColonyGeneric
+special_site_new_olympia:
+  actions: []
+  description: BE_special_site_new_olympia_description
+  year: BE_special_site_year_2156
+  organization: BE_special_site_organization_OxyUN
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -130.0
+    y: 13.0
+  knowledgeOnDiscovery: !knowledge knowledge_new_olympia_basic
+  knowledgeOnResearch: !knowledge knowledge_new_olympia
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_new_olympia_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_deteriorated_solar_panels
+  prefabName: OldColonyOlympia
+special_site_columbus:
+  actions: []
+  description: BE_special_site_columbus_description
+  year: BE_special_site_year_2157
+  organization: BE_special_site_organization_OxyUN
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -83.0
+    y: 31.0
+  knowledgeOnDiscovery: !knowledge knowledge_columbus_basic
+  knowledgeOnResearch: !knowledge knowledge_columbus
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_columbus_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_fission_plant
+  prefabName: OldColonyGeneric
+special_site_scarlet:
+  actions: []
+  description: BE_special_site_scarlet_description
+  year: BE_special_site_year_2170
+  organization: BE_special_site_organization_SpaceGenix
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: 50.0
+    y: 50.0
+  knowledgeOnDiscovery: !knowledge knowledge_scarlet_basic
+  knowledgeOnResearch: !knowledge knowledge_scarlet
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_scarlet_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_martian_resort
+  prefabName: OldColonyGeneric
+### ASTERION MISSION - SECTOR 6
+special_site_colonie_asterion:
+  prefabName: OldColonyGeneric
+  name: BE_special_site_colonie_asterion_name
+  unresearchedName: BE_special_site_redacted
+  actions: []
+  year: BE_special_site_year_2168
+  organization: BE_special_site_organization_OxyUN
+  unresearchedYear: BE_special_site_redacted
+  unresearchedOrganization: BE_special_site_redacted
+  description: BE_special_site_colonie_asterion_description
+  discoveryType: UNLOCKABLE
+  positionType: FIXED_POSITION
+  geoPosition:
+    x: -170.5
+    y: -25.5
+  knowledgeOnDiscovery: !knowledge knowledge_colonie_asterion_basic
+  knowledgeOnResearch: !knowledge knowledge_colonie_asterion
+  requiredResearch: 60.0
+  siteClass: RUINS
+special_site_abandoned_greenhouse:
+  prefabName: AsterionGreenhouse
+  name: BE_special_site_abandoned_greenhouse_name
+  unresearchedName: BE_special_site_redacted
+  actions: []
+  description: BE_special_site_abandoned_greenhouse_description
+  year: BE_special_site_year_2168
+  organization: BE_special_site_organization_OxyUN
+  unresearchedYear: BE_special_site_redacted
+  unresearchedOrganization: BE_special_site_redacted
+  discoveryType: UNLOCKABLE
+  positionType: FIXED_POSITION
+  geoPosition:
+    x: -176.0
+    y: -18.4
+  knowledgeOnDiscovery: !knowledge knowledge_abandoned_greenhouse_basic
+  knowledgeOnResearch: !knowledge knowledge_abandoned_greenhouse
+  requiredResearch: 60.0
+  siteClass: RUINS
+special_site_biomedical_facility:
+  prefabName: BiomedicalLab
+  name: BE_special_site_biomedical_facility_name
+  unresearchedName: BE_special_site_redacted
+  actions: []
+  description: BE_special_site_biomedical_facility_description
+  year: BE_special_site_year_2168
+  organization: BE_special_site_organization_OxyUN
+  unresearchedYear: BE_special_site_redacted
+  unresearchedOrganization: BE_special_site_redacted
+  discoveryType: UNLOCKABLE
+  positionType: FIXED_POSITION
+  geoPosition:
+    x: -168.0
+    y: -11.3
+  knowledgeOnDiscovery: !knowledge knowledge_biomedical_facility_basic
+  knowledgeOnResearch: !knowledge knowledge_biomedical_facility
+  requiredResearch: 60.0
+  siteClass: RUINS
+special_site_alba:
+  actions: []
+  description: BE_special_site_alba_description
+  year: BE_special_site_year_2171
+  organization: BE_special_site_organization_OxyUNAndSpaceGenix
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -126.0
+    y: 45.0
+  knowledgeOnDiscovery: !knowledge knowledge_alba_basic
+  knowledgeOnResearch: !knowledge knowledge_alba
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_alba_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_colony
+  prefabName: OldColonyGeneric
+special_site_aurora:
+  actions: []
+  description: BE_special_site_aurora_description
+  year: BE_special_site_year_2186
+  organization: BE_special_site_organization_OxyUNAndSpaceGenix
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -48.4
+    y: -13.8
+  knowledgeOnDiscovery: !knowledge knowledge_aurora_basic
+  knowledgeOnResearch: !knowledge knowledge_aurora
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_aurora_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_colony
+  prefabName: OldColonyGeneric
+special_site_dawn:
+  actions: []
+  description: BE_special_site_dawn_description
+  year: BE_special_site_year_2192
+  organization: BE_special_site_organization_OxyUNAndSpaceGenix
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -50.0
+    y: 60.0
+  knowledgeOnDiscovery: !knowledge knowledge_dawn_basic
+  knowledgeOnResearch: !knowledge knowledge_dawn
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_dawn_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_colony
+  prefabName: OldColonyGeneric
+special_site_millenium:
+  actions: []
+  description: BE_special_site_millenium_description
+  year: BE_special_site_year_2198
+  organization: BE_special_site_organization_SpaceGenix
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -100.3
+    y: -29.7
+  knowledgeOnDiscovery: !knowledge knowledge_millenium_basic
+  knowledgeOnResearch: !knowledge knowledge_millenium
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_millenium_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_martian_resort
+  prefabName: OldColonyGeneric
+special_site_utopia:
+  actions: []
+  description: BE_special_site_utopia_description
+  year: BE_special_site_year_2199
+  organization: BE_special_site_organization_SpaceGenix
+  discoveryType: ALWAYS_KNOWN
+  geoPosition:
+    x: -236.0
+    y: 52.0
+  knowledgeOnDiscovery: !knowledge knowledge_utopia_basic
+  knowledgeOnResearch: !knowledge knowledge_utopia
+  maxDistance: 0.0
+  minDistance: 0.0
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_utopia_name
+  siteClass: RUINS
+  unresearchedName: BE_special_site_unresearchedName_abandoned_martian_resort
+  prefabName: OldColonyGeneric
+### OLD LANDING SITE - CARMINE MISSION
+special_site_old_landing_site:
+  prefabName: OldLandingSite
+  name: BE_special_site_old_landing_site_name
+  unresearchedName: BE_special_site_redacted
+  actions: []
+  description: BE_special_site_old_landing_site_description
+  year: BE_special_site_year_2210
+  organization: BE_special_site_organization_OxyUN
+  unresearchedYear: BE_special_site_redacted
+  unresearchedOrganization: BE_special_site_redacted
+  discoveryType: UNLOCKABLE
+  positionType: FIXED_POSITION
+  geoPosition:
+    x: -113.9
+    y: -10.8
+  knowledgeOnDiscovery: !knowledge knowledge_old_landing_site_basic
+  knowledgeOnResearch: !knowledge knowledge_old_landing_site
+  requiredResearch: 60.0
+  siteClass: RUINS
+### FINAL LANDING SITE
+special_site_final_discovery:
+  prefabName: OldColonyGeneric
+  actions: []
+  description: BE_special_site_final_discovery_description
+  year: BE_special_site_year_2289
+  organization: BE_special_site_organization_OxyUN
+  unresearchedYear: BE_special_site_year_unknown
+  unresearchedOrganization: BE_special_site_organization_unknown
+  discoveryType: UNLOCKABLE
+  geoPosition:
+    x: -116.9
+    y: -54.8
+  knowledgeOnResearch: !knowledge knowledge_final_discovery
+  otherSite: null
+  positionType: FIXED_POSITION
+  requiredResearch: 30.0
+  name: BE_special_site_final_discovery_name
+  siteClass: LANDER
+  unresearchedName: BE_special_site_unresearchedName_final_discovery

@@ -1,0 +1,32 @@
+hazard_devil_medium:
+  radius:
+    - 20
+    - 100
+  zoneDamages:
+    - 20
+    - 5
+  duration: 30
+  speed: 50
+  maxAngleStep: 30
+  angleStepTime: .2
+hazard_devil_medium_safe:
+  radius:
+    - 20
+    - 100
+  zoneDamages:
+    - 20
+    - 5
+  duration: 30
+  speed: 50
+  maxAngleStep: 30
+  angleStepTime: .2
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+  - longitude: 60.1            # Demo Base Position
+    latitude: 7.5
+    radius: 1000

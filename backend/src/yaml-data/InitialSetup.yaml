@@ -1,0 +1,113 @@
+building: !building landing_site
+longitude: 60.1
+latitude: 7.5
+clearAreaRadius: 300
+initializeAdditionalResourceVeins: false
+#This veins are for additional landing sites(in campaign) or for all landing sites(in sandbox)
+#Initial landing site veins on campaign are handled in ScatterSetup because the building position is fixed(this could be unified maybe?)
+#And some other campaign veins are handled in rules as the story progresses
+baseStarterVeins:
+  - { resource: !resource resource_aluminum, minRadius: 80, maxRadius: 120, qtyMin: 500, qtyMax: 1000}
+  - { resource: !resource resource_silicon, minRadius: 120, maxRadius: 160, qtyMin: 500, qtyMax: 1000}
+  - { resource: !resource resource_iron, minRadius: 160, maxRadius: 200, qtyMin: 500, qtyMax: 1000}
+  - { resource: !resource resource_carbon, minRadius: 200, maxRadius: 240, qtyMin: 500, qtyMax: 1000}
+  - { resource: !resource resource_chemicals, minRadius: 240, maxRadius: 280, qtyMin: 500, qtyMax: 1000}
+  - { resource: !resource resource_water, minRadius: 240, maxRadius: 280, qtyMin: 500, qtyMax: 1000}
+universeFalseBooleans:
+  - ship_arrived
+  - completed_terraforming_stage_1
+  - completed_nuclear_silo
+  - used_polar_nukes
+  - used_aerobraking
+  - unlocked_military_technology
+  - has_military_technology
+  - first_enemy_base_spawned
+  - first_battle_won
+  - launch_satellite_researched
+  - completed_radar_station #completed complete dialogue sequence after quest is completed
+  - elya_suspicious_about_nian
+  - permission_granted_biomedical_facility_area
+  - revealed_biomedical_facility
+  - second_enemy_base_spawned
+  - second_battle_won
+  - killswitch_isa
+  - killswitch_carmine
+  - killswitch_colonies
+  - third_enemy_base_spawned
+  - third_battle_won
+  - enable_lohitanga_mission
+  - carlos_replaces_nathan
+  - nathan_mentioned_ami_belongs_to_isa
+  - nathan_mentioned_the_importance_of_human_input
+  - completed_lohitanga_ruins_1
+  - researched_bioengineered_plants
+  - first_enemy_base_engaged
+  - second_enemy_base_engaged
+  - third_enemy_base_engaged
+  - completed_terraforming_stage_5
+  - completed_martian_defense_network
+  - completed_terraforming_stage_2
+  - sonna_replaces_elya
+  - second_cognitive_test_passed
+  - carmine_introduced_herself
+  - trigger_first_sandstorm
+  - trigger_first_meteorite_shower
+  - finish_first_meteorite_shower
+  - ami_thinks_its_alone
+  - ami_thinks_its_not_alone
+  - commsat_repaired
+  - fire_dragon_had_private_funding
+  - putting_bombs_on_hold
+  - mathematical_impossibilities
+  - get_offensive
+  - a_heavy_price
+  - ami_accepts_using_the_nukes
+  - ami_intuition
+  - target_and_agent
+  - caused_and_self_propelled_motion
+  - stillness_and_communication
+  - sonna_presented_herself
+  - reveal_nians_call
+  - mrs_04_sacrifice_remembered
+  - sonna_wishes_you_dead
+  - sonna_knows_about_carmine
+  - old_landing_site_researched
+  - researched_biomedical_facility
+  - colonist_migration_started
+  - elya_presented
+  - indiginous_organic_life_law
+  - explore_sa9
+  - you_were_hacked
+  - leave_sa7_alone_order
+  - burying_the_truth
+  - she_will_be_reprimanded
+  - colony_found
+  - knows_carmine_code              # AMI knows Carmine code for Killswitch
+  - knows_tekkies_code              # AMI knows Tekkies code for Killswitch
+  - third_battle_can_attack			# Third battle is clear to begin - used to avoid early attacks
+  - first_enemy_base_self_destruction
+  - second_enemy_base_self_destruction
+  - carlos_introduced_himself
+  - additional_landing_site_started
+  - nian_presented
+  - research_outpost_built
+  - look_for_the_mines
+  - attack_the_source
+  - elyas_death_caused_by_sabotage
+  - buildings_were_damaged_by_first_meteor_shower
+  - methane_asteroid_completed
+  - ice_asteroid_completed
+  - nitrogen_asteroid_completed
+universeBlackboardZeroNumbers:
+  - days
+  - screw_them_all
+  - breathed
+terraformingQuests:
+  - !quest quest_terraforming_stage_1
+  - !quest quest_terraforming_stage_2
+  - !quest quest_terraforming_stage_3
+  - !quest quest_terraforming_stage_4
+  - !quest quest_terraforming_stage_5
+#unlockedBuildings:
+#  - !building building_water_producer
+#  - !building building_water_consumer

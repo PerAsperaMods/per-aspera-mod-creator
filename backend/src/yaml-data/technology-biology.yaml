@@ -1,0 +1,560 @@
+# LIFE SUPPORT 0
+technology_lane_life_support_0:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_colonist_limit_0
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_life_support_0_name
+  shortName: BE_technology_lane_life_support_0_shortName
+  iconName: Techtree Icons/ICO_TT_Biology_Lane
+  categoryIconName: Techtree Icons/Icon_TechTree_LifeSupport
+  categoryName: BE_technology_lane_life_support_categoryName
+  description: BE_technology_lane_life_support_0_description
+  requiredResearchPoints: 0.0
+  requirements: []
+  laneColor: 2C412D
+  connections: {}
+  isPlaceholder: false
+  position: 0
+technology_colony_small:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_colony_small
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_colony_small_name
+  description: BE_technology_colony_small_description
+  iconName: Techtree Icons/ICO_TT_Colony2
+  popupImageName: Popups/Images/IMG_PU_Biology_ColonySmall
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 150.0
+  requirements:
+    - !technology technology_lane_life_support_0
+  connections:
+    technology_colony_medium: []
+  isPlaceholder: false
+  position: 11
+# LIFE SUPPORT 1    
+technology_lane_life_support_1:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_colonist_limit_1
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_life_support_1_name
+  shortName: BE_technology_lane_life_support_1_shortName
+  description: BE_technology_lane_life_support_1_description
+  iconName: Techtree Icons/ICO_TT_Biology_Lane
+  popupImageName: Popups/Images/IMG_PU_Biology_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 150.0
+  requirements:
+    - !technology technology_lane_life_support_0
+  connections: {}
+  isPlaceholder: false
+  position: 0
+technology_colony_medium:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_colony_medium
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_colony_medium_name
+  description: BE_technology_colony_medium_description
+  iconName: Techtree Icons/ICO_TT_Colony3
+  popupImageName: Popups/Images/IMG_PU_Biology_ColonyMedium
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_life_support_1
+    - !technology technology_colony_small
+  connections: {}
+  isPlaceholder: false
+  position: 11
+technology_terraforming_ghg_factory:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_terraforming_ghg_factory
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_terraforming_ghg_factory_name
+  description: BE_technology_terraforming_ghg_factory_description
+  iconName: Techtree Icons/ICO_TT_GreenhouseGasFactory
+  popupImageName: Popups/Images/IMG_PU_Biology_TerraformingGHGFactory
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_life_support_1
+  connections: {}
+  isPlaceholder: false
+  position: 3
+technology_water_distribution:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_water_plant
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - building_water_hub
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - building_water_converter
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_water_distribution
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_water_distribution_name
+  description: BE_technology_water_distribution_description
+  iconName: Techtree Icons/ICO_TT_WaterTreatmentPlant
+  popupImageName: Popups/Images/IMG_PU_Biology_WaterTreatmentPlant
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_life_support_1
+  connections: {}
+  isPlaceholder: false
+  position: 9
+  popupOverride: !popup popup_water_supply_network
+# LIFE SUPPORT 2
+technology_lane_life_support_2:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_colonist_limit_2
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_life_support_2_name
+  shortName: BE_technology_lane_life_support_2_shortName
+  description: BE_technology_lane_life_support_2_description
+  iconName: Techtree Icons/ICO_TT_Biology_Lane
+  popupImageName: Popups/Images/IMG_PU_Biology_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_life_support_1
+  connections: {}
+  isPlaceholder: false
+  position: 0
+technology_terraforming_oxygen_release_plant:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_terraforming_oxygen_release_plant
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_terraforming_oxygen_release_plant_name
+  description: BE_technology_terraforming_oxygen_release_plant_description
+  iconName: Techtree Icons/ICO_TT_OxygenReleasePlant
+  popupImageName: Popups/Images/IMG_PU_Biology_TerraformingOxygenReleasePlant
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_life_support_2
+  connections: {}
+  isPlaceholder: false
+  position: 3
+technology_bioengineered_lichen:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_terraforming_biodome
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - enhancement_bioengineered_lichen
+      command: UnlockEnhancement
+      daysDelay: 0.0    
+  isLane: false
+  name: BE_technology_bioengineered_lichen_name
+  description: BE_technology_bioengineered_lichen_description
+  iconName: Techtree Icons/ICO_TT_BioengineeredLichen
+  popupImageName: Popups/Images/IMG_PU_Biology_BioengineeredLichen
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_life_support_2
+    - !technology technology_water_distribution
+  connections: {}
+  isPlaceholder: false
+  position: 7
+  popupOverride: !popup popup_tutorial_biodomes
+technology_bioengineered_cyanobacteria:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_terraforming_aquadome
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - enhancement_bioengineered_cyanobacteria
+      command: UnlockEnhancement
+      daysDelay: 0.0    
+  isLane: false
+  name: BE_technology_bioengineered_cyanobacteria_name
+  description: BE_technology_bioengineered_cyanobacteria_description
+  iconName: Techtree Icons/ICO_TT_BioengineeredCyanobacteria
+  popupImageName: Popups/Images/IMG_PU_Biology_BioengineeredCyanobacteria
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_life_support_2
+  connections: {}
+  isPlaceholder: false
+  position: 5
+# LIFE SUPPORT 3
+technology_lane_life_support_3:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_colonist_limit_3
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_life_support_3_name
+  shortName: BE_technology_lane_life_support_3_shortName
+  description: BE_technology_lane_life_support_3_description
+  iconName: Techtree Icons/ICO_TT_Biology_Lane
+  popupImageName: Popups/Images/IMG_PU_Biology_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_life_support_2
+  actions: []
+  connections: {}
+  isPlaceholder: false
+  position: 0
+technology_colony_dome:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_colony_dome_small
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_colony_dome_name
+  description: BE_technology_colony_dome_description
+  iconName: Techtree Icons/ICO_TT_DomeColony
+  popupImageName: Popups/Images/IMG_PU_Biology_ColonyDome
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_life_support_3
+    - !technology technology_water_distribution
+  connections: {}
+  isPlaceholder: false
+  position: 11
+technology_crater_farm:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_farm_crater
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - building_terraforming_animal_sanctuary
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_crater_farm_name
+  description: BE_technology_crater_farm_description
+  iconName: Techtree Icons/ICO_TT_CraterFarms
+  popupImageName: Popups/Images/IMG_PU_Biology_CraterFarms
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_life_support_3
+    - !technology technology_water_distribution
+  connections: {}
+  isPlaceholder: false
+  position: 9
+  popupOverride: !popup popup_farms
+technology_bioengineered_plants:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_bioengineered_plants
+      command: UnlockEnhancement
+      daysDelay: 0.0    
+  isLane: false
+  name: BE_technology_bioengineered_plants_name
+  description: BE_technology_bioengineered_plants_description
+  iconName: Techtree Icons/ICO_TT_BioengineeredPlants
+  popupImageName: Popups/Images/IMG_PU_Biology_BioengineeredPlants
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_life_support_3
+    - !technology technology_bioengineered_lichen
+  connections: {}
+  isPlaceholder: false
+  position: 7
+technology_terraforming_oxygen_capture_plant:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_terraforming_oxygen_capture_plant
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_terraforming_oxygen_capture_plant_name
+  description: BE_technology_terraforming_oxygen_capture_plant_description
+  iconName: Techtree Icons/ICO_TT_O2Capture
+  popupImageName: Popups/Images/IMG_PU_Biology_O2Capture
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_terraforming_oxygen_release_plant
+    - !technology technology_lane_life_support_3
+  connections: {}
+  isPlaceholder: false
+  position: 3
+# LIFE SUPPORT 4
+technology_lane_life_support_4:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_colonist_limit_4
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_life_support_4_name
+  shortName: BE_technology_lane_life_support_4_shortName
+  description: BE_technology_lane_life_support_4_description
+  iconName: Techtree Icons/ICO_TT_Biology_Lane
+  popupImageName: Popups/Images/IMG_PU_Biology_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_life_support_3
+  connections: {}
+  isPlaceholder: false
+  position: 0
+technology_colony_tent:
+  actions: []
+  isLane: false
+  name: BE_technology_colony_tent_name
+  description: BE_technology_colony_tent_description
+  iconName: Techtree Icons/ICO_TT_TentCity
+  popupImageName: Popups/Images/IMG_PU_Biology_TentCity
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_life_support_4
+  actions:  
+    - arguments:
+        - PlayerFaction
+        - building_colony_tent_city
+      command: UnlockBuilding
+      daysDelay: 0.0
+  connections:
+    technology_colony_tent_2: []
+  isPlaceholder: false
+  position: 11
+technology_bioengineered_animals:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_bioengineered_animals
+      command: UnlockEnhancement
+      daysDelay: 0.0    
+  isLane: false
+  name: BE_technology_bioengineered_animals_name
+  description: BE_technology_bioengineered_animals_description
+  iconName: Techtree Icons/ICO_TT_BioengineeredAnimals
+  popupImageName: Popups/Images/IMG_PU_Biology_BioengineeredAnimals
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_life_support_4
+    - !technology technology_bioengineered_plants
+    - !technology technology_bioengineered_cyanobacteria
+  connections: {}
+  isPlaceholder: false
+  position: 5
+technology_dump_crater:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_dump_crater
+      command: UnlockBuilding
+      daysDelay: 0.0    
+  isLane: false
+  name: BE_technology_dump_crater_name
+  description: BE_technology_dump_crater_description
+  iconName: Techtree Icons/ICO_TT_Dumpster
+  popupImageName: Popups/Images/IMG_PU_Biology_Dumpster
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_life_support_4
+    - !technology technology_bioengineered_plants
+  connections: {}
+  isPlaceholder: false
+  position: 7
+  popupOverride: !popup popup_dumpsters
+# LIFE SUPPORT 5
+technology_lane_life_support_5:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_colonist_limit_5
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_life_support_5_name
+  shortName: BE_technology_lane_life_support_5_shortName
+  description: BE_technology_lane_life_support_5_description
+  iconName: Techtree Icons/ICO_TT_Biology_Lane
+  popupImageName: Popups/Images/IMG_PU_Biology_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_life_support_4
+  connections: {}
+  isPlaceholder: false
+  position: 0
+technology_farm_open:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_farm_open
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - way_rural
+      command: UnlockWayType
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_open_farm_name
+  description: BE_technology_open_farm_description
+  iconName: Techtree Icons/ICO_TT_OpenFarms
+  popupImageName: Popups/Images/IMG_PU_Biology_OpenFarms
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 50000.0
+  requirements:
+    - !technology technology_lane_life_support_5
+    - !technology technology_crater_farm
+    - !technology technology_bioengineered_animals
+  connections: {}
+  isPlaceholder: false
+  position: 9
+  popupOverride: !popup popup_open_farms
+technology_colony_tent_2:
+  actions: []
+  isLane: false
+  name: BE_technology_colony_tent_2_name
+  description: BE_technology_colony_tent_2_description
+  iconName: Techtree Icons/ICO_TT_OpenCity
+  popupImageName: Popups/Images/IMG_PU_Biology_ColonyTent2
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 50000.0
+  requirements:
+    - !technology technology_lane_life_support_5
+    - !technology technology_colony_tent
+  actions:  
+    - arguments:
+        - PlayerFaction
+        - building_colony_open_city
+      command: UnlockBuilding
+      daysDelay: 0.0
+  connections: {}
+  isPlaceholder: false
+  position: 11
+# LIFE SUPPORT 6
+technology_lane_life_support_6:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_colonist_limit_6
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_life_support_6_name
+  shortName: BE_technology_lane_life_support_6_shortName
+  description: BE_technology_lane_life_support_6_description
+  iconName: Techtree Icons/ICO_TT_Biology_Lane
+  popupImageName: Popups/Images/IMG_PU_Biology_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 50000.0
+  requirements:
+    - !technology technology_lane_life_support_5
+  connections: {}
+  isPlaceholder: false
+  position: 0
+technology_atmospheric_humidifier:
+  actions:  
+    - arguments:
+        - PlayerFaction
+        - building_atmospheric_humidifier
+      command: UnlockBuilding
+  isLane: false
+  name: BE_technology_atmospheric_humidifier_name
+  description: BE_technology_atmospheric_humidifier_description
+  iconName: Techtree Icons/ICO_TT_Humidifier
+  popupImageName: Popups/Images/IMG_PU_Biology_Humidifier
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 100000.0
+  requirements:
+    - !technology technology_lane_life_support_6
+    - !technology technology_farm_open
+  connections: {}
+  isPlaceholder: false
+  position: 9
+# URBAN ROADS
+technology_urban_flora:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_flora_urban_growment
+      command: UnlockEnhancement
+  isLane: false
+  name: BE_technology_urban_flora_name
+  shortName: BE_technology_urban_flora_shortName
+  description: BE_technology_urban_flora_description
+  iconName: Techtree Icons/ICO_TT_UrbanFlora
+  popupImageName: Popups/Images/IMG_PU_Engineering_UrbanFlora
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 100000.0
+  requirements:
+    - !technology technology_bioengineered_animals
+    - !technology technology_lane_life_support_6
+  connections: {}
+  isPlaceholder: false
+  position : 5
+technology_continuing_biotech:
+  actions:  
+    - arguments:
+        - PlayerFaction
+        - enhancement_grow_population_and_flora
+      command: UnlockEnhancement
+  isLane: false
+  name: BE_technology_continuing_biotech_name
+  description: BE_technology_continuing_biotech_description
+  iconName: Techtree Icons/ICO_TT_Continuous_Biotechnology
+  popupImageName: Popups/Images/IMG_PU_Continuous_Biotechnology
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_Continuous
+  requiredResearchPoints: 100000.0
+  requirements:
+    - !technology technology_lane_life_support_6
+  connections: {}
+  isPlaceholder: false
+  repeatable : true
+  position: 7

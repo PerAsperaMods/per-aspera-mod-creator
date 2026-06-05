@@ -1,0 +1,31 @@
+cargoAssignAllResourcesPerFrame: false
+cargoSplitterOnlyUnits: true
+developerTimesEaseRatio: 0.05
+doCargoChecksOnTick: false
+enableConsole: true
+errorThrowsException: false
+fixSaves: true
+fixStocks: true
+gameSpeedMultiplier: 1.0
+historyLoad: false
+historySave: false
+logCompleteCaller: false
+logCorrectSourceLink: true
+logCustomCallStackSeverity: ERROR
+logFrame: false
+logSeverity: LOG
+logTimestamp: false
+logToCustomFile: false
+logToUnity: false
+logWhoString: false
+logWhoType: false
+renderResourceLines: false
+renderTrafficLines: false
+saveCopyLog: false
+saveDumpState: false
+showWayCosts: false
+showWayFontSize: 80.0
+smokeTestExitEditor: true
+taskPriorityFromCargoTimedPriority: false
+textFilter: 
+topicFilter: 

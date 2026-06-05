@@ -1,0 +1,1977 @@
+### OPERATIONAL DIRECTIVES
+knowledge_colonists:
+  content: BE_knowledge_operational_directives_colonists_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_MarsOccupation_W
+  path: Operational Directives/Mars Residents/Colonists
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_mars_residents/BE_knowledge_colonists_name
+  title: BE_knowledge_operational_directives_colonists_title
+knowledge_defense_policy:
+  content: BE_knowledge_operational_directives_defensive_policy_content
+  image: null
+  iconName: KnowledgeBase/Optimization&Engineering_W
+  path: Operational Directives/Optimization & Engineering/Defense Policy
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_opt_and_engineering/BE_knowledge_defensive_policy_name
+  title: BE_knowledge_operational_directives_defensive_policy_title
+knowledge_assault_drones:
+  content: BE_knowledge_operational_directives_assault_drones_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_MarsOccupation_W
+  path: Operational Directives/Mars Residents/Combat Drones
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_mars_residents/BE_knowledge_assault_drones_name
+  title: BE_knowledge_operational_directives_assault_drones_title
+knowledge_maintenance_drones:
+  content: BE_knowledge_operational_directives_maintenance_drones_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_MarsOccupation_W
+  path: Operational Directives/Mars Residents/Maintenance Drones
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_mars_residents/BE_knowledge_maintenance_drones_name
+  title: BE_knowledge_operational_directives_maintenance_drones_title
+knowledge_worker_drones:
+  content: BE_knowledge_operational_directives_worker_drones_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_MarsOccupation_W
+  path: Operational Directives/Mars Residents/Workers
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_mars_residents/BE_knowledge_worker_drones_name
+  title: BE_knowledge_operational_directives_worker_drones_title
+knowledge_maintenance:
+  content: BE_knowledge_operational_directives_maintenance_content
+  image: null
+  iconName: KnowledgeBase/Optimization&Engineering_W
+  path: Operational Directives/Optimization & Engineering/Maintenance
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_opt_and_engineering/BE_knowledge_maintenance_name
+  title: BE_knowledge_operational_directives_maintenance_title
+knowledge_power_grid:
+  content: BE_knowledge_operational_directives_power_grid_content
+  image: null
+  iconName: KnowledgeBase/Optimization&Engineering_W
+  path: Operational Directives/Optimization & Engineering/Power Grid
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_opt_and_engineering/BE_knowledge_power_grid_name
+  title: BE_knowledge_operational_directives_power_grid_title
+knowledge_prioritization:
+  content: BE_knowledge_operational_directives_prioritization_content
+  image: null
+  iconName: KnowledgeBase/Optimization&Engineering_W
+  path: Operational Directives/Optimization & Engineering/Prioritization
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_opt_and_engineering/BE_knowledge_prioritization_name
+  title: BE_knowledge_operational_directives_prioritization_title
+knowledge_resources:
+  content: BE_knowledge_operational_directives_resources_and_scanners_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_BaseExpansion_W
+  path: Operational Directives/Base Expansion/Resources and Scanners
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_base_expansion/BE_knowledge_resources_and_scanners_name
+  title: BE_knowledge_operational_directives_resources_and_scanners_title
+knowledge_ruins_and_research_outposts:
+  content: BE_knowledge_operational_directives_ruins_and_outposts_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_BaseExpansion_W
+  path: Operational Directives/Base Expansion/Ruins and Research Outposts
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_base_expansion/BE_knowledge_ruins_and_outposts_name
+  title: BE_knowledge_operational_directives_ruins_and_outposts_title
+knowledge_sectors_and_expansions:
+  content: BE_knowledge_operational_directives_sectors_and_expansions_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_BaseExpansion_W
+  path: Operational Directives/Base Expansion/Sectors and Expansions
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_base_expansion/BE_knowledge_sectors_and_expansions_name
+  title: BE_knowledge_operational_directives_sectors_and_expansions_title
+knowledge_special_projects:
+  content: BE_knowledge_operational_directives_special_projects_content
+  image: null
+  iconName: KnowledgeBase/Optimization&Engineering_W
+  path: Operational Directives/Optimization & Engineering/Special Projects
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_opt_and_engineering/BE_knowledge_special_projects_name
+  title: BE_knowledge_operational_directives_special_projects_title
+knowledge_water_distribution:
+  content: BE_knowledge_operational_directives_water_distribution_content
+  image: null
+  iconName: KnowledgeBase/Optimization&Engineering_W
+  path: Operational Directives/Optimization & Engineering/Water Supply Network
+  localizedPath: BE_knowledge_operational_directives/BE_knowledge_opt_and_engineering/BE_knowledge_water_distribution_name
+  title: BE_knowledge_operational_directives_water_distribution_title
+### SPECIAL PROJECTS
+knowledge_project_launch_satellites:
+  content: BE_knowledge_special_projects_launch_satellite_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_UnlockSector
+  path: Special Projects/Single Launches/Unlocking Sectors
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Single/BE_knowledge_special_projects_launch_satellite_name
+  title: BE_knowledge_special_projects_launch_satellite_title
+  contentProject: !project project_launch_satellite_1
+knowledge_project_space_mirror_array:
+  content: BE_knowledge_special_projects_space_mirror_array_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_SpaceMirrorArray
+  path: Special Projects/Multiple Launches/Space Mirror Array
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Multiple/BE_knowledge_special_projects_space_mirror_array_name
+  title: BE_knowledge_special_projects_space_mirror_array_title
+  contentProject: !project project_space_mirror_array
+knowledge_project_import_ghg_from_earth:
+  content: BE_knowledge_special_projects_import_ghg_from_earth_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_ImportGhgFromEarth
+  path: Special Projects/Continuous Launches/GHG Import
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Continuous/BE_knowledge_special_projects_import_ghg_from_earth_name
+  title: BE_knowledge_special_projects_import_ghg_from_earth_title
+  contentProject: !project project_import_ghg_from_earth
+knowledge_project_import_ice_from_europa:
+  content: BE_knowledge_special_projects_import_ice_from_europa_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_ImportIceFromEuropa
+  path: Special Projects/Continuous Launches/Ice Import
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Continuous/BE_knowledge_special_projects_import_ice_from_europa_name
+  title: BE_knowledge_special_projects_import_ice_from_europa_title
+  contentProject: !project project_import_ice_from_europa
+knowledge_project_import_nitrogen_from_titan:
+  content: BE_knowledge_special_projects_import_nitrogen_from_titan_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_ImportNitrogenFromTitan
+  path: Special Projects/Continuous Launches/Nitrogen Import
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Continuous/BE_knowledge_special_projects_import_nitrogen_from_titan_name
+  title: BE_knowledge_special_projects_import_nitrogen_from_titan_title
+  contentProject: !project project_import_nitrogen_from_titan
+knowledge_project_aerobrake_methane_asteroid:
+  content: BE_knowledge_special_projects_aerobrake_methane_asteroid_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_AerobrakeMethaneAsteroid
+  path: Special Projects/Multiple Launches/Methane Asteroid Aerobraking
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Single/BE_knowledge_special_projects_aerobrake_methane_asteroid_name
+  title: BE_knowledge_special_projects_aerobrake_methane_asteroid_title
+  contentProject: !project project_aerobrake_methane_asteroid
+knowledge_project_aerobrake_ice_asteroid:
+  content: BE_knowledge_special_projects_aerobrake_ice_asteroid_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_AerobrakeIceAsteroid
+  path: Special Projects/Multiple Launches/Ice Asteroid Aerobraking
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Single/BE_knowledge_special_projects_aerobrake_ice_asteroid_name
+  title: BE_knowledge_special_projects_aerobrake_ice_asteroid_title
+  contentProject: !project project_aerobrake_ice_asteroid
+knowledge_project_aerobrake_nitrogen_rich_asteroid:
+  content: BE_knowledge_special_projects_aerobrake_nitrogen_rich_asteroid_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_AerobrakeNitrogenRichAsteroid
+  path: Special Projects/Multiple Launches/Nitrogen Asteroid Aerobraking
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Single/BE_knowledge_special_projects_aerobrake_nitrogen_rich_asteroid_name
+  title: BE_knowledge_special_projects_aerobrake_nitrogen_rich_asteroid_title
+  contentProject: !project project_aerobrake_nitrogen_rich_asteroid
+knowledge_project_additional_landing_site:
+  content: BE_knowledge_special_projects_additional_landing_site_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_AdditionalLandingSite
+  path: Special Projects/Multiple Launches/Additional Landing Site
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Multiple/BE_knowledge_special_projects_additional_landing_site_name
+  title: BE_knowledge_special_projects_additional_landing_site_title
+  contentProject: !project project_additional_landing_site
+knowledge_project_advanced_landing_site:
+  content: BE_knowledge_special_projects_advanced_landing_site_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_AdvanceLandingSite
+  path: Special Projects/Multiple Launches/Advanced Landing Site
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Multiple/BE_knowledge_special_projects_advanced_landing_site_name
+  title: BE_knowledge_special_projects_advanced_landing_site_title
+  contentProject: !project project_advanced_landing_site
+knowledge_project_polar_nuclear_detonations:
+  content: BE_knowledge_special_projects_polar_nuclear_detonations_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_PolarNuclearDetonations
+  path: Special Projects/Continuous Launches/Microsuns
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Continuous/BE_knowledge_special_projects_polar_nuclear_detonations_name
+  title: BE_knowledge_special_projects_polar_nuclear_detonations_title
+  contentProject: !project project_polar_nuclear_detonations
+knowledge_project_black_polar_dust:
+  content: BE_knowledge_special_projects_black_polar_dust_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_BlackPolarDust
+  path: Special Projects/Continuous Launches/Black Polar Dust
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Continuous/BE_knowledge_special_projects_black_polar_dust_name
+  title: BE_knowledge_special_projects_black_polar_dust_title
+  contentProject: !project project_black_polar_dust
+knowledge_project_crash_comet:
+  content: BE_knowledge_special_projects_crash_comet_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_CrashComet
+  path: Special Projects/Single Launches/Comet Disintegration
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Single/BE_knowledge_special_projects_crash_comet_name
+  title: BE_knowledge_special_projects_crash_comet_title
+  contentProject: !project project_crash_comet
+knowledge_project_deimos_down:
+  content: BE_knowledge_special_projects_deimos_down_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_DeimosDown
+  path: Special Projects/Single Launches/Deimos Crash
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Single/BE_knowledge_special_projects_deimos_down_name
+  title: BE_knowledge_special_projects_deimos_down_title
+  contentProject: !project project_deimos_down
+knowledge_project_colonist_migration:
+  content: BE_knowledge_special_projects_colonist_migration_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_ColonistMigration
+  path: Special Projects/Continuous Launches/Colonist Migration
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Continuous/BE_knowledge_special_projects_colonist_migration_name
+  title: BE_knowledge_special_projects_colonist_migration_title
+  contentProject: !project project_colonist_migration
+knowledge_project_magnetic_shield:
+  content: BE_knowledge_special_projects_magnetic_shield_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_MagneticShield
+  path: Special Projects/Multiple Launches/Magnetic Dipole Shield
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Multiple/BE_knowledge_special_projects_magnetic_shield_name
+  title: BE_knowledge_special_projects_magnetic_shield_title
+  contentProject: !project project_magnetic_shield
+knowledge_project_space_elevator:
+  content: BE_knowledge_special_projects_space_elevator_content
+  image: null
+  iconName: KnowledgeBase/ICO_KB_SpaceElevator
+  path: Special Projects/Multiple Launches/Space Elevator
+  localizedPath: BE_knowledge_special_projects/BE_knowledge_special_projects_Launches_Multiple/BE_knowledge_special_projects_space_elevator_name
+  title: BE_knowledge_special_projects_space_elevator_title
+  contentProject: !project project_space_elevator
+### PROFILES
+knowledge_ACL:
+  content: BE_knowledge_profiles_ACL_content
+  image: null
+  iconName: KnowledgeBase/ICO_ACL
+  path: Profiles/Organizations/ACL
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_organizations/BE_knowledge_profiles_ACL_name
+  title: BE_knowledge_profiles_ACL_title
+knowledge_COC:
+  content: BE_knowledge_profiles_COC_content
+  contentAMI: BE_knowledge_profiles_COC_hacked_content
+  image: null
+  iconName: KnowledgeBase/ICO_COC
+  path: Profiles/Organizations/Children Of Carmine
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_organizations/BE_knowledge_profiles_COC_name
+  title: BE_knowledge_profiles_COC_title
+knowledge_ISA:
+  content: BE_knowledge_profiles_ISA_content
+  contentAMI: BE_knowledge_profiles_ISA_hacked_content
+  image: null
+  iconName: KnowledgeBase/ICO_ISA
+  path: Profiles/Organizations/ISA
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_organizations/BE_knowledge_profiles_ISA_name
+  title: BE_knowledge_profiles_ISA_title
+knowledge_TEC:
+  content: BE_knowledge_profiles_TEC_content
+  image: null
+  iconName: KnowledgeBase/ICO_TEC
+  path: Profiles/Organizations/TEKKIES
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_organizations/BE_knowledge_profiles_TEC_name
+  title: BE_knowledge_profiles_TEC_title
+knowledge_OxyUN:
+  content: BE_knowledge_profiles_OxyUN_content
+  image: null
+  iconName: KnowledgeBase/ICO_OxyUN
+  path: Profiles/Organizations/Oxy-UN
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_organizations/BE_knowledge_profiles_OxyUN_name
+  title: BE_knowledge_profiles_OxyUN_title
+knowledge_SpaceGenix:
+  content: BE_knowledge_profiles_space_genix_content
+  image: null
+  iconName: KnowledgeBase/ICO_SpaceGenix
+  path: Profiles/Organizations/SpaceGenix
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_organizations/BE_knowledge_profiles_space_genix_name
+  title: BE_knowledge_profiles_space_genix_title
+knowledge_AMI:
+  contentTable:
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_AMI_content_name
+    - field: BE_knowledge_profiles_content_sections_serial_number
+      text: BE_knowledge_profiles_AMI_serial_number
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_AMI_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_AMI_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_AMI_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_AMI_content_description
+  contentAMI: BE_knowledge_profiles_AMI_content_hacked_description
+  image: null
+  iconName: KnowledgeBase/ICO_MachinesSymbol
+  path: Profiles/Machines/AMI
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_machines/BE_knowledge_profiles_AMI_name
+  title: BE_knowledge_profiles_AMI_title
+knowledge_carmine:
+  contentTable:
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_carmine_content_name
+    - field: BE_knowledge_profiles_content_sections_serial_number
+      text: BE_knowledge_profiles_carmine_serial_number
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_carmine_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_carmine_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_carmine_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_carmine_content_description
+  contentAMI: BE_knowledge_profiles_carmine_content_hacked_description
+  image: null
+  iconName: KnowledgeBase/ICO_MachinesSymbol
+  path: Profiles/Machines/<color=#006699>Carmine
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_machines/BE_knowledge_profiles_carmine_name
+  title: BE_knowledge_profiles_carmine_title
+knowledge_shelle:
+  contentTable:
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_shelle_content_name
+    - field: BE_knowledge_profiles_content_sections_serial_number
+      text: BE_knowledge_profiles_shelle_content_serial_number
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_shelle_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_shelle_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_shelle_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_shelle_content_description
+  contentAMI: BE_knowledge_profiles_shelle_content_hacked_description
+  image: null
+  iconName: KnowledgeBase/ICO_MachinesSymbol
+  path: Profiles/Machines/Shelle
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_machines/BE_knowledge_profiles_shelle_name
+  title: BE_knowledge_profiles_shelle_title
+knowledge_elya:
+  contentTable:
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_elya_content_name
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_elya_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_elya_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_elya_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_elya_content_description
+  contentAMI: BE_knowledge_profiles_elya_content_hacked_description
+  image: KnowledgeBase/PIC_Elya_KB
+  iconName: KnowledgeBase/ICO_HumansSymbol
+  path: Profiles/Humans/Cdr. Elya Valentine
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_humans/BE_knowledge_profiles_elya_name
+  title: BE_knowledge_profiles_elya_title
+knowledge_sonna:
+  contentTable: 
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_sonna_content_name
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_sonna_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_sonna_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_sonna_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_sonna_content_description
+  contentAMI: BE_knowledge_profiles_sonna_content_hacked_description
+  image: KnowledgeBase/PIC_Sonna_KB
+  iconName: KnowledgeBase/ICO_HumansSymbol
+  path: Profiles/Humans/Sonna Valentine
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_humans/BE_knowledge_profiles_sonna_name
+  title: BE_knowledge_profiles_sonna_title
+knowledge_nathan:
+  contentTable: 
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_nathan_content_name
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_nathan_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_nathan_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_nathan_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_nathan_content_description
+  contentAMI: BE_knowledge_profiles_nathan_content_hacked_description
+  image: KnowledgeBase/PIC_Nathan_KB
+  iconName: KnowledgeBase/ICO_HumansSymbol
+  path: Profiles/Humans/Dr. Nathan Foster
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_humans/BE_knowledge_profiles_nathan_name
+  title: BE_knowledge_profiles_nathan_title
+knowledge_carlos:
+  contentTable: 
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_carlos_content_name
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_carlos_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_carlos_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_carlos_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_carlos_content_description
+  contentAMI: BE_knowledge_profiles_carlos_content_hacked_description
+  image: KnowledgeBase/PIC_Calderon_KB
+  iconName: KnowledgeBase/ICO_HumansSymbol
+  path: Profiles/Humans/Lt. Carlos Calderón
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_humans/BE_knowledge_profiles_carlos_name
+  title: BE_knowledge_profiles_carlos_title
+knowledge_calvin:
+  contentTable: 
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_calvin_content_name
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_calvin_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_calvin_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_calvin_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_calvin_content_description
+  contentAMI: BE_knowledge_profiles_calvin_content_hacked_description
+  image: null
+  iconName: KnowledgeBase/ICO_HumansSymbol
+  path: Profiles/Humans/Admin. Calvin Greene
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_humans/BE_knowledge_profiles_calvin_name
+  title: BE_knowledge_profiles_calvin_title
+knowledge_nian:
+  contentTable: 
+    - field: BE_knowledge_profiles_content_sections_name
+      text: BE_knowledge_profiles_nian_content_name
+    - field: BE_knowledge_profiles_content_sections_job
+      text: BE_knowledge_profiles_nian_content_job
+    - field: BE_knowledge_profiles_content_sections_origin
+      text: BE_knowledge_profiles_nian_content_origin
+    - field: BE_knowledge_profiles_content_sections_location
+      text: BE_knowledge_profiles_nian_content_location
+    - field: BE_knowledge_profiles_content_sections_description
+      text: BE_knowledge_profiles_nian_content_description
+  contentAMI: BE_knowledge_profiles_nian_content_hacked_description
+  image: KnowledgeBase/PIC_Zheng_KB
+  iconName: KnowledgeBase/ICO_HumansSymbol
+  path: Profiles/Humans/Nian Zhen
+  localizedPath: BE_knowledge_profiles/BE_knowledge_profiles_humans/BE_knowledge_profiles_nian_name
+  title: BE_knowledge_profiles_nian_title
+### ROBOTIC EXPLORATION ERA LANDMARKS
+knowledge_mars_2_basic:
+  content: BE_knowledge_mars_2_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Missions (USSR)/Mission Summaries/Mars 2
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_marsMissions/BE_knowledge_missions_path_missionSummaries/BE_knowledge_mars_2_basic_name
+  title: BE_knowledge_mars_2_basic_title
+knowledge_mars_3_basic:
+  content: BE_knowledge_mars_3_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Missions (USSR)/Mission Summaries/Mars 3
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_marsMissions/BE_knowledge_missions_path_missionSummaries/BE_knowledge_mars_3_basic_name
+  title: BE_knowledge_mars_3_basic_title
+knowledge_mars_6_basic:
+  content: BE_knowledge_mars_6_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Missions (USSR)/Mission Summaries/Mars 6
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_marsMissions/BE_knowledge_missions_path_missionSummaries/BE_knowledge_mars_6_basic_name
+  title: BE_knowledge_mars_6_basic_title
+knowledge_mars_2_extended:
+  content: BE_knowledge_mars_2_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Missions (USSR)/Research Outposts/Mars 2 Lander
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_marsMissions/BE_knowledge_missions_path_researchOutposts/BE_knowledge_mars_2_extended_name
+  title: BE_knowledge_mars_2_extended_title
+knowledge_mars_3:
+  content: BE_knowledge_mars_3_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Missions (USSR)/Research Outposts/Mars 3 Lander
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_marsMissions/BE_knowledge_missions_path_researchOutposts/BE_knowledge_mars_3_extended_name
+  title: BE_knowledge_mars_3_extended_title
+knowledge_mars_6:
+  content: BE_knowledge_mars_6_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Missions (USSR)/Research Outposts/Mars 6 Lander
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_marsMissions/BE_knowledge_missions_path_researchOutposts/BE_knowledge_mars_6_extended_name
+  title: BE_knowledge_mars_6_extended_title
+knowledge_viking_1_basic:
+  content: BE_knowledge_viking_1_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Viking Program/Mission Summaries/Viking 1
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_vikingProgram/BE_knowledge_missions_path_missionSummaries/BE_knowledge_viking_1_basic_name
+  title: BE_knowledge_viking_1_basic_title
+knowledge_viking_1:
+  content: BE_knowledge_viking_1_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Viking Program/Research Outposts/Viking 1 Lander
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_vikingProgram/BE_knowledge_missions_path_researchOutposts/BE_knowledge_viking_1_extended_name
+  title: BE_knowledge_viking_1_extended_title
+knowledge_viking_2_basic:
+  content: BE_knowledge_viking_2_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Viking Program/Mission Summaries/Viking 2
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_vikingProgram/BE_knowledge_missions_path_missionSummaries/BE_knowledge_viking_2_basic_name
+  title: BE_knowledge_viking_2_basic_title
+knowledge_viking_2:
+  content: BE_knowledge_viking_2_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Viking Program/Research Outposts/Viking 2 Lander
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_vikingProgram/BE_knowledge_missions_path_researchOutposts/BE_knowledge_viking_2_extended_name
+  title: BE_knowledge_viking_2_extended_title
+knowledge_mars_pathfinder_basic:
+  content: BE_knowledge_mars_pathfinder_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/MESUR Pathfinder/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_mars_pathfinder_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_mars_pathfinder_basic_title
+knowledge_mars_pathfinder:
+  content: BE_knowledge_mars_pathfinder_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/MESUR Pathfinder/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_mars_pathfinder_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_mars_pathfinder_extended_title
+knowledge_mars_polar_lander_basic:
+  content: BE_knowledge_mars_polar_lander_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars '98 & Deep Space 2/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_mars_polar_lander_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_mars_polar_lander_basic_title
+knowledge_mars_polar_lander:
+  content: BE_knowledge_mars_polar_lander_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars '98 & Deep Space 2/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_mars_polar_lander_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_mars_polar_lander_extended_title
+knowledge_beagle_2_basic:
+  content: BE_knowledge_beagle_2_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Express Mission/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_beagle_2_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_beagle_2_basic_title
+knowledge_beagle_2:
+  content: BE_knowledge_beagle_2_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Express Mission/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_beagle_2_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_beagle_2_extended_title
+knowledge_spirit_basic:
+  content: BE_knowledge_spirit_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/MER/Mission Summaries/Spirit
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_mer/BE_knowledge_missions_path_missionSummaries/BE_knowledge_spirit_basic_name
+  title: BE_knowledge_spirit_basic_title
+knowledge_spirit:
+  content: BE_knowledge_spirit_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/MER/Research Outposts/Spirit Rover
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_mer/BE_knowledge_missions_path_researchOutpost/BE_knowledge_spirit_extended_name
+  title: BE_knowledge_spirit_extended_title
+knowledge_opportunity_basic:
+  content: BE_knowledge_opportunity_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/MER/Mission Summaries/Opportunity
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_mer/BE_knowledge_missions_path_missionSummary/BE_knowledge_opportunity_basic_name
+  title: BE_knowledge_opportunity_basic_title
+knowledge_opportunity:
+  content: BE_knowledge_opportunity_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/MER/Research Outposts/Opportunity Rover
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_missions_path_mer/BE_knowledge_missions_path_researchOutpost/BE_knowledge_opportunity_extended_name
+  title: BE_knowledge_opportunity_extended_title
+knowledge_phoenix_mars_lander_basic:
+  content: BE_knowledge_phoenix_mars_lander_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Scout Program/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_phoenix_mars_lander_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_phoenix_mars_lander_basic_title
+knowledge_phoenix_mars_lander:
+  content: BE_knowledge_phoenix_mars_lander_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Scout Program/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_phoenix_mars_lander_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_phoenix_mars_lander_extended_title
+knowledge_curiosity_basic:
+  content: BE_knowledge_curiosity_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Science Laboratory/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_curiosity_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_curiosity_basic_title
+knowledge_curiosity:
+  content: BE_knowledge_curiosity_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars Science Laboratory/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_curiosity_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_curiosity_extended_title
+knowledge_schiaparelli_edm_lander_basic:
+  content: BE_knowledge_schiaparelli_edm_lander_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/ExoMars EDM/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_schiaparelli_edm_lander_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_schiaparelli_edm_lander_basic_title
+knowledge_schiaparelli_edm_lander:
+  content: BE_knowledge_schiaparelli_edm_lander_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/ExoMars EDM/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_schiaparelli_edm_lander_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_schiaparelli_edm_lander_extended_title
+knowledge_insight_lander_basic:
+  content: BE_knowledge_insight_lander_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/InSight/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_insight_lander_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_insight_lander_basic_title
+knowledge_insight_lander:
+  content: BE_knowledge_insight_lander_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/InSight/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_insight_lander_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_insight_lander_extended_title
+knowledge_mars_2020_basic:
+  content: BE_knowledge_mars_2020_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars 2020/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_mars_2020_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_mars_2020_basic_title
+knowledge_mars_2020:
+  content: BE_knowledge_mars_2020_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Mars 2020/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_mars_2020_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_mars_2020_extended_title
+knowledge_tianwen_1_basic:
+  content: BE_knowledge_tianwen_1_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Tianwen 1/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_tianwen_1_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_tianwen_1_basic_title
+knowledge_tianwen_1:
+  content: BE_knowledge_tianwen_1_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Tianwen 1/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_tianwen_1_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_tianwen_1_extended_title
+knowledge_exomars_basic:
+  content: BE_knowledge_exomars_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/ExoMars/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_exomars_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_exomars_basic_title
+knowledge_exomars:
+  content: BE_knowledge_exomars_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/ExoMars/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_exomars_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_exomars_extended_title
+knowledge_terex_basic:
+  content: BE_knowledge_terex_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Tera-hertz Explorer/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_terex_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_terex_basic_title
+knowledge_terex:
+  content: BE_knowledge_terex_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/Tera-hertz Explorer/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_terex_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_terex_extended_title
+knowledge_mangalyaan_2_basic:
+  content: BE_knowledge_mangalyaan_2_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/MOM 2/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_mangalyaan_2_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_mangalyaan_2_basic_title
+knowledge_mangalyaan_2:
+  content: BE_knowledge_mangalyaan_2_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Robotic Exploration Era_W
+  path: Previous Missions/Robotic Exploration Era/MOM 2/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_roboticExplorationEra/BE_knowledge_mangalyaan_2_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_mangalyaan_2_extended_title
+### HUMAN EXPLORATION ERA LANDMARKS
+knowledge_starship_basic:
+  content: BE_knowledge_starship_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Starship ​Commercial Flights/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_starship_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_starship_basic_title
+knowledge_starship:
+  content: BE_knowledge_starship_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Starship ​Commercial Flights/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_starship_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_starship_extended_title
+knowledge_infinity_basic:
+  content: BE_knowledge_infinity_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Infinity/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_infinity_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_infinity_basic_title
+knowledge_infinity:
+  content: BE_knowledge_infinity_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Infinity/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_infinity_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_infinity_extended_title
+knowledge_marpost_basic:
+  content: BE_knowledge_marpost_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Mars Piloted Orbital Station/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_marpost_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_marpost_basic_title
+knowledge_marpost:
+  content: BE_knowledge_marpost_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Mars Piloted Orbital Station/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_marpost_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_marpost_extended_title
+knowledge_red_dragon_basic:
+  content: BE_knowledge_red_dragon_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Project Red Dragon/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_red_dragon_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_red_dragon_basic_title
+knowledge_red_dragon:
+  content: BE_knowledge_red_dragon_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Project Red Dragon/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_red_dragon_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_red_dragon_extended_title
+knowledge_vermilion_bird_basic:
+  content: BE_knowledge_vermilion_bird_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Zhū Què/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_vermilion_bird_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_vermilion_bird_basic_title
+knowledge_vermilion_bird:
+  content: BE_knowledge_vermilion_bird_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Zhū Què/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_vermilion_bird_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_vermilion_bird_extended_title
+knowledge_utopiya_marsianin_stantsiya_basic:
+  content: BE_knowledge_utopiya_marsianin_stantsiya_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Utopiya/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_utopiya_marsianin_stantsiya_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_utopiya_marsianin_stantsiya_basic_title
+knowledge_utopiya_marsianin_stantsiya:
+  content: BE_knowledge_utopiya_marsianin_stantsiya_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Utopiya/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_utopiya_marsianin_stantsiya_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_utopiya_marsianin_stantsiya_extended_title
+knowledge_antares_basic:
+  content: BE_knowledge_antares_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Gemini Mars Project/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_antares_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_antares_basic_title
+knowledge_antares:
+  content: BE_knowledge_antares_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Gemini Mars Project/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_antares_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_antares_extended_title
+knowledge_sad_nashirah_basic:
+  content: BE_knowledge_sad_nashirah_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/S'ad Nashirah EMM/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_sad_nashirah_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_sad_nashirah_basic_title
+knowledge_sad_nashirah:
+  content: BE_knowledge_sad_nashirah_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/S'ad Nashirah EMM/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_sad_nashirah_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_sad_nashirah_extended_title
+knowledge_blue_dawn_basic:
+  content: BE_knowledge_blue_dawn_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Mars Blue Destiny/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_blue_dawn_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_blue_dawn_basic_title
+knowledge_blue_dawn:
+  content: BE_knowledge_blue_dawn_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Mars Blue Destiny/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_blue_dawn_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_blue_dawn_extended_title
+knowledge_her_desher_basic:
+  content: BE_knowledge_her_desher_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Her Desher/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_her_desher_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_her_desher_basic_title
+knowledge_her_desher:
+  content: BE_knowledge_her_desher_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Her Desher/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_her_desher_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_her_desher_extended_title
+knowledge_phenix_basic:
+  content: BE_knowledge_phenix_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Isére Martian Potager/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_phenix_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_phenix_basic_title
+knowledge_phenix:
+  content: BE_knowledge_phenix_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Isére Martian Potager/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_phenix_basic_name/BE_knowledge_missions_path_researchOutposts
+  title: BE_knowledge_phenix_extended_title
+knowledge_abandoned_radar_station_basic:
+  content: BE_knowledge_abandoned_radar_station_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Tong Hóng/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_abandoned_radar_station_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_abandoned_radar_station_basic_title
+knowledge_abandoned_radar_station:
+  content: BE_knowledge_abandoned_radar_station_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Tong Hóng/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_abandoned_radar_station_basic_name/BE_knowledge_missions_path_researchOutposts
+  title: BE_knowledge_abandoned_radar_station_extended_title
+knowledge_kasei_basic:
+  content: BE_knowledge_kasei_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Kasei/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_kasei_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_kasei_basic_title
+knowledge_kasei:
+  content: BE_knowledge_kasei_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Kasei/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_kasei_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_kasei_extended_title
+knowledge_yeood_basic:
+  content: BE_knowledge_yeood_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Ye'ood/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_yeood_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_yeood_basic_title
+knowledge_yeood:
+  content: BE_knowledge_yeood_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Ye'ood/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_yeood_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_yeood_extended_title
+knowledge_red_prometheus_basic:
+  content: BE_knowledge_red_prometheus_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Red Prometheus Iniciative/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_red_prometheus_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_red_prometheus_basic_title
+knowledge_red_prometheus:
+  content: BE_knowledge_red_prometheus_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Red Prometheus Iniciative/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_red_prometheus_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_red_prometheus_extended_title
+knowledge_kosmicheskiy_molot_basic:
+  content: BE_knowledge_kosmicheskiy_molot_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Kosmicheskiy Molot/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_kosmicheskiy_molot_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_kosmicheskiy_molot_basic_title
+knowledge_kosmicheskiy_molot:
+  content: BE_knowledge_kosmicheskiy_molot_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Kosmicheskiy Molot/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_kosmicheskiy_molot_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_kosmicheskiy_molot_extended_title
+knowledge_lohitanga_01_basic:
+  content: BE_knowledge_lohitanga_01_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Lohitanga/Mission Summaries/Iron Mine I
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_lohitanga/BE_knowledge_missions_path_missionSummaries/BE_knowledge_lohitanga_01_basic_name
+  title: BE_knowledge_lohitanga_01_basic_title
+knowledge_lohitanga_02_basic:
+  content: BE_knowledge_lohitanga_02_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Lohitanga/Mission Summaries/Iron Mine II
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_lohitanga/BE_knowledge_missions_path_missionSummaries/BE_knowledge_lohitanga_02_basic_name
+  title: BE_knowledge_lohitanga_02_basic_title
+knowledge_lohitanga_03_basic:
+  content: BE_knowledge_lohitanga_03_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Lohitanga/Mission Summaries/Iron Mine III
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_lohitanga/BE_knowledge_missions_path_missionSummaries/BE_knowledge_lohitanga_03_basic_name
+  title: BE_knowledge_lohitanga_03_basic_title
+knowledge_lohitanga_04_basic:
+  content: BE_knowledge_lohitanga_04_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Lohitanga/Mission Summaries/Iron Mine IV
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_lohitanga/BE_knowledge_missions_path_missionSummaries/BE_knowledge_lohitanga_04_basic_name
+  title: BE_knowledge_lohitanga_04_basic_title
+knowledge_lohitanga_01:
+  content: BE_knowledge_lohitanga_01_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Lohitanga/Research Outposts/Iron Mine I
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_lohitanga/BE_knowledge_missions_path_researchOutposts/BE_knowledge_lohitanga_01_basic_name
+  title: BE_knowledge_lohitanga_01_extended_title
+knowledge_lohitanga_02:
+  content: BE_knowledge_lohitanga_02_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Lohitanga/Research Outposts/Iron Mine II
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_lohitanga/BE_knowledge_missions_path_researchOutposts/BE_knowledge_lohitanga_02_basic_name
+  title: BE_knowledge_lohitanga_02_extended_title
+knowledge_lohitanga_03:
+  content: BE_knowledge_lohitanga_03_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Lohitanga/Research Outposts/Iron Mine III
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_lohitanga/BE_knowledge_missions_path_researchOutposts/BE_knowledge_lohitanga_03_basic_name
+  title: BE_knowledge_lohitanga_03_extended_title
+knowledge_lohitanga_04:
+  content: BE_knowledge_lohitanga_04_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Lohitanga/Research Outposts/Iron Mine IV
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_lohitanga/BE_knowledge_missions_path_researchOutposts/BE_knowledge_lohitanga_04_basic_name
+  title: BE_knowledge_lohitanga_04_extended_title
+knowledge_maasi_basic:
+  content: BE_knowledge_maasi_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Maasi/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_maasi_basic_name/BE_knowledge_missions_path_missionSummary
+  title: BE_knowledge_maasi_basic_title
+knowledge_maasi:
+  content: BE_knowledge_maasi_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Maasi/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_maasi_basic_name/BE_knowledge_missions_path_researchOutpost
+  title: BE_knowledge_maasi_extended_title
+knowledge_abandoned_colony_basic:
+  path: Previous Missions/Human Exploration Era/Huǒlóng/Mission Summaries/Small Colony
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_huolong/BE_knowledge_missions_path_missionSummaries/BE_knowledge_abandoned_colony_basic_name
+  title: BE_knowledge_abandoned_colony_basic_title
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  content: BE_knowledge_abandoned_colony_basic_content
+knowledge_abandoned_nuclear_silo_basic:
+  title: BE_knowledge_abandoned_nuclear_silo_basic_title
+  path: Previous Missions/Human Exploration Era/Huǒlóng/Mission Summaries/Nuclear Missile Silo
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_huolong/BE_knowledge_missions_path_missionSummaries/BE_knowledge_abandoned_nuclear_silo_basic_name
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  content: BE_knowledge_abandoned_nuclear_silo_basic_content
+knowledge_abandoned_colony:
+  title: BE_knowledge_abandoned_colony_extended_title
+  path: Previous Missions/Human Exploration Era/Huǒlóng/Research Outposts/Small Colony
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_huolong/BE_knowledge_missions_path_researchOutposts/BE_knowledge_abandoned_colony_basic_name
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  content: BE_knowledge_abandoned_colony_extended_content_report
+knowledge_abandoned_nuclear_silo:
+  title: BE_knowledge_abandoned_nuclear_silo_extended_title
+  path: Previous Missions/Human Exploration Era/Huǒlóng/Research Outposts/Nuclear Missile Silo
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_missions_path_huolong/BE_knowledge_missions_path_researchOutposts/BE_knowledge_abandoned_nuclear_silo_basic_name
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  content: BE_knowledge_abandoned_nuclear_silo_extended_content_report
+knowledge_amazonia_basic:
+  title: BE_knowledge_amazonia_basic_title
+  content: BE_knowledge_amazonia_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Amazônia Botany Project/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_amazonia_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_amazonia:
+  title: BE_knowledge_amazonia_extended_title
+  content: BE_knowledge_amazonia_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Amazônia Botany Project/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_amazonia_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_messenger_basic:
+  title: BE_knowledge_messenger_basic_title
+  content: BE_knowledge_messenger_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/MMN/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_messenger_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_messenger:
+  title: BE_knowledge_messenger_extended_title
+  content: BE_knowledge_messenger_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/MMN/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_messenger_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_hagyegi_basic:
+  title: BE_knowledge_hagyegi_basic_title
+  content: BE_knowledge_hagyegi_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Hagyegi/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_hagyegi_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_hagyegi:
+  title: BE_knowledge_hagyegi_extended_title
+  content: BE_knowledge_hagyegi_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Hagyegi/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_hagyegi_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_red_opal_basic:
+  title: BE_knowledge_red_opal_basic_title
+  content: BE_knowledge_red_opal_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Red Opal Experiment/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_red_opal_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_red_opal:
+  title: BE_knowledge_red_opal_extended_title
+  content: BE_knowledge_red_opal_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Red Opal Experiment/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_red_opal_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_arcadia_basic:
+  title: BE_knowledge_arcadia_basic_title
+  content: BE_knowledge_arcadia_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Experimento Climático Arcadia/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_arcadia_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_arcadia:
+  title: BE_knowledge_arcadia_extended_title
+  content: BE_knowledge_arcadia_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_Human Exploration Era_W
+  path: Previous Missions/Human Exploration Era/Experimento Climático Arcadia/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_humanExplorationEra/BE_knowledge_arcadia_basic_name/BE_knowledge_missions_path_researchOutpost
+### AI EXPLORATION ERA
+knowledge_ares_basic:
+  title: BE_knowledge_ares_basic_title
+  content: BE_knowledge_ares_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Operation Ares/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_ares_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_ares:
+  title: BE_knowledge_ares_extended_title 
+  content: BE_knowledge_ares_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Operation Ares/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_ares_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_stardust_emerald_basic:
+  title: BE_knowledge_stardust_emerald_basic_title
+  content: BE_knowledge_stardust_emerald_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Stardust Emerald/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_stardust_emerald_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_stardust_emerald:
+  title: BE_knowledge_stardust_emerald_extended_title
+  content: BE_knowledge_stardust_emerald_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Stardust Emerald/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_stardust_emerald_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_new_olympia_basic:
+  title: BE_knowledge_new_olympia_basic_title
+  content: BE_knowledge_new_olympia_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/New Olympia/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_new_olympia_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_new_olympia:
+  title: BE_knowledge_new_olympia_extended_title
+  content: BE_knowledge_new_olympia_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/New Olympia/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_new_olympia_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_columbus_basic:
+  title: BE_knowledge_columbus_basic_title
+  content: BE_knowledge_columbus_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Columbus/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_columbus_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_columbus:
+  title: BE_knowledge_columbus_extended_title
+  content: BE_knowledge_columbus_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Columbus/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_columbus_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_scarlet_basic:
+  title: BE_knowledge_scarlet_basic_title
+  content: BE_knowledge_scarlet_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Mars 2170 Tour/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_scarlet_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_scarlet:
+  title: BE_knowledge_scarlet_extended_title
+  content: BE_knowledge_scarlet_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Mars 2170 Tour/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_scarlet_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_colonie_asterion_basic:
+  title: BE_knowledge_colonie_asterion_basic_title
+  content: BE_knowledge_colonie_asterion_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Colonie Astérion/Mission Summaries/Base Camp
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_missions_path_colonieAsterion/BE_knowledge_missions_path_missionSummaries/BE_knowledge_colonie_asterion_basic_name
+knowledge_abandoned_greenhouse_basic:
+  title: BE_knowledge_abandoned_greenhouse_basic_title
+  content: BE_knowledge_abandoned_greenhouse_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Colonie Astérion/Mission Summaries/Greenhouse
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_missions_path_colonieAsterion/BE_knowledge_missions_path_missionSummaries/BE_knowledge_abandoned_greenhouse_basic_name
+knowledge_biomedical_facility_basic:
+  title: BE_knowledge_biomedical_facility_basic_title
+  content: BE_knowledge_biomedical_facility_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Colonie Astérion/Mission Summaries/Biomedical Facility
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_missions_path_colonieAsterion/BE_knowledge_missions_path_missionSummaries/BE_knowledge_biomedical_facility_basic_name
+knowledge_colonie_asterion:
+  title: BE_knowledge_colonie_asterion_extended_title
+  content: BE_knowledge_colonie_asterion_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Colonie Astérion/Research Outposts/Base Camp
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_missions_path_colonieAsterion/BE_knowledge_missions_path_researchOutposts/BE_knowledge_colonie_asterion_basic_name
+knowledge_abandoned_greenhouse:
+  title: BE_knowledge_abandoned_greenhouse_extended_title
+  content: BE_knowledge_abandoned_greenhouse_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Colonie Astérion/Research Outposts/Greenhouse
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_missions_path_colonieAsterion/BE_knowledge_missions_path_researchOutposts/BE_knowledge_abandoned_greenhouse_basic_name
+knowledge_biomedical_facility:
+  title: BE_knowledge_biomedical_facility_extended_title
+  content: BE_knowledge_biomedical_facility_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Colonie Astérion/Research Outposts/Biomedical Facility
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_missions_path_colonieAsterion/BE_knowledge_missions_path_researchOutposts/BE_knowledge_biomedical_facility_basic_name
+knowledge_old_landing_site_basic:
+  title: BE_knowledge_old_landing_site_basic_title
+  content: BE_knowledge_old_landing_site_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Odyssey One/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_old_landing_site_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_old_landing_site:
+  title: BE_knowledge_old_landing_site_extended_title
+  content: BE_knowledge_old_landing_site_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Odyssey One/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_old_landing_site_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_alba_basic:
+  title:  BE_knowledge_alba_basic_title
+  content: BE_knowledge_alba_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Alba Mars Colony/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_alba_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_alba:
+  title:  BE_knowledge_alba_extended_title
+  content: BE_knowledge_alba_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Alba Mars Colony/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_alba_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_aurora_basic:
+  title: BE_knowledge_aurora_basic_title
+  content: BE_knowledge_aurora_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Aurora Mars Colony/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_aurora_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_aurora:
+  title: BE_knowledge_aurora_extended_title
+  content: BE_knowledge_aurora_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Aurora Mars Colony/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_aurora_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_dawn_basic:
+  title: BE_knowledge_dawn_basic_title
+  content: BE_knowledge_dawn_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Dawn Mars Colony/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_dawn_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_dawn:
+  title: BE_knowledge_dawn_extended_title
+  content: BE_knowledge_dawn_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Dawn Mars Colony/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_dawn_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_millenium_basic:
+  title: BE_knowledge_millenium_basic_title
+  content: BE_knowledge_millenium_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Millenium Martian Resort/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_millenium_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_millenium:
+  title: BE_knowledge_millenium_extended_title
+  content: BE_knowledge_millenium_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Millenium Martian Resort/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_millenium_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_utopia_basic:
+  title: BE_knowledge_utopia_basic_title
+  content: BE_knowledge_utopia_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Utopia Martian Resort/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_utopia_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_utopia:
+  title: BE_knowledge_utopia_extended_title
+  content: BE_knowledge_utopia_extended_content_report
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/Utopia Martian Resort/Research Outpost
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_utopia_basic_name/BE_knowledge_missions_path_researchOutpost
+knowledge_final_discovery_basic:
+  title: BE_knowledge_final_discovery_basic_title
+  content: BE_knowledge_final_discovery_basic_content
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  path: Previous Missions/AI Exploration Era/final_discovery/Mission Summary
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_final_discovery_basic_name/BE_knowledge_missions_path_missionSummary
+knowledge_final_discovery:
+  title: BE_knowledge_final_discovery_extended_title
+  path: Previous Missions/AI Exploration Era/Utopia Martian Resort/Final Discovery
+  localizedPath: BE_knowledge_path_previousMissions/BE_knowledge_path_aiExplorationEra/BE_knowledge_final_discovery_basic_name/BE_knowledge_missions_path_researchOutpost
+  image: null
+  iconName: KnowledgeBase/ICO_AI Exploration Era_W
+  content: BE_knowledge_final_discovery_extended_content_report
+### RESOURCES
+knowledge_resource_aluminum:
+  content: BE_knowledge_resource_aluminum_content
+  contentTable: 
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_aluminum_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_aluminum_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_aluminum_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Aluminum
+  path: Resources/Primary/Aluminum
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_primary/BE_knowledge_resource_aluminum_title
+  title: BE_knowledge_resource_aluminum_title
+knowledge_resource_carbon:
+  content: BE_knowledge_resource_carbon_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_carbon_used_by 
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_carbon_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_carbon_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Carbon
+  path: Resources/Primary/Carbon
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_primary/BE_knowledge_resource_carbon_title
+  title: BE_knowledge_resource_carbon_title
+knowledge_resource_chemicals:
+  content: BE_knowledge_resource_chemicals_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_chemicals_used_by 
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_chemicals_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_chemicals_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Chemicals
+  path: Resources/Primary/Chemicals
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_primary/BE_knowledge_resource_chemicals_title
+  title: BE_knowledge_resource_chemicals_title
+knowledge_resource_electronics:
+  content: BE_knowledge_resource_electronics_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_electronics_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_electronics_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_electronics_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Electronics
+  path: Resources/Manufactured/Electronics
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_manufactured/BE_knowledge_resource_electronics_title
+  title: BE_knowledge_resource_electronics_title
+knowledge_resource_food:
+  content: BE_knowledge_resource_food_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_food_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_food_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_food_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Food
+  path: Resources/Manufactured/Food
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_manufactured/BE_knowledge_resource_food_title
+  title: BE_knowledge_resource_food_title
+knowledge_resource_fuel:
+  content: BE_knowledge_resource_fuel_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_fuel_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_fuel_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_fuel_requires
+  image: null
+  path: Resources/Manufactured/Fuel
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_manufactured/BE_knowledge_resource_fuel_title
+  title: BE_knowledge_resource_fuel_title
+knowledge_resource_glass:
+  content: BE_knowledge_resource_glass_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_glass_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_glass_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_glass_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Glass
+  path: Resources/Manufactured/Glass
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_manufactured/BE_knowledge_resource_glass_title
+  title: BE_knowledge_resource_glass_title
+knowledge_resource_iron:
+  content: BE_knowledge_resource_iron_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_iron_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_iron_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_iron_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Iron
+  path: Resources/Primary/Iron
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_primary/BE_knowledge_resource_iron_title
+  title: BE_knowledge_resource_iron_title
+knowledge_resource_parts:
+  content: BE_knowledge_resource_parts_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_parts_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_parts_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_parts_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Parts
+  path: Resources/Manufactured/Parts
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_manufactured/BE_knowledge_resource_parts_title
+  title: BE_knowledge_resource_parts_title
+knowledge_resource_polymers:
+  content: BE_knowledge_resource_polymers_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_polymers_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_polymers_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_polymers_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Polymers
+  path: Resources/Manufactured/Polymers
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_manufactured/BE_knowledge_resource_polymers_title
+  title: BE_knowledge_resource_polymers_title
+knowledge_resource_silicon:
+  content: BE_knowledge_resource_silicon_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_silicon_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_silicon_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_silicon_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Silicon
+  path: Resources/Primary/Silicon
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_primary/BE_knowledge_resource_silicon_title
+  title: BE_knowledge_resource_silicon_title
+knowledge_resource_steel:
+  content: BE_knowledge_resource_steel_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_steel_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_steel_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_steel_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Steel
+  path: Resources/Manufactured/Steel
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_manufactured/BE_knowledge_resource_steel_title
+  title: BE_knowledge_resource_steel_title
+knowledge_resource_uranium:
+  content: BE_knowledge_resource_uranium_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_uranium_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_uranium_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_uranium_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Uranium
+  path: Resources/Primary/Uranium
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_primary/BE_knowledge_resource_uranium_title
+  title: BE_knowledge_resource_uranium_title
+knowledge_resource_water:
+  content: BE_knowledge_resource_water_content
+  contentTable:
+    - field: BE_knowledge_resource_used_by 
+      text: BE_knowledge_resource_water_used_by
+    - field: BE_knowledge_resource_produced_by
+      text: BE_knowledge_resource_water_produced_by
+    - field: BE_knowledge_resource_requires
+      text: BE_knowledge_resource_water_requires
+  image: null
+  iconName: KnowledgeBase/PIC_Water
+  path: Resources/Primary/Water
+  localizedPath: BE_knowledge_resources/BE_knowledge_resource_primary/BE_knowledge_resource_water_title
+  title: BE_knowledge_resource_water_title
+### FACTORIES
+knowledge_factories_electronics:
+  content: BE_knowledge_factories_electronics_content
+  contentBuilding: !building building_electronics_factory
+  image: null
+  iconName: BuildIcons/Icon_Electronics_1
+  path: Structures/Factories/Electronics
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_factories/BE_knowledge_factories_electronics_title
+  title: BE_knowledge_factories_electronics_title
+knowledge_factories_food:
+  content: BE_knowledge_factories_food_content
+  contentBuilding: !building building_food_factory
+  image: null
+  iconName: BuildIcons/Icon_Food_1
+  path: Structures/Factories/Food
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_factories/BE_knowledge_factories_food_title
+  title: BE_knowledge_factories_food_title
+knowledge_factories_glass:
+  content: BE_knowledge_factories_glass_content
+  localizedPath:
+  contentBuilding: !building building_glass_factory
+  image: null
+  iconName: BuildIcons/Icon_GlassFactory_1
+  path: Structures/Factories/Glass Kiln
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_factories/BE_knowledge_factories_glass_title
+  title: BE_knowledge_factories_glass_title
+knowledge_factories_steel:
+  content: BE_knowledge_factories_steel_content
+  contentBuilding: !building building_steel_factory
+  image: null
+  iconName: BuildIcons/Icon_SteelFactory_1
+  path: Structures/Factories/Steel
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_factories/BE_knowledge_factories_steel_title
+  title: BE_knowledge_factories_steel_title
+knowledge_factories_polymers:
+  content: BE_knowledge_factories_polymers_content
+  contentBuilding: !building building_polymers_factory
+  image: null
+  iconName: BuildIcons/Icon_PolymersFactory_1
+  path: Structures/Factories/Polymers
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_factories/BE_knowledge_factories_polymers_title
+  title: BE_knowledge_factories_polymers_title
+knowledge_factories_parts:
+  content: BE_knowledge_factories_parts_content
+  contentBuilding: !building building_parts_factory
+  image: null
+  iconName: BuildIcons/Icon_Parts_1
+  path: Structures/Factories/Parts
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_factories/BE_knowledge_factories_parts_title
+  title: BE_knowledge_factories_parts_title
+knowledge_drone_factory:
+  content: BE_knowledge_structures_drone_factory_content
+  contentBuilding: !building building_drone_factory
+  image: null
+  iconName: BuildIcons/Icon_DroneFactory_3
+  path: Structures/Factories/Worker Factory
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_factories/BE_knowledge_structures_drone_factory_title
+  title: BE_knowledge_structures_drone_factory_title
+### MINES
+knowledge_water_mine:
+  content: BE_knowledge_mines_water_content
+  contentBuilding: !building building_water_mine
+  image: null
+  iconName: BuildIcons/Icon_WaterPlant_1
+  path: Structures/Mines/Water
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_mines/BE_knowledge_mines_water_title
+  title: BE_knowledge_mines_water_title
+knowledge_aluminum_mine:
+  content: BE_knowledge_aluminum_mine_content
+  contentBuilding: !building building_aluminum_mine
+  image: null
+  iconName: BuildIcons/Icon_AluminumMine_1
+  path: Structures/Mines/Aluminum
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_mines/BE_knowledge_aluminum_mine_title
+  title: BE_knowledge_aluminum_mine_title
+knowledge_carbon_mine:
+  content: BE_knowledge_carbon_mine_content
+  contentBuilding: !building building_carbon_mine
+  image: null
+  iconName: BuildIcons/Icon_CarbonMine_1
+  path: Structures/Mines/Carbon
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_mines/BE_knowledge_carbon_mine_title
+  title: BE_knowledge_carbon_mine_title
+knowledge_chemicals_mine:
+  content: BE_knowledge_chemicals_mine_content
+  contentBuilding: !building building_chemicals_mine
+  image: null
+  iconName: BuildIcons/Icon_ChemicalPlant_1
+  path: Structures/Mines/Chemicals
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_mines/BE_knowledge_chemicals_mine_title
+  title: BE_knowledge_chemicals_mine_title
+knowledge_iron_mine:
+  content: BE_knowledge_iron_mine_content
+  contentBuilding: !building building_iron_mine
+  image: null
+  iconName: BuildIcons/Icon_IronMine_1
+  path: Structures/Mines/Iron
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_mines/BE_knowledge_iron_mine_title
+  title: BE_knowledge_iron_mine_title
+knowledge_silicon_mine:
+  content: BE_knowledge_silicon_mine_content
+  contentBuilding: !building building_silicon_mine
+  image: null
+  iconName: BuildIcons/Icon_SiliconMine_1
+  path: Structures/Mines/Silicon
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_mines/BE_knowledge_silicon_mine_title
+  title: BE_knowledge_silicon_mine_title
+knowledge_uranium_mine:
+  content: BE_knowledge_uranium_mine_content
+  contentBuilding: !building building_uranium_mine
+  image: null
+  iconName: BuildIcons/Icon_UraniumMine_1
+  path: Structures/Mines/Uranium
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_mines/BE_knowledge_uranium_mine_title
+  title: BE_knowledge_uranium_mine_title
+### STRUCTURES - CORE
+knowledge_landing_site:
+  content: BE_knowledge_structures_landing_site_content
+  contentBuilding: !building landing_site
+  image: null
+  iconName: BuildIcons/Icon_LandingSite
+  path: Structures/Core/Landing Site
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_landing_site_title
+  title: BE_knowledge_structures_landing_site_title
+knowledge_additional_landing_site:
+  content: BE_knowledge_structures_additional_landing_site_content
+  contentBuilding: !building landing_site
+  image: null
+  iconName: BuildIcons/Icon_LandingSite
+  path: Structures/Core/Additional Landing Site
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_additional_landing_site_title
+  title: BE_knowledge_structures_additional_landing_site_title
+knowledge_advanced_landing_site:
+  content: BE_knowledge_structures_advanced_landing_site_content
+  contentBuilding: !building landing_site_advanced
+  image: null
+  iconName: BuildIcons/Icon_AdvancedLandingSite
+  path: Structures/Core/Advanced Landing Site
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_advanced_landing_site_title
+  title: BE_knowledge_structures_advanced_landing_site_title
+knowledge_worker_relay:
+  content: BE_knowledge_structures_worker_relay_content
+  contentBuilding: !building building_drone_base
+  image: null
+  iconName: BuildIcons/Icon_WorkerRelay
+  path: Structures/Core/Worker Hub
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_worker_relay_title
+  title: BE_knowledge_structures_worker_relay_title
+knowledge_maintenance_facility:
+  content: BE_knowledge_structures_maintenance_facility_content
+  contentBuilding: !building building_maintenance_facility
+  image: null
+  iconName: BuildIcons/Icon_MaintenanceFacility
+  path: Structures/Core/Maintenance Facility
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_maintenance_facility_title
+  title: BE_knowledge_structures_maintenance_facility_title
+knowledge_storage_basic:
+  content: BE_knowledge_structures_storage_basic_content
+  contentBuilding: !building storage_basic
+  image: null
+  iconName: BuildIcons/Icon_Storage_Icon
+  path: Structures/Core/Storage
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_storage_basic_title
+  title: BE_knowledge_structures_storage_basic_title
+knowledge_spaceport:
+  content: BE_knowledge_structures_spaceport_content
+  contentBuilding: !building building_spaceport
+  image: null
+  iconName: BuildIcons/Icon_Spaceport
+  path: Structures/Core/Spaceport
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_spaceport_title
+  title: BE_knowledge_structures_spaceport_title
+knowledge_space_elevator:
+  content: BE_knowledge_structures_space_elevator_content
+  contentBuilding: !building building_space_elevator
+  image: null
+  iconName: BuildIcons/Icon_SpaceElevator
+  path: Structures/Core/Space Elevator
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_space_elevator_title
+  title: BE_knowledge_structures_space_elevator_title
+knowledge_areological_scanner:
+  content: BE_knowledge_structures_areological_scanner_content
+  contentBuilding: !building building_areological_scanner
+  image: null
+  iconName: BuildIcons/Icon_AreologicalScanner
+  path: Structures/Core/Areological Scanner
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_areological_scanner_title
+  title: BE_knowledge_structures_areological_scanner_title
+knowledge_hyperloop:
+  content: BE_knowledge_structures_hyperloop_content
+  contentBuilding: !building building_hyperloop
+  image: null
+  iconName: BuildIcons/Icon_Hyperloop
+  path: Structures/Core/Hyperloop
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_core/BE_knowledge_structures_hyperloop_title
+  title: BE_knowledge_structures_hyperloop_title
+### STRUCTURES - POWER
+knowledge_solar_farm:
+  content: BE_knowledge_structures_solar_farm_content
+  contentBuilding: !building power_solar_panel_field
+  image: null
+  iconName: BuildIcons/Icon_SolarFarm
+  path: Structures/Power/Solar Farm
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_power/BE_knowledge_structures_solar_farm_title
+  title: BE_knowledge_structures_solar_farm_title
+knowledge_wind_turbine:
+  content: BE_knowledge_structures_wind_turbine_content
+  contentBuilding: !building power_wind_turbine
+  image: null
+  iconName: BuildIcons/Icon_WindFarm
+  path: Structures/Power/Wind Farm
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_power/BE_knowledge_structures_wind_turbine_title
+  title: BE_knowledge_structures_wind_turbine_title
+knowledge_thermal_plant:
+  content: BE_knowledge_structures_thermal_plant_content
+  contentBuilding: !building power_areothermal_plant
+  image: null
+  iconName: BuildIcons/Icon_ThermalPlant
+  path: Structures/Power/Thermal Plant
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_power/BE_knowledge_structures_thermal_plant_title
+  title: BE_knowledge_structures_thermal_plant_title
+knowledge_fission_plant:
+  content: BE_knowledge_structures_fission_plant_content
+  contentBuilding: !building power_fission_plant
+  image: null
+  iconName: BuildIcons/Icon_FissionPlant
+  path: Structures/Power/Fission Plant
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_power/BE_knowledge_structures_fission_plant_title
+  title: BE_knowledge_structures_fission_plant_title
+knowledge_fusion_plant:
+  content: BE_knowledge_structures_fusion_plant_content
+  contentBuilding: !building power_fusion_plant
+  image: null
+  iconName: BuildIcons/Icon_FusionPlant
+  path: Structures/Power/Fusion Plant
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_power/BE_knowledge_structures_fusion_plant_title
+  title: BE_knowledge_structures_fusion_plant_title
+knowledge_battery_basic:
+  content: BE_knowledge_structures_battery_basic_content
+  contentBuilding: !building power_battery_basic
+  image: null
+  iconName: BuildIcons/Icon_Battery
+  path: Structures/Power/Battery
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_power/BE_knowledge_structures_battery_basic_title
+  title: BE_knowledge_structures_battery_basic_title
+### STRUCTURES - COLONIES
+knowledge_research_lab:
+  content: BE_knowledge_structures_research_lab_content
+  contentBuilding: !building building_research_lab
+  image: null
+  iconName: BuildIcons/Icon_ResearchLab
+  path: Structures/Colonies/Research Outpost
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_colonies/BE_knowledge_structures_research_lab_title
+  title: BE_knowledge_structures_research_lab_title
+knowledge_colony_basic:
+  content: BE_knowledge_structures_colony_basic_content
+  contentBuilding: !building building_colony_basic
+  image: null
+  iconName: BuildIcons/Icon_Colony_1
+  path: Structures/Colonies/Colony
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_colonies/BE_knowledge_structures_colony_basic_title
+  title: BE_knowledge_structures_colony_basic_title
+knowledge_colony_small:
+  content: BE_knowledge_structures_colony_small_content
+  contentBuilding: !building building_colony_small
+  image: null
+  iconName: BuildIcons/Icon_Colony_2
+  path: Structures/Colonies/Colony II
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_colonies/BE_knowledge_structures_colony_small_title
+  title: BE_knowledge_structures_colony_small_title
+knowledge_colony_medium:
+  content: BE_knowledge_structures_colony_medium_content
+  contentBuilding: !building building_colony_medium
+  image: null
+  iconName: BuildIcons/Icon_Colony_3
+  path: Structures/Colonies/Colony III
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_colonies/BE_knowledge_structures_colony_medium_title
+  title: BE_knowledge_structures_colony_medium_title
+knowledge_colony_dome_small:
+  content: BE_knowledge_structures_colony_dome_small_content
+  contentBuilding: !building building_colony_dome_small
+  image: null
+  iconName: BuildIcons/Icon_DomeCity
+  path: Structures/Colonies/Crater Dome
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_colonies/BE_knowledge_structures_colony_dome_small_title
+  title: BE_knowledge_structures_colony_dome_small_title
+knowledge_colony_tent_city:
+  content: BE_knowledge_structures_colony_tent_city_content
+  contentBuilding: !building building_colony_tent_city
+  image: null
+  iconName: BuildIcons/Icon_TentCity
+  path: Structures/Colonies/Tent City
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_colonies/BE_knowledge_structures_colony_tent_city_title
+  title: BE_knowledge_structures_colony_tent_city_title
+knowledge_colony_open_city:
+  content: BE_knowledge_structures_colony_open_city_content
+  contentBuilding: !building building_colony_open_city
+  image: null
+  iconName: BuildIcons/Icon_OpenCity
+  path: Structures/Colonies/Open City
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_colonies/BE_knowledge_structures_colony_open_city_title
+  title: BE_knowledge_structures_colony_open_city_title
+knowledge_colony_metropolis:
+  content: BE_knowledge_structures_colony_metropolis_content
+  contentBuilding: !building building_colony_metropolis
+  image: null
+  iconName: BuildIcons/Icon_OpenCity
+  path: Structures/Colonies/Metropolis
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_colonies/BE_knowledge_structures_colony_metropolis_title
+  title: BE_knowledge_structures_colony_metropolis_title
+### STRUCTURES - LIFE
+knowledge_water_plant:
+  content: BE_knowledge_water_treatment_plant_content
+  contentBuilding: !building building_water_plant
+  image: null
+  iconName: BuildIcons/Icon_WaterTreatmentPlant
+  path: Structures/Life/Water Treatment
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_water_treatment_plant_title
+  title: BE_knowledge_water_treatment_plant_title
+knowledge_biodome:
+  content: BE_knowledge_structures_biodome_content
+  contentBuilding: !building building_terraforming_biodome
+  image: null
+  iconName: BuildIcons/Icon_Biodome
+  path: Structures/Life/Biodome
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_structures_biodome_title
+  title: BE_knowledge_structures_biodome_title
+knowledge_aquadome:
+  content: BE_knowledge_structures_aquadome_content
+  contentBuilding: !building building_terraforming_aquadome
+  image: null
+  iconName: BuildIcons/Icon_Aquadome
+  path: Structures/Life/Aquadome
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_structures_aquadome_title
+  title: BE_knowledge_structures_aquadome_title
+knowledge_water_hub:
+  content: BE_knowledge_structures_water_hubs_content
+  contentBuilding: !building building_water_hub
+  image: null
+  iconName: BuildIcons/Icon_PipeHub
+  path: Structures/Life/Water Booster Pump
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_structures_water_hubs_title
+  title: BE_knowledge_structures_water_hubs_title
+knowledge_water_converter:
+  content: BE_knowledge_structures_water_converter_content
+  contentBuilding: !building building_water_converter
+  image: null
+  iconName: BuildIcons/Icon_PipeHub
+  path: Structures/Life/Water Converter
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_structures_water_converter_title
+  title: BE_knowledge_structures_water_converter_title
+knowledge_dump_crater:
+  content: BE_knowledge_structures_dump_crater_content
+  contentBuilding: !building building_dump_crater
+  image: null
+  iconName: BuildIcons/Icon_Dumpster
+  path: Structures/Life/Dumpster
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_structures_dump_crater_title
+  title: BE_knowledge_structures_dump_crater_title
+knowledge_crater_farm:
+  content: BE_knowledge_structures_crater_farms_content
+  contentBuilding: !building building_farm_crater
+  image: null
+  iconName: BuildIcons/Icon_CraterFarms
+  path: Structures/Life/Crater Farm
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_structures_crater_farms_title
+  title: BE_knowledge_structures_crater_farms_title
+knowledge_open_farm:
+  content: BE_knowledge_structures_open_farms_content
+  contentBuilding: !building building_farm_open
+  image: null
+  iconName: BuildIcons/Icon_OpenFarms
+  path: Structures/Life/Open Farm
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_structures_open_farms_title
+  title: BE_knowledge_structures_open_farms_title
+knowledge_animal_sanctuary:
+  content: BE_knowledge_structures_animal_sanctuary_content
+  contentBuilding: !building building_terraforming_animal_sanctuary
+  image: null
+  iconName: BuildIcons/Icon_AnimalSanctuary
+  path: Structures/Life/Animal Sanctuary
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Life/BE_knowledge_structures_animal_sanctuary_title
+  title: BE_knowledge_structures_animal_sanctuary_title
+### STRUCTURES - ATMOSPHERE
+knowledge_ghg_factory:
+  content: BE_knowledge_structures_ghg_factory_content
+  contentBuilding: !building building_terraforming_ghg_factory
+  image: null
+  iconName: BuildIcons/Icon_GHGFactory
+  path: Structures/Atmosphere/GHG Factory
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Atmosphere/BE_knowledge_structures_ghg_factory_title
+  title: BE_knowledge_structures_ghg_factory_title
+knowledge_nuclear_nitrate_extractor:
+  content: BE_knowledge_structures_nuclear_nitrate_extractor_content
+  contentBuilding: !building building_nuclear_nitrate_extractor
+  image: null
+  iconName: BuildIcons/Icon_NuclearNitrateExtractor
+  path: Structures/Atmosphere/Nuclear Nitrate Extractor
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Atmosphere/BE_knowledge_structures_nuclear_nitrate_extractor_title
+  title: BE_knowledge_structures_nuclear_nitrate_extractor_title
+knowledge_nuclear_carbonate_extractor:
+  content: BE_knowledge_structures_nuclear_carbonate_extractor_content
+  contentBuilding: !building building_nuclear_carbonate_extractor
+  image: null
+  iconName: BuildIcons/Icon_NuclearCarbonateExtractor
+  path: Structures/Atmosphere/Nuclear Carbonate Extractor
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Atmosphere/BE_knowledge_structures_nuclear_carbonate_extractor_title
+  title: BE_knowledge_structures_nuclear_carbonate_extractor_title
+knowledge_oxygen_release_plant:
+  content: BE_knowledge_structures_oxygen_release_plant_content
+  contentBuilding: !building building_terraforming_oxygen_release_plant
+  image: null
+  iconName: BuildIcons/Icon_OxygenReleasePlant
+  path: Structures/Atmosphere/Oxygen Release Plant
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Atmosphere/BE_knowledge_structures_oxygen_release_plant_title
+  title: BE_knowledge_structures_oxygen_release_plant_title
+knowledge_oxygen_capture_plant:
+  content: BE_knowledge_structures_oxygen_capture_plant_content
+  contentBuilding: !building building_terraforming_oxygen_capture_plant
+  image: null
+  iconName: BuildIcons/Icon_O2Capture
+  path: Structures/Atmosphere/Oxygen Capture Plant
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Atmosphere/BE_knowledge_structures_oxygen_capture_plant_title
+  title: BE_knowledge_structures_oxygen_capture_plant_title
+knowledge_atmospheric_humidifier:
+  content: BE_knowledge_structures_atmospheric_humidifier_content
+  contentBuilding: !building building_atmospheric_humidifier
+  image: null
+  iconName: BuildIcons/Icon_O2Capture
+  path: Structures/Atmosphere/Atmospheric Humidifier
+  localizedPath: BE_knowledge_structures/BE_knowledge_structures_terraforming_Atmosphere/BE_knowledge_structures_atmospheric_humidifier_title
+  title: BE_knowledge_structures_atmospheric_humidifier_title
+### TERRAFORMING PLAN
+knowledge_terraforming_plan_stage_1:
+  content: BE_knowledge_terraforming_plan_stage_1_content
+  image: null
+  iconName: KnowledgeBase/ICO_Melt the Poles_w
+  path: "Terraforming Plan/Melt the Poles"
+  localizedPath: BE_knowledge_terraforming/BE_knowledge_terraforming_plan_stage_1_name
+  title: BE_knowledge_terraforming_plan_stage_1_title
+knowledge_terraforming_plan_stage_2:
+  content: BE_knowledge_terraforming_plan_stage_2_content
+  image: null
+  iconName: KnowledgeBase/ICO_Create an Atmosphere_w
+  path: "Terraforming Plan/Create an Atmosphere"
+  localizedPath: BE_knowledge_terraforming/BE_knowledge_terraforming_plan_stage_2_name
+  title: BE_knowledge_terraforming_plan_stage_2_title
+knowledge_terraforming_plan_stage_3:
+  content: BE_knowledge_terraforming_plan_stage_3_content
+  image: null
+  iconName: KnowledgeBase/ICO_Ecopoiesis_w
+  path: "Terraforming Plan/Ecopoiesis"
+  localizedPath: BE_knowledge_terraforming/BE_knowledge_terraforming_plan_stage_3_name
+  title: BE_knowledge_terraforming_plan_stage_3_title
+knowledge_terraforming_plan_stage_4:
+  content: BE_knowledge_terraforming_plan_stage_4_content
+  image: null
+  iconName: KnowledgeBase/ICO_Green Mars_w
+  path: "Terraforming Plan/Green Mars"
+  localizedPath: BE_knowledge_terraforming/BE_knowledge_terraforming_plan_stage_4_name
+  title: BE_knowledge_terraforming_plan_stage_4_title
+knowledge_terraforming_plan_stage_5:
+  content: BE_knowledge_terraforming_plan_stage_5_content
+  image: null
+  iconName: KnowledgeBase/ICO_Breathable Atmosphere_w
+  path: "Terraforming Plan/Breathable Atmosphere"
+  localizedPath: BE_knowledge_terraforming/BE_knowledge_terraforming_plan_stage_5_name
+  title: BE_knowledge_terraforming_plan_stage_5_title

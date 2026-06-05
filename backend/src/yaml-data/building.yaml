@@ -1,0 +1,2204 @@
+### HYPER LOOP
+building_hyperloop:
+  categoryType: !buildingCategory category_core
+  compactName: HypeLoo
+  description: BE_building_hyperloop_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_hyperloop
+  maxHealth: 150.0
+  name: BE_building_hyperloop_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 2.0
+  powerPriority: 2.0
+  prefabName: HyperLoop
+  rubblePrefabName: RubblePile_S
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 5
+    !resource resource_steel: 5
+    !resource resource_electronics: 5
+    !resource resource_polymers: 5
+    !resource resource_parts: 5
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 5.0
+  iconName: BuildIcons/Icon_Hyperloop
+  rivalIconName: BuildIcons_Rival/Icon_Hyperloop
+  enablesHyperloopConnection: true
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_Hyperloop
+### WATER MINE
+building_water_mine:
+  categoryType: !buildingCategory category_mines
+  compactName: WateEx1
+  description: BE_building_water_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_water_mine
+  maxHealth: 100.0
+  name: BE_building_water_mine_name
+  outputQuantity: 1
+  outputResource: !resource resource_water
+  powerConsumption: 10.0
+  powerPriority: 3.0
+  prefabName: WaterMine_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_steel: 2
+    !resource resource_glass: 2
+  requiredResourceVein: !resource resource_water
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_WaterPlant_1
+  iconName: BuildIcons/Icon_WaterPlant_1
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 1
+building_water_mine_2:
+  isUpgradeTo:
+    - !building building_water_mine
+  categoryType: !buildingCategory category_mines
+  compactName: WateEx2
+  description: BE_building_water_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_water_mine_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_water
+  powerConsumption: 15.0
+  powerPriority: 3.0
+  prefabName: WaterMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 6
+    !resource resource_steel: 6
+    !resource resource_glass: 6
+  requiredResourceVein: !resource resource_water
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  iconName: BuildIcons/Icon_WaterPlant_2
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 2
+building_water_mine_3:
+  isUpgradeTo:
+    - !building building_water_mine_2
+  categoryType: !buildingCategory category_mines
+  compactName: WateEx3
+  description: BE_building_water_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_water_mine_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_water
+  powerConsumption: 20.0
+  powerPriority: 3.0
+  prefabName: WaterMine_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 18
+    !resource resource_steel: 18
+    !resource resource_glass: 18
+  requiredResourceVein: !resource resource_water
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_WaterPlant_3
+  iconName: BuildIcons/Icon_WaterPlant_3
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+### ALUMINUM MINES
+building_aluminum_mine:
+  categoryType: !buildingCategory category_mines
+  compactName: AlumMi1
+  description: BE_building_aluminum_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_aluminum_mine
+  maxHealth: 100.0
+  name: BE_building_aluminum_mine_name
+  outputQuantity: 1
+  outputResource: !resource resource_aluminum
+  powerConsumption: 5.0
+  powerPriority: 3.0
+  prefabName: AluminumMine_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  rivalIconName: BuildIcons_Rival/Icon_AluminumMine_1
+  iconName: BuildIcons/Icon_AluminumMine_1
+  progressBarNames:
+    - Progress_Torus
+  requiredConstructionResources:
+    !resource resource_steel: 3
+  requiredResourceVein: !resource resource_aluminum
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  extractionLevel: 1
+building_aluminum_mine_2:
+  isUpgradeTo:
+    - !building building_aluminum_mine
+  categoryType: !buildingCategory category_mines
+  compactName: AlumMi2
+  description: BE_building_aluminum_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_aluminum_mine_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_aluminum
+  powerConsumption: 10.0
+  powerPriority: 3.0
+  prefabName: AluminumMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_steel: 9
+  requiredResourceVein: !resource resource_aluminum
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_AluminumMine_2
+  iconName: BuildIcons/Icon_AluminumMine_2
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 2
+building_aluminum_mine_3:
+  isUpgradeTo:
+    - !building building_aluminum_mine_2
+  categoryType: !buildingCategory category_mines
+  compactName: AlumMi3
+  description: BE_building_aluminum_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_aluminum_mine_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_aluminum
+  powerConsumption: 15.0
+  powerPriority: 3.0
+  prefabName: AluminumMine_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_steel: 27
+  requiredResourceVein: !resource resource_aluminum
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_AluminumMine_3
+  iconName: BuildIcons/Icon_AluminumMine_3
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+### CARBON MINES
+building_carbon_mine:
+  categoryType: !buildingCategory category_mines
+  compactName: CarbMi1
+  description: BE_building_carbon_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_carbon_mine
+  maxHealth: 100.0
+  name: BE_building_carbon_mine_name
+  outputQuantity: 1
+  outputResource: !resource resource_carbon
+  powerConsumption: 5.0
+  powerPriority: 3.0
+  prefabName: CarbonMine_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_iron: 2
+  requiredResourceVein: !resource resource_carbon
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_CarbonMine_1
+  iconName: BuildIcons/Icon_CarbonMine_1
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 1
+building_carbon_mine_2:
+  categoryType: !buildingCategory category_mines
+  isUpgradeTo:
+    - !building building_carbon_mine
+  compactName: CarbMi2
+  description: BE_building_carbon_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_carbon_mine_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_carbon
+  powerConsumption: 15.0
+  powerPriority: 3.0
+  prefabName: CarbonMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 6
+    !resource resource_iron: 6
+  requiredResourceVein: !resource resource_carbon
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_CarbonMine_2
+  iconName: BuildIcons/Icon_CarbonMine_2
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 2
+building_carbon_mine_3:
+  categoryType: !buildingCategory category_mines
+  isUpgradeTo:
+    - !building building_carbon_mine_2
+  compactName: CarbMi3
+  description: BE_building_carbon_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_carbon_mine_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_carbon
+  powerConsumption: 20.0
+  powerPriority: 3.0
+  prefabName: CarbonMine_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 18
+    !resource resource_iron: 18
+  requiredResourceVein: !resource resource_carbon
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_CarbonMine_3
+  iconName: BuildIcons/Icon_CarbonMine_3
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+### CHEMICALS MINE
+building_chemicals_mine:
+  categoryType: !buildingCategory category_mines
+  compactName: ChemPl1
+  description: BE_building_chemicals_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_chemicals_mine
+  maxHealth: 100.0
+  name: BE_building_chemicals_mine_name
+  outputQuantity: 1
+  outputResource: !resource resource_chemicals
+  powerConsumption: 10.0
+  powerPriority: 3.0
+  prefabName: ChemicalPlant_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_steel: 2
+  requiredResourceVein: !resource resource_chemicals
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_ChemicalPlant_1
+  iconName: BuildIcons/Icon_ChemicalPlant_1
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 1
+building_chemicals_mine_2:
+  categoryType: !buildingCategory category_mines
+  isUpgradeTo:
+    - !building building_chemicals_mine
+  compactName: ChemPl2
+  description: BE_building_chemicals_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_chemicals_mine_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_chemicals
+  powerConsumption: 15.0
+  powerPriority: 3.0
+  prefabName: ChemicalPlant_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 6
+    !resource resource_steel: 6
+  requiredResourceVein: !resource resource_chemicals
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_ChemicalPlant_2
+  iconName: BuildIcons/Icon_ChemicalPlant_2
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 2
+building_chemicals_mine_3:
+  categoryType: !buildingCategory category_mines
+  isUpgradeTo:
+    - !building building_chemicals_mine_2
+  compactName: ChemPl3
+  description: BE_building_chemicals_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_chemicals_mine_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_chemicals
+  powerConsumption: 20.0
+  powerPriority: 3.0
+  prefabName: ChemicalPlant_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 18
+    !resource resource_steel: 18
+  requiredResourceVein: !resource resource_chemicals
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_ChemicalPlant_3
+  iconName: BuildIcons/Icon_ChemicalPlant_3
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+### IRON MINE
+building_iron_mine:
+  categoryType: !buildingCategory category_mines
+  compactName: IronMi1
+  description: BE_building_iron_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_iron_mine
+  maxHealth: 100.0
+  name: BE_building_iron_mine_name
+  outputQuantity: 1
+  outputResource: !resource resource_iron
+  powerConsumption: 5.0
+  powerPriority: 3.0
+  prefabName: IronMine_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_silicon: 3
+  requiredResourceVein: !resource resource_iron
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_IronMine_1
+  iconName: BuildIcons/Icon_IronMine_1
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 1
+building_iron_mine_2:
+  categoryType: !buildingCategory category_mines
+  isUpgradeTo:
+    - !building building_iron_mine
+  compactName: IronMi2
+  description: BE_building_iron_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_iron_mine_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_iron
+  powerConsumption: 10.0
+  powerPriority: 3.0
+  prefabName: IronMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 6
+    !resource resource_silicon: 6
+  requiredResourceVein: !resource resource_iron
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_IronMine_2
+  iconName: BuildIcons/Icon_IronMine_2
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 2
+building_iron_mine_3:
+  categoryType: !buildingCategory category_mines
+  isUpgradeTo:
+    - !building building_iron_mine_2
+  compactName: IronMi3
+  description: BE_building_iron_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_iron_mine_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_iron
+  powerConsumption: 15.0
+  powerPriority: 3.0
+  prefabName: IronMine_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 18
+    !resource resource_silicon: 18
+  requiredResourceVein: !resource resource_iron
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_IronMine_3
+  iconName: BuildIcons/Icon_IronMine_3
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+### SILICON MINE
+building_silicon_mine:
+  categoryType: !buildingCategory category_mines
+  compactName: SiliMi1
+  description: BE_building_silicon_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_silicon_mine
+  maxHealth: 100.0
+  name: BE_building_silicon_mine_name
+  outputQuantity: 1
+  outputResource: !resource resource_silicon
+  powerConsumption: 5.0
+  powerPriority: 3.0
+  prefabName: SiliconMine_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_steel: 2
+  requiredResourceVein: !resource resource_silicon
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_SiliconMine_1
+  iconName: BuildIcons/Icon_SiliconMine_1
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 1
+building_silicon_mine_2:
+  categoryType: !buildingCategory category_mines
+  isUpgradeTo:
+    - !building building_silicon_mine
+  compactName: SiliMi2
+  description: BE_building_silicon_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_silicon_mine_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_silicon
+  powerConsumption: 10.0
+  powerPriority: 3.0
+  prefabName: SiliconMine_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 6
+    !resource resource_steel: 6
+  requiredResourceVein: !resource resource_silicon
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_SiliconMine_2
+  iconName: BuildIcons/Icon_SiliconMine_2
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 2
+building_silicon_mine_3:
+  categoryType: !buildingCategory category_mines
+  isUpgradeTo:
+    - !building building_silicon_mine_2
+  compactName: SiliMi3
+  description: BE_building_silicon_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_silicon_mine_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_silicon
+  powerConsumption: 15.0
+  powerPriority: 3.0
+  prefabName: SiliconMine_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 18
+    !resource resource_steel: 18
+  requiredResourceVein: !resource resource_silicon
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_SiliconMine_3
+  iconName: BuildIcons/Icon_SiliconMine_3
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+### URANIUM MINES
+building_uranium_mine:
+  categoryType: !buildingCategory category_mines
+  compactName: UranMi1
+  description: BE_building_uranium_mine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_uranium_mine
+  maxHealth: 100.0
+  name: BE_building_uranium_mine_name
+  outputQuantity: 1
+  outputResource: !resource resource_uranium
+  powerConsumption: 5.0
+  powerPriority: 3.0
+  prefabName: UraniumMine_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.01
+  rivalIconName: BuildIcons_Rival/Icon_UraniumMine_1
+  iconName: BuildIcons/Icon_UraniumMine_1
+  progressBarNames:
+    - Progress_Torus
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_steel: 2
+  requiredResourceVein: !resource resource_uranium
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  extractionLevel: 0
+#building_uranium_mine_2:
+#  categoryType: !buildingCategory category_mines
+#  isUpgradeTo:
+#    - !building building_uranium_mine
+#  compactName: UranMi2
+#  description: BE_building_uranium_mine_description
+#  droneCapacity: 1
+#  healthLossPerDay: 0.05
+#  inputResources: {}
+#  knowledge: null
+#  maxHealth: 150.0
+#  name: BE_building_uranium_mine_2_name
+#  outputQuantity: 1
+#  outputResource: !resource resource_uranium
+#  powerConsumption: 10.0
+#  powerPriority: 3.0
+#  prefabName: UraniumMine_2
+#  rubblePrefabName: RubblePile_M
+#  progressPerDay: 0.015
+#  requiredConstructionResources:
+#    !resource resource_aluminum: 6
+#    !resource resource_steel: 6
+#  requiredResourceVein: !resource resource_uranium
+#  reservedRadius: 30.0
+#  waySnapRadius: 10.0
+#  iconName: BuildIcons/Icon_UraniumMine_2
+#  progressBarNames:
+#    - Progress_Torus
+#  extractionLevel: 2
+#building_uranium_mine_3:
+#  categoryType: !buildingCategory category_mines
+#  isUpgradeTo:
+#    - !building building_uranium_mine_2
+#  compactName: UranMi3
+#  description: BE_building_uranium_mine_description
+#  droneCapacity: 1
+#  healthLossPerDay: 0.05
+#  inputResources: {}
+#  knowledge: null
+#  maxHealth: 200.0
+#  name: BE_building_uranium_mine_3_name
+#  outputQuantity: 1
+#  outputResource: !resource resource_uranium
+#  powerConsumption: 15.0
+#  powerPriority: 3.0
+#  prefabName: UraniumMine_3
+#  rubblePrefabName: RubblePile_M
+#  progressPerDay: 0.02
+#  requiredConstructionResources:
+#    !resource resource_aluminum: 18
+#    !resource resource_steel: 18
+#  requiredResourceVein: !resource resource_uranium
+#  reservedRadius: 30.0
+#  waySnapRadius: 10.0
+#  iconName: BuildIcons/Icon_UraniumMine_3
+#  progressBarNames:
+#    - Progress_Torus
+#  extractionLevel: 3
+### DRONE FACTORY
+building_drone_factory:
+  categoryType: !buildingCategory category_factories
+  compactName: DronFa1
+  description: BE_building_drone_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_parts: 1
+    !resource resource_electronics: 1
+    !resource resource_glass: 1
+    !resource resource_aluminum: 1
+  knowledge: !knowledge knowledge_drone_factory
+  maxHealth: 100.0
+  name: BE_building_drone_factory_name
+  outputQuantity: 1
+  outputResource: !resource resource_drone
+  powerConsumption: 15.0
+  powerPriority: 2.0
+  prefabName: DroneFactory_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.025
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_electronics: 3
+    !resource resource_parts: 3
+    !resource resource_steel: 3
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_DroneFactory_1
+  iconName: BuildIcons/Icon_DroneFactory_1
+  progressBarNames:
+    - Progress_Torus
+building_drone_factory_2:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_drone_factory
+  compactName: DronFa2
+  description: BE_building_drone_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_parts: 1
+    !resource resource_electronics: 1
+    !resource resource_glass: 1
+    !resource resource_aluminum: 1
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_drone_factory_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_drone
+  powerConsumption: 25.0
+  powerPriority: 2.0
+  prefabName: DroneFactory_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.035
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_electronics: 10
+    !resource resource_parts: 10
+    !resource resource_steel: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_DroneFactory_2
+  iconName: BuildIcons/Icon_DroneFactory_2
+  progressBarNames:
+    - Progress_Torus
+building_drone_factory_3:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_drone_factory_2
+  compactName: DronFa3
+  description: BE_building_drone_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_parts: 1
+    !resource resource_electronics: 1
+    !resource resource_glass: 1
+    !resource resource_aluminum: 1
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_drone_factory_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_drone
+  powerConsumption: 35.0
+  powerPriority: 2.0
+  prefabName: DroneFactory_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.05
+  requiredConstructionResources:
+    !resource resource_aluminum: 20
+    !resource resource_electronics: 20
+    !resource resource_parts: 20
+    !resource resource_steel: 20
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_DroneFactory_3
+  iconName: BuildIcons/Icon_DroneFactory_3
+  progressBarNames:
+    - Progress_Torus
+### ELECTRONICS FACTORIES
+building_electronics_factory:
+  categoryType: !buildingCategory category_factories
+  compactName: ElecFa1
+  description: BE_building_electronics_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_silicon: 1
+    !resource resource_aluminum: 1
+  knowledge: !knowledge knowledge_factories_electronics
+  maxHealth: 100.0
+  name: BE_building_electronics_factory_name
+  outputQuantity: 1
+  outputResource: !resource resource_electronics
+  powerConsumption: 5.0
+  powerPriority: 2.0
+  prefabName: ElectronicsFactory_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_steel: 3
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Electronics_1
+  iconName: BuildIcons/Icon_Electronics_1
+  progressBarNames:
+    - Progress_Torus
+building_electronics_factory_2:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_electronics_factory
+  compactName: ElecFa2
+  description: BE_building_electronics_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_silicon: 1
+    !resource resource_aluminum: 1
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_electronics_factory_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_electronics
+  powerConsumption: 10.0
+  powerPriority: 2.0
+  prefabName: ElectronicsFactory_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Electronics_2
+  iconName: BuildIcons/Icon_Electronics_2
+  progressBarNames:
+    - Progress_Torus
+building_electronics_factory_3:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_electronics_factory_2
+  compactName: ElecFa3
+  description: BE_building_electronics_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_silicon: 1
+    !resource resource_aluminum: 1
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_electronics_factory_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_electronics
+  powerConsumption: 20.0
+  powerPriority: 2.0
+  prefabName: ElectronicsFactory_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 20
+    !resource resource_steel: 20
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Electronics_3
+  iconName: BuildIcons/Icon_Electronics_3
+  progressBarNames:
+    - Progress_Torus
+### FOOD FACTORIES
+building_food_factory:
+  categoryType: !buildingCategory category_factories
+  compactName: FoodFa1
+  description: BE_building_food_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_water: 1
+    !resource resource_chemicals: 1
+  knowledge: !knowledge knowledge_factories_food
+  maxHealth: 100.0
+  name: BE_building_food_factory_name
+  outputQuantity: 1
+  outputResource: !resource resource_food
+  powerConsumption: 5.0
+  powerPriority: 2.0
+  prefabName: FoodFactory_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_steel: 3
+    !resource resource_glass: 3
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Food_1
+  iconName: BuildIcons/Icon_Food_1
+  progressBarNames:
+    - Progress_Torus
+building_food_factory_2:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_food_factory
+  compactName: FoodFa2
+  description: BE_building_food_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_water: 1
+    !resource resource_chemicals: 1
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_food_factory_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_food
+  powerConsumption: 10.0
+  powerPriority: 2.0
+  prefabName: FoodFactory_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_glass: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Food_2
+  iconName: BuildIcons/Icon_Food_2
+  progressBarNames:
+    - Progress_Torus
+building_food_factory_3:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_food_factory_2
+  compactName: FoodFa3
+  description: BE_building_food_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_water: 1
+    !resource resource_chemicals: 1
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_food_factory_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_food
+  powerConsumption: 20.0
+  powerPriority: 2.0
+  prefabName: FoodFactory_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 20
+    !resource resource_steel: 20
+    !resource resource_glass: 20
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Food_3
+  iconName: BuildIcons/Icon_Food_3
+  progressBarNames:
+    - Progress_Torus
+### GLASS FACTORIES
+building_glass_factory:
+  categoryType: !buildingCategory category_factories
+  compactName: GlasFa1
+  description: BE_building_glass_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_silicon: 2
+  knowledge: !knowledge knowledge_factories_glass
+  maxHealth: 100.0
+  name: BE_building_glass_factory_name
+  outputQuantity: 1
+  outputResource: !resource resource_glass
+  powerConsumption: 5.0
+  powerPriority: 2.0
+  prefabName: GlassFactory_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_steel: 3
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_GlassFactory_1
+  iconName: BuildIcons/Icon_GlassFactory_1
+  progressBarNames:
+    - Progress_Torus
+building_glass_factory_2:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_glass_factory
+  compactName: GlasFa2
+  description: BE_building_glass_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_silicon: 2
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_glass_factory_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_glass
+  powerConsumption: 10.0
+  powerPriority: 2.0
+  prefabName: GlassFactory_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_GlassFactory_2
+  iconName: BuildIcons/Icon_GlassFactory_2
+  progressBarNames:
+    - Progress_Torus
+building_glass_factory_3:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_glass_factory_2
+  compactName: GlasFa3
+  description: BE_building_glass_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_silicon: 2
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_glass_factory_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_glass
+  powerConsumption: 20.0
+  powerPriority: 2.0
+  prefabName: GlassFactory_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 20
+    !resource resource_steel: 20
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_GlassFactory_3
+  iconName: BuildIcons/Icon_GlassFactory_3
+  progressBarNames:
+    - Progress_Torus
+### PARTS FACTORIES
+building_parts_factory:
+  categoryType: !buildingCategory category_factories
+  compactName: PartFa1
+  description: BE_building_parts_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_steel: 1
+    !resource resource_aluminum: 1
+  knowledge: !knowledge knowledge_factories_parts
+  maxHealth: 100.0
+  name: BE_building_parts_factory_name
+  outputQuantity: 1
+  outputResource: !resource resource_parts
+  powerConsumption: 10.0
+  powerPriority: 2.0
+  prefabName: PartsFactory_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_electronics: 3
+    !resource resource_steel: 3
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Parts_1
+  iconName: BuildIcons/Icon_Parts_1
+  progressBarNames:
+    - Progress_Torus
+building_parts_factory_2:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_parts_factory
+  compactName: PartFa2
+  description: BE_building_parts_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_steel: 1
+    !resource resource_aluminum: 1
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_parts_factory_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_parts
+  powerConsumption: 15.0
+  powerPriority: 2.0
+  prefabName: PartsFactory_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_electronics: 10
+    !resource resource_steel: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Parts_2
+  iconName: BuildIcons/Icon_Parts_2
+  progressBarNames:
+    - Progress_Torus
+building_parts_factory_3:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_parts_factory_2
+  compactName: PartFa3
+  description: BE_building_parts_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_steel: 1
+    !resource resource_aluminum: 1
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_parts_factory_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_parts
+  powerConsumption: 20.0
+  powerPriority: 2.0
+  prefabName: PartsFactory_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 20
+    !resource resource_electronics: 20
+    !resource resource_steel: 20
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Parts_3
+  iconName: BuildIcons/Icon_Parts_3
+  progressBarNames:
+    - Progress_Torus
+### STEEL FACTORIES
+building_steel_factory:
+  categoryType: !buildingCategory category_factories
+  compactName: SteeFa1
+  description: BE_building_steel_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_iron: 2
+    !resource resource_carbon: 1
+  knowledge: !knowledge knowledge_factories_steel
+  maxHealth: 100.0
+  name: BE_building_steel_factory_name
+  outputQuantity: 1
+  outputResource: !resource resource_steel
+  powerConsumption: 5.0
+  powerPriority: 2.0
+  prefabName: SteelFactory_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_iron: 3
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_SteelFactory_1
+  iconName: BuildIcons/Icon_SteelFactory_1
+  progressBarNames:
+    - Progress_Torus
+building_steel_factory_2:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_steel_factory
+  compactName: SteeFa2
+  description: BE_building_steel_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_iron: 2
+    !resource resource_carbon: 1
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_steel_factory_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_steel
+  powerConsumption: 10.0
+  powerPriority: 2.0
+  prefabName: SteelFactory_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_iron: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_SteelFactory_2
+  iconName: BuildIcons/Icon_SteelFactory_2
+  progressBarNames:
+    - Progress_Torus
+building_steel_factory_3:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_steel_factory_2
+  compactName: SteeFa3
+  description: BE_building_steel_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_iron: 2
+    !resource resource_carbon: 1
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_steel_factory_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_steel
+  powerConsumption: 20.0
+  powerPriority: 2.0
+  prefabName: SteelFactory_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 20
+    !resource resource_iron: 20
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_SteelFactory_3
+  iconName: BuildIcons/Icon_SteelFactory_3
+  progressBarNames:
+    - Progress_Torus
+### POLYMERS FACTORY
+building_polymers_factory:
+  categoryType: !buildingCategory category_factories
+  compactName: PolyFa1
+  description: BE_building_polymers_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_chemicals: 2
+    !resource resource_carbon: 1
+  knowledge: !knowledge knowledge_factories_polymers
+  maxHealth: 100.0
+  name: BE_building_polymers_factory_name
+  outputQuantity: 1
+  outputResource: !resource resource_polymers
+  powerConsumption: 5.0
+  powerPriority: 2.0
+  prefabName: PolymersFactory_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_steel: 3
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_PolymersFactory_1
+  iconName: BuildIcons/Icon_PolymersFactory_1
+  progressBarNames:
+    - Progress_Torus
+building_polymers_factory_2:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_polymers_factory
+  compactName: PolyFa2
+  description: BE_building_polymers_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_chemicals: 2
+    !resource resource_carbon: 1
+  knowledge: null
+  maxHealth: 150.0
+  name: BE_building_polymers_factory_2_name
+  outputQuantity: 1
+  outputResource: !resource resource_polymers
+  powerConsumption: 10.0
+  powerPriority: 2.0
+  prefabName: PolymersFactory_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.15
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_PolymersFactory_2
+  iconName: BuildIcons/Icon_PolymersFactory_2
+  progressBarNames:
+    - Progress_Torus
+building_polymers_factory_3:
+  categoryType: !buildingCategory category_factories
+  isUpgradeTo:
+    - !building building_polymers_factory_2
+  compactName: PolyFa3
+  description: BE_building_polymers_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_chemicals: 2
+    !resource resource_carbon: 1
+  knowledge: null
+  maxHealth: 200.0
+  name: BE_building_polymers_factory_3_name
+  outputQuantity: 1
+  outputResource: !resource resource_polymers
+  powerConsumption: 20.0
+  powerPriority: 2.0
+  prefabName: PolymersFactory_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.2
+  requiredConstructionResources:
+    !resource resource_aluminum: 20
+    !resource resource_steel: 20
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_PolymersFactory_3
+  iconName: BuildIcons/Icon_PolymersFactory_3
+  progressBarNames:
+    - Progress_Torus
+### SCANNER
+building_areological_scanner:
+  categoryType: !buildingCategory category_core
+  compactName: AreoSca
+  description: BE_building_areological_scanner_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_areological_scanner
+  maxHealth: 200.0
+  name: BE_building_areological_scanner_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 5.0
+  prefabName: AreologicalScanner
+  rubblePrefabName: RubblePile_S
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_steel: 3
+    !resource resource_electronics: 8
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  scannerScanRadius: 30.0
+  scannerScanTime: 1.0
+  scannerTimeFactor: 1.0
+  waySnapRadius: 5.0
+  rivalIconName: BuildIcons_Rival/Icon_AreologicalScanner
+  iconName: BuildIcons/Icon_AreologicalScanner
+  progressBarNames:
+    - Progress_Torus
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_AerologicalScanner
+### COLONIES  
+building_colony_basic:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_colonies
+  colonistCapacity: 100
+  compactName: ColoBas
+  description: BE_building_colony_basic_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_food: 2
+    !resource resource_water: 2
+  knowledge: !knowledge knowledge_colony_basic
+  maxHealth: 300.0
+  name: BE_building_colony_basic_name
+  outputQuantity: 20
+  outputResource: !resource resource_research_points
+  powerConsumption: 12.0
+  powerPriority: 3.0
+  prefabName: Colony_1
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.02 #50 days per batch
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_steel: 2
+    !resource resource_glass: 2
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Colony_1
+  iconName: BuildIcons/Icon_Colony_1
+  progressBarNames:
+    - Progress_Torus
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Colonies_Colony
+building_colony_small:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_colonies
+  isUpgradeTo:
+    - !building building_colony_basic
+  colonistCapacity: 250
+  compactName: ColoSma
+  description: BE_building_colony_small_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_food: 5
+    !resource resource_water: 5
+  knowledge: !knowledge knowledge_colony_small
+  maxHealth: 400.0
+  name: BE_building_colony_small_name
+  outputQuantity: 60
+  outputResource: !resource resource_research_points
+  powerConsumption: 30.0
+  powerPriority: 3.0
+  prefabName: Colony_2
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.02 #50 days per batch
+  requiredConstructionResources:
+    !resource resource_aluminum: 6
+    !resource resource_steel: 6
+    !resource resource_glass: 6
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Colony_2
+  iconName: BuildIcons/Icon_Colony_2
+  progressBarNames:
+    - Progress_Torus
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Colonies_Colony
+building_colony_medium:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_colonies
+  isUpgradeTo:
+    - !building building_colony_small
+  colonistCapacity: 500
+  compactName: ColoMed
+  description: BE_building_colony_medium_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_food: 10
+    !resource resource_water: 10
+  knowledge: !knowledge knowledge_colony_medium
+  maxHealth: 500.0
+  name: BE_building_colony_medium_name
+  outputQuantity: 150
+  outputResource: !resource resource_research_points
+  powerConsumption: 60.0
+  powerPriority: 3.0
+  prefabName: Colony_3
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.02 #50 days per batch  
+  requiredConstructionResources:
+    !resource resource_aluminum: 18
+    !resource resource_steel: 18
+    !resource resource_glass: 18
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Colony_3
+  iconName: BuildIcons/Icon_Colony_3
+  progressBarNames:
+    - Progress_Torus
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Colonies_Colony
+# building_colony_dome_small:
+  # availability: PLAYER_ONLY
+  # categoryType: !buildingCategory category_colonies
+  # colonistCapacity: 1000
+  # compactName: DomeCol
+  # description: BE_building_colony_dome_small_description
+  # droneCapacity: 1
+  # healthLossPerDay: 0.05
+  # inputResources:
+    # !resource resource_food: 15
+    # !resource resource_water: 15
+  # knowledge: !knowledge knowledge_colony_dome_small
+  # maxHealth: 500.0
+  # name: BE_building_colony_dome_small_name
+  # outputQuantity: 300
+  # outputResource: !resource resource_research_points
+  # powerConsumption: 120.0
+  # powerPriority: 3.0
+  # prefabName: DomeCity
+  # rubblePrefabName: RubblePile_L
+  # progressPerDay: 0.02 #50 days per batch  
+  # requiredConstructionResources:
+    # !resource resource_aluminum: 20
+    # !resource resource_steel: 20
+    # !resource resource_glass: 20
+  # requiredResourceVein: !resource resource_crater
+  # reservedRadius: 30.0
+  # waySnapRadius: 15.0
+  # rivalIconName: BuildIcons_Rival/Icon_DomeCity
+  # iconName: BuildIcons/Icon_DomeCity
+  # progressBarNames:
+    # - Progress_Torus
+# building_colony_tent_city:
+  # availability: PLAYER_ONLY
+  # categoryType: !buildingCategory category_colonies
+  # colonistCapacity: 2500
+  # compactName: TentCit
+  # description: BE_building_colony_tent_city_description
+  # droneCapacity: 1
+  # healthLossPerDay: 0.05
+  # inputResources:
+    # !resource resource_food: 20
+    # !resource resource_water: 20
+  # knowledge: !knowledge knowledge_colony_tent_city
+  # maxHealth: 600.0
+  # name: BE_building_colony_tent_city_name
+  # outputQuantity: 900
+  # outputResource: !resource resource_research_points
+  # powerConsumption: 300.0
+  # powerPriority: 3.0
+  # prefabName: TentCity
+  # rubblePrefabName: RubblePile_L
+  # progressPerDay: 0.02 #50 days per batch    
+  # requiredConstructionResources:
+    # !resource resource_aluminum: 30
+    # !resource resource_steel: 30
+    # !resource resource_glass: 30
+  # reservedRadius: 40.0
+  # waySnapRadius: 15.0
+  # rivalIconName: BuildIcons_Rival/Icon_TentCity
+  # iconName: BuildIcons/Icon_TentCity
+  # progressBarNames:
+    # - Progress_Torus
+  # needsPressure: true
+# building_colony_open_city:
+  # availability: PLAYER_ONLY
+  # categoryType: !buildingCategory category_colonies
+  # colonistCapacity: 5000
+  # compactName: OpenCit
+  # description: BE_building_colony_open_city_description
+  # droneCapacity: 1
+  # healthLossPerDay: 0.05
+  # inputResources:
+    # !resource resource_food: 30
+    # !resource resource_water: 30
+  # knowledge: !knowledge knowledge_colony_open_city
+  # maxHealth: 700.0
+  # name: BE_building_colony_open_city_name
+  # outputQuantity: 2000
+  # outputResource: !resource resource_research_points
+  # powerConsumption: 600.0
+  # powerPriority: 3.0
+  # prefabName: OpenCity
+  # rubblePrefabName: RubblePile_XL
+  # progressPerDay: 0.02 #50 days per batch    
+  # requiredConstructionResources:
+    # !resource resource_aluminum: 50
+    # !resource resource_steel: 50
+    # !resource resource_glass: 50
+  # reservedRadius: 45.0
+  # waySnapRadius: 20.0
+  # rivalIconName: BuildIcons_Rival/Icon_OpenCity
+  # iconName: BuildIcons/Icon_OpenCity
+  # progressBarNames:
+    # - Progress_Torus
+  # needsBreathableAtmosphere: true
+### OTHER
+building_drone_base:
+  categoryType: !buildingCategory category_core
+  compactName: WorkRel
+  description: BE_building_drone_base_description
+  droneCapacity: 4
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_worker_relay
+  maxHealth: 75.0
+  name: BE_building_drone_base_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 2.0
+  powerPriority: 2.0
+  prefabName: WorkerRelay
+  rubblePrefabName: RubblePile_S
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_steel: 2
+    !resource resource_electronics: 1
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 5.0
+  rivalIconName: BuildIcons_Rival/Icon_WorkerRelay
+  iconName: BuildIcons/Icon_WorkerRelay
+  emptyHubIconName: BuildIcons/Icon_WorkerRelay_Empty
+  jumpRadius: 100.0
+  isWorkerHub: true
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_WorkerHub
+building_research_lab:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_colonies
+  colonistCapacity: 50
+  compactName: ReseLab
+  description: BE_building_research_lab_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_food: 1
+    !resource resource_water: 1
+  knowledge: !knowledge knowledge_research_lab
+  maxHealth: 250.0
+  name: BE_building_research_lab_name
+  outputQuantity: 10
+  outputResource: !resource resource_research_points
+  powerConsumption: 6.0
+  powerPriority: 3.0
+  prefabName: ResearchLab
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.036 #28 days per batch      
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_steel: 2
+    !resource resource_glass: 2
+  requiredResourceVein: !resource resource_special_site
+  reservedRadius: 20.0
+  waySnapRadius: 5.0
+  rivalIconName: BuildIcons_Rival/Icon_ResearchLab
+  iconName: BuildIcons/Icon_ResearchLab
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Colonies_ResearchOutpost
+  progressBarNames:
+    - Progress_Torus_HighPoly
+building_space_elevator:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_core
+  compactName: SpacEle
+  description: BE_building_space_elevator_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_space_elevator
+  maxHealth: 500.0
+  name: BE_building_space_elevator_name
+  namePrefix: "EL-"
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 100.0
+  prefabName: SpaceElevator
+  rubblePrefabName: RubblePile_L
+  progressPerDay: 0.1
+  requiredConstructionResources: {}
+  requiredResourceVein: null
+  reservedRadius: 80.0
+  waySnapRadius: 20.0
+  rivalIconName: BuildIcons_Rival/Icon_SpaceElevator
+  iconName: BuildIcons/Icon_SpaceElevator
+  orbitalIconName: BuildIcons/Icon_SpaceElevator_Orbital
+  needsEquatorialStrip: true
+  orbitalPlacement: true
+  hasSpacePort: true
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_SpaceElevator
+building_spaceport:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_core
+  compactName: Spac
+  description: BE_building_spaceport_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_spaceport
+  maxHealth: 250.0
+  name: BE_building_spaceport_name
+  namePrefix: "SP-"
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 15.0
+  prefabName: SpacePort
+  rubblePrefabName: RubblePile_XL
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_electronics: 10
+    !resource resource_parts: 10
+    !resource resource_steel: 10
+  requiredResourceVein: null
+  reservedRadius: 60.0
+  waySnapRadius: 20.0
+  rivalIconName: BuildIcons_Rival/Icon_Spaceport
+  iconName: BuildIcons/Icon_Spaceport
+  orbitalIconName: BuildIcons/Icon_Spaceport_Orbital
+  hasSpacePort: true
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_Spaceport
+# building_terraforming_biodome:
+  # availability: PLAYER_ONLY
+  # categoryType: !buildingCategory category_terraforming_life
+  # canSpawnLichenAndPlants: true
+  # co2ConversionPerDay: 0.00001
+  # compactName: Biod
+  # description: BE_building_terraforming_biodome_description
+  # droneCapacity: 1
+  # healthLossPerDay: 0.05
+  # inputResources: {}
+  # knowledge: !knowledge knowledge_biodome
+  # maxHealth: 150.0
+  # name: BE_building_terraforming_biodome_name
+  # outputQuantity: 0
+  # outputResource: null
+  # powerConsumption: 10.0
+  # prefabName: Biodome
+  # rubblePrefabName: RubblePile_M
+  # progressPerDay: 0.1
+  # requiredConstructionResources:
+    # !resource resource_aluminum: 10
+    # !resource resource_steel: 10
+    # !resource resource_glass: 15
+  # requiredResourceVein: null
+  # reservedRadius: 20.0
+  # waySnapRadius: 10.0
+  # rivalIconName: BuildIcons_Rival/Icon_Biodome
+  # iconName: BuildIcons/Icon_Biodome
+building_terraforming_aquadome:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_life
+  canSpawnCyanobacteria: true
+  co2ConversionPerDay: 0.00001
+  compactName: Aqud
+  description: BE_building_terraforming_aquadome_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_aquadome
+  maxHealth: 150.0
+  name: BE_building_terraforming_aquadome_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 10.0
+  prefabName: Aquadome
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_glass: 15
+  requiredResourceVein: null
+  reservedRadius: 25.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Aquadome
+  iconName: BuildIcons/Icon_Aquadome
+  progressBarNames:
+    - Progress_Torus
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Life_Aquadome
+building_terraforming_ghg_factory:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_atmosphere
+  compactName: GreeFac
+  description: BE_building_terraforming_ghg_factory_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_chemicals: 1
+  knowledge: !knowledge knowledge_ghg_factory
+  maxHealth: 150.0
+  name: BE_building_terraforming_ghg_factory_name
+  outputQuantity: 1
+  outputResource: !resource resource_ghg_release
+  gasReleaseAmount: 0.00005 #290 mb per year
+  powerConsumption: 10.0
+  prefabName: GreenhouseGas
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 5
+    !resource resource_steel: 5
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_GHGFactory
+  iconName: BuildIcons/Icon_GHGFactory
+  progressBarNames:
+    - Progress_GHGFactory
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Atmosphere_GreenhousePlant
+building_nuclear_nitrate_extractor:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_atmosphere
+  compactName: NitrExt
+  description: BE_building_nuclear_nitrate_extractor_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  knowledge: !knowledge knowledge_nuclear_nitrate_extractor
+  maxHealth: 200.0
+  name: BE_building_nuclear_nitrate_extractor_name
+  outputQuantity: 1
+  outputResource: !resource resource_nitrogen_release
+  gasReleaseAmount: 0.01	# 1.5 years per mb
+  powerConsumption: 10.0
+  prefabName: NuclearNitrate
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_uranium: 10
+  requiredResourceVein: !resource resource_nitrate
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_NuclearNitrateExtractor
+  iconName: BuildIcons/Icon_NuclearNitrateExtractor
+  progressBarNames:
+    - Progress_Torus
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Atmosphere_NuclearExtractor
+building_nuclear_carbonate_extractor:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_atmosphere
+  compactName: CarbExt
+  description: BE_building_nuclear_carbonate_extractor_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  knowledge: !knowledge knowledge_nuclear_carbonate_extractor
+  maxHealth: 200.0
+  name: BE_building_nuclear_carbonate_extractor_name
+  outputQuantity: 1
+  outputResource: !resource resource_carbon_dioxide_release
+  gasReleaseAmount: 0.0005 # 30 years per mb
+  powerConsumption: 10.0
+  prefabName: NuclearCarbonate
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 5
+    !resource resource_steel: 5
+    !resource resource_uranium: 5
+  requiredResourceVein: !resource resource_carbon
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_NuclearCarbonateExtractor
+  iconName: BuildIcons/Icon_NuclearCarbonateExtractor
+  progressBarNames:
+    - Progress_Torus
+  extractionLevel: 3
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Atmosphere_NuclearExtractor
+building_terraforming_oxygen_release_plant:
+  availability: PLAYER_ONLY
+  categoryType: !buildingCategory category_terraforming_atmosphere
+  compactName: OxygPla
+  description: BE_building_terraforming_oxygen_release_plant_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_water: 1
+    !resource resource_chemicals: 1
+  knowledge: !knowledge knowledge_oxygen_release_plant
+  maxHealth: 150.0
+  name: BE_building_terraforming_oxygen_release_plant_name
+  outputQuantity: 1
+  outputResource: !resource resource_oxygen_release
+  gasReleaseAmount: 0.0005  # 60 years per mb at full efficiency
+  powerConsumption: 10.0
+  prefabName: OxygenRelease
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.05
+  requiredConstructionResources:
+    !resource resource_aluminum: 5
+    !resource resource_steel: 5
+    !resource resource_polymers: 5
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_OxygenReleasePlant
+  iconName: BuildIcons/Icon_OxygenReleasePlant
+  progressBarNames:
+    - Progress_OxygenReleasePlant
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Atmosphere_OxygenRelease
+landing_site:
+  categoryType: !buildingCategory category_core
+  compactName: LandSit
+  description: BE_building_landing_site_description
+  droneCapacity: 1
+  isBaseStarter: true
+  maxStorageCapacity: 1200
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxFissionPowerProduction: 20.0
+  maxHealth: 300.0
+  name: BE_building_landing_site_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 0.0
+  prefabName: LandingSite
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_glass: 5
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 5.0
+  rivalIconName: BuildIcons_Rival/Icon_LandingSite
+  iconName: BuildIcons/Icon_LandingSite
+  orbitalIconName: BuildIcons/Icon_LandingSite_Orbital
+  spawnRevealRadius: 290
+  isWorkerHub: true
+  isDistrictHub: true
+  orbitalPlacement: true
+  initialStock:
+    !resource resource_aluminum: 5
+    !resource resource_steel: 20
+    !resource resource_electronics: 5
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_LandingSite
+landing_site_advanced:
+  categoryType: !buildingCategory category_core
+  compactName: LandSit
+  description: BE_building_landing_site_advanced_description
+  droneCapacity: 1
+  isBaseStarter: true
+  maxStorageCapacity: 1200
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: null
+  maxFissionPowerProduction: 50.0
+  maxHealth: 500.0
+  name: BE_building_landing_site_advanced_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 0.0
+  prefabName: LandingSiteAdvanced
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 10
+    !resource resource_glass: 5
+    !resource resource_parts: 5
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 5.0
+  rivalIconName: BuildIcons_Rival/Icon_AdvancedLandingSite
+  iconName: BuildIcons/Icon_AdvancedLandingSite
+  orbitalIconName: BuildIcons/Icon_AdvancedLandingSite_Orbital
+  spawnRevealRadius: 290
+  isWorkerHub: true
+  isDistrictHub: true
+  orbitalPlacement: true
+  initialStock:
+    !resource resource_aluminum: 10
+    !resource resource_steel: 20
+    !resource resource_electronics: 10
+    !resource resource_parts: 10
+    !resource resource_polymers: 10
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_LandingSite
+### POWER PLANTS  
+power_areothermal_plant:
+  categoryType: !buildingCategory category_power
+  compactName: TherPla
+  description: BE_building_power_areothermal_plant_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_thermal_plant
+  maxHealth: 200.0
+  maxThermalPowerProduction: 200.0
+  name: BE_building_power_areothermal_plant_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 0.0
+  powerClusterRadius: 400.0
+  prefabName: ThermalPlant
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 5
+    !resource resource_electronics: 5
+    !resource resource_steel: 10
+  requiredResourceVein: !resource resource_heat
+  reservedRadius: 40.0
+  waySnapRadius: 20.0
+  rivalIconName: BuildIcons_Rival/Icon_ThermalPlant
+  iconName: BuildIcons/Icon_ThermalPlant
+  progressBarNames:
+    - Progress_Torus_20x2
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Power_PowerPlantFume
+power_battery_basic:
+  categoryType: !buildingCategory category_power
+  compactName: BattBas
+  description: BE_building_power_battery_basic_description
+  droneCapacity: 1
+  energyStorageCapacity: 10000.0
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_battery_basic
+  maxHealth: 125.0
+  name: BE_building_power_battery_basic_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 0.0
+  powerClusterRadius: 350.0
+  maxPowerTransfer: 50.0
+  prefabName: Battery
+  rubblePrefabName: RubblePile_S
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_steel: 3
+    !resource resource_electronics: 3
+    !resource resource_chemicals: 3
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_Battery
+  iconName: BuildIcons/Icon_Battery
+  progressBarNames:
+    - Progress_Battery
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Power_PowerPlantGeneric
+power_fission_plant:
+  categoryType: !buildingCategory category_power
+  compactName: FissPla
+  description: BE_building_power_fission_plant_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_fission_plant
+  maxFissionPowerProduction: 100.0
+  maxHealth: 300.0
+  name: BE_building_power_fission_plant_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 0.0
+  powerClusterRadius: 350.0
+  prefabName: FissionPlant
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_electronics: 10
+    !resource resource_steel: 10
+    !resource resource_uranium: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_FissionPlant
+  iconName: BuildIcons/Icon_FissionPlant
+  progressBarNames:
+    - Progress_Torus_20
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Power_PowerPlantFume
+power_fusion_plant:
+  categoryType: !buildingCategory category_power
+  compactName: FusiPla
+  description: BE_building_power_fusion_plant_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_fusion_plant
+  maxFusionPowerProduction: 600.0
+  maxHealth: 400.0
+  name: BE_building_power_fusion_plant_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 0.0
+  powerClusterRadius: 500.0
+  prefabName: FusionPlant
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 10
+    !resource resource_electronics: 25
+    !resource resource_steel: 10
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_FusionPlant
+  iconName: BuildIcons/Icon_FusionPlant
+  progressBarNames:
+    - Progress_Torus_40x3
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Power_PowerPlantGeneric
+power_solar_panel_field:
+  categoryType: !buildingCategory category_power
+  compactName: SolaFar
+  description: BE_building_power_solar_panel_field_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_solar_farm
+  maxHealth: 125.0
+  maxSolarPowerProduction: 40.0
+  name: BE_building_power_solar_panel_field_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 0.0
+  powerClusterRadius: 300.0
+  prefabName: SolarField
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 2
+    !resource resource_electronics: 2
+    !resource resource_glass: 3
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_SolarFarm
+  iconName: BuildIcons/Icon_SolarFarm
+  progressBarNames:
+    - Progress_Torus_5
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Power_PowerPlantGeneric
+power_wind_turbine:
+  categoryType: !buildingCategory category_power
+  compactName: WindFar
+  description: BE_building_power_wind_turbine_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_wind_turbine
+  maxEolicPowerProduction: 50.0
+  maxHealth: 175.0
+  name: BE_building_power_wind_turbine_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 0.0
+  powerClusterRadius: 300.0
+  prefabName: WindTurbine
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_electronics: 2
+    !resource resource_steel: 2
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_WindFarm
+  iconName: BuildIcons/Icon_WindFarm
+  progressBarNames:
+    - Progress_Torus_10
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Power_WindFarm
+### OTHER
+storage_basic:
+  categoryType: !buildingCategory category_core
+  compactName: StorBas
+  description: BE_building_storage_basic_description
+  droneCapacity: 1
+  maxStorageCapacity: 1200
+  healthLossPerDay: 0.05
+  inputResources: {}
+  knowledge: !knowledge knowledge_storage_basic
+  maxHealth: 200.0
+  name: BE_building_storage_basic_name
+  outputQuantity: 0
+  outputResource: null
+  powerConsumption: 10.0
+  prefabName: Storage
+  rubblePrefabName: RubblePile_M
+  progressPerDay: 0.1
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_steel: 3
+    !resource resource_electronics: 3
+    !resource resource_polymers: 3
+  requiredResourceVein: null
+  reservedRadius: 30.0
+  waySnapRadius: 5.0
+  rivalIconName: BuildIcons_Rival/Icon_Storage_Icon
+  iconName: BuildIcons/Icon_Storage_Icon
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_Storage
+### REPAIR / MAINTENANCE
+building_maintenance_facility:
+  categoryType: !buildingCategory category_core
+  compactName: MainFac
+  description: BE_building_maintenance_facility_description
+  droneCapacity: 1
+  healthLossPerDay: 0.05
+  inputResources:
+    !resource resource_polymers: 1
+    !resource resource_electronics: 1
+  knowledge: !knowledge knowledge_maintenance_facility
+  maxHealth: 100.0
+  maintenancePriority: 10.0
+  name: BE_building_maintenance_facility_name
+  outputQuantity: 3
+  outputResource: !resource resource_repair_drone
+  powerConsumption: 20.0
+  powerPriority: 2.0
+  prefabName: MaintenanceFacility
+  rubblePrefabName: RubblePile_S
+  progressPerDay: 0.02
+  requiredConstructionResources:
+    !resource resource_aluminum: 3
+    !resource resource_steel: 3
+    !resource resource_electronics: 3
+    !resource resource_polymers: 3
+  requiredResourceVein: null
+  reservedRadius: 20.0
+  waySnapRadius: 10.0
+  rivalIconName: BuildIcons_Rival/Icon_MaintenanceFacility
+  iconName: BuildIcons/Icon_MaintenanceFacility
+  progressBarNames:
+    - Progress_Torus
+    - Progress_Cylinder
+  categorySoundOverride: Sfx_Gameplay_BuildingBIP_Core_MaintenanceFacility
+# building_water_plant:
+  # categoryType: !buildingCategory category_mines
+  # compactName: WatePla
+  # description: BE_building_water_treatment_plant_description
+  # droneCapacity: 1
+  # healthLossPerDay: 0.05
+  # inputResources: {}
+  # knowledge: !knowledge knowledge_water_plant
+  # maxHealth: 100.0
+  # name: BE_building_water_treatment_plant_name
+  # outputQuantity: 1
+  # outputResource: !resource resource_water
+  # powerConsumption: 50.0
+  # powerPriority: 3.0
+  # prefabName: WaterPlant
+  # rubblePrefabName: RubblePile_M
+  # progressPerDay: 0.1
+  # requiredConstructionResources:
+    # !resource resource_steel: 5
+    # !resource resource_polymers: 5
+    # !resource resource_parts: 5
+    # !resource resource_aluminum: 5
+  # requiredResourceVein: null
+  # reservedRadius: 30.0
+  # waySnapRadius: 10.0
+# #  rivalIconName: BuildIcons_Rival/Icon_WaterTreatmentPlant
+  # iconName: BuildIcons/Icon_WaterTreatmentPlant
+  # progressBarNames:
+    # - Progress_Torus
+  # waterNeededFactor: 0.2
+  # waterNeededRadius: 200.0

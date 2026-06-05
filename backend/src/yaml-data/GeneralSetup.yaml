@@ -1,0 +1,5 @@
+buildingRequirementSliceSize: 50
+waterSamples: 100
+maxPlacementTries: 500
+maxChainPlacementTries: 500
+minJumpDistanceBetweenBuildings: 0.5

@@ -1,0 +1,7 @@
+baseSpeedPerDay: 100
+baseMissilesPerDay: 0.2
+missileRange: 20
+missileRangeForDrones: 80
+baseMissileDamage: 5
+healthLossPerDay: 0
+baseMaxHealth: 5

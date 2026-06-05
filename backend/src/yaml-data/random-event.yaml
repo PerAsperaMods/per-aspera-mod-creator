@@ -1,0 +1,21 @@
+random_event_available_methane_asteroid:
+  eventsPerYear: 0.05 ### Once per 20 years
+  criteria: 
+    - '$methane_asteroid_completed == true'
+  actions:
+    - { command: SetBlackboardBool, arguments: [PlayerFaction, methane_asteroid_completed, false] }
+    - { command: OpenPopup, arguments: [popup_methane_asteroid_available] }
+random_event_available_ice_asteroid:
+  eventsPerYear: 0.1 ### Once per 10 years
+  criteria: 
+    - '$ice_asteroid_completed == true'
+  actions:
+    - { command: SetBlackboardBool, arguments: [PlayerFaction, ice_asteroid_completed, false] }
+    - { command: OpenPopup, arguments: [popup_ice_asteroid_available] }
+random_event_available_nitrogen_asteroid:
+  eventsPerYear: 0.04 ### Once per 25 years
+  criteria: 
+    - '$nitrogen_asteroid_completed == true' 
+  actions:
+    - { command: SetBlackboardBool, arguments: [PlayerFaction, nitrogen_asteroid_completed, false] }
+    - { command: OpenPopup, arguments: [popup_nitrogen_asteroid_available] }

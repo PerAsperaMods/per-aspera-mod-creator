@@ -1,0 +1,7 @@
+repairDistance: 30
+repairDamageSelfRatio: 0.2
+repairOtherPerDay: 5
+droneMaxHealth: 10
+healthFactorGoodEnough: 0.95
+baseSpeedPerDay: 60
+buildingDroneCapacity: 6

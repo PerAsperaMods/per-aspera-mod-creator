@@ -1,0 +1,78 @@
+hazard_asteroid_large:
+  radius:
+    - 200
+    - 400
+  zoneDamages:
+    - 300
+    - 150
+  timeToImpact: 90
+hazard_asteroid_medium:
+  radius:
+    - 150
+    - 300
+  zoneDamages:
+    - 200
+    - 100
+  timeToImpact: 60
+hazard_asteroid_small:
+  radius:
+    - 100
+    - 200
+  zoneDamages:
+    - 100
+    - 50
+  timeToImpact: 30
+hazard_asteroid_large_safe:
+  radius:
+    - 200
+    - 400
+  zoneDamages:
+    - 1000
+    - 50
+  timeToImpact: 90
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+  - longitude: 60.1            # Demo Base Position
+    latitude: 7.5
+    radius: 1000
+hazard_asteroid_medium_safe:
+  radius:
+    - 150
+    - 300
+  zoneDamages:
+    - 300
+    - 15
+  timeToImpact: 60
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+  - longitude: 60.1            # Demo Base Position
+    latitude: 7.5
+    radius: 1000
+hazard_asteroid_small_safe:
+  radius:
+    - 100
+    - 200
+  zoneDamages:
+    - 100
+    - 5
+  timeToImpact: 30
+  exclusionZones:
+  - longitude: 0                # Exclusion Zone North Pole
+    latitude: 90
+    radius: 500
+  - longitude: 0                # Exclusion Zone South Pole
+    latitude: -90
+    radius: 500
+  - longitude: 60.1            # Demo Base Position
+    latitude: 7.5
+    radius: 1000

@@ -1,0 +1,338 @@
+#
+# NOTE: DON'T MODIFY THE INDEX FIELD, AND DON'T ADD IT TO NEW RESOURCES
+#
+
+### MINED RESOURCES
+resource_aluminum:
+  color: A8B3B9
+  index: 5
+  knowledge: !knowledge knowledge_resource_aluminum
+  materialType: Mined
+  name: BE_resource_aluminum_name
+  prefabName: Aluminum
+  veinIconsName:
+    - Resource Icons/Veins/Aluminum_Vein
+    - Resource Icons/Veins/Aluminum_Vein2
+    - Resource Icons/Veins/Aluminum_Vein3
+  iconName: Resource Icons/Aluminum
+  cubeMaterial: ResourceCube
+resource_silicon:
+  color: d1cc69
+  index: 4
+  knowledge: !knowledge knowledge_resource_silicon
+  materialType: Mined
+  name: BE_resource_silicon_name
+  prefabName: Silicon
+  veinIconsName:
+    - Resource Icons/Veins/Silicon_Vein
+    - Resource Icons/Veins/Silicon_Vein2
+    - Resource Icons/Veins/Silicon_Vein3
+  iconName: Resource Icons/Silicon
+  cubeMaterial: ResourceCube
+resource_iron:
+  color: 6F3204
+  index: 6
+  knowledge: !knowledge knowledge_resource_iron
+  materialType: Mined
+  name: BE_resource_iron_name
+  prefabName: Iron
+  veinIconsName:
+    - Resource Icons/Veins/Iron_Vein
+    - Resource Icons/Veins/Iron_Vein2
+    - Resource Icons/Veins/Iron_Vein3
+  iconName: Resource Icons/Iron
+  cubeMaterial: ResourceCube
+resource_carbon:
+  color: 0b1e43
+  index: 7
+  knowledge: !knowledge knowledge_resource_carbon
+  materialType: Mined
+  name: BE_resource_carbon_name
+  prefabName: Carbon
+  veinIconsName:
+    - Resource Icons/Veins/Carbon_Vein
+    - Resource Icons/Veins/Carbon_Vein2
+    - Resource Icons/Veins/Carbon_Vein3
+  iconName: Resource Icons/Carbon
+  cubeMaterial: ResourceCube
+resource_chemicals:
+  color: E62EEE
+  index: 3
+  knowledge: !knowledge knowledge_resource_chemicals
+  materialType: Mined
+  name: BE_resource_chemicals_name
+  prefabName: Chemicals
+  veinIconsName:
+    - Resource Icons/Veins/Chemicals_Vein
+    - Resource Icons/Veins/Chemicals_Vein2
+    - Resource Icons/Veins/Chemicals_Vein3
+  iconName: Resource Icons/Chemicals
+  cubeMaterial: ResourceCube
+resource_water:
+  color: 397099
+  index: 2
+  knowledge: !knowledge knowledge_resource_water
+  materialType: Mined
+  name: BE_resource_water_name
+  prefabName: Water
+  veinIconsName:
+    - Resource Icons/Veins/Water_Vein
+    - Resource Icons/Veins/Water_Vein2
+    - Resource Icons/Veins/Water_Vein3
+  iconName: Resource Icons/Water
+  cubeMaterial: ResourceCube
+resource_uranium:
+  color: 397099
+  index: 23
+  knowledge: !knowledge knowledge_resource_uranium
+  materialType: Mined
+  name: BE_resource_uranium_name
+  prefabName: Uranium
+  veinIconsName:
+    - Resource Icons/Veins/Uranium_Vein
+    - Resource Icons/Veins/Uranium_Vein2
+    - Resource Icons/Veins/Uranium_Vein3
+  iconName: Resource Icons/Uranium
+  cubeMaterial: ResourceCube
+### MANUFACTURED RESOURCES  
+resource_glass:
+  color: BDBDD5
+  index: 9
+  knowledge: !knowledge knowledge_resource_glass
+  materialType: Manufactured
+  name: BE_resource_glass_name
+  prefabName: Glass
+  iconName: Resource Icons/Glass
+  cubeMaterial: CustomGlassCube
+resource_steel:
+  color: 933132
+  index: 8
+  knowledge: !knowledge knowledge_resource_steel
+  materialType: Manufactured
+  name: BE_resource_steel_name
+  prefabName: Steel
+  iconName: Resource Icons/Steel
+  cubeMaterial: ResourceCube
+resource_electronics:
+  color: 636363
+  index: 10
+  knowledge: !knowledge knowledge_resource_electronics
+  materialType: Manufactured
+  name: BE_resource_electronics_name
+  prefabName: Electronics
+  iconName: Resource Icons/Electronics
+  cubeMaterial: ResourceCube
+resource_polymers:
+  color: 397099
+  index: 26
+  knowledge: !knowledge knowledge_resource_polymers
+  materialType: Manufactured
+  name: BE_resource_polymers_name
+  prefabName: Polymers
+  iconName: Resource Icons/Polymers
+  cubeMaterial: ResourceCube
+resource_parts:
+  color: 848484
+  index: 12
+  knowledge: !knowledge knowledge_resource_parts
+  materialType: Manufactured
+  name: BE_resource_parts_name
+  prefabName: Parts
+  iconName: Resource Icons/Parts
+  cubeMaterial: ResourceCube
+resource_food:
+  color: DB8701
+  index: 11
+  knowledge: !knowledge knowledge_resource_food
+  materialType: Manufactured
+  name: BE_resource_food_name
+  prefabName: Food
+  iconName: Resource Icons/Food
+  cubeMaterial: ResourceCube
+resource_fuel:
+  color: 397099
+  index: 24
+  knowledge: !knowledge knowledge_resource_fuel
+  materialType: Placeholder
+  name: BE_resource_fuel_name
+  prefabName: Fuel
+  cubeMaterial: ResourceCube
+## Placement RESOURCES - PLACEMENT
+resource_crater:
+  color: FFFFFF
+  index: 18
+  knowledge: null
+  materialType: Placement
+  name: BE_resource_crater_name
+  prefabName: Crater
+  veinIconsName:
+    - Resource Icons/Veins/Crater_Vein
+  showAsInput: false
+resource_heat:
+  color: FFFFFF
+  index: 1
+  knowledge: null
+  materialType: Placement
+  name: BE_resource_heat_name
+  prefabName: Heat
+  veinIconsName:
+    - Resource Icons/Veins/Heat_Vein
+  showInScannerLens: true
+  radius: 40
+resource_special_site:
+  color: FFFFFF
+  index: 19
+  knowledge: null
+  materialType: Placement
+  name: BE_resource_special_site_name
+  prefabName: SpecialSite
+  altIconName: Resource Icons/Veins/Icon_QuestSpecialSite
+  altOrbitalIconName: Resource Icons/Veins/Icon_QuestSpecialSite
+  orbitalIconName: BuildIcons/Icon_SpecialSite
+  veinIconsName:
+    - BuildIcons/Icon_SpecialSite
+  disableWhenFlooded: false
+resource_nitrate:
+  color: FFFFFF
+  index: 22
+  knowledge: null
+  materialType: Placement
+  name: BE_resource_nitrate_name
+  prefabName: Nitrate
+  veinIconsName:
+    - Resource Icons/Veins/Nitrate_Vein
+    - Resource Icons/Veins/Nitrate_Vein2
+    - Resource Icons/Veins/Nitrate_Vein3
+  showInScannerLens: true
+## Placement RESOURCES - RELEASE  
+resource_research_points:
+  color: FFFFFF
+  index: 25
+  knowledge: null
+  materialType: Released
+  name: BE_resource_research_points_name
+  prefabName: Research
+  iconName: Resource Icons/Research
+resource_drone:
+  color: FFFFFF
+  index: 13
+  knowledge: null
+  materialType: Released
+  name: BE_resource_drone_name
+  prefabName: Worker Drone
+  iconName: Resource Icons/Worker Drone
+resource_ghg_release:
+  color: FFFFFF
+  index: 17
+  knowledge: null
+  materialType: Released
+  name: BE_resource_ghg_release_name
+  prefabName: GHG Release
+  iconName: Resource Icons/GHG Release
+resource_military_drone:
+  color: FFFFFF
+  index: 14
+  knowledge: null
+  materialType: Released
+  name: BE_resource_military_drone_name
+  prefabName: Assault Drone
+  iconName: Resource Icons/Assault Drone
+resource_repair_drone:
+  color: FFFFFF
+  index: 20
+  knowledge: null
+  materialType: Released
+  name: BE_resource_repair_drone_name
+  prefabName: Repair Drone
+  iconName: Resource Icons/Repair Drone
+resource_nitrogen_release:
+  color: FFFFFF
+  index: 16
+  knowledge: null
+  materialType: Released
+  name: BE_resource_nitrogen_release_name
+  prefabName: Nitrogen Release
+  iconName: Resource Icons/Nitrogen Release
+resource_carbon_dioxide_release:
+  color: FFFFFF
+  index: 21
+  knowledge: null
+  materialType: Released
+  name: BE_resource_carbon_dioxide_release_name
+  prefabName: CO2 Release
+  iconName: Resource Icons/CO2 Release
+resource_oxygen_release:
+  color: FFFFFF
+  index: 15
+  knowledge: null
+  materialType: Released
+  name: BE_resource_oxygen_release_name
+  prefabName: Oxygen Release
+  iconName: Resource Icons/Oxygen Release
+resource_oxygen_capture:
+  color: FFFFFF
+  knowledge: null
+  materialType: Released
+  name: BE_resource_oxygen_capture_name
+  prefabName: Oxygen Capture
+  iconName: Resource Icons/Oxygen Negative
+resource_oxygen_respiration:
+  color: FFFFFF
+  knowledge: null
+  materialType: Released
+  name: BE_resource_oxygen_respiration_name
+  prefabName: Oxygen Respiration
+  iconName: Resource Icons/Oxygen Release
+## Placement RESOURCES - RELEASE
+resource_water_flow:
+  materialType: Placement
+  name: TXT_Tooltip_WaterFlow
+  iconName: General Icons/WaterFlow
+resource_trees:
+  materialType: Placement
+  name: TXT_Tooltip_Trees
+  iconName: General Icons/ICO_Trees
+resource_lichen:
+  materialType: Placement
+  name: TXT_Tooltip_Lichen
+  iconName: General Icons/ICO_Lichen
+resource_O2_Up:
+  materialType: Placement
+  name: TXT_Tooltip_O2Up
+  iconName: General Icons/ICO_O2_Up
+resource_CO2_Down:
+  materialType: Placement
+  name: TXT_Tooltip_CO2Down
+  iconName: General Icons/ICO_CO2_Down
+resource_research_bonus:
+  materialType: Placement
+  name: TXT_Tooltip_ResearchBonus
+  iconName: General Icons/ICO_ResearchBonus
+resource_sea_water:
+  materialType: Placement
+  name: TXT_Tooltip_Water
+  iconName: General Icons/ICO_Water
+resource_water_with_cyanobacteria:
+  materialType: Placement
+  name: TXT_Tooltip_WaterCyanobacteria
+  iconName: General Icons/ICO_WaterWithCyanobacteria
+resource_water_area:
+  materialType: Placement
+  name: TXT_Tooltip_WaterArea
+  iconName: General Icons/ICO_WaterPercent
+resource_land_area:
+  materialType: Placement
+  name: TXT_Tooltip_LandArea
+  iconName: General Icons/ICO_Land
+resource_research:
+  materialType: Placement
+  name: ""
+  iconName: General Icons/Research_HUD
+resource_power:
+  materialType: Placement
+  name: ""
+  iconName: General Icons/Power_HUD
+resource_humidity:
+  materialType: Placement
+  name: TXT_Tooltip_Lens_Humidity
+  iconName: General Icons/ICO_Humidity

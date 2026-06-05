@@ -1,0 +1,59 @@
+##############################
+### NORMAL PRIORITY SECTION
+
+### Used for shifting resources
+priorityConstructionTask: 120.0
+priorityBuildingUpgradeTask: 110.0
+priorityWayUpgrade: 100.0
+priorityConstructionMaterials: 80.0
+priorityBuildingUpgradeMaterials: 70.0
+priorityColonyMove: 70.0
+prioritySpacePort: 60.0
+priorityScrap: 50.0
+priorityFactoryMove: 40.0
+priorityClearOut: 20.0
+priorityColonyHoard: 15.0
+priorityFactoryHoard: 10.0
+priorityDefaultHoard: 10.0
+priorityMinimumStorage: 5.0
+priorityUnassignedStorage: 1.0
+
+### Used in Maintenance
+priorityHealthCritical: 50.0
+priorityHealthLow: 1.0
+priorityHealthOnFire: 40.0
+
+##############################
+### HIGH PRIORITY SECTION
+
+### Used for shifting resources
+priorityConstructionTaskHP: 2020.0
+priorityBuildingUpgradeTaskHP: 2010.0
+priorityWayUpgradeHP: 2000.0
+priorityConstructionMaterialsHP: 1080.0
+priorityBuildingUpgradeMaterialsHP: 1070.0
+priorityColonyMoveHP: 1070.0
+prioritySpacePortHP: 1060.0
+priorityScrapHP: 1050.0
+priorityFactoryMoveHP: 1040.0
+priorityClearOutHP: 1020.0
+priorityMinimumStorageHP: 1005.0
+priorityColonyHoardHP: 30.0
+priorityFactoryHoardHP: 20.0
+priorityDefaultHoardHP: 20.0
+priorityUnassignedStorageHP: 2.0
+
+### Used in Maintenance
+priorityHealthCriticalHP: 1000.0
+priorityHealthLowHP: 20.0
+priorityHealthOnFireHP: 800.0
+
+################################
+### Factors for Health
+factorHealthCritical: 0.15
+factorHealthLow: 0.85
+
+################################
+### Resource Allocation Boost
+resourceAllocationBoost: 200.0
+resourceAllocationBoostHP: 2000.0

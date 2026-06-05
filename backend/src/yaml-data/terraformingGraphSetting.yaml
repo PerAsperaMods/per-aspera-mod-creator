@@ -1,0 +1,228 @@
+### ATMOSPHERE
+temperature_general:
+  categoryType: !terraforming_plan_category category_gases
+  dataKey: Temperature
+  criterionKey: temperature
+  min: 203.15
+  max: 333.15
+  position: 0
+  positionInCategory: 0
+  general: true
+  color: EEA879
+  lineColor: D6844C
+  iconName: Terraforming Screen Icons/ICO_Temperature
+  unit: "\xBAC"
+  valueStringOffset: -273
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+pressure_general:
+  categoryType: !terraforming_plan_category category_gases
+  dataKey: Pressure
+  criterionKey: pressure
+  min: 0
+  max: 450
+  position: 1
+  positionInCategory: 1
+  general: true
+  color: CD8282
+  lineColor: 802525
+  iconName: Terraforming Screen Icons/ICO_TerraPlan_Pressure
+  unit: mbar
+  valueStringOffset: 0
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+frozen_co2:
+  categoryType: !terraforming_plan_category category_gases
+  dataKey: Frozen CO2
+  criterionKey: frozen_co2
+  min: 0
+  max: 50
+  position: 2
+  positionInCategory: 2
+  general: false
+  color: ADAEAD
+  lineColor: 686968
+  iconName: Terraforming Screen Icons/ICO_TerraPlan_frozen_co2
+  unit: mbar
+  valueStringOffset: 0
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+co2_level:
+  categoryType: !terraforming_plan_category category_gases
+  dataKey: co2_level
+  criterionKey: pressure_co2_level
+  min: 0
+  max: 100
+  position: 2
+  positionInCategory: 2
+  general: false
+  color: ADACAD
+  lineColor: 686968
+  iconName: Terraforming Screen Icons/ICO_TerraPlan_co2
+  unit: '%'
+  valueStringOffset: 0
+  derived: true
+  deriveFromDataA: CO2 Pressure
+  deriveFromDataB: Pressure
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+o2_pressure_zoomed:
+  categoryType: !terraforming_plan_category category_gases
+  dataKey: O2 Pressure
+  criterionKey: pressure_o2
+  min: 0
+  max: 1.1
+  position: 3
+  positionInCategory: 3
+  general: false
+  color: 31E3D6
+  lineColor: 13B2AA
+  iconName: Terraforming Screen Icons/ICO_TerraPlan_pressure_o2
+  unit: mbar
+  valueStringOffset: 0
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+o2_pressure:
+  categoryType: !terraforming_plan_category category_gases
+  dataKey: O2 Pressure
+  criterionKey: pressure_o2
+  min: 1.1
+  max: 130
+  position: 4
+  positionInCategory: 4
+  general: false
+  color: 31E3D6
+  lineColor: 13B2AA
+  iconName: Terraforming Screen Icons/ICO_TerraPlan_pressure_o2
+  unit: mbar
+  valueStringOffset: 0
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+o2_level:
+  categoryType: !terraforming_plan_category category_gases
+  dataKey: o2_level
+  criterionKey: pressure_o2_level
+  min: 0
+  max: 100
+  position: 3
+  positionInCategory: 3
+  general: false
+  color: 34E3D9
+  lineColor: 13B2AA
+  iconName: Terraforming Screen Icons/ICO_TerraPlan_pressure_o2
+  unit: '%'
+  valueStringOffset: 0
+  derived: true
+  deriveFromDataA: O2 Pressure
+  deriveFromDataB: Pressure
+  usewarnings: true
+  warningValue: 30
+  dangerValue: 60
+#### LIFE TAB
+water_stock:
+  categoryType: !terraforming_plan_category category_terrain
+  dataKey: WaterStock
+  criterionKey: water_stock
+  min: 0
+  max: 1800.0
+  position: 5
+  positionInCategory: 0
+  general: true
+  color: 689DE4
+  lineColor: 215AA7
+  iconName: Terraforming Screen Icons/ICO_TerraPlan_WaterStock
+  unit: m
+  valueStringOffset: 0
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+flora_lichen:
+  categoryType: !terraforming_plan_category category_terrain
+  dataKey: LichenShare
+  criterionKey: lichen_share
+  min: 0
+  max: 1
+  position: 7
+  positionInCategory: 2
+  general: true
+  color: AC20BB
+  lineColor: 6A1873
+  iconName: Terraforming Screen Icons/ICO_Lichen
+  unit: '%'
+  valueStringOffset: 0
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+  dataAsPercentage: true
+  tooltipKeyOverride: TXT_Tooltip_flora_lichen
+flora_plants:
+  categoryType: !terraforming_plan_category category_terrain
+  dataKey: PlantsShare
+  criterionKey: plants_share
+  min: 0
+  max: 1
+  position: 8
+  positionInCategory: 3
+  general: true
+  color: 4EC522
+  lineColor: 2A6514
+  iconName: Terraforming Screen Icons/ICO_Plants
+  unit: '%'
+  valueStringOffset: 0
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+  dataAsPercentage: true
+  tooltipKeyOverride: TXT_Tooltip_flora_plants
+flora_cyanobacteria:
+  categoryType: !terraforming_plan_category category_terrain
+  dataKey: CyanobacteriaShare
+  criterionKey: cyanobacteria_share
+  min: 0
+  max: 1
+  position: 6
+  positionInCategory: 1
+  general: true
+  color: 2DEBDE
+  lineColor: 1D7E74
+  iconName: Terraforming Screen Icons/ICO_Cyanobacteria
+  unit: '%'
+  valueStringOffset: 0
+  derived: 0
+  deriveFromDataA:
+  deriveFromDataB:
+  usewarnings: 0
+  warningValue: 0
+  dangerValue: 0
+  dataAsPercentage: true
+  tooltipKeyOverride: TXT_Tooltip_flora_cyanobacteria

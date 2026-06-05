@@ -1,0 +1,659 @@
+# ENGINEERING 0
+technology_lane_engineering_0:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_building_limit_0
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_engineering_0_name
+  shortName: BE_technology_lane_engineering_0_shortName
+  iconName: Techtree Icons/ICO_TT_Engineering_Lane
+  categoryIconName: Techtree Icons/Icon_TechTree_Engineering
+  categoryName: BE_technology_lane_engineering_categoryName
+  requiredResearchPoints: 0.0
+  requirements: []
+  laneColor: 2A3B40
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.0903165489
+#    y: 0.0
+technology_wind_turbine:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - power_wind_turbine
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_wind_turbine_name
+  description: BE_technology_wind_turbine_description
+  iconName: Techtree Icons/ICO_TT_WindTurbine
+  popupImageName: Popups/Images/IMG_PU_Engineering_WindTurbine
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 150.0
+  requirements:
+    - !technology technology_lane_engineering_0
+  connections: {}
+  isPlaceholder: false
+  position: 5
+#  position:
+#    x: 0.0903165489
+#    y: 0.920000017
+technology_storage_basic:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - storage_basic
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - enhancement_storage_center_management
+      command: UnlockEnhancement
+  isLane: false
+  name: BE_technology_storage_basic_name
+  description: BE_technology_storage_basic_description
+  iconName: Techtree Icons/ICO_TT_ExtraStorage
+  popupImageName: Popups/Images/IMG_PU_Engineering_StorageBasic
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 150.0
+  requirements:
+    - !technology technology_lane_engineering_0
+  connections: {}
+  isPlaceholder: false
+  position: 9
+#  position:
+#    x: 0.0903165489
+#    y: 0.600000024
+#technology_polar_nuclear_detonations:
+#  actions:
+#    - arguments:
+#        - PlayerFaction
+#        - project_polar_nuclear_detonations
+#      command: UnlockSpecialProject
+#      daysDelay: 0.0
+#  isLane: false
+#  name: BE_technology_polar_nuclear_detonations_name
+#  requiredResearchPoints: 150.0
+#  requirements:
+#    - !technology technology_lane_engineering_0
+# ENGINEERING 1
+technology_lane_engineering_1:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_building_limit_1
+      command: UnlockEnhancement
+      daysDelay: 0.0    
+  isLane: true
+  name: BE_technology_lane_engineering_1_name
+  shortName: BE_technology_lane_engineering_1_shortName
+  description: BE_technology_lane_engineering_1_description
+  iconName: Techtree Icons/ICO_TT_Engineering_Lane
+  popupImageName: Popups/Images/IMG_PU_Engineering_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 150.0
+  requirements:
+    - !technology technology_lane_engineering_0
+  connections: {}
+  isPlaceholder: false
+  popupOverride: !popup popup_tutorial_building_management
+#  position:
+#    x: 0.254189938
+#    y: 0.0
+technology_battery:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - power_battery_basic
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_battery_name
+  description: BE_technology_battery_description
+  iconName: Techtree Icons/ICO_TT_Battery
+  popupImageName: Popups/Images/IMG_PU_Engineering_Battery
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_1
+  connections:
+    technology_fission_plant: []
+  isPlaceholder: false
+  position: 7
+#  position:
+#    x: 0.254189968
+#    y: 0.437436193
+technology_way_better:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - way_better
+      command: UnlockWayType
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_way_better_name
+  description: BE_technology_way_better_description
+  iconName: Techtree Icons/ICO_TT_FasterRoads1
+  popupImageName: Popups/Images/IMG_PU_Engineering_FasterRoads1
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_1
+  connections:
+    technology_way_best: []
+  isPlaceholder: false
+  position: 9
+#  position:
+#    x: 0.254189968
+#    y: 0.649999976
+technology_mine_upgrade_2:
+  actions: []
+  isLane: false
+  name: BE_technology_mine_upgrade_2_name
+  description: BE_technology_mine_upgrade_2_description
+  iconName: Techtree Icons/ICO_TT_MineUpgrade2
+  popupImageName: Popups/Images/IMG_PU_Engineering_MineUpgrade2
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_1
+  actions:
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_water_mine_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_chemicals_mine_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_aluminum_mine_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_silicon_mine_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_iron_mine_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_carbon_mine_2
+  connections:
+    technology_mine_upgrade_3: []
+  isPlaceholder: false
+  position: 3
+#  position:
+#    x: 0.254189968
+#    y: 0.25999999
+technology_fission_plant:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - power_fission_plant
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - building_uranium_mine
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_fission_plant_name
+  description: BE_technology_fission_plant_description
+  iconName: Techtree Icons/ICO_TT_FissionPlant
+  popupImageName: Popups/Images/IMG_PU_Engineering_FissionPlant
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_1
+  connections:
+    technology_nuclear_carbonate_extraction: []
+  isPlaceholder: false
+  position: 11
+#  position:
+#    x: 0.254189968
+#    y: 0.920000017
+# ENGINEERING 2
+technology_lane_engineering_2:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_building_limit_2
+      command: UnlockEnhancement
+      daysDelay: 0.0    
+  isLane: true
+  name: BE_technology_lane_engineering_2_name
+  shortName: BE_technology_lane_engineering_2_shortName
+  description: BE_technology_lane_engineering_2_description
+  iconName: Techtree Icons/ICO_TT_Engineering_Lane
+  popupImageName: Popups/Images/IMG_PU_Engineering_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_engineering_1
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.418063313
+#    y: 0.0
+technology_nuclear_carbonate_extraction:
+  name: BE_technology_nuclear_carbonate_extraction_name
+  description: BE_technology_nuclear_carbonate_extraction_description
+  iconName: Techtree Icons/ICO_TT_CarbonateNuclearExtraction
+  popupImageName: Popups/Images/IMG_PU_Engineering_CarbonateNuclearExtraction
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  isLane: false
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_engineering_2
+    - !technology technology_fission_plant
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_nuclear_carbonate_extractor
+      command: UnlockBuilding
+      daysDelay: 0.0
+  connections:
+    technology_nuclear_nitrate_extraction: []
+  isPlaceholder: false
+  position: 11
+#  position:
+#    x: 0.418063313
+#    y: 0.920000017
+technology_way_best:
+  name: BE_technology_way_best_name
+  description: BE_technology_way_best_description
+  iconName: Techtree Icons/ICO_TT_FasterRoads2
+  popupImageName: Popups/Images/IMG_PU_Engineering_FasterRoads2
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  isLane: false
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_way_better
+    - !technology technology_lane_engineering_2
+  actions:
+    - arguments:
+        - PlayerFaction
+        - way_best
+      command: UnlockWayType
+      daysDelay: 0.0 
+  connections:
+    technology_superways: []
+  isPlaceholder: false
+  position: 9
+#  position:
+#    x: 0.418063313
+#    y: 0.649999976
+technology_factory_upgrade_2:
+  actions: []
+  isLane: false
+  name: BE_technology_factory_upgrade_2_name
+  description: BE_technology_factory_upgrade_2_description
+  iconName: Techtree Icons/ICO_TT_FactoryUpgrade2
+  popupImageName: Popups/Images/IMG_PU_Engineering_FactoryUpgrade2
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_engineering_2
+  actions:
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_food_factory_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_steel_factory_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_glass_factory_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_electronics_factory_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_polymers_factory_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_parts_factory_2
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_drone_factory_2
+  connections:
+    technology_factory_upgrade_3: []
+  isPlaceholder: false
+  position: 7
+# ENGINEERING 3
+technology_lane_engineering_3:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_building_limit_3
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_engineering_3_name
+  shortName: BE_technology_lane_engineering_3_shortName
+  description: BE_technology_lane_engineering_3_description
+  iconName: Techtree Icons/ICO_TT_Engineering_Lane
+  popupImageName: Popups/Images/IMG_PU_Engineering_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_engineering_2
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.581936657
+#    y: 0.0
+technology_nuclear_nitrate_extraction:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_nuclear_nitrate_extractor
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_nuclear_nitrate_extraction_name
+  description: BE_technology_nuclear_nitrate_extraction_description
+  iconName: Techtree Icons/ICO_TT_NitrateNuclearExtraction
+  popupImageName: Popups/Images/IMG_PU_Engineering_NitrateNuclearExtraction
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_engineering_3
+    - !technology technology_nuclear_carbonate_extraction
+  connections: {}
+  isPlaceholder: false
+  position: 11
+#  position:
+#    x: 0.581936657
+#    y: 0.920000017
+technology_superways:
+  name: BE_technology_superways_name
+  description: BE_technology_superways_description
+  iconName: Techtree Icons/ICO_TT_Hyperloop
+  popupImageName: Popups/Images/IMG_PU_Engineering_Hyperloop
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  isLane: false
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_engineering_3
+    - !technology technology_way_best
+  actions:
+    - arguments:
+        - PlayerFaction
+        - way_super
+      command: UnlockWayType
+      daysDelay: 0.0      
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_hyperloop
+  connections: {}
+  isPlaceholder: false
+  position: 9
+#  position:
+#    x: 0.581936657
+#    y: 0.649999976
+technology_mine_upgrade_3:
+  actions: []
+  isLane: false
+  name: BE_technology_mine_upgrade_3_name
+  description: BE_technology_mine_upgrade_3_description
+  iconName: Techtree Icons/ICO_TT_MineUpgrade3
+  popupImageName: Popups/Images/IMG_PU_Engineering_MineUpgrade3
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_engineering_3
+    - !technology technology_mine_upgrade_2
+  actions:
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_water_mine_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_chemicals_mine_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_aluminum_mine_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_silicon_mine_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_iron_mine_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_carbon_mine_3
+  connections: {}
+  isPlaceholder: false
+  position: 3
+#  position:
+#    x: 0.581936657
+#    y: 0.25999999
+# ENGINEERING 4
+technology_lane_engineering_4:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_building_limit_4
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_engineering_4_name
+  shortName: BE_technology_lane_engineering_4_shortName
+  description: BE_technology_lane_engineering_4_description
+  iconName: Techtree Icons/ICO_TT_Engineering_Lane
+  popupImageName: Popups/Images/IMG_PU_Engineering_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_engineering_3
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.745809972
+#    y: 0.0
+technology_areothermal_plant:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - power_areothermal_plant
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_areothermal_plant_name
+  description: BE_technology_areothermal_plant_description
+  iconName: Techtree Icons/ICO_TT_AreothermalPlant
+  popupImageName: Popups/Images/IMG_PU_Engineering_AreothermalPlant
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_engineering_4
+  connections:
+    technology_fusion_plant: []
+  isPlaceholder: false
+  position: 9
+#  position:
+#    x: 0.747765362
+#    y: 0.699999988
+technology_factory_upgrade_3:
+  actions: []
+  isLane: false
+  name: BE_technology_factory_upgrade_3_name
+  description: BE_technology_factory_upgrade_3_description
+  iconName: Techtree Icons/ICO_TT_FactoryUpgrade3
+  popupImageName: Popups/Images/IMG_PU_Engineering_FactoryUpgrade3
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_engineering_4
+    - !technology technology_factory_upgrade_2
+  actions:
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_food_factory_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_steel_factory_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_glass_factory_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_electronics_factory_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_polymers_factory_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_parts_factory_3
+    - command: UnlockBuilding
+      daysDelay: 0.0
+      arguments:
+        - PlayerFaction
+        - building_drone_factory_3
+  connections: {}
+  isPlaceholder: false
+  position: 7
+#  position:
+#    x: 0.747765362
+#    y: 0.437203139
+# ENGINEERING 5
+technology_lane_engineering_5:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_building_limit_5
+      command: UnlockEnhancement
+      daysDelay: 0.0    
+  isLane: true
+  name: BE_technology_lane_engineering_5_name
+  shortName: BE_technology_lane_engineering_5_shortName
+  description: BE_technology_lane_engineering_5_description
+  iconName: Techtree Icons/ICO_TT_Engineering_Lane
+  popupImageName: Popups/Images/IMG_PU_Engineering_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_engineering_4
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.909683406
+#    y: 0.0
+technology_fusion_plant:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - power_fusion_plant
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_fusion_plant_name
+  description: BE_technology_fusion_plant_description
+  iconName: Techtree Icons/ICO_TT_FussionPlant
+  popupImageName: Popups/Images/IMG_PU_Engineering_FusionPlant
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 50000.0
+  requirements:
+    - !technology technology_lane_engineering_5
+    - !technology technology_areothermal_plant
+  connections: {}
+  isPlaceholder: false
+  position: 9
+#  position:
+#    x: 0.909683287
+#    y: 0.699999988
+#ENGINEERING 6
+technology_lane_engineering_6:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_building_limit_6
+      command: UnlockEnhancement
+      daysDelay: 0.0 
+  isLane: true
+  name: BE_technology_lane_engineering_6_name
+  shortName: BE_technology_lane_engineering_6_shortName
+  description: BE_technology_lane_engineering_6_description
+  iconName: Techtree Icons/ICO_TT_Engineering_Lane
+  popupImageName: Popups/Images/IMG_PU_Engineering_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_BG
+  requiredResearchPoints: 50000.0
+  requirements:
+    - !technology technology_lane_engineering_5
+  connections: {}
+  isPlaceholder: false
+technology_continuing_engineering:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_increment_production
+      command: UnlockEnhancement
+  isLane: false
+  name: BE_technology_continuing_engineering_name
+  description: BE_technology_continuing_engineering_description
+  iconName: Techtree Icons/ICO_TT_Continuous_Engineering
+  popupImageName: Popups/Images/IMG_PU_Continuous_Engineering
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Engineering_Continuous
+  requiredResearchPoints: 100000.0
+  requirements:
+    - !technology technology_lane_engineering_6
+  connections: {}
+  isPlaceholder: false
+  repeatable : true
+  position: 7
+#  position:
+#    x: 1.073556721
+#    y: 0.0

@@ -1,0 +1,596 @@
+#SPACE 0
+technology_lane_space_0:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_spaceport_limit_0
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_space_0_name
+  shortName: BE_technology_lane_space_0_shortName
+  iconName: Techtree Icons/ICO_TT_Space_Lane
+  popupImageName: Popups/Images/IMG_PU_Space_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  categoryIconName: Techtree Icons/Icon_TechTree_Space
+  categoryName: BE_technology_lane_space_categoryName
+  description: BE_technology_lane_space_0_description
+  requiredResearchPoints: 0.0
+  requirements: []
+  laneColor: 243249
+  connections: {}
+  isPlaceholder: false
+
+#  position:
+#    x: 0.0903165489
+#    y: 0.0
+technology_additional_landing_site:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_additional_landing_site
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_launch_satellites
+      command: UnlockKnowledge
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_additional_landing_site
+      command: UnlockKnowledge
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_additional_landing_site
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_additional_landing_site_name
+  description: BE_technology_additional_landing_site_description
+  iconName: Techtree Icons/ICO_TT_LaunchAdditionalLandingSiteModules
+  popupImageName: Popups/Images/IMG_PU_Space_AdditionalLandingSite
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 150.0
+  requirements:
+    - !technology technology_lane_space_0
+  connections:
+    technology_advanced_landing_site: []
+  isPlaceholder: false
+  position: 5
+#  position:
+#    x: 0.0903165489
+#    y: 0.449999988
+#SPACE 1
+technology_lane_space_1:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_spaceport_limit_1
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_space_1_name
+  shortName: BE_technology_lane_space_1_shortName
+  description: BE_technology_lane_space_1_description
+  iconName: Techtree Icons/ICO_TT_Space_Lane
+  popupImageName: Popups/Images/IMG_PU_Space_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 150.0
+  requirements:
+    - !technology technology_lane_space_0
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.254189938
+#    y: 0.0
+technology_black_polar_dust:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_black_polar_dust
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_black_polar_dust
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_black_polar_dust_name
+  description: BE_technology_black_polar_dust_description
+  iconName: Techtree Icons/ICO_TT_BlackPolarDust
+  popupImageName: Popups/Images/IMG_PU_Biology_BlackPopularDust
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Biotech_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_space_1
+  connections: {}
+  isPlaceholder: false
+  position: 9
+technology_space_mirror_array:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_space_mirror_array
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_space_mirror_array
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_space_mirror_array_name
+  description: BE_technology_space_mirror_array_description
+  iconName: Techtree Icons/ICO_TT_SpaceMirrorArray
+  popupImageName: Popups/Images/IMG_PU_Space_SpaceMirrorArray
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_space_1
+  connections: {}
+  isPlaceholder: false
+  position: 3
+#  position:
+#    x: 0.254189968
+#    y: 0.280000001
+#SPACE 2
+technology_lane_space_2:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_spaceport_limit_2
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_space_2_name
+  shortName: BE_technology_lane_space_2_shortName
+  description: BE_technology_lane_space_2_description
+  iconName: Techtree Icons/ICO_TT_Space_Lane
+  popupImageName: Popups/Images/IMG_PU_Space_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 750.0
+  requirements:
+    - !technology technology_lane_space_1
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.418063313
+#    y: 0.0
+technology_import_ghg_from_earth:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_import_ghg_from_earth
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_import_ghg_from_earth
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_import_ghg_from_earth_name
+  description: BE_technology_import_ghg_from_earth_description
+  iconName: Techtree Icons/ICO_TT_ImportGHGFromEarth
+  popupImageName: Popups/Images/IMG_PU_Space_ImportghgFromEarth
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_space_2
+  connections:
+    technology_import_ice_from_europa: []
+  isPlaceholder: false
+  position: 11
+#  position:
+#    x: 0.254189968
+#    y: 0.899999976
+technology_aerobrake_methane_asteroid:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_aerobrake_methane_asteroid
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_aerobrake_methane_asteroid
+      command: UnlockKnowledge
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - building_uranium_mine
+      command: UnlockBuilding
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_aerobrake_methane_asteroid_name
+  description: BE_technology_aerobrake_methane_asteroid_description
+  iconName: Techtree Icons/ICO_TT_AerobrakeMathaneAsteroid
+  popupImageName: Popups/Images/IMG_PU_Space_AerobrakeMethaneAsteroid
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_space_2   
+  connections:
+    technology_aerobrake_ice_asteroid: []
+  isPlaceholder: false
+  position: 7
+#  position:
+#    x: 0.254189968
+#    y: 0.639999986
+technology_crash_comet:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_crash_comet
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_crash_comet
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_crash_comet_name
+  description: BE_technology_crash_comet_description
+  iconName: Techtree Icons/ICO_TT_CometCrashing
+  popupImageName: Popups/Images/IMG_PU_Space_CrashComet
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_space_2
+  connections:
+    technology_deimos_down: []
+  isPlaceholder: false
+  position: 3
+#  position:
+#    x: 0.418063313
+#    y: 0.280000001
+technology_advanced_landing_site:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_advanced_landing_site
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_advanced_landing_site
+      command: UnlockKnowledge
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_advanced_landing_site
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_advanced_landing_site_name
+  description: BE_technology_advanced_landing_site_description
+  iconName: Techtree Icons/ICO_TT_LaunchAdditionalAdvancedLandingSiteModules
+  popupImageName: Popups/Images/IMG_PU_Space_AdvanceLandingSite
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_space_2
+    - !technology technology_additional_landing_site
+  connections: {}
+  isPlaceholder: false
+  position: 5
+#  position:
+#    x: 0.418063313
+#    y: 0.449999988
+#SPACE 3
+technology_lane_space_3:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_spaceport_limit_3
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_space_3_name
+  shortName: BE_technology_lane_space_3_shortName
+  description: BE_technology_lane_space_3_description
+  iconName: Techtree Icons/ICO_TT_Space_Lane
+  popupImageName: Popups/Images/IMG_PU_Space_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 2500.0
+  requirements:
+    - !technology technology_lane_space_2
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.581936657
+#    y: 0.0
+technology_import_ice_from_europa:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_import_ice_from_europa
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_import_ice_from_europa
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_import_ice_from_europa_name
+  description: BE_technology_import_ice_from_europa_description
+  iconName: Techtree Icons/ICO_TT_ImportIceFromEuropa
+  popupImageName: Popups/Images/IMG_PU_Space_import_IceFromEuropa
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_space_3
+    - !technology technology_import_ghg_from_earth
+  connections:
+    technology_import_nitrogen_from_titan: []
+  isPlaceholder: false
+  position: 11
+#  position:
+#    x: 0.581936657
+#    y: 0.899999976
+technology_aerobrake_ice_asteroid:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_aerobrake_ice_asteroid
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_aerobrake_ice_asteroid
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_aerobrake_ice_asteroid_name
+  description: BE_technology_aerobrake_ice_asteroid_description
+  iconName: Techtree Icons/ICO_TT_AerobrakeIceAsteroid
+  popupImageName: Popups/Images/IMG_PU_Space_AerobrakeIceAsteroid
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_space_3
+    - !technology technology_aerobrake_methane_asteroid
+  connections:
+    technology_aerobrake_nitrogen_rich_asteroid: []
+  isPlaceholder: false
+  position: 7
+#  position:
+#    x: 0.418063313
+#    y: 0.639999986
+technology_deimos_down:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_deimos_down
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - building_uranium_mine
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_deimos_down
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_deimos_down_name
+  description: BE_technology_deimos_down_description
+  iconName: Techtree Icons/ICO_TT_DeimosCrashing
+  popupImageName: Popups/Images/IMG_PU_Space_DeimosDown
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_space_3
+    - !technology technology_crash_comet
+  connections: {}
+  isPlaceholder: false
+  position: 3
+#  position:
+#    x: 0.581936657
+#    y: 0.280000001
+#SPACE 4
+technology_lane_space_4:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_spaceport_limit_4
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_space_4_name
+  shortName: BE_technology_lane_space_4_shortName
+  description: BE_technology_lane_space_4_description
+  iconName: Techtree Icons/ICO_TT_Space_Lane
+  popupImageName: Popups/Images/IMG_PU_Space_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 10000.0
+  requirements:
+    - !technology technology_lane_space_3
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.745809972
+#    y: 0.0
+technology_space_elevator:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - building_space_elevator
+      command: UnlockBuilding
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - project_space_elevator
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_space_elevator
+      command: UnlockKnowledge
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - elevator_colonist_migration
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_space_elevator_name
+  description: BE_technology_space_elevator_description
+  iconName: Techtree Icons/ICO_TT_SpaceElevator
+  popupImageName: Popups/Images/IMG_PU_Space_SpaceElevator
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_space_4
+  connections:
+    technology_magnetic_shield: []
+  isPlaceholder: false
+  position: 5
+#  position:
+#    x: 0.747765362
+#    y: 0.449999988
+technology_aerobrake_nitrogen_rich_asteroid:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_aerobrake_nitrogen_rich_asteroid
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_aerobrake_nitrogen_rich_asteroid
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_aerobrake_nitrogen_rich_asteroid_name
+  description: BE_technology_aerobrake_nitrogen_rich_asteroid_description
+  iconName: Techtree Icons/ICO_TT_AerobrajeNitrogenRichAsteroid
+  popupImageName: Popups/Images/IMG_PU_Space_aerobrake_NitrogenRichAsteroid
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_space_4
+    - !technology technology_aerobrake_ice_asteroid
+  connections: {}
+  isPlaceholder: false
+  position: 7
+#  position:
+#    x: 0.58259362
+#    y: 0.639999986
+technology_import_nitrogen_from_titan:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_import_nitrogen_from_titan
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_import_nitrogen_from_titan
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_import_nitrogen_from_titan_name
+  description: BE_technology_import_nitrogen_from_titan_description
+  iconName: Techtree Icons/ICO_TT_ImportNitrogenFromTitan
+  popupImageName: Popups/Images/IMG_PU_Space_ImportNitrogenFromTitan
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_space_4
+    - !technology technology_import_ice_from_europa
+  connections: {}
+  isPlaceholder: false
+  position: 11
+#  position:
+#    x: 0.747765362
+#    y: 0.899999976
+#SPACE 5
+technology_lane_space_5:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_spaceport_limit_5
+      command: UnlockEnhancement
+  isLane: true
+  name: BE_technology_lane_space_5_name
+  shortName: BE_technology_lane_space_5_shortName
+  description: BE_technology_lane_space_5_description
+  iconName: Techtree Icons/ICO_TT_Space_Lane
+  popupImageName: Popups/Images/IMG_PU_Space_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 25000.0
+  requirements:
+    - !technology technology_lane_space_4
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 0.909683406
+#    y: 0.0
+technology_magnetic_shield:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - project_magnetic_shield
+      command: UnlockSpecialProject
+      daysDelay: 0.0
+    - arguments:
+        - PlayerFaction
+        - knowledge_project_magnetic_shield
+      command: UnlockKnowledge
+      daysDelay: 0.0
+  isLane: false
+  name: BE_technology_magnetic_shield_name
+  description: BE_technology_magnetic_shield_description
+  iconName: Techtree Icons/ICO_TT_MagneticDipoleShield
+  popupImageName: Popups/Images/IMG_PU_Space_MagneticShield
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 50000.0
+  requirements:
+    - !technology technology_lane_space_5
+    - !technology technology_space_elevator
+  connections: {}
+  isPlaceholder: false
+  position: 5
+#  position:
+#    x: 0.909683287
+#    y: 0.449999988
+#SPACE 6
+technology_lane_space_6:
+  actions: []
+  isLane: true
+  name: BE_technology_lane_space_6_name
+  shortName: BE_technology_lane_space_6_shortName
+  description: BE_technology_lane_space_6_description
+  iconName: Techtree Icons/ICO_TT_Space_Lane
+  popupImageName: Popups/Images/IMG_PU_Space_Lane
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_BG
+  requiredResearchPoints: 50000.0
+  requirements:
+    - !technology technology_lane_space_5
+  connections: {}
+  isPlaceholder: false
+#  position:
+#    x: 1.073556721
+#    y: 0.0
+technology_continuing_space:
+  actions:
+    - arguments:
+        - PlayerFaction
+        - enhancement_increment_space_inmigrants_reduce_costs_and_time
+      command: UnlockEnhancement
+  isLane: false
+  name: BE_technology_continuing_space_name
+  description: BE_technology_continuing_space_description
+  iconName: Techtree Icons/ICO_TT_Continuous_Space
+  popupImageName: Popups/Images/IMG_PU_Continuous_Space
+  popupSecondaryImageName: Popups/Images/IMG_PU_Category_Space_Continuous
+  requiredResearchPoints: 100000.0
+  requirements:
+    - !technology technology_lane_space_6
+  connections: {}
+  isPlaceholder: false
+  repeatable : true
+  position: 7

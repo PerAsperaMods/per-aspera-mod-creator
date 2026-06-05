@@ -1,0 +1,468 @@
+### TOOLTIP KEY
+###     titleId: Title localization ID
+###     descriptionId: Description localization ID(not used in dynamic tooltips)
+###     iconName: Name of the icon in the title
+###     bodyImgName: Name of the image in the body
+###     keyBindingId: ID of the optional keybinding associated with this tooltip owner(shows on side of title)
+
+tooltip_power:
+    titleId: TXT_Stats_Power
+tooltip_pipes:
+    titleId: TXT_Stats_Water
+tooltip_scanner:
+    titleId: TXT_Stats_Scanner
+tooltip_maintenance:
+    titleId: TXT_Stats_Maintenance
+tooltip_traffic:
+    titleId: TXT_Stats_Traffic
+tooltip_combat:
+    titleId: TXT_Stats_Combat
+tooltip_buildings:
+    titleId: TXT_Stats_Buildings
+tooltip_population:
+    titleId: TXT_Stats_Population
+tooltip_research:
+    titleId: TXT_Stats_Research
+tooltip_gamespeed:
+    titleId: TXT_Stats_GameSpeed
+    descriptionId: TXT_Stats_GameSpeed_Description
+tooltip_gamespeed_0x:
+    titleId: TXT_Stats_GameSpeedx0_Title
+    descriptionId: TXT_Tooltip_GameSpeedx0
+    keyBindingId: Speed_0
+tooltip_gamespeed_1x:
+    titleId: TXT_Stats_GameSpeedx1_Title
+    descriptionId: TXT_Tooltip_GameSpeedx1
+    keyBindingId: Speed_1
+tooltip_gamespeed_2x:
+    titleId: TXT_Stats_GameSpeedx2_Title
+    descriptionId: TXT_Tooltip_GameSpeedx2
+    keyBindingId: Speed_2
+tooltip_gamespeed_4x:
+    titleId: TXT_Stats_GameSpeedx4_Title
+    descriptionId: TXT_Tooltip_GameSpeedx4
+    keyBindingId: Speed_3
+tooltip_gamespeed_8x:
+    titleId: TXT_Stats_GameSpeedx8_Title
+    descriptionId: TXT_Tooltip_GameSpeedx8
+    keyBindingId: Speed_4
+tooltip_gamespeed_16x:
+    titleId: TXT_Stats_GameSpeedx16_Title
+    descriptionId: TXT_Tooltip_GameSpeedx16
+    keyBindingId: Speed_5
+tooltip_BIP_active:
+    titleId: TXT_Tooltip_BIP_Active
+    descriptionId: TXT_Tooltip_BIP_Active_Description
+tooltip_BIP_priority:
+    titleId: TXT_Tooltip_BIP_Priority
+    descriptionId: TXT_Tooltip_BIP_Priority_Description
+tooltip_BIP_upgrade:
+    titleId: TXT_Tooltip_BIP_Upgrade
+    descriptionId: TXT_Tooltip_BIP_Upgrade_Description
+tooltip_BIP_wayUpgrade:
+    titleId: TXT_Tooltip_BIP_WayUpgrade
+    descriptionId: TXT_Tooltip_BIP_WayUpgrade_Description
+tooltip_BIP_terminal:
+    titleId: TXT_Tooltip_BIP_Terminal
+    descriptionId: TXT_Tooltip_BIP_Terminal_Description
+tooltip_BIP_rebuild:
+    titleId: TXT_Tooltip_BIP_Rebuild
+    descriptionId: TXT_Tooltip_BIP_Rebuild_Description
+tooltip_BIP_scrap:
+    titleId: TXT_Tooltip_BIP_Scrap
+    descriptionId: TXT_Tooltip_BIP_Scrap_Description
+tooltip_BIP_discard:
+    titleId: TXT_Tooltip_BIP_Discard
+    descriptionId: TXT_Tooltip_BIP_Discard_Description
+tooltip_BIP_cancelUpgrade:
+    titleId: TXT_Tooltip_BIP_CancelUpgrade_Title
+    descriptionId: TXT_Tooltip_BIP_CancelUpgrade_Description
+tooltip_BIP_HP: 
+    titleId: TXT_Tooltip_BIP_HP
+    descriptionId: TXT_Tooltip_BIP_HP_Description
+tooltip_BIP_efficiency:
+    titleId: TXT_Tooltip_BIP_efficiency
+    descriptionId: TXT_Tooltip_BIP_efficiency_Description
+    iconName: ICO_Efficiency
+tooltip_BIP_droneHub:
+    titleId: TXT_Tooltip_BIP_droneHub
+    descriptionId: TXT_Tooltip_BIP_droneHub_Description
+tooltip_BIP_maintenance:
+    titleId: TXT_Tooltip_BIP_maintenance
+    descriptionId: TXT_Tooltip_BIP_maintenance_description
+tooltip_BIP_colony:
+    titleId: TXT_Tooltip_BIP_colony
+    descriptionId: TXT_Tooltip_BIP_colony_description
+    iconName: ICO_Population
+tooltip_BIP_scanner:
+    titleId: TXT_Tooltip_BIP_scanner
+    descriptionId: TXT_Tooltip_BIP_scanner_description
+tooltip_BIP_storage:
+    titleId: TXT_Tooltip_BIP_storage
+    descriptionId: TXT_Tooltip_BIP_storage_description
+    iconName: ICO_Storage
+tooltip_BIP_powerOutput:
+    titleId: TXT_Tooltip_BIP_powerOutput
+    descriptionId: TXT_Tooltip_BIP_powerOutput_description
+    iconName: Power
+tooltip_BIP_powerConsumption:
+    titleId: TXT_Tooltip_BIP_powerConsumption
+    descriptionId: TXT_Tooltip_BIP_powerConsumption_description
+    iconName: Power
+tooltip_BIP_input:
+    titleId: TXT_Tooltip_BIP_input
+    descriptionId: TXT_Tooltip_BIP_input_description
+    iconName: ICO_Input
+tooltip_BIP_output:
+    titleId: TXT_Tooltip_BIP_output
+    descriptionId: TXT_Tooltip_BIP_output_description
+    iconName: ICO_Output
+tooltip_BIP_construction:
+    titleId: TXT_Tooltip_BIP_construction
+    descriptionId: TXT_Tooltip_BIP_construction_description
+    iconName: ICO_Construction
+tooltip_BIP_disconnected:
+    titleId: TXT_Tooltip_BIP_disconnected
+    descriptionId: TXT_Tooltip_BIP_disconnected_description
+tooltip_lens_temperature:
+    titleId: TXT_Tooltip_Lens_Temperature
+    keyBindingId: Climate_Lens
+    descriptionId: TXT_Tooltip_TemperatureLens_Description
+    iconName: ICO_Lens_Temperature
+tooltip_lens_biome:
+    titleId: TXT_Tooltip_Lens_Biome
+    keyBindingId: Climate_Lens
+    descriptionId: TXT_Tooltip_BiomeLens_Description
+    iconName: ICO_Lens_Biome
+tooltip_lens_humidity:
+    titleId: TXT_Tooltip_Lens_Humidity
+    keyBindingId: Climate_Lens
+    descriptionId: TXT_Tooltip_HumidityLens_Description
+    iconName: ICO_Lens_Humidity
+tooltip_lens_traffic:
+    titleId: TXT_Tooltip_Lens_Traffic
+    keyBindingId: Traffic_Lens
+    descriptionId: TXT_Tooltip_TrafficLens_Description
+####bodyImgName: IMG_TrafficLens
+    iconName: ICO_Lens_Traffic
+tooltip_lens_power:
+    titleId: TXT_Tooltip_Lens_Power
+    keyBindingId: Power_Lens
+    descriptionId: TXT_Tooltip_PowerLens_Description
+    iconName: ICO_Lens_Power
+tooltip_lens_maintenance:
+    titleId: TXT_Tooltip_Lens_Maintenance
+    keyBindingId: Maintenance_Lens
+    descriptionId: TXT_Tooltip_MaintenanceLens_Description
+    iconName: ICO_Lens_Maintenance
+tooltip_lens_scanner:
+    titleId: TXT_Tooltip_Lens_Scanner
+    keyBindingId: Scanner_Lens
+    descriptionId: TXT_Tooltip_ScannerLens_Description
+    iconName: ICO_Lens_Scanner
+tooltip_lens_combat:
+    titleId: TXT_Tooltip_Lens_Combat
+    keyBindingId: Combat_Lens
+    descriptionId: TXT_Tooltip_CombatLens_Description
+    iconName: ICO_Lens_Combat
+tooltip_lens_district:
+    titleId: TXT_Tooltip_Lens_District
+    keyBindingId: District_Lens
+    descriptionId: TXT_Tooltip_DistrictLens_Description
+    iconName: ICO_Lens_District
+tooltip_lens_pipes:
+    titleId: TXT_Tooltip_Lens_Pipes
+    keyBindingId: Pipes_Lens
+    descriptionId: TXT_Tooltip_PipesLens_Description
+    iconName: ICO_Lens_Pipes
+tooltip_space_sectorPermission:
+    titleId: TXT_Space_SectorPermission
+tooltip_button_options:
+    titleId: TXT_Menu_Title
+    keyBindingId: Open_Menu
+tooltip_button_knowledge:
+    titleId: TXT_Control_Setting_Knowledge_Base
+    keyBindingId: Knowledge_Base
+tooltip_techtree_close:
+    titleId: TXT_Tooltip_TechTreeClose
+tooltip_temperature_widget:
+    titleId: TXT_Tooltip_Lens_Temperature
+    iconName: ICO_Lens_Temperature
+tooltip_temperature_baseTemperature:
+    titleId: TXT_Tooltip_temperature_baseTemperature
+    descriptionId: TXT_Tooltip_temperature_baseTemperature_description
+    iconName: ICO_Lens_Temperature
+tooltip_temperature_carbonDioxide:
+    titleId: TXT_Tooltip_temperature_carbonDioxide
+    descriptionId: TXT_Tooltip_temperature_carbonDioxide_description
+tooltip_temperature_GHG:
+    titleId: TXT_Tooltip_temperature_GHG
+    descriptionId: TXT_Tooltip_temperature_GHG_description
+tooltip_temperature_spaceMirror:
+    titleId: TXT_Tooltip_temperature_spaceMirror
+    descriptionId: TXT_Tooltip_temperature_spaceMirror_description
+tooltip_temperature_cometCrashing:
+    titleId: TXT_Tooltip_temperature_cometCrashing
+    descriptionId: TXT_Tooltip_temperature_cometCrashing_description
+tooltip_temperature_deimosCrashing:
+    titleId: TXT_Tooltip_temperature_deimosCrashing
+    descriptionId: TXT_Tooltip_temperature_deimosCrashing_description
+tooltip_pressure_widget:
+    titleId: TXT_HUD_Pressure
+    iconName: ICO_Pressure
+tooltip_pressure_otherGasses:
+    titleId: TXT_Tooltip_pressure_otherGasses
+    descriptionId: TXT_Tooltip_pressure_otherGasses_description
+tooltip_pressure_GHG:
+    titleId: TXT_Tooltip_pressure_GHG
+    descriptionId: TXT_Tooltip_pressure_GHG_description
+tooltip_pressure_nitrogen:
+    titleId: TXT_Tooltip_pressure_nitrogen
+    descriptionId: TXT_Tooltip_pressure_nitrogen_description
+tooltip_pressure_carbonDioxide:
+    titleId: TXT_Tooltip_pressure_carbonDioxide
+    descriptionId: TXT_Tooltip_pressure_carbonDioxide_description
+tooltip_pressure_oxygen:
+    titleId: TXT_Tooltip_pressure_oxygen
+    descriptionId: TXT_Tooltip_pressure_oxygen_description
+tooltip_pressure_ozone:
+    titleId: TXT_Tooltip_pressure_ozone
+    descriptionId: TXT_Tooltip_pressure_ozone_description
+tooltip_BIP_spaceport:
+    titleId: TXT_Tooltip_BIP_spaceport_Title
+    descriptionId: TXT_Tooltip_BIP_spaceport_Description
+tooltip_BIP_stockpile:
+    titleId: TXT_Tooltip_BIP_stockpile_Title
+    descriptionId: TXT_Tooltip_BIP_stockpile_Description
+tooltip_terraformingWidget_frozenCO2:
+    titleId: TXT_Tooltip_terraformingWidget_frozenCO2_Title
+    iconName: ICO_FrozenCO2
+tooltip_terraformingWidget_CO2Level:
+    titleId: TXT_Tooltip_terraformingWidget_CO2Level_Title
+    iconName: ICO_CO2_Slim
+tooltip_terraformingWidget_O2Level:
+    titleId: TXT_Tooltip_terraformingWidget_O2Level_Title
+    iconName: iCO2
+tooltip_terraformingWidget_Magnetosphere:
+    titleId: TXT_Tooltip_terraformingWidget_Magnetosphere_Title
+    iconName: ICO_Magnetosphere
+tooltip_terraformingWidget_WaterLevel:
+    titleId: TXT_Tooltip_terraformingWidget_WaterLevel_Title
+    iconName: ICO_WaterLevel
+tooltip_spacescreen_autorenew:
+    titleId: TXT_Tooltip_Spacescreen_AutoRenew_Title
+    descriptionId: TXT_Tooltip_Spacescreen_AutoRenew_Description
+    bodyImgName: IMG_Autorenew
+tooltip_HUD_Orbital:
+    titleId: TXT_Tooltip_HUD_Orbital_Title
+    descriptionId: TXT_Tooltip_HUD_Orbital_Description
+tooltip_spacescreen_AddSpaceport:
+    titleId: TXT_Tooltip_Spacescreen_AddSpaceport_Title
+    descriptionId: TXT_Tooltip_Spacescreen_AddSpaceport_Description
+tooltip_spacescreen_PendingLaunches: 
+    titleId: TXT_Tooltip_Spacescreen_PendingLaunches_Title
+    descriptionId: TXT_Tooltip_Spacescreen_PendingLaunches_Description
+tooltip_HUD_resourceAllocation:
+    titleId: TXT_Tooltip_HUD_ResourceAllocation_Title
+    descriptionId: TXT_Tooltip_HUD_ResourceAllocation_Description
+    iconName: ICO_Allocation
+tooltip_legends_height:
+    titleId: TXT_Tooltip_Legends_Height_Title
+    descriptionId: TXT_Tooltip_Legends_Height_Description
+tooltip_legends_sectorLoad:
+    titleId: TXT_Tooltip_Legends_SectorLoad_Title
+    descriptionId: TXT_Tooltip_Legends_SectorLoad_Description
+tooltip_legends_roadSaturation:
+    titleId: TXT_Tooltip_Legends_RoadSaturation_Title
+    descriptionId: TXT_Tooltip_Legends_RoadSaturation_Description
+tooltip_legends_structuralIntegrity:
+    titleId: TXT_Tooltip_Legends_StructuralIntegrity_Title
+    descriptionId: TXT_Tooltip_Legends_StructuralIntegrity_Description
+tooltip_legends_defense:
+    titleId: TXT_Tooltip_Legends_Defense_Title
+    descriptionId: TXT_Tooltip_Legends_Defense_Description
+tooltip_legends_tropicalBiome:
+    titleId: TXT_Legend_Tropical_Biomes
+    descriptionId: TXT_Legend_Tropical_Biomes_Description
+tooltip_legends_subtropicalBiome:
+    titleId: TXT_Legend_Subtropical_Biomes
+    descriptionId: TXT_Legend_Subtropical_Biomes_Description
+tooltip_legends_polarBiome:
+    titleId: TXT_Legend_Polar_Biomes
+    descriptionId: TXT_Legend_Polar_Biomes_Description
+tooltip_legends_biomes_alpine:
+    titleId: TXT_Legend_Biomes_Alpine
+    descriptionId: TXT_Legend_Biomes_Alpine_Description
+tooltip_legends_biomes_tundra:
+    titleId: TXT_Legend_Biomes_Tundra
+    descriptionId: TXT_Legend_Biomes_Tundra_Description
+tooltip_legends_biomes_subtropicalDesert:
+    titleId: TXT_Legend_Biomes_SubtropicalDesert
+    descriptionId: TXT_Legend_Biomes_SubtropicalDesert_Description
+tooltip_legends_biomes_desert:
+    titleId: TXT_Legend_Biomes_Desert
+    descriptionId: TXT_Legend_Biomes_Desert_Description
+tooltip_legends_biomes_subtropicalLichen:
+    titleId: TXT_Legend_Biomes_SubtropicalLichen
+    descriptionId: TXT_Legend_Biomes_SubtropicalLichen_Description
+tooltip_legends_biomes_continental:
+    titleId: TXT_Legend_Biomes_Continental
+    descriptionId: TXT_Legend_Biomes_Continental_Description
+tooltip_legends_biomes_subtropicalPlants:
+    titleId: TXT_Legend_Biomes_SubtropicalPlants
+    descriptionId: TXT_Legend_Biomes_SubtropicalPlants_Description
+tooltip_legends_biomes_tropic:
+    titleId: TXT_Legend_Biomes_Tropic
+    descriptionId: TXT_Legend_Biomes_Tropic_Description
+tooltip_legends_biomes_polarOceanic:
+    titleId: TXT_Legend_Biomes_PolarOceanic
+    descriptionId: TXT_Legend_Biomes_PolarOceanic_Description
+tooltip_legends_biomes_subtropicalOceanic:
+    titleId: TXT_Legend_Biomes_SubtropicalOceanic
+    descriptionId: TXT_Legend_Biomes_SubtropicalOceanic_Description
+tooltip_legends_biomes_oceanic:
+    titleId: TXT_Legend_Biomes_Oceanic
+    descriptionId: TXT_Legend_Biomes_Oceanic_Description
+tooltip_combat_multipleSwarm:
+    titleId: TXT_Tooltips_Combat_MultipleSwarm_Title
+    descriptionId: TXT_Tooltips_Combat_MultipleSwarm_Description
+    iconName: ICO_MultipleSwarms
+tooltip_combat_addToSelection:
+    titleId: TXT_Tooltips_Combat_AddToSelection_Title
+    descriptionId: TXT_Tooltips_Combat_AddToSelection_Description
+    iconName: ICO_AddSelection
+tooltip_combat_splitSwarm:
+    titleId: TXT_Tooltips_Combat_SplitSwarm_Title
+    descriptionId: TXT_Tooltips_Combat_SplitSwarm_Description
+    iconName: ICO_SplitSwarm
+tooltip_status_deactivated:
+    titleId: TXT_Tooltip_Building_Status_Deactivated
+tooltip_status_highPriority:
+    titleId: TXT_Tooltip_Building_Status_HighPriority
+tooltip_status_pendingScrap:
+    titleId: TXT_Tooltip_Building_Status_PendingScrap
+tooltip_status_destroyed:
+    titleId: TXT_Tooltip_Building_Status_Destroyed
+tooltip_status_scrapping:
+    titleId: TXT_Tooltip_Building_Status_Scrapping
+tooltip_status_upgrading:
+    titleId: TXT_Tooltip_Building_Status_Upgrading
+tooltip_status_inProgress:
+    titleId: TXT_Tooltip_Building_Status_In-Progress
+tooltip_status_scrapped:
+    titleId: TXT_Tooltip_Building_Status_Scrapped
+tooltip_status_outOfPower:
+    titleId: TXT_Tooltip_Building_Status_NoPower
+tooltip_status_broken:
+    titleId: TXT_Tooltip_Building_Status_Broken
+tooltip_status_lowHealth:
+    titleId: TXT_Tooltip_Building_Status_LowLife
+tooltip_status_outputFull:
+    titleId: TXT_Tooltip_Building_Status_OutputFull
+tooltip_status_noInput:
+    titleId: TXT_Tooltip_Building_Status_NoInput
+tooltip_status_setOnFire:
+    titleId: TXT_Tooltip_Building_Status_SetOnFire
+tooltip_researchPopUp_TechTreeButton:
+    descriptionId: TXT_Tooltip_ResearchPopUp_TechTreeButton
+tooltip_researchPopUp_CloseButton:
+    descriptionId: TXT_Tooltip_ResearchPopUp_CloseButton
+tooltip_terraformingScreen_button:
+    titleId: TXT_Tooltip_TerraformingScreen_Title
+    descriptionId: TXT_Tooltip_TerraformingScreen_Description
+tooltip_district_buildings:
+    iconName: ICO_Buildings
+    titleId: TXT_tooltip_district_buildings_Title
+    descriptionId: TXT_tooltip_district_buildings_Description
+tooltip_district_population:
+    iconName: ICO_PopulationWhite
+    titleId: TXT_tooltip_district_population_Title
+    descriptionId: TXT_tooltip_district_population_Description
+tooltip_district_worker:
+    iconName: ICO_Worker
+    titleId: TXT_tooltip_district_workers_Title
+    descriptionId: TXT_tooltip_district_workers_Description
+tooltip_district_locate:
+    titleId: TXT_tooltip_district_locate_Title
+    descriptionId: TXT_tooltip_district_locate_Description
+tooltip_district_rename:
+    titleId: TXT_tooltip_district_rename_Title
+    descriptionId: TXT_tooltip_district_rename_Description
+tooltip_district_changeColor:
+    titleId: TXT_tooltip_district_changeColor_Title
+    descriptionId: TXT_tooltip_district_changeColor_Description
+tooltip_BIP_districtHub:
+    titleId: TXT_tooltip_BIP_districtHUB_Title
+    descriptionId: TXT_tooltip_BIP_districtHUB_Description
+tooltip_BIP_districtHub_ActivateButton:
+    titleId: TXT_tooltip_BIP_districHUB_ActivateButton_Title
+    descriptionId: TXT_tooltip_BIP_districHUB_ActivateButton_Description
+tooltip_DistrictSelection_button:
+    titleId: TXT_District_Selection_Button
+tooltip_BIP_colony_LowWater:
+    titleId: TXT_tooltip_BIP_colony_LowWater_Title
+    descriptionId: TXT_tooltip_BIP_colony_LowWater_Description
+tooltip_Flora_widget:
+    titleId: TXT_Tooltip_terraformingWidget_Flora_Title
+    descriptionId: TXT_Tooltip_flora_TotalFlora_description
+    iconName: ICO_Flora
+tooltip_DeltaOxygen_widget:
+    titleId: TXT_Tooltip_deltaOxygen_deltaOxygen
+    descriptionId: TXT_Tooltip_deltaOxygen_deltaOxygen_description
+    iconName: ICO_DeltaOxygen
+tooltip_Flora_Plants:
+    titleId: TXT_Tooltip_flora_plants
+    descriptionId: TXT_Tooltip_flora_plants_description
+tooltip_Flora_Lichen:
+    titleId: TXT_Tooltip_flora_lichen
+    descriptionId: TXT_Tooltip_flora_lichen_description
+tooltip_Flora_Cyanobacteria:
+    titleId: TXT_Tooltip_flora_cyanobacteria
+    descriptionId: TXT_Tooltip_flora_cyanobacteria_description
+tooltip_Flora_Metal:
+    titleId: TXT_Tooltip_flora_metal
+    descriptionId: TXT_Tooltip_flora_metal_description
+tooltip_DeltaOxygen_Production:
+    titleId: TXT_Tooltip_deltaOxygen_production
+tooltip_DeltaOxygen_Liche:
+    titleId: TXT_Tooltip_deltaOxygen_lichen
+    descriptionId: TXT_Tooltip_deltaOxygen_lichen_description
+tooltip_DeltaOxygen_Plants:
+    titleId: TXT_Tooltip_deltaOxygen_plants
+    descriptionId: TXT_Tooltip_deltaOxygen_plants_description
+tooltip_DeltaOxygen_Cyanobacteria:
+    titleId: TXT_Tooltip_deltaOxygen_cyanobacteria
+    descriptionId: TXT_Tooltip_deltaOxygen_cyanobacteria_description
+tooltip_DeltaOxygen_Metal:
+    titleId: TXT_Tooltip_deltaOxygen_metal
+    descriptionId: TXT_Tooltip_deltaOxygen_metal_description
+tooltip_WaterFlow:
+    titleId: TXT_Tooltip_WaterFlow
+tooltip_Trees:
+    titleId: TXT_Tooltip_Trees
+tooltip_O2Up:
+    titleId: TXT_Tooltip_O2Up
+tooltip_CO2Down:
+    titleId: TXT_Tooltip_CO2Down
+tooltip_ResearchBonus:
+    titleId: TXT_Tooltip_ResearchBonus
+tooltip_Lichen:
+    titleId: TXT_Tooltip_Lichen
+tooltip_Water:
+    titleId: TXT_Tooltip_Water
+tooltip_WaterCyanobacteria:
+    titleId: TXT_Tooltip_WaterCyanobacteria
+tooltip_WaterArea:
+    titleId: TXT_Tooltip_WaterArea
+tooltip_LandArea:
+    titleId: TXT_Tooltip_LandArea
+tooltip_spacescreen_ExpandleList:
+    titleId: TXT_Tooltip_SpaceScreen_ExpandList
+    descriptionId: TXT_Tooltip_SpaceScreen_ExpandList_description
+tooltip_spacescreen_AvailableSpaceports:
+    descriptionId: TXT_Tooltip_SpaceScreen_Spaceports_AvailableDescription
+tooltip_spacescreen_OccupiedSpaceports:
+    descriptionId: TXT_Tooltip_SpaceScreen_Spaceports_OccupiedDescription
+tooltip_LobbyList:
+    titleId: TXT_Multiplayer_PlayersBoard_title
+

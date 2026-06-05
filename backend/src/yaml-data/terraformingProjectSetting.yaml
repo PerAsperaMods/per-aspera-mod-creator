@@ -1,0 +1,11 @@
+magnetic_shield:
+  categoryType: !terraforming_plan_category category_terrain
+  projectKey: project_magnetic_shield
+  position: 9
+  positionInCategory: 4
+  stage: 4
+  backgroundIconName: Terraforming Screen Icons/IMG_TP_Stage5_MagnethosphereBKG
+  pendingLaunchIconName: Terraforming Screen Icons/IMG_TP_Stage5_Magnethosphere_LaunchEmpty
+  completedLaunchIconName: Terraforming Screen Icons/IMG_TP_Stage5_Magnethosphere_LaunchFull
+  iconName: Terraforming Screen Icons/ICO_TerraPlan_pressure_MagneticDipoleShield
+  radius: 85

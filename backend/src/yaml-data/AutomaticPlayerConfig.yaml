@@ -1,0 +1,10 @@
+buildWaitDaysMax: 0.0
+buildWaitDaysMin: 0.0
+cheatDisableAutoOnReach: true
+cheatMinDrones: 0
+cheatMinResource: 10.0
+cheatPauseGameOnReach: true
+cheatUntilBuildingCount: 0
+colonyBuildingsCap: 100
+mildCheat: true
+obliterateRivalFactions: true

@@ -1,0 +1,109 @@
+quest_terraforming_stage_1:
+  description: BE_quest_terraforming_stage_1_description
+  name: BE_quest_terraforming_stage_1_name
+  subTitle: BE_Current_Stage_1
+  requirements: []
+  tasks:
+    - !QuestTaskCriterion
+      criterion: '$temperature >= 223'
+      name: BE_quest_terraforming_stage_1_task1
+    - !QuestTaskCriterion
+      criterion: '$frozen_co2 <= 5'
+      name: BE_quest_terraforming_stage_1_task2
+  unlockAutomatically: true
+  color: 929292
+  iconName: Quest Icons/ICO_Stage_1
+#### TERRAFORMING 2
+quest_terraforming_stage_2:
+  description: BE_quest_terraforming_stage_2_description
+  name: BE_quest_terraforming_stage_2_name
+  subTitle: BE_Current_Stage_2
+  requirements:
+    - !quest quest_terraforming_stage_1
+  tasks:
+    - !QuestTaskCriterion
+      criterion: '$pressure >= 300'
+      name: BE_quest_terraforming_stage_2_task1
+  unlockAutomatically: true
+  color: 3A3A3A
+  iconName: Quest Icons/ICO_Stage_2
+### TERRAFORMING 3
+quest_terraforming_stage_3:
+  description: BE_quest_terraforming_stage_3_description
+  name: BE_quest_terraforming_stage_3_name
+  subTitle: BE_Current_Stage_3
+  requirements:
+    - !quest quest_terraforming_stage_2
+  tasks:
+    - !QuestTaskCriterion
+      criterion: '$temperature >= 273'
+      name: BE_quest_terraforming_stage_3_task1
+    - !QuestTaskCriterion
+      criterion: '$pressure_o2 >= 1'
+      name: BE_quest_terraforming_stage_3_task2
+    - !QuestTaskCriterion
+      criterion: '$water_stock >= 400'
+      name: BE_quest_terraforming_stage_3_task3
+  unlockAutomatically: true
+  color: 7E7017
+  iconName: Quest Icons/ICO_Stage_3
+### TERRAFORMING 4
+quest_terraforming_stage_4:
+  description: BE_quest_terraforming_stage_4_description
+  name: BE_quest_terraforming_stage_4_name
+  subTitle: BE_Current_Stage_4
+  requirements:
+    - !quest quest_terraforming_stage_3
+  tasks:
+    - !QuestTaskCriterion
+      criterion: '$pressure_o2 >= 120'
+      name: BE_quest_terraforming_stage_4_task1
+#    - !QuestTaskCriterion
+#      criterion: '$water_stock >= 600'
+#      name: BE_quest_terraforming_stage_4_task2
+  unlockAutomatically: true
+  color: 365E1F
+  iconName: Quest Icons/ICO_Stage_4
+### TERRAFORMING 5
+quest_terraforming_stage_5:
+  description: BE_quest_terraforming_stage_5_description
+  name: BE_quest_terraforming_stage_5_name
+  subTitle: BE_Current_Stage_5
+  requirements:
+    - !quest quest_terraforming_stage_4
+  tasks:
+    - !QuestTaskCriterion
+      criterion: '$pressure_co2_level <= 0.05'
+      name: BE_quest_terraforming_stage_5_task1
+    - !QuestTaskCriterion
+      criterion: '$pressure_o2_level <= 0.3'
+      name: BE_quest_terraforming_stage_5_task2
+    - !QuestTaskCriterion
+      criterion: '$project_progress.project_magnetic_shield >= 1.0'
+      name: BE_quest_terraforming_stage_5_task3
+  unlockAutomatically: true
+  color: 0663B5
+  iconName: Quest Icons/ICO_Stage_5
+### TERRAFORMING 6
+quest_terraforming_stage_6:
+  description: BE_quest_terraforming_stage_6_description
+  name: BE_quest_terraforming_stage_6_name
+  subTitle: BE_Current_Stage_6
+  requirements:
+    - !quest quest_terraforming_stage_5
+  tasks:
+    - !QuestTaskCriterion
+      criterion: '$flora_total >= 0.5'
+      name: BE_quest_terraforming_stage_6_task1
+    - !QuestTaskCriterion
+      criterion: '$total_population >= 50000'
+      name: BE_quest_terraforming_stage_6_task2
+    - !QuestTaskCriterion
+      criterion: '$building_count.building_colony_open_city >= 5'
+      name: BE_quest_terraforming_stage_6_task3
+    - !QuestTaskCriterion
+      criterion: '$building_count.building_farm_open >= 5'
+      name: BE_quest_terraforming_stage_6_task4
+  unlockAutomatically: true
+  color: 0663B5
+  iconName: Quest Icons/ICO_Stage_5
