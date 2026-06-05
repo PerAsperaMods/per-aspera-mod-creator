@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import apiClient from '../api/client';
 import { YamlPreview } from '../components/YamlPreview';
 
-export const Technologies: React.FC = () => {
+export const Technologies = () => {
   const [technologies, setTechnologies] = useState<any[]>([]);
-  const [categories, setCategories] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -17,12 +16,8 @@ export const Technologies: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [tResp, cResp] = await Promise.all([
-          apiClient.getTechnologies(),
-          apiClient.getCategories(),
-        ]);
+        const tResp = await apiClient.getTechnologies();
         if (tResp.success && tResp.data) setTechnologies(tResp.data);
-        if (cResp.success && cResp.data) setCategories(cResp.data);
       } finally {
         setLoading(false);
       }

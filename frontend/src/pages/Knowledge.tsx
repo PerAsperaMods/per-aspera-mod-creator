@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import apiClient from '../api/client';
 import { YamlPreview } from '../components/YamlPreview';
 
-export const Knowledge: React.FC = () => {
+export const Knowledge = () => {
   const [knowledge, setKnowledge] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);

@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Building, Resource, Category } from '../types';
 import { YamlPreview } from './YamlPreview';
-import { ResourceSelector } from './ResourceSelector';
 
 interface BuildingFormProps {
   building?: Building;
